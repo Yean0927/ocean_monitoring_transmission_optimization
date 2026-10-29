@@ -1,0 +1,57 @@
+{
+  "created": "2026-10-15",
+  "smoke_seed": 31,
+  "duration_s": 3600,
+  "drain_s": 0,
+  "smoke_variants": [
+    "FULL",
+    "WO_COMPRESSION",
+    "WO_CACHE",
+    "ADD_PROTOCOL"
+  ],
+  "repetitions_planned": {
+    "seeds": [
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "variants": [
+      "FULL",
+      "WO_PROTOCOL",
+      "WO_COMPRESSION",
+      "WO_CACHE",
+      "BASELINE",
+      "ADD_PROTOCOL",
+      "ADD_COMPRESSION",
+      "ADD_CACHE"
+    ]
+  },
+  "change": "Replace C++ XOR timer multiplier with exponential 2^count, capped at 60 seconds; both handshake and RTO timers.",
+  "tcp_cap_reference": "ns-3 TcpSocketBase doubles m_rto and caps it at 60 seconds.",
+  "source_path": "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.cc",
+  "source_sha256": "5c1d546cdc4003090edd06ec0374e606d36f1fda07800ba93cb3ce2ac1b95d42",
+  "quic_library_sha256": "a67e6bc6a8a3a3b3593c18f9773a6cc4a0674baf32c8fff7f9efd53445ddbe5d",
+  "previous_quic_library_sha256": "f19d4295a5df3cebb759ee279ba2b121a77ec10940b23c1a896345b6a7625783",
+  "smoke_comparison": "smoke-comparison.csv",
+  "seed31_status": "complete: four corrected QUIC groups from smoke; four corrected TCP-only groups rerun; seed31 summary generated.",
+  "repeat_runner": "run_repetitions.py",
+  "repeat_seeds_status": "complete: seeds 31-35; all eight variants per seed; 3600 s horizon, zero drain.",
+  "seed32_status": "complete: all eight variants, same prepared inputs, seed=32; summary generated.",
+  "completed_seeds": [
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "current_seed": null,
+  "summary_outputs": [
+    "summary-across-seeds.csv",
+    "by-stream-across-seeds.csv",
+    "repeat-summary.md"
+  ],
+  "aggregation": "Per-variant and per-stream mean with sample standard deviation across five independent seeds.",
+  "validation": "Each seed has 8 overall-summary rows and 48 by-stream rows (6 streams per variant); aggregate has 8 and 48 rows respectively; no QUIC_ABORT/FATAL/Traceback/ERROR entries found in repeat-run.log or per-run logs."
+}

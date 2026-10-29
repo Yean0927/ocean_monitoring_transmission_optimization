@@ -1,0 +1,44 @@
+{
+  "date_local": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "source_video": "5cf7af68d381d7cb80e5567444e894c2.mp4",
+  "source_size_bytes": 1317862,
+  "source_sha256": "efc09d5981edfea1fb7f866978e088fc496c93cc754ccb1ec045a5b2b2aae355",
+  "experiment_script_sha256": "e06e346b136bb3eb5a2d57a439e53563fc2a66d9d2cb0ac1404f6cf6485e84e8",
+  "platform": "macOS-26.5-arm64-arm-64bit",
+  "machine": "arm64",
+  "ffmpeg_version": "ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers",
+  "repeats": 3,
+  "schemes": [
+    "S0",
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "bandwidth_mbps": [
+    2,
+    4,
+    10
+  ],
+  "packet_size_bytes": 4096,
+  "provenance": "New local rerun; historical measurement CSV unavailable; no physical network timing performed.",
+  "command": [
+    "python3",
+    "outputs/video-file8-recomputed-20261018/run_video_compression_experiment.py",
+    "--input-dir",
+    "outputs/video-file8-recomputed-20261018/input",
+    "--output-dir",
+    "outputs/video-file8-recomputed-20261018/measurements",
+    "--ffmpeg",
+    "/Users/yean/Library/Python/3.9/lib/python/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v7.1",
+    "--repeats",
+    "3",
+    "--schemes",
+    "S0,S1,S2,S3",
+    "--packet-sizes",
+    "4096"
+  ],
+  "cpu": "Apple M5",
+  "logical_cpu_count": 10,
+  "memory_bytes": 17179869184
+}

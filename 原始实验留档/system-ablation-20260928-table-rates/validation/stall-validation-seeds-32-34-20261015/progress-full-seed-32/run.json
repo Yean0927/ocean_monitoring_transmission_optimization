@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/system-ablation-20260928-table-rates/validation/stall-validation-seeds-32-34-20261015/system-ablation-diag",
+    "--input=/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/system-ablation-20260928-table-rates/prepared",
+    "--output=/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/system-ablation-20260928-table-rates/validation/stall-validation-seeds-32-34-20261015/progress-full-seed-32/FULL.csv",
+    "--variant=FULL",
+    "--duration=3600",
+    "--drain=0",
+    "--cacheBytes=50000000",
+    "--seed=32",
+    "--stopAt=3600.0"
+  ],
+  "library": "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/system-ablation-20260928-table-rates/validation/stall-validation-seeds-32-34-20261015/lib-progress",
+  "returncode": -15,
+  "wall_seconds": 67.534765083
+}

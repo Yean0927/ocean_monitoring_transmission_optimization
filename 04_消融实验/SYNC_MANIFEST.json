@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-26",
+  "destination": "ocean/04_消融实验",
+  "source_results": "system-ablation-20260928-table-rates/validation/repeated-five-seeds-rto-fixed-20261015",
+  "preserved_before_sync": "实验代码归档/20261026_消融五种子同步前",
+  "imported_seed_count": 5,
+  "imported_variant_count": 8,
+  "imported_run_count": 40,
+  "copied_seed_files": 185,
+  "verified_prepared_assets": 12831,
+  "source_and_quic_library_hash_match": true,
+  "historical_binary_hash_match": false,
+  "code": [
+    "system_20260928/run_experiment.py",
+    "system_20260928/run_five_seeds.py",
+    "system_20260928/audit_results.py",
+    "system_20260928/system-ablation.cc",
+    "system_20260928/prepare.py"
+  ],
+  "results": "results/最终五种子/README.md",
+  "verification": "results/最终五种子/trace-audit.json",
+  "provenance": "results/最终五种子/package-provenance.json",
+  "formal_result_files_unchanged": true,
+  "all_five_seed_aggregates_recalculated_and_matched": true,
+  "runtime_smoke": "30 s FULL, 34 delivered files, final independent QUIC library confirmed",
+  "full_3600s_matrix_rerun": false
+}

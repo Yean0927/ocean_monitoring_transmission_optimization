@@ -1,0 +1,46 @@
+{
+  "verdict": "PASS",
+  "max_plot_edge_difference_pt": 0.0,
+  "canvas_inches": [
+    8,
+    6
+  ],
+  "plot_inches": [
+    5.36,
+    4.68
+  ],
+  "margins_fraction": {
+    "left": 0.15,
+    "right": 0.82,
+    "bottom": 0.16,
+    "top": 0.94
+  },
+  "figures": [
+    {
+      "name": "delivery",
+      "canvas_pt": [
+        576,
+        432
+      ],
+      "plot_bbox_pt": [
+        86.39999999999999,
+        69.12000000000002,
+        472.32,
+        406.08
+      ]
+    },
+    {
+      "name": "buffer",
+      "canvas_pt": [
+        576,
+        432
+      ],
+      "plot_bbox_pt": [
+        86.39999999999999,
+        69.12000000000002,
+        472.32,
+        406.08
+      ]
+    }
+  ]
+}

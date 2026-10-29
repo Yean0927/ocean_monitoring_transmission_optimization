@@ -1,0 +1,7 @@
+{
+  "config": "system-ablation-20260928-table-rates/prepared/run-config.json",
+  "experiment": "repeated-five-seeds-rto-fixed-20261015",
+  "definition": "Per-class total source rate; reference record fields are not independently enforced.",
+  "all_six_streams_included": true,
+  "actual_rates_from_generated_bytes": true
+}

@@ -1,0 +1,62 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/helper/quic-helper.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/helper/quic-helper.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/helper/quic-helper.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/helper/quic-helper.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/helper/quic-helper.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-bbr.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-bbr.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-bbr.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-bbr.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-bbr.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-congestion-ops.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-congestion-ops.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-congestion-ops.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-congestion-ops.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-congestion-ops.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-header.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-header.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-header.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-header.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-header.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-l4-protocol.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-l4-protocol.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-l4-protocol.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-l4-protocol.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-l4-protocol.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-l5-protocol.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-l5-protocol.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-l5-protocol.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-l5-protocol.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-l5-protocol.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-base.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-base.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-base.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-base.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-factory.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-factory.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-factory.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-factory.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-factory.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-rx-buffer.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-rx-buffer.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-rx-buffer.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-rx-buffer.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-rx-buffer.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-tx-buffer.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-buffer.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-buffer.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-buffer.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-buffer.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-tx-edf-scheduler.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-edf-scheduler.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-edf-scheduler.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-edf-scheduler.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-edf-scheduler.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-tx-pfifo-scheduler.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-pfifo-scheduler.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-pfifo-scheduler.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-pfifo-scheduler.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-pfifo-scheduler.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-tx-scheduler.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-scheduler.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-scheduler.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-scheduler.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-scheduler.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-stream-base.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-stream-base.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-stream-base.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-stream-base.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-stream-base.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-stream-rx-buffer.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-stream-rx-buffer.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-stream-rx-buffer.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-stream-rx-buffer.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-stream-rx-buffer.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-stream-tx-buffer.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-stream-tx-buffer.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-stream-tx-buffer.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-stream-tx-buffer.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-stream-tx-buffer.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-stream.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-stream.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-stream.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-stream.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-stream.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-subheader.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-subheader.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-subheader.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-subheader.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-subheader.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-transport-parameters.cc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-transport-parameters.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-transport-parameters.cc.o.d"
+  "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/stdlib_pch-optimized.dir/cmake_pch.hxx" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-transport-parameters.cc.o" "gcc" "contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-transport-parameters.cc.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

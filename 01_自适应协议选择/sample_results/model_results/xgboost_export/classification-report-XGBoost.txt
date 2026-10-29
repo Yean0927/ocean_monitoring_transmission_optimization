@@ -1,0 +1,9 @@
+              precision    recall  f1-score   support
+
+   TCP_CUBIC       0.91      0.88      0.89      1055
+     TCP_BBR       0.78      0.79      0.78       513
+    QUIC_BBR       0.96      0.97      0.96      1432
+
+    accuracy                           0.91      3000
+   macro avg       0.88      0.88      0.88      3000
+weighted avg       0.91      0.91      0.91      3000

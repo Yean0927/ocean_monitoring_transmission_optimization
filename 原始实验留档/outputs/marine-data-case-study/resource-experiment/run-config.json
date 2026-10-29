@@ -1,0 +1,120 @@
+{
+  "repeats": 5,
+  "configs": [
+    {
+      "resource": "Delay",
+      "quality": "Poor",
+      "rtt_ms": 194.38,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1"
+    },
+    {
+      "resource": "Delay",
+      "quality": "Medium",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1"
+    },
+    {
+      "resource": "Delay",
+      "quality": "Good",
+      "rtt_ms": 85.04,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1"
+    },
+    {
+      "resource": "BW",
+      "quality": "Poor",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1"
+    },
+    {
+      "resource": "BW",
+      "quality": "Medium",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 4,
+      "cpu_profile": "cpu1"
+    },
+    {
+      "resource": "BW",
+      "quality": "Good",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 10,
+      "cpu_profile": "cpu1"
+    },
+    {
+      "resource": "CPU",
+      "quality": "Poor",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "shared1"
+    },
+    {
+      "resource": "CPU",
+      "quality": "Medium",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1"
+    },
+    {
+      "resource": "CPU",
+      "quality": "Good",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu4"
+    }
+  ],
+  "protocol": "TCP_CUBIC",
+  "topology": "N0-N1-N2-N3",
+  "codec_measurement": "real constrained compression and decompression; per-recorded-replicate replay in ns-3",
+  "shared_cpu_implementation": "software CPU-time quota 0.5, representing fixed 50% availability of one shared vCPU; not a physical pinned-core contention experiment",
+  "dedicated_cpu_implementation": "aggregate process-group CPU-time quotas 1.0/4.0; FFmpeg worker pools 1/4",
+  "profiles": {
+    "cpu1": [
+      1.0,
+      1
+    ],
+    "cpu4": [
+      4.0,
+      4
+    ],
+    "shared1": [
+      0.5,
+      1
+    ]
+  },
+  "horizon_s": 3600,
+  "loss_rate": 0.0,
+  "start_definition": "complete raw file assembled and byte-verified at N1",
+  "completion_definition": "N3 verifies actual compressed payload and finishes measured decompression",
+  "tiny_codec_iterations": {
+    "D2": {
+      "compress": 10000,
+      "decompress": 40000
+    },
+    "I1": {
+      "compress": 50,
+      "decompress": 500
+    },
+    "V1": {
+      "compress": 1,
+      "decompress": 1
+    }
+  },
+  "paired_design": "same measured codec replicate reused across the Delay/BW and CPU-Medium conditions; network configs isolated per file",
+  "ns3_binary_sha256": "86e9176f4660143ee17d284985d1f291d5617784cf69bf2d5bf0bb6f7788f134",
+  "ffmpeg": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/.experiment-venv/lib/python3.12/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v7.1",
+  "ffmpeg_sha256": "6d175a4743ca50256e89a8cdd731100f9cee33bd79aeea46894d209410dc6617",
+  "dependency_versions": {
+    "pillow": "12.3.0",
+    "psutil": "7.2.2",
+    "imageio-ffmpeg": "0.6.0"
+  },
+  "simulator_source": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/resource-experiment/resource-simulator.cc",
+  "simulator_source_sha256": "62d5d9d466037c760de1bdf2a0ff57be98cf0226f5065f37da1a9bc7d18a5efa",
+  "simulator_rtt_implementation": "Seconds(rtt_ms/2000.0), preserving fractional milliseconds",
+  "host": "macOS-26.5-arm64-arm-64bit",
+  "cpu_count": 10,
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+}

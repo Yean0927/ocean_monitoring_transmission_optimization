@@ -1,0 +1,979 @@
+APP_DIAG t=30 delivered=34 raw=1481024 last=29.435 active=-1 frame=8720/0 queue=0 queueBytes=0 packets=2456 tx0=131072
+APP_DIAG t=60 delivered=70 raw=3227206 last=59.6701 active=-1 frame=8396/0 queue=0 queueBytes=0 packets=4962 tx0=131072
+APP_DIAG t=90 delivered=105 raw=4967272 last=89.0088 active=-1 frame=8714/0 queue=0 queueBytes=0 packets=7523 tx0=126699
+APP_DIAG t=120 delivered=141 raw=6713631 last=119.334 active=-1 frame=8575/0 queue=0 queueBytes=0 packets=10028 tx0=131072
+APP_DIAG t=150 delivered=178 raw=8460320 last=149.584 active=-1 frame=8637/0 queue=0 queueBytes=0 packets=12581 tx0=131072
+APP_DIAG t=180 delivered=214 raw=10205662 last=179.766 active=-1 frame=8407/0 queue=0 queueBytes=0 packets=15136 tx0=131072
+APP_DIAG t=210 delivered=250 raw=11951448 last=209.98 active=-1 frame=8311/0 queue=0 queueBytes=0 packets=17604 tx0=131072
+APP_DIAG t=240 delivered=285 raw=13691359 last=239.293 active=-1 frame=8213/0 queue=0 queueBytes=0 packets=20081 tx0=131072
+APP_DIAG t=270 delivered=322 raw=15438624 last=269.636 active=-1 frame=8202/0 queue=0 queueBytes=0 packets=22528 tx0=131072
+APP_DIAG t=300 delivered=357 raw=17179033 last=299.032 active=-1 frame=8204/0 queue=0 queueBytes=0 packets=24954 tx0=131072
+APP_DIAG t=330 delivered=394 raw=18926122 last=329.294 active=-1 frame=8286/0 queue=0 queueBytes=0 packets=27426 tx0=131072
+APP_DIAG t=360 delivered=430 raw=20672702 last=359.72 active=-1 frame=8488/0 queue=0 queueBytes=0 packets=29712 tx0=131072
+APP_DIAG t=390 delivered=466 raw=22413512 last=389.026 active=-1 frame=8549/0 queue=0 queueBytes=0 packets=32337 tx0=131072
+APP_DIAG t=420 delivered=502 raw=24159722 last=419.293 active=-1 frame=8672/0 queue=0 queueBytes=0 packets=34815 tx0=131072
+APP_DIAG t=450 delivered=538 raw=25905976 last=449.678 active=-1 frame=8609/0 queue=0 queueBytes=0 packets=37288 tx0=131072
+APP_DIAG t=480 delivered=573 raw=27645892 last=478.917 active=-1 frame=8332/0 queue=0 queueBytes=0 packets=39779 tx0=131072
+APP_DIAG t=510 delivered=610 raw=29393097 last=509.262 active=-1 frame=8394/0 queue=0 queueBytes=0 packets=42192 tx0=131072
+APP_DIAG t=540 delivered=624 raw=30240445 last=520.382 active=4327 frame=3467960/14991327 queue=22 queueBytes=257290 packets=52725 tx0=95873
+APP_DIAG t=570 delivered=624 raw=30240445 last=520.382 active=4327 frame=8488176/14991327 queue=58 queueBytes=703178 packets=67560 tx0=93201
+APP_DIAG t=600 delivered=624 raw=30240445 last=520.382 active=4327 frame=13593824/14991327 queue=95 queueBytes=1.28517e+06 packets=82540 tx0=94603
+APP_DIAG t=630 delivered=721 raw=137154839 last=617.192 active=4328 frame=2366032/4984460 queue=37 queueBytes=2.06393e+06 packets=96632 tx0=94676
+APP_DIAG t=660 delivered=762 raw=158828987 last=654.525 active=4330 frame=1057040/1275660 queue=34 queueBytes=916604 packets=110925 tx0=129225
+APP_DIAG t=690 delivered=833 raw=175128075 last=689.03 active=4333 frame=379376/2308658 queue=1 queueBytes=8497 packets=117874 tx0=SOCKET_DIAG t=690 ptr=0x1097fee80 state=4 app=52550 txAvail=78522 inflight=38343 cwnd=53903 maxData=32617131 rtoCount=0 tlpCount=0 alarm= alarmAt=690.155 armed=1
+78522
+SOCKET_DIAG t=690.005 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=690.007 armed=1
+GAP_REQUEST t=690.208 ptr=0x78d12c1c0 stream=1 wanted=32524627 sent=32636727 maxStream=32636727 app=130380
+SOCKET_DIAG t=700.005 ptr=0x1097fee80 state=4 app=66112 txAvail=64960 inflight=40911 cwnd=49161 maxData=34358683 rtoCount=0 tlpCount=0 alarm= alarmAt=700.009 armed=1
+SOCKET_DIAG t=700.007 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=700.01 armed=1
+GAP_REQUEST t=700.208 ptr=0x78d12c1c0 stream=1 wanted=34133819 sent=34240439 maxStream=34240439 app=131052
+SOCKET_DIAG t=710.005 ptr=0x1097fee80 state=4 app=52079 txAvail=78993 inflight=41220 cwnd=52301 maxData=35419675 rtoCount=0 tlpCount=0 alarm= alarmAt=710.197 armed=1
+SOCKET_DIAG t=710.01 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=710.012 armed=1
+GAP_REQUEST t=710.208 ptr=0x78d12c1c0 stream=1 wanted=35363211 sent=35473511 maxStream=35473511 app=130466
+APP_DIAG t=720 delivered=870 raw=188571750 last=718.285 active=-1 frame=8687/0 queue=0 queueBytes=0 packets=129519 tx0=131072
+SOCKET_DIAG t=720.011 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=30 cwnd=49202 maxData=36607706 rtoCount=0 tlpCount=2 alarm= alarmAt=720.198 armed=1
+SOCKET_DIAG t=720.082 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=720.346 armed=1
+GAP_REQUEST t=720.212 ptr=0x78d12c1c0 stream=1 wanted=36343414 sent=36386406 maxStream=36473034 app=0
+SOCKET_DIAG t=730.011 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=39578 maxData=36751404 rtoCount=0 tlpCount=0 alarm= alarmAt=730.091 armed=1
+SOCKET_DIAG t=730.082 ptr=0x790208000 state=4 app=5 txAvail=131067 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=730.251 armed=1
+GAP_REQUEST t=730.212 ptr=0x78d12c1c0 stream=1 wanted=36502902 sent=36525928 maxStream=36633966 app=0
+SOCKET_DIAG t=740.011 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1460 cwnd=36111 maxData=36891424 rtoCount=0 tlpCount=2 alarm= alarmAt=740.185 armed=1
+SOCKET_DIAG t=740.082 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=740.186 armed=1
+GAP_REQUEST t=740.212 ptr=0x78d12c1c0 stream=1 wanted=36638017 sent=36672124 maxStream=36768220 app=0
+APP_DIAG t=750 delivered=907 raw=190324244 last=749.746 active=-1 frame=8217/0 queue=0 queueBytes=0 packets=131846 tx0=131072
+SOCKET_DIAG t=750.011 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=32001 maxData=37052395 rtoCount=0 tlpCount=2 alarm= alarmAt=750.171 armed=1
+SOCKET_DIAG t=750.094 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=750.28 armed=1
+GAP_REQUEST t=751.21 ptr=0x78d12c1c0 stream=1 wanted=36826940 sent=36826940 maxStream=36958012 app=0
+SOCKET_DIAG t=760.011 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1475 cwnd=28816 maxData=37182084 rtoCount=0 tlpCount=2 alarm= alarmAt=760.184 armed=1
+SOCKET_DIAG t=760.096 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=760.289 armed=1
+GAP_REQUEST t=761.21 ptr=0x78d12c1c0 stream=1 wanted=36978173 sent=36978173 maxStream=37109245 app=0
+SOCKET_DIAG t=770.011 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=15 cwnd=30039 maxData=37208261 rtoCount=0 tlpCount=1 alarm= alarmAt=769.994 armed=0
+SOCKET_DIAG t=770.098 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=770.156 armed=1
+GAP_REQUEST t=771.21 ptr=0x78d12c1c0 stream=1 wanted=37123995 sent=37124687 maxStream=37254383 app=0
+APP_DIAG t=780 delivered=943 raw=192065225 last=779.183 active=-1 frame=8352/0 queue=0 queueBytes=0 packets=134067 tx0=131072
+SOCKET_DIAG t=780.011 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=5485 cwnd=11603 maxData=37490306 rtoCount=0 tlpCount=0 alarm= alarmAt=780.125 armed=1
+SOCKET_DIAG t=780.124 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=780.29 armed=1
+GAP_REQUEST t=781.213 ptr=0x78d12c1c0 stream=1 wanted=37269080 sent=37271579 maxStream=37400144 app=0
+SOCKET_DIAG t=790.011 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=8540 cwnd=27352 maxData=37625056 rtoCount=0 tlpCount=2 alarm= alarmAt=790.419 armed=1
+SOCKET_DIAG t=790.128 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=790.321 armed=1
+GAP_REQUEST t=791.213 ptr=0x78d12c1c0 stream=1 wanted=37399466 sent=37419408 maxStream=37530530 app=0
+SOCKET_DIAG t=800.011 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=29674 maxData=37782757 rtoCount=0 tlpCount=2 alarm= alarmAt=800.372 armed=1
+SOCKET_DIAG t=800.13 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=800.51 armed=1
+GAP_REQUEST t=802.213 ptr=0x78d12c1c0 stream=1 wanted=37568194 sent=37575193 maxStream=37699258 app=0
+APP_DIAG t=810 delivered=979 raw=193811526 last=809.238 active=-1 frame=8321/0 queue=0 queueBytes=0 packets=136208 tx0=131072
+SOCKET_DIAG t=810.011 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=41154 maxData=37931149 rtoCount=0 tlpCount=2 alarm= alarmAt=810.18 armed=1
+SOCKET_DIAG t=810.133 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=810.263 armed=1
+GAP_REQUEST t=812.22 ptr=0x78d12c1c0 stream=1 wanted=37713759 sent=37722170 maxStream=37844831 app=0
+SOCKET_DIAG t=820.011 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=15 cwnd=35864 maxData=38070547 rtoCount=0 tlpCount=1 alarm= alarmAt=820.151 armed=1
+SOCKET_DIAG t=820.138 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=820.254 armed=1
+GAP_REQUEST t=822.22 ptr=0x78d12c1c0 stream=1 wanted=37860785 sent=37860785 maxStream=37991857 app=0
+SOCKET_DIAG t=830.011 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=27836 maxData=38204416 rtoCount=0 tlpCount=2 alarm= alarmAt=830.149 armed=1
+SOCKET_DIAG t=830.139 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=830.327 armed=1
+GAP_REQUEST t=832.22 ptr=0x78d12c1c0 stream=1 wanted=38009966 sent=38009966 maxStream=38141038 app=0
+APP_DIAG t=840 delivered=1013 raw=195545010 last=837.914 active=-1 frame=8514/0 queue=0 queueBytes=0 packets=138448 tx0=131072
+SOCKET_DIAG t=840.035 ptr=0x1097fee80 state=4 app=29041 txAvail=102031 inflight=4410 cwnd=31906 maxData=38360183 rtoCount=0 tlpCount=0 alarm= alarmAt=840.178 armed=1
+SOCKET_DIAG t=840.139 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=840.338 armed=1
+GAP_REQUEST t=842.221 ptr=0x78d12c1c0 stream=1 wanted=38158802 sent=38158802 maxStream=38289874 app=0
+SOCKET_DIAG t=850.142 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=850.33 armed=1
+SOCKET_DIAG t=850.147 ptr=0x1097fee80 state=4 app=20233 txAvail=110839 inflight=13245 cwnd=27027 maxData=38504179 rtoCount=0 tlpCount=2 alarm= alarmAt=850.346 armed=1
+GAP_REQUEST t=852.221 ptr=0x78d12c1c0 stream=1 wanted=38307641 sent=38307641 maxStream=38438713 app=0
+SOCKET_DIAG t=860.144 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=860.581 armed=1
+SOCKET_DIAG t=860.183 ptr=0x1097fee80 state=4 app=18765 txAvail=112307 inflight=11606 cwnd=17670 maxData=38540211 rtoCount=0 tlpCount=0 alarm= alarmAt=860.27 armed=1
+GAP_REQUEST t=862.221 ptr=0x78d12c1c0 stream=1 wanted=38456901 sent=38456901 maxStream=38587973 app=0
+APP_DIAG t=870 delivered=1049 raw=197291258 last=867.897 active=-1 frame=8470/0 queue=0 queueBytes=0 packets=140653 tx0=131072
+SOCKET_DIAG t=870.162 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=870.454 armed=1
+SOCKET_DIAG t=870.189 ptr=0x1097fee80 state=4 app=15829 txAvail=115243 inflight=11800 cwnd=27540 maxData=38807232 rtoCount=0 tlpCount=0 alarm= alarmAt=870.192 armed=1
+GAP_REQUEST t=872.222 ptr=0x78d12c1c0 stream=1 wanted=38598612 sent=38605562 maxStream=38729684 app=0
+SOCKET_DIAG t=880.177 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=880.255 armed=1
+SOCKET_DIAG t=880.21 ptr=0x1097fee80 state=4 app=15814 txAvail=115258 inflight=16195 cwnd=19979 maxData=38949348 rtoCount=0 tlpCount=0 alarm= alarmAt=880.208 armed=0
+GAP_REQUEST t=883.222 ptr=0x78d12c1c0 stream=1 wanted=38761066 sent=38768182 maxStream=38892138 app=0
+SOCKET_DIAG t=890.182 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=12 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=890.374 armed=1
+SOCKET_DIAG t=890.222 ptr=0x1097fee80 state=4 app=20210 txAvail=110862 inflight=17631 cwnd=18814 maxData=38978359 rtoCount=0 tlpCount=0 alarm= alarmAt=890.232 armed=1
+GAP_REQUEST t=893.377 ptr=0x78d12c1c0 stream=1 wanted=38893198 sent=38917731 maxStream=39035831 app=0
+APP_DIAG t=900 delivered=1087 raw=199045098 last=899.458 active=-1 frame=8642/0 queue=0 queueBytes=0 packets=142829 tx0=131072
+SOCKET_DIAG t=900.188 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=1461 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=900.46 armed=1
+SOCKET_DIAG t=900.25 ptr=0x1097fee80 state=4 app=18431 txAvail=112641 inflight=13305 cwnd=19160 maxData=39266776 rtoCount=0 tlpCount=0 alarm= alarmAt=900.26 armed=1
+GAP_REQUEST t=904.22 ptr=0x78d12c1c0 stream=1 wanted=39066801 sent=39075207 maxStream=39197873 app=0
+SOCKET_DIAG t=910.19 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=18 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=910.339 armed=1
+SOCKET_DIAG t=910.263 ptr=0x1097fee80 state=4 app=9793 txAvail=121279 inflight=23516 cwnd=31005 maxData=39411918 rtoCount=0 tlpCount=0 alarm= alarmAt=910.416 armed=1
+GAP_REQUEST t=915.339 ptr=0x78d12c1c0 stream=1 wanted=39232333 sent=39265219 maxStream=39364873 app=0
+SOCKET_DIAG t=920.194 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=920.334 armed=1
+SOCKET_DIAG t=920.264 ptr=0x1097fee80 state=4 app=2617 txAvail=128455 inflight=20596 cwnd=32420 maxData=39550882 rtoCount=0 tlpCount=0 alarm= alarmAt=920.405 armed=1
+GAP_REQUEST t=926.22 ptr=0x78d12c1c0 stream=1 wanted=39414940 sent=39414940 maxStream=39546012 app=0
+APP_DIAG t=930 delivered=1124 raw=200792527 last=929.574 active=-1 frame=8458/0 queue=0 queueBytes=0 packets=145008 tx0=131072
+SOCKET_DIAG t=930.196 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=930.389 armed=1
+SOCKET_DIAG t=930.269 ptr=0x1097fee80 state=4 app=4085 txAvail=126987 inflight=20635 cwnd=25075 maxData=39581732 rtoCount=0 tlpCount=0 alarm= alarmAt=930.426 armed=1
+GAP_REQUEST t=936.228 ptr=0x78d12c1c0 stream=1 wanted=39561336 sent=39563871 maxStream=39691325 app=0
+SOCKET_DIAG t=940.201 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=940.36 armed=1
+SOCKET_DIAG t=940.273 ptr=0x1097fee80 state=4 app=11425 txAvail=119647 inflight=17616 cwnd=22155 maxData=39844968 rtoCount=0 tlpCount=0 alarm= alarmAt=940.283 armed=1
+GAP_REQUEST t=947.228 ptr=0x78d12c1c0 stream=1 wanted=39721792 sent=39721792 maxStream=39838842 app=0
+SOCKET_DIAG t=950.201 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=950.377 armed=1
+SOCKET_DIAG t=950.283 ptr=0x1097fee80 state=4 app=21701 txAvail=109371 inflight=10256 cwnd=10923 maxData=40005729 rtoCount=0 tlpCount=0 alarm= alarmAt=950.477 armed=1
+GAP_REQUEST t=957.238 ptr=0x78d12c1c0 stream=1 wanted=39866145 sent=39870305 maxStream=39992837 app=0
+APP_DIAG t=960 delivered=1160 raw=202538643 last=959.885 active=-1 frame=8686/0 queue=0 queueBytes=0 packets=147293 tx0=131072
+SOCKET_DIAG t=960.202 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=960.395 armed=1
+SOCKET_DIAG t=960.308 ptr=0x1097fee80 state=4 app=8474 txAvail=122598 inflight=14726 cwnd=24991 maxData=40027296 rtoCount=0 tlpCount=0 alarm= alarmAt=960.285 armed=0
+GAP_REQUEST t=968.228 ptr=0x78d12c1c0 stream=1 wanted=40028547 sent=40028547 maxStream=40159619 app=0
+SOCKET_DIAG t=970.26 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=970.326 armed=1
+SOCKET_DIAG t=970.309 ptr=0x1097fee80 state=4 app=14361 txAvail=116711 inflight=14696 cwnd=31410 maxData=40314174 rtoCount=0 tlpCount=2 alarm= alarmAt=970.491 armed=1
+GAP_REQUEST t=979.228 ptr=0x78d12c1c0 stream=1 wanted=40180658 sent=40184675 maxStream=40311730 app=0
+SOCKET_DIAG t=980.266 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=980.449 armed=1
+SOCKET_DIAG t=980.33 ptr=0x1097fee80 state=4 app=9949 txAvail=121123 inflight=13251 cwnd=16186 maxData=40454791 rtoCount=0 tlpCount=0 alarm= alarmAt=980.492 armed=1
+GAP_REQUEST t=989.228 ptr=0x78d12c1c0 stream=1 wanted=40325686 sent=40332742 maxStream=40456758 app=0
+APP_DIAG t=990 delivered=1195 raw=204277890 last=989.247 active=-1 frame=8372/0 queue=0 queueBytes=0 packets=149488 tx0=128509
+SOCKET_DIAG t=990.272 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=990.465 armed=1
+SOCKET_DIAG t=990.331 ptr=0x1097fee80 state=4 app=12893 txAvail=118179 inflight=16171 cwnd=16522 maxData=40598486 rtoCount=0 tlpCount=0 alarm= alarmAt=990.506 armed=1
+GAP_REQUEST t=999.297 ptr=0x78d12c1c0 stream=1 wanted=40477594 sent=40480072 maxStream=40611144 app=0
+SOCKET_DIAG t=1000.28 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1000.46 armed=1
+SOCKET_DIAG t=1000.35 ptr=0x1097fee80 state=4 app=17297 txAvail=113775 inflight=16180 cwnd=18526 maxData=40745816 rtoCount=0 tlpCount=0 alarm= alarmAt=1000.36 armed=1
+GAP_REQUEST t=1009.32 ptr=0x78d12c1c0 stream=1 wanted=40620179 sent=40627315 maxStream=40751259 app=0
+SOCKET_DIAG t=1010.29 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=1010.43 armed=1
+SOCKET_DIAG t=1010.35 ptr=0x1097fee80 state=4 app=14054 txAvail=117018 inflight=13290 cwnd=25657 maxData=40884643 rtoCount=0 tlpCount=0 alarm= alarmAt=1010.5 armed=1
+GAP_REQUEST t=1019.57 ptr=0x78d12c1c0 stream=1 wanted=40771070 sent=40779418 maxStream=40905054 app=0
+APP_DIAG t=1020 delivered=1232 raw=206024253 last=1019.45 active=-1 frame=8348/0 queue=0 queueBytes=0 packets=151585 tx0=131072
+SOCKET_DIAG t=1020.29 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1020.64 armed=1
+SOCKET_DIAG t=1020.36 ptr=0x1097fee80 state=4 app=8468 txAvail=122604 inflight=20255 cwnd=28055 maxData=41040782 rtoCount=0 tlpCount=0 alarm= alarmAt=1020.55 armed=1
+SOCKET_DIAG t=1030.29 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1030.81 armed=1
+SOCKET_DIAG t=1030.38 ptr=0x1097fee80 state=4 app=4866 txAvail=126206 inflight=21739 cwnd=38145 maxData=41177874 rtoCount=0 tlpCount=0 alarm= alarmAt=1030.39 armed=1
+GAP_REQUEST t=1032.23 ptr=0x78d12c1c0 stream=1 wanted=40965240 sent=40973454 maxStream=41091002 app=0
+SOCKET_DIAG t=1040.3 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=1040.3 armed=1
+SOCKET_DIAG t=1040.39 ptr=0x1097fee80 state=4 app=10930 txAvail=120142 inflight=19046 cwnd=20815 maxData=41336871 rtoCount=0 tlpCount=0 alarm= alarmAt=1040.56 armed=1
+GAP_REQUEST t=1042.23 ptr=0x78d12c1c0 stream=1 wanted=41120988 sent=41120988 maxStream=41252060 app=0
+APP_DIAG t=1050 delivered=1268 raw=207770678 last=1049.61 active=-1 frame=8389/0 queue=0 queueBytes=0 packets=153759 tx0=131072
+SOCKET_DIAG t=1050.3 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1050.49 armed=1
+SOCKET_DIAG t=1050.39 ptr=0x1097fee80 state=4 app=1134 txAvail=129938 inflight=14681 cwnd=24713 maxData=41480002 rtoCount=0 tlpCount=2 alarm= alarmAt=1050.4 armed=1
+GAP_REQUEST t=1053.47 ptr=0x78d12c1c0 stream=1 wanted=41274764 sent=41277504 maxStream=41405836 app=0
+SOCKET_DIAG t=1060.3 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1060.5 armed=1
+SOCKET_DIAG t=1060.39 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=14430 cwnd=33439 maxData=41489227 rtoCount=0 tlpCount=0 alarm= alarmAt=1060.56 armed=1
+GAP_REQUEST t=1065.3 ptr=0x78d12c1c0 stream=1 wanted=41444081 sent=41472955 maxStream=41575153 app=0
+SOCKET_DIAG t=1070.31 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1070.42 armed=1
+SOCKET_DIAG t=1070.4 ptr=0x1097fee80 state=4 app=5568 txAvail=125504 inflight=13221 cwnd=24203 maxData=41762527 rtoCount=0 tlpCount=0 alarm= alarmAt=1070.56 armed=1
+GAP_REQUEST t=1076.64 ptr=0x78d12c1c0 stream=1 wanted=41623127 sent=41628251 maxStream=41759323 app=0
+APP_DIAG t=1080 delivered=1302 raw=209504274 last=1079.09 active=-1 frame=8450/0 queue=0 queueBytes=0 packets=155893 tx0=124027
+SOCKET_DIAG t=1080.32 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=1 tlpCount=2 alarm= alarmAt=1080.71 armed=1
+SOCKET_DIAG t=1080.42 ptr=0x1097fee80 state=4 app=20225 txAvail=110847 inflight=18843 cwnd=20411 maxData=41918962 rtoCount=0 tlpCount=0 alarm= alarmAt=1080.6 armed=1
+GAP_REQUEST t=1087.23 ptr=0x78d12c1c0 stream=1 wanted=41781865 sent=41783079 maxStream=41912937 app=0
+SOCKET_DIAG t=1090.32 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1090.51 armed=1
+SOCKET_DIAG t=1090.44 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=12949 cwnd=36407 maxData=42055823 rtoCount=0 tlpCount=0 alarm= alarmAt=1090.59 armed=1
+GAP_REQUEST t=1098.23 ptr=0x78d12c1c0 stream=1 wanted=41929340 sent=41937754 maxStream=42060412 app=0
+SOCKET_DIAG t=1100.34 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1100.72 armed=1
+SOCKET_DIAG t=1100.45 ptr=0x1097fee80 state=4 app=3870 txAvail=127202 inflight=20264 cwnd=30188 maxData=42063876 rtoCount=0 tlpCount=0 alarm= alarmAt=1100.63 armed=1
+GAP_REQUEST t=1108.23 ptr=0x78d12c1c0 stream=1 wanted=42072460 sent=42082907 maxStream=42203532 app=0
+APP_DIAG t=1110 delivered=1338 raw=211250967 last=1108.72 active=-1 frame=8187/0 queue=0 queueBytes=0 packets=158101 tx0=131072
+SOCKET_DIAG t=1110.35 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1110.35 armed=1
+SOCKET_DIAG t=1110.45 ptr=0x1097fee80 state=4 app=11025 txAvail=120047 inflight=14750 cwnd=22077 maxData=42346304 rtoCount=0 tlpCount=0 alarm= alarmAt=1110.46 armed=1
+GAP_REQUEST t=1118.24 ptr=0x78d12c1c0 stream=1 wanted=42216883 sent=42220634 maxStream=42347939 app=0
+SOCKET_DIAG t=1120.36 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1120.53 armed=1
+SOCKET_DIAG t=1120.46 ptr=0x1097fee80 state=4 app=9688 txAvail=121384 inflight=13275 cwnd=22125 maxData=42508703 rtoCount=0 tlpCount=0 alarm= alarmAt=1120.64 armed=1
+GAP_REQUEST t=1128.24 ptr=0x78d12c1c0 stream=1 wanted=42358311 sent=42368180 maxStream=42488252 app=0
+SOCKET_DIAG t=1130.36 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1130.55 armed=1
+SOCKET_DIAG t=1130.46 ptr=0x1097fee80 state=4 app=1460 txAvail=129612 inflight=22982 cwnd=34392 maxData=42653230 rtoCount=0 tlpCount=0 alarm= alarmAt=1130.47 armed=1
+GAP_REQUEST t=1138.24 ptr=0x78d12c1c0 stream=1 wanted=42515868 sent=42515868 maxStream=42646940 app=0
+APP_DIAG t=1140 delivered=1375 raw=213003419 last=1139.98 active=-1 frame=8550/0 queue=0 queueBytes=0 packets=160282 tx0=131072
+SOCKET_DIAG t=1140.38 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1140.54 armed=1
+SOCKET_DIAG t=1140.47 ptr=0x1097fee80 state=4 app=6854 txAvail=124218 inflight=15876 cwnd=28309 maxData=42661410 rtoCount=0 tlpCount=2 alarm= alarmAt=1140.48 armed=1
+GAP_REQUEST t=1149.24 ptr=0x78d12c1c0 stream=1 wanted=42675029 sent=42675029 maxStream=42806101 app=0
+SOCKET_DIAG t=1150.38 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1150.55 armed=1
+SOCKET_DIAG t=1150.49 ptr=0x1097fee80 state=4 app=15 txAvail=131057 inflight=17275 cwnd=31772 maxData=42941875 rtoCount=0 tlpCount=0 alarm= alarmAt=1150.5 armed=1
+GAP_REQUEST t=1159.24 ptr=0x78d12c1c0 stream=1 wanted=42819329 sent=42821950 maxStream=42949232 app=0
+SOCKET_DIAG t=1160.4 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1160.54 armed=1
+SOCKET_DIAG t=1160.5 ptr=0x1097fee80 state=4 app=2935 txAvail=128137 inflight=11435 cwnd=15944 maxData=43075061 rtoCount=0 tlpCount=0 alarm= alarmAt=1160.51 armed=1
+GAP_REQUEST t=1169.24 ptr=0x78d12c1c0 stream=1 wanted=42969027 sent=42969027 maxStream=43100099 app=0
+APP_DIAG t=1170 delivered=1411 raw=214744286 last=1169.11 active=-1 frame=8535/0 queue=0 queueBytes=0 packets=162509 tx0=131072
+SOCKET_DIAG t=1170.4 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1170.55 armed=1
+SOCKET_DIAG t=1170.51 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=15809 cwnd=18789 maxData=43241814 rtoCount=0 tlpCount=0 alarm= alarmAt=1170.7 armed=1
+GAP_REQUEST t=1179.24 ptr=0x78d12c1c0 stream=1 wanted=43096859 sent=43115747 maxStream=43222091 app=0
+SOCKET_DIAG t=1180.41 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1180.57 armed=1
+SOCKET_DIAG t=1180.51 ptr=0x1097fee80 state=4 app=1149 txAvail=129923 inflight=19130 cwnd=24213 maxData=43358681 rtoCount=0 tlpCount=0 alarm= alarmAt=1180.52 armed=1
+GAP_REQUEST t=1190.24 ptr=0x78d12c1c0 stream=1 wanted=43258625 sent=43302794 maxStream=43389697 app=0
+SOCKET_DIAG t=1190.41 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1190.6 armed=1
+SOCKET_DIAG t=1190.51 ptr=0x1097fee80 state=4 app=3991 txAvail=127081 inflight=20294 cwnd=27881 maxData=43515937 rtoCount=0 tlpCount=1 alarm= alarmAt=1190.52 armed=1
+APP_DIAG t=1200 delivered=1447 raw=216490771 last=1199.5 active=-1 frame=8744/0 queue=0 queueBytes=0 packets=164593 tx0=131072
+GAP_REQUEST t=1200.24 ptr=0x78d12c1c0 stream=1 wanted=43410459 sent=43450567 maxStream=43541531 app=0
+SOCKET_DIAG t=1200.43 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1200.41 armed=0
+SOCKET_DIAG t=1200.52 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=22775 cwnd=34950 maxData=43673275 rtoCount=0 tlpCount=0 alarm= alarmAt=1200.7 armed=1
+SOCKET_DIAG t=1210.43 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1210.61 armed=1
+SOCKET_DIAG t=1210.53 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=15684 cwnd=23044 maxData=43816343 rtoCount=0 tlpCount=0 alarm= alarmAt=1210.71 armed=1
+GAP_REQUEST t=1211.24 ptr=0x78d12c1c0 stream=1 wanted=43598252 sent=43598252 maxStream=43729324 app=0
+SOCKET_DIAG t=1220.44 ptr=0x790208000 state=4 app=5 txAvail=131067 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1220.62 armed=1
+SOCKET_DIAG t=1220.54 ptr=0x1097fee80 state=4 app=9567 txAvail=121505 inflight=16156 cwnd=20566 maxData=43962693 rtoCount=0 tlpCount=0 alarm= alarmAt=1220.73 armed=1
+GAP_REQUEST t=1221.24 ptr=0x78d12c1c0 stream=1 wanted=43726809 sent=43745073 maxStream=43850883 app=0
+APP_DIAG t=1230 delivered=1479 raw=218211240 last=1226.39 active=4336 frame=503904/14991327 queue=5 queueBytes=33157 packets=167850 tx0=131072
+SOCKET_DIAG t=1230.47 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1230.63 armed=1
+SOCKET_DIAG t=1230.55 ptr=0x1097fee80 state=4 app=71907 txAvail=59165 inflight=21730 cwnd=58229 maxData=44415406 rtoCount=0 tlpCount=0 alarm= alarmAt=1230.74 armed=1
+GAP_REQUEST t=1231.24 ptr=0x78d12c1c0 stream=1 wanted=44216526 sent=44335902 maxStream=44335902 app=130324
+SOCKET_DIAG t=1240.47 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1240.64 armed=1
+SOCKET_DIAG t=1240.56 ptr=0x1097fee80 state=4 app=57822 txAvail=73250 inflight=37398 cwnd=58564 maxData=45178453 rtoCount=0 tlpCount=0 alarm= alarmAt=1240.57 armed=1
+GAP_REQUEST t=1241.24 ptr=0x78d12c1c0 stream=1 wanted=45099981 sent=45204142 maxStream=45204142 app=130884
+SOCKET_DIAG t=1250.49 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1250.67 armed=1
+SOCKET_DIAG t=1250.61 ptr=0x1097fee80 state=4 app=33809 txAvail=97263 inflight=29470 cwnd=64729 maxData=46430790 rtoCount=0 tlpCount=0 alarm= alarmAt=1250.81 armed=1
+GAP_REQUEST t=1252.04 ptr=0x78d12c1c0 stream=1 wanted=46281178 sent=46414950 maxStream=46414950 app=130604
+APP_DIAG t=1260 delivered=1479 raw=218211240 last=1226.39 active=4336 frame=3488232/14991327 queue=41 queueBytes=479871 packets=178559 tx0=127776
+SOCKET_DIAG t=1260.49 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=1460 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1260.69 armed=1
+SOCKET_DIAG t=1260.62 ptr=0x1097fee80 state=4 app=13019 txAvail=118053 inflight=39749 cwnd=66906 maxData=47371318 rtoCount=0 tlpCount=0 alarm= alarmAt=1260.63 armed=1
+GAP_REQUEST t=1262.77 ptr=0x78d12c1c0 stream=1 wanted=47327246 sent=47479278 maxStream=47479278 app=130556
+SOCKET_DIAG t=1270.49 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1270.65 armed=1
+SOCKET_DIAG t=1270.62 ptr=0x1097fee80 state=4 app=10957 txAvail=120115 inflight=35310 cwnd=57024 maxData=48327507 rtoCount=0 tlpCount=0 alarm= alarmAt=1270.63 armed=1
+GAP_REQUEST t=1273.24 ptr=0x78d12c1c0 stream=1 wanted=48364881 sent=48459549 maxStream=48459549 app=130581
+SOCKET_DIAG t=1280.51 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=1461 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1280.68 armed=1
+SOCKET_DIAG t=1280.63 ptr=0x1097fee80 state=4 app=70255 txAvail=60817 inflight=14610 cwnd=60682 maxData=48871149 rtoCount=0 tlpCount=0 alarm= alarmAt=1280.83 armed=1
+GAP_REQUEST t=1284.24 ptr=0x78d12c1c0 stream=1 wanted=49052497 sent=49160465 maxStream=49160465 app=130497
+APP_DIAG t=1290 delivered=1479 raw=218211240 last=1226.39 active=4336 frame=5896256/14991327 queue=77 queueBytes=922798 packets=187525 tx0=93203
+SOCKET_DIAG t=1290.51 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1290.71 armed=1
+SOCKET_DIAG t=1290.64 ptr=0x1097fee80 state=4 app=17910 txAvail=113162 inflight=36785 cwnd=57120 maxData=49766777 rtoCount=0 tlpCount=0 alarm= alarmAt=1290.83 armed=1
+GAP_REQUEST t=1294.25 ptr=0x78d12c1c0 stream=1 wanted=49896633 sent=50011645 maxStream=50011645 app=65581
+SOCKET_DIAG t=1300.52 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1300.68 armed=1
+SOCKET_DIAG t=1300.64 ptr=0x1097fee80 state=4 app=103914 txAvail=27158 inflight=5885 cwnd=5840 maxData=50530141 rtoCount=0 tlpCount=0 alarm= alarmAt=1300.81 armed=1
+GAP_REQUEST t=1304.6 ptr=0x78d12c1c0 stream=1 wanted=50627625 sent=50796657 maxStream=50796657 app=130545
+SOCKET_DIAG t=1310.54 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1310.72 armed=1
+SOCKET_DIAG t=1310.66 ptr=0x1097fee80 state=4 app=55792 txAvail=75280 inflight=13215 cwnd=14375 maxData=51513981 rtoCount=0 tlpCount=0 alarm= alarmAt=1310.88 armed=1
+GAP_REQUEST t=1315.25 ptr=0x78d12c1c0 stream=1 wanted=51682497 sent=51812109 maxStream=51812109 app=130141
+APP_DIAG t=1320 delivered=1479 raw=218211240 last=1226.39 active=4336 frame=8531616/14991327 queue=115 queueBytes=6.49530e+06 packets=197487 tx0=43291
+SOCKET_DIAG t=1320.54 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=1320.55 armed=1
+SOCKET_DIAG t=1320.68 ptr=0x1097fee80 state=4 app=68665 txAvail=62407 inflight=30991 cwnd=35545 maxData=52414285 rtoCount=0 tlpCount=0 alarm= alarmAt=1320.69 armed=1
+GAP_REQUEST t=1325.37 ptr=0x78d12c1c0 stream=1 wanted=52684793 sent=52785405 maxStream=52785405 app=129901
+SOCKET_DIAG t=1330.56 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1330.73 armed=1
+SOCKET_DIAG t=1330.71 ptr=0x1097fee80 state=4 app=50267 txAvail=80805 inflight=33270 cwnd=57465 maxData=53513365 rtoCount=0 tlpCount=0 alarm= alarmAt=1330.72 armed=1
+GAP_REQUEST t=1336.28 ptr=0x78d12c1c0 stream=1 wanted=53809841 sent=53923385 maxStream=53923385 app=130049
+SOCKET_DIAG t=1340.56 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1340.74 armed=1
+SOCKET_DIAG t=1340.71 ptr=0x1097fee80 state=4 app=33899 txAvail=97173 inflight=33441 cwnd=40846 maxData=54389521 rtoCount=0 tlpCount=0 alarm= alarmAt=1340.9 armed=1
+GAP_REQUEST t=1347.25 ptr=0x78d12c1c0 stream=1 wanted=54848213 sent=54951521 maxStream=54951521 app=129993
+APP_DIAG t=1350 delivered=1479 raw=218211240 last=1226.39 active=4336 frame=11534768/14991327 queue=154 queueBytes=8.95001e+06 packets=208496 tx0=100261
+SOCKET_DIAG t=1350.57 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1350.76 armed=1
+SOCKET_DIAG t=1350.72 ptr=0x1097fee80 state=4 app=2935 txAvail=128137 inflight=19417 cwnd=63750 maxData=55365037 rtoCount=0 tlpCount=0 alarm= alarmAt=1350.73 armed=1
+GAP_REQUEST t=1357.35 ptr=0x78d12c1c0 stream=1 wanted=55896493 sent=56018573 maxStream=56018573 app=130117
+SOCKET_DIAG t=1360.57 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1360.57 armed=1
+SOCKET_DIAG t=1360.73 ptr=0x1097fee80 state=4 app=29815 txAvail=101257 inflight=32550 cwnd=39910 maxData=56428305 rtoCount=0 tlpCount=0 alarm= alarmAt=1360.93 armed=1
+GAP_REQUEST t=1367.49 ptr=0x78d12c1c0 stream=1 wanted=56930733 sent=57077193 maxStream=57077193 app=129985
+SOCKET_DIAG t=1370.58 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1370.77 armed=1
+SOCKET_DIAG t=1370.74 ptr=0x1097fee80 state=4 app=18887 txAvail=112185 inflight=30408 cwnd=57090 maxData=57504129 rtoCount=0 tlpCount=0 alarm= alarmAt=1370.93 armed=1
+GAP_REQUEST t=1378.24 ptr=0x78d12c1c0 stream=1 wanted=57982797 sent=58096341 maxStream=58096341 app=130229
+APP_DIAG t=1380 delivered=1479 raw=218211240 last=1226.39 active=4336 frame=14539368/14991327 queue=190 queueBytes=9.39655e+06 packets=219586 tx0=115229
+SOCKET_DIAG t=1380.64 ptr=0x790208000 state=4 app=5 txAvail=131067 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1380.73 armed=1
+SOCKET_DIAG t=1380.76 ptr=0x1097fee80 state=4 app=59079 txAvail=71993 inflight=29500 cwnd=63240 maxData=58318245 rtoCount=0 tlpCount=0 alarm= alarmAt=1380.76 armed=1
+GAP_REQUEST t=1389.37 ptr=0x78d12c1c0 stream=1 wanted=58817113 sent=59059837 maxStream=59059837 app=130422
+SOCKET_DIAG t=1390.65 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1390.64 armed=0
+SOCKET_DIAG t=1390.77 ptr=0x1097fee80 state=4 app=100072 txAvail=31000 inflight=27450 cwnd=29528 maxData=59162623 rtoCount=0 tlpCount=0 alarm= alarmAt=1390.97 armed=1
+GAP_REQUEST t=1400.25 ptr=0x78d12c1c0 stream=1 wanted=59972165 sent=60095905 maxStream=60095905 app=82656
+SOCKET_DIAG t=1400.65 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1400.84 armed=1
+SOCKET_DIAG t=1400.79 ptr=0x1097fee80 state=4 app=44767 txAvail=86305 inflight=34308 cwnd=47628 maxData=60214215 rtoCount=0 tlpCount=0 alarm= alarmAt=1400.8 armed=1
+APP_DIAG t=1410 delivered=1665 raw=328389652 last=1409.29 active=4340 frame=256296/582582 queue=42 queueBytes=9.73778e+06 packets=229672 tx0=112661
+GAP_REQUEST t=1410.25 ptr=0x78d12c1c0 stream=1 wanted=60779521 sent=60893813 maxStream=60893813 app=129856
+SOCKET_DIAG t=1410.69 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1410.82 armed=1
+SOCKET_DIAG t=1410.8 ptr=0x1097fee80 state=4 app=48030 txAvail=83042 inflight=20596 cwnd=26460 maxData=61093749 rtoCount=0 tlpCount=0 alarm= alarmAt=1411.01 armed=1
+GAP_REQUEST t=1420.25 ptr=0x78d12c1c0 stream=1 wanted=61692361 sent=61791297 maxStream=61791297 app=130955
+SOCKET_DIAG t=1420.69 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1420.89 armed=1
+SOCKET_DIAG t=1420.8 ptr=0x1097fee80 state=4 app=19955 txAvail=111117 inflight=32360 cwnd=39945 maxData=61986645 rtoCount=0 tlpCount=0 alarm= alarmAt=1420.81 armed=1
+SOCKET_DIAG t=1430.7 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=1430.7 armed=1
+SOCKET_DIAG t=1430.84 ptr=0x1097fee80 state=4 app=21244 txAvail=109828 inflight=29910 cwnd=41330 maxData=62825067 rtoCount=0 tlpCount=0 alarm= alarmAt=1431.04 armed=1
+GAP_REQUEST t=1432.25 ptr=0x78d12c1c0 stream=1 wanted=62732727 sent=62822911 maxStream=62822911 app=130760
+APP_DIAG t=1440 delivered=1691 raw=338865037 last=1432.81 active=4344 frame=864456/1211493 queue=53 queueBytes=8.70167e+06 packets=239914 tx0=131072
+SOCKET_DIAG t=1440.71 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=1461 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1440.9 armed=1
+SOCKET_DIAG t=1440.85 ptr=0x1097fee80 state=4 app=57318 txAvail=73754 inflight=33835 cwnd=39720 maxData=63831323 rtoCount=0 tlpCount=0 alarm= alarmAt=1440.86 armed=1
+GAP_REQUEST t=1443.2 ptr=0x78d12c1c0 stream=1 wanted=63765979 sent=64030939 maxStream=64030939 app=130709
+SOCKET_DIAG t=1450.71 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1450.88 armed=1
+SOCKET_DIAG t=1450.86 ptr=0x1097fee80 state=4 app=84650 txAvail=46422 inflight=26445 cwnd=36830 maxData=64996967 rtoCount=0 tlpCount=0 alarm= alarmAt=1450.87 armed=1
+GAP_REQUEST t=1453.56 ptr=0x78d12c1c0 stream=1 wanted=65205779 sent=65339327 maxStream=65339327 app=129865
+SOCKET_DIAG t=1460.71 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1460.72 armed=1
+SOCKET_DIAG t=1460.88 ptr=0x1097fee80 state=4 app=38249 txAvail=92823 inflight=34952 cwnd=42372 maxData=66250144 rtoCount=0 tlpCount=0 alarm= alarmAt=1461.06 armed=1
+GAP_REQUEST t=1464.24 ptr=0x78d12c1c0 stream=1 wanted=66399524 sent=66477168 maxStream=66477168 app=112776
+APP_DIAG t=1470 delivered=1704 raw=343297351 last=1444.98 active=4337 frame=3043696/4984460 queue=76 queueBytes=4.06076e+06 packets=252104 tx0=57157
+SOCKET_DIAG t=1470.72 ptr=0x790208000 state=4 app=5 txAvail=131067 inflight=0 cwnd=1460 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1470.81 armed=1
+SOCKET_DIAG t=1470.88 ptr=0x1097fee80 state=4 app=87766 txAvail=43306 inflight=29478 cwnd=58999 maxData=67399280 rtoCount=0 tlpCount=0 alarm= alarmAt=1471.04 armed=1
+GAP_REQUEST t=1476.23 ptr=0x78d12c1c0 stream=1 wanted=67811768 sent=67920900 maxStream=67920900 app=50436
+SOCKET_DIAG t=1480.72 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1480.91 armed=1
+SOCKET_DIAG t=1480.88 ptr=0x1097fee80 state=4 app=41087 txAvail=89985 inflight=32100 cwnd=56290 maxData=68549848 rtoCount=0 tlpCount=0 alarm= alarmAt=1480.88 armed=1
+GAP_REQUEST t=1486.23 ptr=0x78d12c1c0 stream=1 wanted=69001676 sent=69113360 maxStream=69113360 app=130367
+SOCKET_DIAG t=1490.72 ptr=0x790208000 state=4 app=5 txAvail=131067 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1490.92 armed=1
+SOCKET_DIAG t=1490.88 ptr=0x1097fee80 state=4 app=58444 txAvail=72628 inflight=26490 cwnd=33880 maxData=69648652 rtoCount=0 tlpCount=0 alarm= alarmAt=1491.05 armed=1
+GAP_REQUEST t=1496.23 ptr=0x78d12c1c0 stream=1 wanted=70216991 sent=70328513 maxStream=70328513 app=130464
+APP_DIAG t=1500 delivered=1750 raw=359518401 last=1490.4 active=4342 frame=1495784/2308658 queue=65 queueBytes=1.80693e+06 packets=264784 tx0=131072
+SOCKET_DIAG t=1500.73 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1500.86 armed=1
+SOCKET_DIAG t=1500.89 ptr=0x1097fee80 state=4 app=48750 txAvail=82322 inflight=36890 cwnd=42820 maxData=71147273 rtoCount=0 tlpCount=0 alarm= alarmAt=1501.06 armed=1
+GAP_REQUEST t=1506.36 ptr=0x78d12c1c0 stream=1 wanted=71677345 sent=71815453 maxStream=71815453 app=130015
+SOCKET_DIAG t=1510.73 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1510.97 armed=1
+SOCKET_DIAG t=1510.89 ptr=0x1097fee80 state=4 app=19114 txAvail=111958 inflight=54761 cwnd=57786 maxData=72554897 rtoCount=0 tlpCount=0 alarm= alarmAt=1510.9 armed=1
+GAP_REQUEST t=1516.69 ptr=0x78d12c1c0 stream=1 wanted=73066741 sent=73175905 maxStream=73175905 app=130226
+SOCKET_DIAG t=1520.73 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1520.93 armed=1
+SOCKET_DIAG t=1520.91 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=34997 cwnd=65000 maxData=73943701 rtoCount=0 tlpCount=0 alarm= alarmAt=1521.13 armed=1
+GAP_REQUEST t=1527.22 ptr=0x78d12c1c0 stream=1 wanted=74032442 sent=74032442 maxStream=74163514 app=0
+APP_DIAG t=1530 delivered=1853 raw=382656546 last=1529.68 active=-1 frame=8416/0 queue=0 queueBytes=0 packets=275423 tx0=131072
+SOCKET_DIAG t=1530.76 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1530.85 armed=1
+SOCKET_DIAG t=1531 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=15 cwnd=44636 maxData=74358854 rtoCount=0 tlpCount=2 alarm= alarmAt=1530.91 armed=0
+GAP_REQUEST t=1537.23 ptr=0x78d12c1c0 stream=1 wanted=74176330 sent=74180203 maxStream=74307402 app=0
+SOCKET_DIAG t=1540.79 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1540.96 armed=1
+SOCKET_DIAG t=1541.01 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=31009 maxData=74497329 rtoCount=0 tlpCount=0 alarm= alarmAt=1541.14 armed=1
+GAP_REQUEST t=1548.23 ptr=0x78d12c1c0 stream=1 wanted=74336850 sent=74336850 maxStream=74467922 app=0
+SOCKET_DIAG t=1550.8 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1550.95 armed=1
+SOCKET_DIAG t=1551.04 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=3935 cwnd=25255 maxData=74636870 rtoCount=0 tlpCount=0 alarm= alarmAt=1551.2 armed=1
+GAP_REQUEST t=1558.32 ptr=0x78d12c1c0 stream=1 wanted=74482383 sent=74482383 maxStream=74613455 app=0
+APP_DIAG t=1560 delivered=1889 raw=384397191 last=1558.86 active=-1 frame=8224/0 queue=0 queueBytes=0 packets=277783 tx0=131072
+SOCKET_DIAG t=1560.81 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1561 armed=1
+SOCKET_DIAG t=1561.09 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=5855 cwnd=30033 maxData=74644783 rtoCount=0 tlpCount=0 alarm= alarmAt=1561.15 armed=1
+GAP_REQUEST t=1569.23 ptr=0x78d12c1c0 stream=1 wanted=74636484 sent=74637528 maxStream=74766520 app=0
+SOCKET_DIAG t=1570.84 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1570.95 armed=1
+SOCKET_DIAG t=1571.12 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=2920 cwnd=29302 maxData=74901785 rtoCount=0 tlpCount=0 alarm= alarmAt=1571.1 armed=0
+GAP_REQUEST t=1580.23 ptr=0x78d12c1c0 stream=1 wanted=74790317 sent=74824727 maxStream=74921389 app=0
+SOCKET_DIAG t=1580.86 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1581.03 armed=1
+SOCKET_DIAG t=1581.17 ptr=0x1097fee80 state=4 app=1460 txAvail=129612 inflight=8128 cwnd=9618 maxData=75038789 rtoCount=0 tlpCount=0 alarm= alarmAt=1581.34 armed=1
+APP_DIAG t=1590 delivered=1925 raw=386143902 last=1589.51 active=-1 frame=8492/0 queue=0 queueBytes=0 packets=279956 tx0=131072
+GAP_REQUEST t=1590.24 ptr=0x78d12c1c0 stream=1 wanted=74935170 sent=74970873 maxStream=75064782 app=0
+SOCKET_DIAG t=1590.89 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1591.01 armed=1
+SOCKET_DIAG t=1591.25 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=9779 cwnd=36186 maxData=75184870 rtoCount=0 tlpCount=2 alarm= alarmAt=1591.36 armed=1
+SOCKET_DIAG t=1600.91 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=12 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1601.06 armed=1
+SOCKET_DIAG t=1601.26 ptr=0x1097fee80 state=4 app=3877 txAvail=127195 inflight=8820 cwnd=29706 maxData=75335124 rtoCount=0 tlpCount=0 alarm= alarmAt=1601.44 armed=1
+GAP_REQUEST t=1602.14 ptr=0x78d12c1c0 stream=1 wanted=75065599 sent=75126790 maxStream=75223358 app=0
+SOCKET_DIAG t=1610.91 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1611.08 armed=1
+SOCKET_DIAG t=1611.28 ptr=0x1097fee80 state=4 app=1071 txAvail=130001 inflight=11716 cwnd=15513 maxData=75508870 rtoCount=0 tlpCount=0 alarm= alarmAt=1611.45 armed=1
+GAP_REQUEST t=1612.24 ptr=0x78d12c1c0 stream=1 wanted=75265756 sent=75273935 maxStream=75392432 app=0
+APP_DIAG t=1620 delivered=1961 raw=387890259 last=1619.76 active=-1 frame=8372/0 queue=0 queueBytes=0 packets=282216 tx0=131072
+SOCKET_DIAG t=1620.92 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1621.09 armed=1
+SOCKET_DIAG t=1621.28 ptr=0x1097fee80 state=4 app=2920 txAvail=128152 inflight=6870 cwnd=11250 maxData=75630458 rtoCount=0 tlpCount=0 alarm= alarmAt=1621.29 armed=1
+GAP_REQUEST t=1623.24 ptr=0x78d12c1c0 stream=1 wanted=75423445 sent=75430227 maxStream=75549195 app=0
+SOCKET_DIAG t=1630.93 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1631.1 armed=1
+SOCKET_DIAG t=1631.29 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=8751 cwnd=27155 maxData=75796637 rtoCount=0 tlpCount=2 alarm= alarmAt=1631.47 armed=1
+GAP_REQUEST t=1633.24 ptr=0x78d12c1c0 stream=1 wanted=75569989 sent=75577011 maxStream=75699601 app=0
+SOCKET_DIAG t=1640.94 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1641.11 armed=1
+SOCKET_DIAG t=1641.33 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=37955 maxData=75966559 rtoCount=0 tlpCount=0 alarm= alarmAt=1641.48 armed=1
+GAP_REQUEST t=1645.24 ptr=0x78d12c1c0 stream=1 wanted=75734887 sent=75773812 maxStream=75861748 app=0
+APP_DIAG t=1650 delivered=1996 raw=389629976 last=1649.28 active=-1 frame=8348/0 queue=0 queueBytes=0 packets=284570 tx0=131072
+SOCKET_DIAG t=1651.04 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=12 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1651.13 armed=1
+SOCKET_DIAG t=1651.39 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=2546 cwnd=28544 maxData=76104741 rtoCount=0 tlpCount=0 alarm= alarmAt=1651.48 armed=1
+GAP_REQUEST t=1657.24 ptr=0x78d12c1c0 stream=1 wanted=75944445 sent=75944445 maxStream=76075517 app=0
+SOCKET_DIAG t=1661.08 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1661.23 armed=1
+SOCKET_DIAG t=1661.43 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1460 cwnd=28058 maxData=76097192 rtoCount=0 tlpCount=0 alarm= alarmAt=1661.61 armed=1
+GAP_REQUEST t=1668.24 ptr=0x78d12c1c0 stream=1 wanted=76093179 sent=76101922 maxStream=76224251 app=0
+SOCKET_DIAG t=1671.08 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1671.26 armed=1
+SOCKET_DIAG t=1671.43 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=23469 maxData=76279109 rtoCount=0 tlpCount=0 alarm= alarmAt=1671.61 armed=1
+GAP_REQUEST t=1679.24 ptr=0x78d12c1c0 stream=1 wanted=76253960 sent=76259386 maxStream=76385032 app=0
+APP_DIAG t=1680 delivered=2033 raw=391376996 last=1679.39 active=-1 frame=8471/0 queue=0 queueBytes=0 packets=286854 tx0=124006
+SOCKET_DIAG t=1681.1 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=1460 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1681.28 armed=1
+SOCKET_DIAG t=1681.48 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=26295 maxData=76557287 rtoCount=0 tlpCount=1 alarm= alarmAt=1681.44 armed=0
+GAP_REQUEST t=1690.23 ptr=0x78d12c1c0 stream=1 wanted=76401210 sent=76448561 maxStream=76532282 app=0
+SOCKET_DIAG t=1691.1 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1691.23 armed=1
+SOCKET_DIAG t=1691.56 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1451 cwnd=39386 maxData=76707154 rtoCount=0 tlpCount=0 alarm= alarmAt=1691.58 armed=1
+GAP_REQUEST t=1700.23 ptr=0x78d12c1c0 stream=1 wanted=76557643 sent=76598141 maxStream=76688715 app=0
+SOCKET_DIAG t=1701.14 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1701.25 armed=1
+SOCKET_DIAG t=1701.6 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=15 cwnd=5840 maxData=76865337 rtoCount=0 tlpCount=2 alarm= alarmAt=1701.55 armed=0
+APP_DIAG t=1710 delivered=2069 raw=393123501 last=1709.65 active=-1 frame=8462/0 queue=0 queueBytes=0 packets=289078 tx0=131072
+GAP_REQUEST t=1710.29 ptr=0x78d12c1c0 stream=1 wanted=76711386 sent=76738792 maxStream=76842458 app=0
+SOCKET_DIAG t=1711.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1711.18 armed=1
+SOCKET_DIAG t=1711.75 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1291 cwnd=39553 maxData=76885619 rtoCount=0 tlpCount=2 alarm= alarmAt=1711.59 armed=0
+SOCKET_DIAG t=1721.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1721.34 armed=1
+SOCKET_DIAG t=1721.83 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=2757 cwnd=11652 maxData=77162228 rtoCount=0 tlpCount=0 alarm= alarmAt=1721.87 armed=1
+GAP_REQUEST t=1722.22 ptr=0x78d12c1c0 stream=1 wanted=76903784 sent=76905073 maxStream=77034856 app=0
+SOCKET_DIAG t=1731.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1731.34 armed=1
+SOCKET_DIAG t=1731.89 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1475 cwnd=29612 maxData=77307625 rtoCount=0 tlpCount=0 alarm= alarmAt=1731.83 armed=0
+GAP_REQUEST t=1733.22 ptr=0x78d12c1c0 stream=1 wanted=77062949 sent=77062949 maxStream=77194021 app=0
+APP_DIAG t=1740 delivered=2105 raw=394869905 last=1739.93 active=-1 frame=8523/0 queue=0 queueBytes=0 packets=291245 tx0=131072
+SOCKET_DIAG t=1741.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1741.21 armed=1
+SOCKET_DIAG t=1741.89 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1460 cwnd=29428 maxData=77327952 rtoCount=0 tlpCount=0 alarm= alarmAt=1742.02 armed=1
+GAP_REQUEST t=1744.22 ptr=0x78d12c1c0 stream=1 wanted=77221168 sent=77221168 maxStream=77352240 app=0
+SOCKET_DIAG t=1751.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1751.31 armed=1
+SOCKET_DIAG t=1751.91 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=8552 cwnd=35259 maxData=77610134 rtoCount=0 tlpCount=0 alarm= alarmAt=1751.95 armed=1
+GAP_REQUEST t=1754.22 ptr=0x78d12c1c0 stream=1 wanted=77369904 sent=77369904 maxStream=77500976 app=0
+SOCKET_DIAG t=1761.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1761.11 armed=0
+SOCKET_DIAG t=1761.91 ptr=0x1097fee80 state=4 app=1170 txAvail=129902 inflight=8820 cwnd=43984 maxData=77754122 rtoCount=0 tlpCount=2 alarm= alarmAt=1762.37 armed=1
+GAP_REQUEST t=1765.22 ptr=0x78d12c1c0 stream=1 wanted=77520290 sent=77559003 maxStream=77651362 app=0
+APP_DIAG t=1770 delivered=2139 raw=396603088 last=1768.17 active=-1 frame=8621/0 queue=0 queueBytes=0 packets=293467 tx0=131072
+SOCKET_DIAG t=1771.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1771.33 armed=1
+SOCKET_DIAG t=1771.95 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=26420 maxData=77908006 rtoCount=0 tlpCount=0 alarm= alarmAt=1772.05 armed=1
+GAP_REQUEST t=1775.23 ptr=0x78d12c1c0 stream=1 wanted=77672382 sent=77708447 maxStream=77803446 app=0
+SOCKET_DIAG t=1781.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1781.31 armed=1
+SOCKET_DIAG t=1782.05 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=2920 cwnd=31648 maxData=77911529 rtoCount=0 tlpCount=2 alarm= alarmAt=1781.48 armed=0
+GAP_REQUEST t=1785.29 ptr=0x78d12c1c0 stream=1 wanted=77825131 sent=77862338 maxStream=77956195 app=0
+SOCKET_DIAG t=1791.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1791.32 armed=1
+SOCKET_DIAG t=1792.06 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=30 cwnd=31394 maxData=78202412 rtoCount=0 tlpCount=2 alarm= alarmAt=1792.2 armed=1
+GAP_REQUEST t=1796.23 ptr=0x78d12c1c0 stream=1 wanted=78004582 sent=78018656 maxStream=78130161 app=0
+APP_DIAG t=1800 delivered=2176 raw=398349771 last=1798.51 active=-1 frame=8272/0 queue=0 queueBytes=0 packets=295636 tx0=131072
+SOCKET_DIAG t=1801.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1801.32 armed=1
+SOCKET_DIAG t=1802.18 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=15 cwnd=31586 maxData=78344218 rtoCount=1 tlpCount=2 alarm= alarmAt=1802.38 armed=1
+GAP_REQUEST t=1806.24 ptr=0x78d12c1c0 stream=1 wanted=78157798 sent=78166360 maxStream=78288870 app=0
+SOCKET_DIAG t=1811.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1811.29 armed=1
+SOCKET_DIAG t=1812.22 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=31551 maxData=78493120 rtoCount=0 tlpCount=2 alarm= alarmAt=1812.17 armed=0
+GAP_REQUEST t=1816.24 ptr=0x78d12c1c0 stream=1 wanted=78298451 sent=78305447 maxStream=78423987 app=0
+SOCKET_DIAG t=1821.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1821.29 armed=1
+SOCKET_DIAG t=1822.26 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=34271 maxData=78502834 rtoCount=0 tlpCount=2 alarm= alarmAt=1822.32 armed=1
+GAP_REQUEST t=1826.24 ptr=0x78d12c1c0 stream=1 wanted=78441682 sent=78452680 maxStream=78566112 app=0
+APP_DIAG t=1830 delivered=2212 raw=400095287 last=1828.72 active=-1 frame=8155/0 queue=0 queueBytes=0 packets=297811 tx0=131072
+SOCKET_DIAG t=1831.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1831.27 armed=1
+SOCKET_DIAG t=1832.31 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1386 cwnd=23268 maxData=78785090 rtoCount=0 tlpCount=2 alarm= alarmAt=1832.44 armed=1
+GAP_REQUEST t=1836.24 ptr=0x78d12c1c0 stream=1 wanted=78580512 sent=78600229 maxStream=78704586 app=0
+SOCKET_DIAG t=1841.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1841.31 armed=1
+SOCKET_DIAG t=1842.48 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1466 cwnd=26772 maxData=78943083 rtoCount=0 tlpCount=0 alarm= alarmAt=1842.48 armed=1
+GAP_REQUEST t=1847.24 ptr=0x78d12c1c0 stream=1 wanted=78746414 sent=78754628 maxStream=78877486 app=0
+SOCKET_DIAG t=1851.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1851.28 armed=1
+SOCKET_DIAG t=1852.59 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=2920 cwnd=26114 maxData=79085777 rtoCount=0 tlpCount=2 alarm= alarmAt=1852.48 armed=0
+GAP_REQUEST t=1858.32 ptr=0x78d12c1c0 stream=1 wanted=78906699 sent=78910577 maxStream=79035361 app=0
+APP_DIAG t=1860 delivered=2249 raw=401842646 last=1859.1 active=-1 frame=8575/0 queue=0 queueBytes=0 packets=300189 tx0=131072
+SOCKET_DIAG t=1861.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1861.24 armed=1
+SOCKET_DIAG t=1862.59 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=27495 maxData=79242167 rtoCount=0 tlpCount=0 alarm= alarmAt=1862.72 armed=1
+GAP_REQUEST t=1869.24 ptr=0x78d12c1c0 stream=1 wanted=79063035 sent=79067073 maxStream=79192639 app=0
+SOCKET_DIAG t=1871.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1871.25 armed=1
+SOCKET_DIAG t=1872.61 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1436 cwnd=21576 maxData=79389281 rtoCount=0 tlpCount=0 alarm= alarmAt=1872.78 armed=1
+GAP_REQUEST t=1879.24 ptr=0x78d12c1c0 stream=1 wanted=79210263 sent=79214354 maxStream=79341335 app=0
+SOCKET_DIAG t=1881.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1881.26 armed=1
+SOCKET_DIAG t=1882.64 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1460 cwnd=32946 maxData=79525416 rtoCount=0 tlpCount=0 alarm= alarmAt=1882.79 armed=1
+APP_DIAG t=1890 delivered=2284 raw=403582635 last=1889.34 active=-1 frame=8230/0 queue=0 queueBytes=0 packets=302497 tx0=131072
+SOCKET_DIAG t=1891.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1891.34 armed=1
+GAP_REQUEST t=1892.23 ptr=0x78d12c1c0 stream=1 wanted=79411142 sent=79417916 maxStream=79542214 app=0
+SOCKET_DIAG t=1892.67 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1436 cwnd=27614 maxData=79675426 rtoCount=0 tlpCount=0 alarm= alarmAt=1892.74 armed=1
+SOCKET_DIAG t=1901.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1901.32 armed=1
+GAP_REQUEST t=1902.23 ptr=0x78d12c1c0 stream=1 wanted=79545281 sent=79564415 maxStream=79673985 app=0
+SOCKET_DIAG t=1902.67 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=39 cwnd=32459 maxData=79687305 rtoCount=0 tlpCount=2 alarm= alarmAt=1902.59 armed=0
+SOCKET_DIAG t=1911.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1911.34 armed=1
+GAP_REQUEST t=1912.23 ptr=0x78d12c1c0 stream=1 wanted=79706118 sent=79706800 maxStream=79837190 app=0
+SOCKET_DIAG t=1912.71 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=15 cwnd=27796 maxData=79972846 rtoCount=0 tlpCount=0 alarm= alarmAt=1912.55 armed=0
+APP_DIAG t=1920 delivered=2321 raw=405330046 last=1918.63 active=-1 frame=7814/0 queue=0 queueBytes=0 packets=304711 tx0=131072
+SOCKET_DIAG t=1921.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1921.23 armed=1
+SOCKET_DIAG t=1922.73 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=15 cwnd=28739 maxData=80113032 rtoCount=0 tlpCount=0 alarm= alarmAt=1922.71 armed=0
+GAP_REQUEST t=1923.23 ptr=0x78d12c1c0 stream=1 wanted=79861040 sent=79861040 maxStream=79992112 app=0
+SOCKET_DIAG t=1931.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1931.28 armed=1
+SOCKET_DIAG t=1932.73 ptr=0x1097fee80 state=4 app=60739 txAvail=70333 inflight=30269 cwnd=34724 maxData=80436279 rtoCount=0 tlpCount=0 alarm= alarmAt=1932.74 armed=1
+GAP_REQUEST t=1933.83 ptr=0x78d12c1c0 stream=1 wanted=80270491 sent=80459863 maxStream=80459863 app=130372
+SOCKET_DIAG t=1941.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1941.34 armed=1
+SOCKET_DIAG t=1942.73 ptr=0x1097fee80 state=4 app=100827 txAvail=30245 inflight=31120 cwnd=64217 maxData=81491899 rtoCount=0 tlpCount=0 alarm= alarmAt=1942.89 armed=1
+GAP_REQUEST t=1944.23 ptr=0x78d12c1c0 stream=1 wanted=81592647 sent=81674343 maxStream=81674343 app=130764
+APP_DIAG t=1950 delivered=2335 raw=406177572 last=1930.77 active=4345 frame=2659976/14991327 queue=23 queueBytes=262472 packets=313781 tx0=131057
+SOCKET_DIAG t=1951.15 ptr=0x790208000 state=4 app=11 txAvail=131061 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1951.3 armed=1
+SOCKET_DIAG t=1952.74 ptr=0x1097fee80 state=4 app=1079 txAvail=129993 inflight=49542 cwnd=58120 maxData=82936423 rtoCount=0 tlpCount=0 alarm= alarmAt=1952.94 armed=1
+GAP_REQUEST t=1955.22 ptr=0x78d12c1c0 stream=1 wanted=83116611 sent=83246223 maxStream=83246223 app=129964
+SOCKET_DIAG t=1961.15 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=1461 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1961.35 armed=1
+SOCKET_DIAG t=1962.75 ptr=0x1097fee80 state=4 app=57023 txAvail=74049 inflight=32420 cwnd=38320 maxData=84275271 rtoCount=0 tlpCount=0 alarm= alarmAt=1962.76 armed=1
+GAP_REQUEST t=1965.22 ptr=0x78d12c1c0 stream=1 wanted=84449895 sent=84551735 maxStream=84551735 app=130548
+SOCKET_DIAG t=1971.16 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1971.16 armed=1
+SOCKET_DIAG t=1972.76 ptr=0x1097fee80 state=4 app=43987 txAvail=87085 inflight=38320 cwnd=39900 maxData=85764675 rtoCount=0 tlpCount=0 alarm= alarmAt=1972.77 armed=1
+GAP_REQUEST t=1975.38 ptr=0x78d12c1c0 stream=1 wanted=85874983 sent=86004571 maxStream=86004571 app=130056
+APP_DIAG t=1980 delivered=2335 raw=406177572 last=1930.77 active=4345 frame=6820080/14991327 queue=59 queueBytes=702669 packets=327225 tx0=76331
+SOCKET_DIAG t=1981.16 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=1981.16 armed=1
+SOCKET_DIAG t=1982.8 ptr=0x1097fee80 state=4 app=72379 txAvail=58693 inflight=29470 cwnd=59060 maxData=87054531 rtoCount=0 tlpCount=0 alarm= alarmAt=1982.8 armed=1
+GAP_REQUEST t=1986.23 ptr=0x78d12c1c0 stream=1 wanted=87291387 sent=87408183 maxStream=87408183 app=131004
+SOCKET_DIAG t=1991.16 ptr=0x790208000 state=4 app=5 txAvail=131067 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=1991.35 armed=1
+SOCKET_DIAG t=1992.81 ptr=0x1097fee80 state=4 app=54051 txAvail=77021 inflight=29455 cwnd=44145 maxData=88385275 rtoCount=0 tlpCount=0 alarm= alarmAt=1992.82 armed=1
+GAP_REQUEST t=1996.23 ptr=0x78d12c1c0 stream=1 wanted=88593447 sent=88711347 maxStream=88711347 app=131040
+SOCKET_DIAG t=2001.17 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2001.32 armed=1
+SOCKET_DIAG t=2002.82 ptr=0x1097fee80 state=4 app=57635 txAvail=73437 inflight=4425 cwnd=62318 maxData=89475583 rtoCount=0 tlpCount=0 alarm= alarmAt=2002.99 armed=1
+GAP_REQUEST t=2006.26 ptr=0x78d12c1c0 stream=1 wanted=89817575 sent=89928859 maxStream=89928859 app=129848
+APP_DIAG t=2010 delivered=2335 raw=406177572 last=1930.77 active=4345 frame=10402432/14991327 queue=95 queueBytes=1.27488e+06 packets=339440 tx0=68278
+SOCKET_DIAG t=2011.18 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=1461 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2011.36 armed=1
+SOCKET_DIAG t=2012.93 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=5831 cwnd=57053 maxData=90583407 rtoCount=0 tlpCount=0 alarm= alarmAt=2013.12 armed=1
+GAP_REQUEST t=2017.93 ptr=0x78d12c1c0 stream=1 wanted=90748702 sent=90908974 maxStream=90908974 app=130029
+SOCKET_DIAG t=2021.29 ptr=0x790208000 state=4 app=11 txAvail=131061 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2021.43 armed=1
+SOCKET_DIAG t=2022.93 ptr=0x1097fee80 state=4 app=5543 txAvail=125529 inflight=42583 cwnd=49943 maxData=91524743 rtoCount=0 tlpCount=0 alarm= alarmAt=2022.93 armed=1
+GAP_REQUEST t=2028.24 ptr=0x78d12c1c0 stream=1 wanted=91927187 sent=92049483 maxStream=92049483 app=130544
+SOCKET_DIAG t=2031.29 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2031.29 armed=0
+SOCKET_DIAG t=2032.94 ptr=0x1097fee80 state=4 app=15 txAvail=131057 inflight=33555 cwnd=40885 maxData=92710135 rtoCount=0 tlpCount=0 alarm= alarmAt=2032.95 armed=1
+GAP_REQUEST t=2038.24 ptr=0x78d12c1c0 stream=1 wanted=93104859 sent=93215631 maxStream=93215631 app=130036
+APP_DIAG t=2040 delivered=2335 raw=406177572 last=1930.77 active=4345 frame=13583688/14991327 queue=134 queueBytes=7.98125e+06 packets=350670 tx0=19818
+SOCKET_DIAG t=2041.33 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2041.48 armed=1
+SOCKET_DIAG t=2042.95 ptr=0x1097fee80 state=4 app=20620 txAvail=110452 inflight=54140 cwnd=61942 maxData=93831423 rtoCount=0 tlpCount=0 alarm= alarmAt=2043.2 armed=1
+GAP_REQUEST t=2048.24 ptr=0x78d12c1c0 stream=1 wanted=94184083 sent=94288875 maxStream=94288875 app=129760
+SOCKET_DIAG t=2051.34 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2051.53 armed=1
+SOCKET_DIAG t=2052.96 ptr=0x1097fee80 state=4 app=51752 txAvail=79320 inflight=28638 cwnd=31528 maxData=94826823 rtoCount=0 tlpCount=0 alarm= alarmAt=2052.94 armed=0
+GAP_REQUEST t=2058.24 ptr=0x78d12c1c0 stream=1 wanted=95228147 sent=95338763 maxStream=95338763 app=130435
+SOCKET_DIAG t=2061.35 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2061.57 armed=1
+SOCKET_DIAG t=2062.96 ptr=0x1097fee80 state=4 app=17653 txAvail=113419 inflight=34644 cwnd=45695 maxData=96023635 rtoCount=0 tlpCount=0 alarm= alarmAt=2062.97 armed=1
+GAP_REQUEST t=2068.24 ptr=0x78d12c1c0 stream=1 wanted=96397439 sent=96501273 maxStream=96501273 app=130831
+APP_DIAG t=2070 delivered=2474 raw=514676170 last=2068.3 active=4349 frame=396752/582582 queue=33 queueBytes=7.15174e+06 packets=362550 tx0=131072
+SOCKET_DIAG t=2071.35 ptr=0x790208000 state=4 app=5 txAvail=131067 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2071.54 armed=1
+SOCKET_DIAG t=2072.97 ptr=0x1097fee80 state=4 app=54542 txAvail=76530 inflight=35232 cwnd=47808 maxData=97105258 rtoCount=0 tlpCount=0 alarm= alarmAt=2073.18 armed=1
+GAP_REQUEST t=2078.25 ptr=0x78d12c1c0 stream=1 wanted=97380494 sent=97479886 maxStream=97479886 app=130455
+SOCKET_DIAG t=2081.36 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2081.55 armed=1
+SOCKET_DIAG t=2082.98 ptr=0x1097fee80 state=4 app=71619 txAvail=59453 inflight=32465 cwnd=69230 maxData=98109986 rtoCount=0 tlpCount=0 alarm= alarmAt=2082.98 armed=1
+GAP_REQUEST t=2089.26 ptr=0x78d12c1c0 stream=1 wanted=98512930 sent=98608682 maxStream=98608682 app=130762
+SOCKET_DIAG t=2091.37 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2091.54 armed=1
+SOCKET_DIAG t=2093.01 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=11422 cwnd=23586 maxData=98874082 rtoCount=0 tlpCount=0 alarm= alarmAt=2093.18 armed=1
+GAP_REQUEST t=2099.85 ptr=0x78d12c1c0 stream=1 wanted=99480086 sent=99640678 maxStream=99640678 app=129742
+APP_DIAG t=2100 delivered=2495 raw=525119521 last=2087.97 active=4346 frame=1352432/4984460 queue=49 queueBytes=3.60858e+06 packets=373408 tx0=123858
+SOCKET_DIAG t=2101.37 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2101.38 armed=1
+SOCKET_DIAG t=2103.02 ptr=0x1097fee80 state=4 app=34918 txAvail=96154 inflight=32420 cwnd=54545 maxData=100144834 rtoCount=0 tlpCount=0 alarm= alarmAt=2103.2 armed=1
+GAP_REQUEST t=2110.24 ptr=0x78d12c1c0 stream=1 wanted=100821582 sent=100904770 maxStream=100904770 app=129754
+SOCKET_DIAG t=2111.38 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=1460 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2111.57 armed=1
+SOCKET_DIAG t=2113.07 ptr=0x1097fee80 state=4 app=15 txAvail=131057 inflight=2935 cwnd=71722 maxData=101154114 rtoCount=0 tlpCount=0 alarm= alarmAt=2113.08 armed=1
+GAP_REQUEST t=2120.56 ptr=0x78d12c1c0 stream=1 wanted=101822534 sent=101975258 maxStream=101975258 app=130786
+SOCKET_DIAG t=2121.38 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2121.56 armed=1
+SOCKET_DIAG t=2123.08 ptr=0x1097fee80 state=4 app=30194 txAvail=100878 inflight=43103 cwnd=61830 maxData=102389242 rtoCount=0 tlpCount=0 alarm= alarmAt=2123.09 armed=1
+APP_DIAG t=2130 delivered=2495 raw=525119521 last=2087.97 active=4346 frame=4733512/4984460 queue=86 queueBytes=5.26799e+06 packets=385155 tx0=75587
+SOCKET_DIAG t=2131.38 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2131.52 armed=1
+GAP_REQUEST t=2132.14 ptr=0x78d12c1c0 stream=1 wanted=103056669 sent=103290453 maxStream=103290453 app=130111
+SOCKET_DIAG t=2133.09 ptr=0x1097fee80 state=4 app=31843 txAvail=99229 inflight=33827 cwnd=38759 maxData=103577917 rtoCount=0 tlpCount=0 alarm= alarmAt=2133.25 armed=1
+SOCKET_DIAG t=2141.39 ptr=0x790208000 state=4 app=5 txAvail=131067 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2141.5 armed=1
+GAP_REQUEST t=2142.31 ptr=0x78d12c1c0 stream=1 wanted=104308837 sent=104430077 maxStream=104430077 app=130891
+SOCKET_DIAG t=2143.09 ptr=0x1097fee80 state=4 app=61163 txAvail=69909 inflight=25916 cwnd=49468 maxData=104661441 rtoCount=0 tlpCount=0 alarm= alarmAt=2143.26 armed=1
+SOCKET_DIAG t=2151.39 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2151.39 armed=1
+GAP_REQUEST t=2152.43 ptr=0x78d12c1c0 stream=1 wanted=105656277 sent=105801253 maxStream=105801253 app=130908
+SOCKET_DIAG t=2153.09 ptr=0x1097fee80 state=4 app=2035 txAvail=129037 inflight=45838 cwnd=53385 maxData=105960009 rtoCount=0 tlpCount=0 alarm= alarmAt=2153.3 armed=1
+APP_DIAG t=2160 delivered=2560 raw=547199633 last=2149.47 active=4351 frame=1624656/2308658 queue=58 queueBytes=1.53255e+06 packets=397919 tx0=103129
+SOCKET_DIAG t=2161.39 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2161.58 armed=1
+SOCKET_DIAG t=2163.11 ptr=0x1097fee80 state=4 app=43022 txAvail=88050 inflight=37005 cwnd=47255 maxData=107383892 rtoCount=0 tlpCount=0 alarm= alarmAt=2163.11 armed=1
+GAP_REQUEST t=2163.58 ptr=0x78d12c1c0 stream=1 wanted=107139980 sent=107289780 maxStream=107289780 app=130925
+SOCKET_DIAG t=2171.4 ptr=0x790208000 state=4 app=11 txAvail=131061 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2171.58 armed=1
+SOCKET_DIAG t=2173.12 ptr=0x1097fee80 state=4 app=27257 txAvail=103815 inflight=38305 cwnd=50853 maxData=108775696 rtoCount=0 tlpCount=0 alarm= alarmAt=2173.32 armed=1
+GAP_REQUEST t=2174.22 ptr=0x78d12c1c0 stream=1 wanted=108642444 sent=108761796 maxStream=108761796 app=130854
+SOCKET_DIAG t=2181.43 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2181.52 armed=1
+SOCKET_DIAG t=2183.12 ptr=0x1097fee80 state=4 app=1419 txAvail=129653 inflight=7375 cwnd=56108 maxData=109734536 rtoCount=0 tlpCount=2 alarm= alarmAt=2183.31 armed=1
+GAP_REQUEST t=2185.22 ptr=0x78d12c1c0 stream=1 wanted=109499918 sent=109528634 maxStream=109630982 app=0
+APP_DIAG t=2190 delivered=2654 raw=568002955 last=2188.37 active=-1 frame=8506/0 queue=0 queueBytes=0 packets=407528 tx0=131072
+SOCKET_DIAG t=2191.45 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2191.52 armed=1
+SOCKET_DIAG t=2193.15 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=58709 maxData=109876401 rtoCount=0 tlpCount=1 alarm= alarmAt=2192.88 armed=0
+GAP_REQUEST t=2195.22 ptr=0x78d12c1c0 stream=1 wanted=109636180 sent=109677590 maxStream=109766215 app=0
+SOCKET_DIAG t=2201.46 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2201.6 armed=1
+SOCKET_DIAG t=2203.2 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=41083 maxData=110033856 rtoCount=0 tlpCount=2 alarm= alarmAt=2203.27 armed=1
+GAP_REQUEST t=2205.22 ptr=0x78d12c1c0 stream=1 wanted=109783911 sent=109825392 maxStream=109913629 app=0
+SOCKET_DIAG t=2211.49 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2211.58 armed=1
+SOCKET_DIAG t=2213.22 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=34474 maxData=110201149 rtoCount=0 tlpCount=2 alarm= alarmAt=2213.06 armed=0
+GAP_REQUEST t=2215.22 ptr=0x78d12c1c0 stream=1 wanted=109950645 sent=109993587 maxStream=110080572 app=0
+APP_DIAG t=2220 delivered=2692 raw=569773914 last=2219.78 active=-1 frame=8508/0 queue=0 queueBytes=0 packets=409833 tx0=131072
+SOCKET_DIAG t=2221.58 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2221.43 armed=0
+SOCKET_DIAG t=2223.23 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=42971 maxData=110357925 rtoCount=0 tlpCount=2 alarm= alarmAt=2223.37 armed=1
+GAP_REQUEST t=2225.23 ptr=0x78d12c1c0 stream=1 wanted=110108796 sent=110140582 maxStream=110239868 app=0
+SOCKET_DIAG t=2231.59 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2231.73 armed=1
+SOCKET_DIAG t=2233.23 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=19623 maxData=110504931 rtoCount=0 tlpCount=2 alarm= alarmAt=2233.4 armed=1
+GAP_REQUEST t=2235.23 ptr=0x78d12c1c0 stream=1 wanted=110251994 sent=110287756 maxStream=110383058 app=0
+SOCKET_DIAG t=2241.6 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2241.77 armed=1
+SOCKET_DIAG t=2243.23 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=24855 maxData=110652256 rtoCount=0 tlpCount=0 alarm= alarmAt=2243.35 armed=1
+GAP_REQUEST t=2245.23 ptr=0x78d12c1c0 stream=1 wanted=110390892 sent=110434878 maxStream=110521964 app=0
+APP_DIAG t=2250 delivered=2728 raw=571519711 last=2249.89 active=-1 frame=8171/0 queue=0 queueBytes=0 packets=412085 tx0=131072
+SOCKET_DIAG t=2251.65 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=2251.59 armed=0
+SOCKET_DIAG t=2253.24 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=21945 maxData=110798635 rtoCount=0 tlpCount=2 alarm= alarmAt=2253.34 armed=1
+GAP_REQUEST t=2256.24 ptr=0x78d12c1c0 stream=1 wanted=110585095 sent=110588863 maxStream=110713859 app=0
+SOCKET_DIAG t=2261.69 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2261.83 armed=1
+SOCKET_DIAG t=2263.24 ptr=0x1097fee80 state=4 app=1460 txAvail=129612 inflight=1436 cwnd=23360 maxData=110931828 rtoCount=0 tlpCount=0 alarm= alarmAt=2263.44 armed=1
+GAP_REQUEST t=2266.29 ptr=0x78d12c1c0 stream=1 wanted=110732600 sent=110736437 maxStream=110859843 app=0
+SOCKET_DIAG t=2271.7 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2271.84 armed=1
+SOCKET_DIAG t=2273.28 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=2582 cwnd=23557 maxData=111084591 rtoCount=0 tlpCount=0 alarm= alarmAt=2273.08 armed=0
+GAP_REQUEST t=2277.24 ptr=0x78d12c1c0 stream=1 wanted=110860347 sent=110892844 maxStream=110982667 app=0
+APP_DIAG t=2280 delivered=2763 raw=573259624 last=2279.09 active=-1 frame=8316/0 queue=0 queueBytes=0 packets=414427 tx0=130033
+SOCKET_DIAG t=2281.81 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2281.85 armed=1
+SOCKET_DIAG t=2283.41 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=15 cwnd=27830 maxData=111226703 rtoCount=0 tlpCount=0 alarm= alarmAt=2283.43 armed=1
+GAP_REQUEST t=2287.25 ptr=0x78d12c1c0 stream=1 wanted=111030565 sent=111040164 maxStream=111161637 app=0
+SOCKET_DIAG t=2291.84 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2292.01 armed=1
+SOCKET_DIAG t=2293.49 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=4160 cwnd=25372 maxData=111383026 rtoCount=0 tlpCount=0 alarm= alarmAt=2293.55 armed=1
+GAP_REQUEST t=2297.34 ptr=0x78d12c1c0 stream=1 wanted=111185047 sent=111191933 maxStream=111316119 app=0
+SOCKET_DIAG t=2301.85 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2301.98 armed=1
+SOCKET_DIAG t=2303.57 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1460 cwnd=27825 maxData=111397983 rtoCount=0 tlpCount=0 alarm= alarmAt=2303.67 armed=1
+GAP_REQUEST t=2308.25 ptr=0x78d12c1c0 stream=1 wanted=111337630 sent=111346919 maxStream=111468702 app=0
+APP_DIAG t=2310 delivered=2800 raw=575006848 last=2309.82 active=-1 frame=8383/0 queue=0 queueBytes=0 packets=416700 tx0=131072
+SOCKET_DIAG t=2312.08 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=1 tlpCount=2 alarm= alarmAt=2312.24 armed=1
+SOCKET_DIAG t=2313.65 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=2896 cwnd=29252 maxData=111539511 rtoCount=0 tlpCount=0 alarm= alarmAt=2313.55 armed=0
+GAP_REQUEST t=2318.45 ptr=0x78d12c1c0 stream=1 wanted=111468929 sent=111493548 maxStream=111616561 app=0
+SOCKET_DIAG t=2322.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2322.26 armed=1
+SOCKET_DIAG t=2323.65 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=3981 cwnd=5471 maxData=111824107 rtoCount=0 tlpCount=0 alarm= alarmAt=2323.66 armed=1
+GAP_REQUEST t=2329.24 ptr=0x78d12c1c0 stream=1 wanted=111639183 sent=111639183 maxStream=111755000 app=0
+SOCKET_DIAG t=2332.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2332.19 armed=1
+SOCKET_DIAG t=2333.66 ptr=0x1097fee80 state=4 app=1163 txAvail=129909 inflight=7360 cwnd=24930 maxData=111825251 rtoCount=0 tlpCount=2 alarm= alarmAt=2333.83 armed=1
+GAP_REQUEST t=2339.24 ptr=0x78d12c1c0 stream=1 wanted=111785284 sent=111785284 maxStream=111916356 app=0
+APP_DIAG t=2340 delivered=2835 raw=576747309 last=2338.91 active=-1 frame=8338/0 queue=0 queueBytes=0 packets=418988 tx0=131072
+SOCKET_DIAG t=2342.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2342.33 armed=1
+SOCKET_DIAG t=2343.67 ptr=0x1097fee80 state=4 app=5627 txAvail=125445 inflight=2935 cwnd=24683 maxData=112115801 rtoCount=0 tlpCount=0 alarm= alarmAt=2343.81 armed=1
+GAP_REQUEST t=2350.89 ptr=0x78d12c1c0 stream=1 wanted=111933544 sent=111981061 maxStream=112103453 app=0
+SOCKET_DIAG t=2352.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2352.3 armed=1
+SOCKET_DIAG t=2353.67 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=27128 maxData=112263258 rtoCount=0 tlpCount=0 alarm= alarmAt=2353.81 armed=1
+GAP_REQUEST t=2361.34 ptr=0x78d12c1c0 stream=1 wanted=112129022 sent=112129022 maxStream=112260094 app=0
+SOCKET_DIAG t=2362.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2362.27 armed=1
+SOCKET_DIAG t=2363.8 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=29927 maxData=112274536 rtoCount=0 tlpCount=0 alarm= alarmAt=2363.81 armed=1
+APP_DIAG t=2370 delivered=2871 raw=578493280 last=2369.31 active=-1 frame=8062/0 queue=0 queueBytes=0 packets=421245 tx0=131072
+SOCKET_DIAG t=2372.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=2372.14 armed=0
+GAP_REQUEST t=2372.22 ptr=0x78d12c1c0 stream=1 wanted=112279475 sent=112283226 maxStream=112410547 app=0
+SOCKET_DIAG t=2373.89 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=30126 maxData=112546335 rtoCount=0 tlpCount=2 alarm= alarmAt=2373.97 armed=1
+SOCKET_DIAG t=2382.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2382.33 armed=1
+GAP_REQUEST t=2382.22 ptr=0x78d12c1c0 stream=1 wanted=112427488 sent=112430031 maxStream=112557108 app=0
+SOCKET_DIAG t=2384 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1460 cwnd=31825 maxData=112691892 rtoCount=0 tlpCount=1 alarm= alarmAt=2383.41 armed=0
+SOCKET_DIAG t=2392.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2392.33 armed=1
+GAP_REQUEST t=2393.22 ptr=0x78d12c1c0 stream=1 wanted=112574316 sent=112585423 maxStream=112704227 app=0
+SOCKET_DIAG t=2394.09 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=36918 maxData=112851167 rtoCount=1 tlpCount=2 alarm= alarmAt=2394.29 armed=1
+APP_DIAG t=2400 delivered=2906 raw=580233403 last=2399.45 active=-1 frame=8294/0 queue=0 queueBytes=0 packets=423414 tx0=131072
+SOCKET_DIAG t=2402.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2402.3 armed=1
+GAP_REQUEST t=2403.22 ptr=0x78d12c1c0 stream=1 wanted=112723399 sent=112723399 maxStream=112854471 app=0
+SOCKET_DIAG t=2404.22 ptr=0x1097fee80 state=4 app=15 txAvail=131057 inflight=15 cwnd=35558 maxData=112995699 rtoCount=0 tlpCount=2 alarm= alarmAt=2404.29 armed=1
+SOCKET_DIAG t=2412.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2412.24 armed=1
+GAP_REQUEST t=2413.22 ptr=0x78d12c1c0 stream=1 wanted=112870265 sent=112870265 maxStream=113001337 app=0
+SOCKET_DIAG t=2414.23 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=31650 maxData=113144424 rtoCount=0 tlpCount=2 alarm= alarmAt=2414.7 armed=1
+SOCKET_DIAG t=2422.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2422.18 armed=1
+GAP_REQUEST t=2423.22 ptr=0x78d12c1c0 stream=1 wanted=113018475 sent=113022790 maxStream=113148087 app=0
+SOCKET_DIAG t=2424.41 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1460 cwnd=36432 maxData=113293462 rtoCount=0 tlpCount=0 alarm= alarmAt=2424.38 armed=0
+APP_DIAG t=2430 delivered=2944 raw=581987121 last=2429.91 active=-1 frame=8384/0 queue=0 queueBytes=0 packets=425629 tx0=131072
+SOCKET_DIAG t=2432.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=2432.1 armed=0
+GAP_REQUEST t=2433.23 ptr=0x78d12c1c0 stream=1 wanted=113169009 sent=113170039 maxStream=113299059 app=0
+SOCKET_DIAG t=2434.42 ptr=0x1097fee80 state=4 app=1460 txAvail=129612 inflight=1436 cwnd=27739 maxData=113440389 rtoCount=0 tlpCount=0 alarm= alarmAt=2434.43 armed=1
+SOCKET_DIAG t=2442.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2442.22 armed=1
+GAP_REQUEST t=2443.23 ptr=0x78d12c1c0 stream=1 wanted=113308561 sent=113316921 maxStream=113432725 app=0
+SOCKET_DIAG t=2444.44 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=27959 maxData=113591057 rtoCount=0 tlpCount=2 alarm= alarmAt=2444.59 armed=1
+SOCKET_DIAG t=2452.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2452.3 armed=1
+GAP_REQUEST t=2453.23 ptr=0x78d12c1c0 stream=1 wanted=113461198 sent=113463610 maxStream=113592270 app=0
+SOCKET_DIAG t=2454.46 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=24509 maxData=113738044 rtoCount=0 tlpCount=0 alarm= alarmAt=2454.58 armed=1
+APP_DIAG t=2460 delivered=2980 raw=583727998 last=2459.4 active=-1 frame=8498/0 queue=0 queueBytes=0 packets=427767 tx0=131072
+SOCKET_DIAG t=2462.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=2462.23 armed=1
+GAP_REQUEST t=2463.24 ptr=0x78d12c1c0 stream=1 wanted=113589051 sent=113613425 maxStream=113711620 app=0
+SOCKET_DIAG t=2464.56 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1331 cwnd=20846 maxData=113883549 rtoCount=0 tlpCount=0 alarm= alarmAt=2464.62 armed=1
+SOCKET_DIAG t=2472.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2472.3 armed=1
+GAP_REQUEST t=2474.24 ptr=0x78d12c1c0 stream=1 wanted=113756537 sent=113770642 maxStream=113886327 app=0
+SOCKET_DIAG t=2474.7 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1460 cwnd=22823 maxData=113889160 rtoCount=0 tlpCount=0 alarm= alarmAt=2474.71 armed=1
+SOCKET_DIAG t=2482.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2482.34 armed=1
+GAP_REQUEST t=2484.24 ptr=0x78d12c1c0 stream=1 wanted=113911080 sent=113919638 maxStream=114042152 app=0
+SOCKET_DIAG t=2484.92 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=15 cwnd=36609 maxData=114176824 rtoCount=1 tlpCount=2 alarm= alarmAt=2485.09 armed=1
+APP_DIAG t=2490 delivered=3015 raw=585467783 last=2489.19 active=-1 frame=8409/0 queue=0 queueBytes=0 packets=429967 tx0=131072
+SOCKET_DIAG t=2492.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2492.69 armed=1
+GAP_REQUEST t=2494.25 ptr=0x78d12c1c0 stream=1 wanted=114055850 sent=114068258 maxStream=114184263 app=0
+SOCKET_DIAG t=2495.01 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1475 cwnd=29079 maxData=114314563 rtoCount=1 tlpCount=2 alarm= alarmAt=2495.17 armed=1
+SOCKET_DIAG t=2502.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2502.2 armed=1
+GAP_REQUEST t=2504.25 ptr=0x78d12c1c0 stream=1 wanted=114205951 sent=114208633 maxStream=114337023 app=0
+SOCKET_DIAG t=2505.01 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=4410 cwnd=23364 maxData=114471695 rtoCount=0 tlpCount=1 alarm= alarmAt=2505 armed=0
+SOCKET_DIAG t=2512.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2512.27 armed=1
+GAP_REQUEST t=2514.25 ptr=0x78d12c1c0 stream=1 wanted=114350846 sent=114357934 maxStream=114480458 app=0
+SOCKET_DIAG t=2515.01 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=15 cwnd=27882 maxData=114610954 rtoCount=0 tlpCount=0 alarm= alarmAt=2515.19 armed=1
+APP_DIAG t=2520 delivered=3052 raw=587220614 last=2519.89 active=-1 frame=8596/0 queue=0 queueBytes=0 packets=432211 tx0=131072
+SOCKET_DIAG t=2522.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=2522.22 armed=1
+GAP_REQUEST t=2524.25 ptr=0x78d12c1c0 stream=1 wanted=114507554 sent=114507554 maxStream=114638626 app=0
+SOCKET_DIAG t=2525.01 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=2719 cwnd=10109 maxData=114773298 rtoCount=0 tlpCount=2 alarm= alarmAt=2524.84 armed=0
+SOCKET_DIAG t=2532.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2532.27 armed=1
+GAP_REQUEST t=2534.25 ptr=0x78d12c1c0 stream=1 wanted=114645551 sent=114656741 maxStream=114774074 app=0
+SOCKET_DIAG t=2535.01 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=2920 cwnd=23457 maxData=114774074 rtoCount=0 tlpCount=0 alarm= alarmAt=2535.2 armed=1
+SOCKET_DIAG t=2542.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2542.27 armed=1
+SOCKET_DIAG t=2545.01 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=7269 cwnd=26430 maxData=115071950 rtoCount=0 tlpCount=2 alarm= alarmAt=2544.99 armed=0
+GAP_REQUEST t=2545.25 ptr=0x78d12c1c0 stream=1 wanted=114807666 sent=114851305 maxStream=114938738 app=0
+APP_DIAG t=2550 delivered=3088 raw=588961376 last=2549.38 active=-1 frame=8625/0 queue=0 queueBytes=0 packets=434590 tx0=131072
+SOCKET_DIAG t=2552.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=2552.27 armed=1
+SOCKET_DIAG t=2555.01 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=8647 cwnd=28233 maxData=115225911 rtoCount=0 tlpCount=0 alarm= alarmAt=2555.19 armed=1
+GAP_REQUEST t=2555.3 ptr=0x78d12c1c0 stream=1 wanted=114950122 sent=115000517 maxStream=115092691 app=0
+SOCKET_DIAG t=2562.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=2562.33 armed=1
+SOCKET_DIAG t=2565.01 ptr=0x1097fee80 state=4 app=5865 txAvail=125207 inflight=7278 cwnd=21321 maxData=115346051 rtoCount=0 tlpCount=0 alarm= alarmAt=2565.2 armed=1
+GAP_REQUEST t=2566.25 ptr=0x78d12c1c0 stream=1 wanted=115138391 sent=115158231 maxStream=115263615 app=0
+SOCKET_DIAG t=2572.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2572.33 armed=1
+SOCKET_DIAG t=2575.01 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1460 cwnd=22760 maxData=115514788 rtoCount=0 tlpCount=0 alarm= alarmAt=2575.13 armed=1
+GAP_REQUEST t=2576.25 ptr=0x78d12c1c0 stream=1 wanted=115272105 sent=115307767 maxStream=115391497 app=0
+APP_DIAG t=2580 delivered=3124 raw=590707646 last=2579.63 active=-1 frame=8400/0 queue=0 queueBytes=0 packets=436925 tx0=131072
+SOCKET_DIAG t=2582.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2582.3 armed=1
+SOCKET_DIAG t=2585.01 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=22776 maxData=115672691 rtoCount=0 tlpCount=0 alarm= alarmAt=2585.19 armed=1
+GAP_REQUEST t=2588.24 ptr=0x78d12c1c0 stream=1 wanted=115461864 sent=115473233 maxStream=115591779 app=0
+SOCKET_DIAG t=2592.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=1 tlpCount=2 alarm= alarmAt=2592.48 armed=1
+SOCKET_DIAG t=2595.01 ptr=0x1097fee80 state=4 app=20001 txAvail=111071 inflight=14540 cwnd=17550 maxData=115740661 rtoCount=0 tlpCount=0 alarm= alarmAt=2595.02 armed=1
+GAP_REQUEST t=2598.24 ptr=0x78d12c1c0 stream=1 wanted=115609945 sent=115614178 maxStream=115739688 app=0
+SOCKET_DIAG t=2602.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2602.23 armed=1
+SOCKET_DIAG t=2605.01 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1475 cwnd=28131 maxData=115958708 rtoCount=0 tlpCount=2 alarm= alarmAt=2605.06 armed=1
+GAP_REQUEST t=2608.24 ptr=0x78d12c1c0 stream=1 wanted=115749760 sent=115762009 maxStream=115879396 app=0
+APP_DIAG t=2610 delivered=3159 raw=592446954 last=2609.35 active=-1 frame=8596/0 queue=0 queueBytes=0 packets=439334 tx0=131072
+SOCKET_DIAG t=2612.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2612.31 armed=1
+SOCKET_DIAG t=2615.01 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=923 cwnd=27960 maxData=116117479 rtoCount=0 tlpCount=0 alarm= alarmAt=2615.2 armed=1
+GAP_REQUEST t=2618.25 ptr=0x78d12c1c0 stream=1 wanted=115909678 sent=115909678 maxStream=116040750 app=0
+SOCKET_DIAG t=2622.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2622.33 armed=1
+SOCKET_DIAG t=2625.01 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=26458 maxData=116114801 rtoCount=0 tlpCount=0 alarm= alarmAt=2625.02 armed=1
+GAP_REQUEST t=2629.25 ptr=0x78d12c1c0 stream=1 wanted=116065564 sent=116065564 maxStream=116196636 app=0
+SOCKET_DIAG t=2632.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2632.31 armed=1
+SOCKET_DIAG t=2635.01 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=3827 cwnd=30866 maxData=116395500 rtoCount=0 tlpCount=2 alarm= alarmAt=2634.94 armed=0
+APP_DIAG t=2640 delivered=3191 raw=594166624 last=2636.26 active=4354 frame=535760/14991327 queue=5 queueBytes=42123 packets=442707 tx0=119129
+GAP_REQUEST t=2640.24 ptr=0x78d12c1c0 stream=1 wanted=116477685 sent=116583921 maxStream=116583921 app=130890
+SOCKET_DIAG t=2642.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2642.33 armed=1
+SOCKET_DIAG t=2645.03 ptr=0x1097fee80 state=4 app=39134 txAvail=91938 inflight=31578 cwnd=39915 maxData=117160285 rtoCount=0 tlpCount=0 alarm= alarmAt=2645.23 armed=1
+GAP_REQUEST t=2650.24 ptr=0x78d12c1c0 stream=1 wanted=117566153 sent=117688449 maxStream=117688449 app=129738
+SOCKET_DIAG t=2652.15 ptr=0x790208000 state=4 app=11 txAvail=131061 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2652.35 armed=1
+SOCKET_DIAG t=2655.03 ptr=0x1097fee80 state=4 app=35543 txAvail=95529 inflight=29500 cwnd=61040 maxData=118059581 rtoCount=0 tlpCount=0 alarm= alarmAt=2655.23 armed=1
+GAP_REQUEST t=2660.24 ptr=0x78d12c1c0 stream=1 wanted=118597953 sent=118704777 maxStream=118704777 app=129906
+SOCKET_DIAG t=2662.15 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=12 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2662.35 armed=1
+SOCKET_DIAG t=2665.07 ptr=0x1097fee80 state=4 app=35727 txAvail=95345 inflight=33850 cwnd=38178 maxData=119298169 rtoCount=0 tlpCount=0 alarm= alarmAt=2665.27 armed=1
+APP_DIAG t=2670 delivered=3191 raw=594166624 last=2636.26 active=4354 frame=3653304/14991327 queue=41 queueBytes=482644 packets=453682 tx0=78773
+GAP_REQUEST t=2670.24 ptr=0x78d12c1c0 stream=1 wanted=119597977 sent=119714409 maxStream=119714409 app=130978
+SOCKET_DIAG t=2672.16 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2672.35 armed=1
+SOCKET_DIAG t=2675.08 ptr=0x1097fee80 state=4 app=21303 txAvail=109769 inflight=41225 cwnd=64852 maxData=120339605 rtoCount=0 tlpCount=0 alarm= alarmAt=2675.08 armed=1
+GAP_REQUEST t=2680.24 ptr=0x78d12c1c0 stream=1 wanted=120566969 sent=120671761 maxStream=120671761 app=130754
+SOCKET_DIAG t=2682.16 ptr=0x790208000 state=4 app=5 txAvail=131067 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=2682.18 armed=1
+SOCKET_DIAG t=2685.09 ptr=0x1097fee80 state=4 app=62542 txAvail=68530 inflight=29715 cwnd=54453 maxData=121283253 rtoCount=0 tlpCount=0 alarm= alarmAt=2685.1 armed=1
+GAP_REQUEST t=2691.24 ptr=0x78d12c1c0 stream=1 wanted=121627437 sent=121751225 maxStream=121751225 app=130050
+SOCKET_DIAG t=2692.17 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2692.35 armed=1
+SOCKET_DIAG t=2695.09 ptr=0x1097fee80 state=4 app=23731 txAvail=107341 inflight=32358 cwnd=47133 maxData=122107097 rtoCount=0 tlpCount=0 alarm= alarmAt=2695.29 armed=1
+APP_DIAG t=2700 delivered=3191 raw=594166624 last=2636.26 active=4354 frame=6542064/14991327 queue=77 queueBytes=921039 packets=464317 tx0=52982
+GAP_REQUEST t=2701.25 ptr=0x78d12c1c0 stream=1 wanted=122581237 sent=122694049 maxStream=122694049 app=129874
+SOCKET_DIAG t=2702.17 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=1460 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2702.17 armed=1
+SOCKET_DIAG t=2705.1 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=4440 cwnd=66687 maxData=123191045 rtoCount=0 tlpCount=0 alarm= alarmAt=2705.28 armed=1
+SOCKET_DIAG t=2712.17 ptr=0x790208000 state=4 app=11 txAvail=131061 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2712.37 armed=1
+GAP_REQUEST t=2712.38 ptr=0x78d12c1c0 stream=1 wanted=123781349 sent=123899273 maxStream=123899273 app=130834
+SOCKET_DIAG t=2715.15 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=2896 cwnd=61503 maxData=123966645 rtoCount=1 tlpCount=2 alarm= alarmAt=2715.31 armed=1
+SOCKET_DIAG t=2722.17 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2722.35 armed=1
+GAP_REQUEST t=2723.24 ptr=0x78d12c1c0 stream=1 wanted=124362313 sent=124472801 maxStream=124472801 app=130714
+SOCKET_DIAG t=2725.16 ptr=0x1097fee80 state=4 app=25034 txAvail=106038 inflight=45650 cwnd=74583 maxData=124829985 rtoCount=0 tlpCount=0 alarm= alarmAt=2725.17 armed=1
+APP_DIAG t=2730 delivered=3191 raw=594166624 last=2636.26 active=4354 frame=9244032/14991327 queue=115 queueBytes=6.48497e+06 packets=474202 tx0=75242
+SOCKET_DIAG t=2732.18 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2732.38 armed=1
+GAP_REQUEST t=2734.66 ptr=0x78d12c1c0 stream=1 wanted=125644461 sent=125794673 maxStream=125794673 app=130866
+SOCKET_DIAG t=2735.16 ptr=0x1097fee80 state=4 app=8861 txAvail=122211 inflight=34282 cwnd=55744 maxData=125914133 rtoCount=0 tlpCount=0 alarm= alarmAt=2735.17 armed=1
+SOCKET_DIAG t=2742.18 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2742.36 armed=1
+SOCKET_DIAG t=2745.18 ptr=0x1097fee80 state=4 app=99503 txAvail=31569 inflight=29515 cwnd=35370 maxData=127032433 rtoCount=0 tlpCount=0 alarm= alarmAt=2745.19 armed=1
+GAP_REQUEST t=2745.3 ptr=0x78d12c1c0 stream=1 wanted=126904281 sent=127035353 maxStream=127035353 app=129674
+SOCKET_DIAG t=2752.19 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2752.37 armed=1
+SOCKET_DIAG t=2755.21 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=5840 cwnd=62431 maxData=128136336 rtoCount=0 tlpCount=0 alarm= alarmAt=2755.36 armed=1
+GAP_REQUEST t=2756.24 ptr=0x78d12c1c0 stream=1 wanted=128087524 sent=128190390 maxStream=128190390 app=130141
+APP_DIAG t=2760 delivered=3191 raw=594166624 last=2636.26 active=4354 frame=12590360/14991327 queue=154 queueBytes=8.92965e+06 packets=486021 tx0=43400
+SOCKET_DIAG t=2762.21 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2762.35 armed=1
+SOCKET_DIAG t=2765.21 ptr=0x1097fee80 state=4 app=41051 txAvail=90021 inflight=30892 cwnd=53966 maxData=129211262 rtoCount=0 tlpCount=0 alarm= alarmAt=2765.39 armed=1
+GAP_REQUEST t=2766.56 ptr=0x78d12c1c0 stream=1 wanted=129153386 sent=129288462 maxStream=129288462 app=129653
+SOCKET_DIAG t=2772.25 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2772.39 armed=1
+SOCKET_DIAG t=2775.21 ptr=0x1097fee80 state=4 app=6368 txAvail=124704 inflight=36970 cwnd=46762 maxData=130336074 rtoCount=0 tlpCount=0 alarm= alarmAt=2775.42 armed=1
+GAP_REQUEST t=2777.35 ptr=0x78d12c1c0 stream=1 wanted=130394366 sent=130506450 maxStream=130506450 app=130881
+SOCKET_DIAG t=2782.25 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2782.46 armed=1
+SOCKET_DIAG t=2785.21 ptr=0x1097fee80 state=4 app=72059 txAvail=59013 inflight=32011 cwnd=58970 maxData=131576450 rtoCount=0 tlpCount=0 alarm= alarmAt=2785.39 armed=1
+GAP_REQUEST t=2788.24 ptr=0x78d12c1c0 stream=1 wanted=131729754 sent=131829890 maxStream=131829890 app=130080
+APP_DIAG t=2790 delivered=3284 raw=699825977 last=2789.8 active=2779 frame=7240/8435 queue=71 queueBytes=8.39116e+06 packets=498104 tx0=128833
+SOCKET_DIAG t=2792.25 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2792.43 armed=1
+SOCKET_DIAG t=2795.23 ptr=0x1097fee80 state=4 app=50004 txAvail=81068 inflight=30373 cwnd=59786 maxData=132710214 rtoCount=0 tlpCount=0 alarm= alarmAt=2795.24 armed=1
+GAP_REQUEST t=2798.57 ptr=0x78d12c1c0 stream=1 wanted=132964798 sent=133113634 maxStream=133113634 app=130545
+SOCKET_DIAG t=2802.25 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2802.45 armed=1
+SOCKET_DIAG t=2805.23 ptr=0x1097fee80 state=4 app=84775 txAvail=46297 inflight=7345 cwnd=5840 maxData=134058790 rtoCount=0 tlpCount=0 alarm= alarmAt=2805.24 armed=1
+GAP_REQUEST t=2810.02 ptr=0x78d12c1c0 stream=1 wanted=134155618 sent=134484730 maxStream=134484730 app=129744
+SOCKET_DIAG t=2812.28 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=1460 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2812.43 armed=1
+SOCKET_DIAG t=2815.24 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=33437 cwnd=42820 maxData=135181010 rtoCount=0 tlpCount=0 alarm= alarmAt=2815.25 armed=1
+APP_DIAG t=2820 delivered=3376 raw=714647540 last=2814.53 active=4355 frame=863008/4984460 queue=44 queueBytes=3.51103e+06 packets=510721 tx0=96091
+GAP_REQUEST t=2820.23 ptr=0x78d12c1c0 stream=1 wanted=135588442 sent=135696138 maxStream=135696138 app=130970
+SOCKET_DIAG t=2822.28 ptr=0x790208000 state=4 app=10 txAvail=131062 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2822.28 armed=1
+SOCKET_DIAG t=2825.25 ptr=0x1097fee80 state=4 app=43111 txAvail=87961 inflight=34184 cwnd=44386 maxData=136483634 rtoCount=0 tlpCount=0 alarm= alarmAt=2825.26 armed=1
+GAP_REQUEST t=2830.23 ptr=0x78d12c1c0 stream=1 wanted=136855590 sent=136973514 maxStream=136973514 app=130730
+SOCKET_DIAG t=2832.29 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2832.43 armed=1
+SOCKET_DIAG t=2835.27 ptr=0x1097fee80 state=4 app=73087 txAvail=57985 inflight=35286 cwnd=66131 maxData=137534566 rtoCount=0 tlpCount=0 alarm= alarmAt=2835.27 armed=1
+GAP_REQUEST t=2840.23 ptr=0x78d12c1c0 stream=1 wanted=137907794 sent=138008206 maxStream=138008206 app=129910
+SOCKET_DIAG t=2842.29 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=1460 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2842.44 armed=1
+SOCKET_DIAG t=2845.27 ptr=0x1097fee80 state=4 app=47967 txAvail=83105 inflight=42676 cwnd=44550 maxData=138750602 rtoCount=0 tlpCount=0 alarm= alarmAt=2845.28 armed=1
+APP_DIAG t=2850 delivered=3376 raw=714647540 last=2814.53 active=4355 frame=4260016/4984460 queue=81 queueBytes=5.16434e+06 packets=522409 tx0=81497
+GAP_REQUEST t=2851.23 ptr=0x78d12c1c0 stream=1 wanted=139059798 sent=139168946 maxStream=139168946 app=130466
+SOCKET_DIAG t=2852.3 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2852.29 armed=0
+SOCKET_DIAG t=2855.27 ptr=0x1097fee80 state=4 app=26867 txAvail=104205 inflight=30301 cwnd=45037 maxData=139812074 rtoCount=0 tlpCount=0 alarm= alarmAt=2855.28 armed=1
+GAP_REQUEST t=2862.23 ptr=0x78d12c1c0 stream=1 wanted=140266190 sent=140341734 maxStream=140341734 app=130402
+SOCKET_DIAG t=2862.31 ptr=0x790208000 state=4 app=21 txAvail=131051 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2862.32 armed=1
+SOCKET_DIAG t=2865.28 ptr=0x1097fee80 state=4 app=22181 txAvail=108891 inflight=35123 cwnd=56810 maxData=140873930 rtoCount=0 tlpCount=0 alarm= alarmAt=2865.47 armed=1
+GAP_REQUEST t=2872.23 ptr=0x78d12c1c0 stream=1 wanted=141374158 sent=141484806 maxStream=141484806 app=130905
+SOCKET_DIAG t=2872.32 ptr=0x790208000 state=4 app=5 txAvail=131067 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2872.51 armed=1
+SOCKET_DIAG t=2875.29 ptr=0x1097fee80 state=4 app=36849 txAvail=94223 inflight=8796 cwnd=10295 maxData=142016118 rtoCount=0 tlpCount=0 alarm= alarmAt=2875.41 armed=1
+APP_DIAG t=2880 delivered=3436 raw=735307536 last=2873.71 active=4360 frame=1070072/2308658 queue=56 queueBytes=1.59345e+06 packets=534212 tx0=80282
+GAP_REQUEST t=2882.23 ptr=0x78d12c1c0 stream=1 wanted=142728710 sent=142845158 maxStream=142845158 app=130225
+SOCKET_DIAG t=2882.32 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2882.32 armed=1
+SOCKET_DIAG t=2885.29 ptr=0x1097fee80 state=4 app=40062 txAvail=91010 inflight=39780 cwnd=49007 maxData=143368486 rtoCount=0 tlpCount=0 alarm= alarmAt=2885.5 armed=1
+GAP_REQUEST t=2892.23 ptr=0x78d12c1c0 stream=1 wanted=144057006 sent=144170542 maxStream=144170542 app=130983
+SOCKET_DIAG t=2892.32 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2892.52 armed=1
+SOCKET_DIAG t=2895.3 ptr=0x1097fee80 state=4 app=93639 txAvail=37433 inflight=32381 cwnd=38341 maxData=144528566 rtoCount=0 tlpCount=0 alarm= alarmAt=2895.31 armed=1
+GAP_REQUEST t=2902.23 ptr=0x78d12c1c0 stream=1 wanted=145310714 sent=145386314 maxStream=145386314 app=130556
+SOCKET_DIAG t=2902.37 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2902.32 armed=0
+SOCKET_DIAG t=2905.31 ptr=0x1097fee80 state=4 app=19545 txAvail=111527 inflight=44380 cwnd=60150 maxData=145726062 rtoCount=0 tlpCount=0 alarm= alarmAt=2905.53 armed=1
+APP_DIAG t=2910 delivered=3529 raw=756872525 last=2909.67 active=-1 frame=8504/0 queue=0 queueBytes=0 packets=545958 tx0=131072
+SOCKET_DIAG t=2912.49 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=2912.47 armed=0
+GAP_REQUEST t=2913.22 ptr=0x78d12c1c0 stream=1 wanted=146011158 sent=146013838 maxStream=146142230 app=0
+SOCKET_DIAG t=2915.32 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=15815 cwnd=38365 maxData=146295055 rtoCount=0 tlpCount=0 alarm= alarmAt=2915.33 armed=1
+SOCKET_DIAG t=2922.6 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=1 tlpCount=2 alarm= alarmAt=2922.8 armed=1
+GAP_REQUEST t=2924.22 ptr=0x78d12c1c0 stream=1 wanted=146165993 sent=146171810 maxStream=146295605 app=0
+SOCKET_DIAG t=2925.33 ptr=0x1097fee80 state=4 app=7021 txAvail=124051 inflight=14765 cwnd=24153 maxData=146430406 rtoCount=0 tlpCount=0 alarm= alarmAt=2925.34 armed=1
+SOCKET_DIAG t=2932.69 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2932.71 armed=1
+GAP_REQUEST t=2934.22 ptr=0x78d12c1c0 stream=1 wanted=146322970 sent=146325613 maxStream=146452851 app=0
+SOCKET_DIAG t=2935.34 ptr=0x1097fee80 state=4 app=5553 txAvail=125519 inflight=17646 cwnd=26505 maxData=146591525 rtoCount=0 tlpCount=0 alarm= alarmAt=2935.48 armed=1
+APP_DIAG t=2940 delivered=3566 raw=758619880 last=2939.9 active=-1 frame=8564/0 queue=0 queueBytes=0 packets=548415 tx0=131072
+SOCKET_DIAG t=2942.85 ptr=0x790208000 state=4 app=5 txAvail=131067 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2942.88 armed=1
+GAP_REQUEST t=2945.22 ptr=0x78d12c1c0 stream=1 wanted=146473600 sent=146515272 maxStream=146603204 app=0
+SOCKET_DIAG t=2945.34 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=15744 cwnd=32963 maxData=146719090 rtoCount=0 tlpCount=0 alarm= alarmAt=2945.48 armed=1
+SOCKET_DIAG t=2952.87 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2953.03 armed=1
+SOCKET_DIAG t=2955.35 ptr=0x1097fee80 state=4 app=17297 txAvail=113775 inflight=13230 cwnd=14720 maxData=146879651 rtoCount=0 tlpCount=0 alarm= alarmAt=2955.36 armed=1
+GAP_REQUEST t=2956.22 ptr=0x78d12c1c0 stream=1 wanted=146673269 sent=146673269 maxStream=146780191 app=0
+SOCKET_DIAG t=2962.99 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2962.99 armed=1
+SOCKET_DIAG t=2965.36 ptr=0x1097fee80 state=4 app=7384 txAvail=123688 inflight=18741 cwnd=29461 maxData=147041253 rtoCount=0 tlpCount=0 alarm= alarmAt=2965.51 armed=1
+GAP_REQUEST t=2966.3 ptr=0x78d12c1c0 stream=1 wanted=146820473 sent=146823122 maxStream=146954194 app=0
+APP_DIAG t=2970 delivered=3601 raw=760359717 last=2969.32 active=-1 frame=8358/0 queue=0 queueBytes=0 packets=550651 tx0=131072
+SOCKET_DIAG t=2973.05 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=2972.99 armed=0
+SOCKET_DIAG t=2975.37 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=18508 cwnd=18652 maxData=147181438 rtoCount=0 tlpCount=0 alarm= alarmAt=2975.51 armed=1
+GAP_REQUEST t=2977.22 ptr=0x78d12c1c0 stream=1 wanted=146971772 sent=146980362 maxStream=147102844 app=0
+SOCKET_DIAG t=2983.09 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=2983.05 armed=0
+SOCKET_DIAG t=2985.37 ptr=0x1097fee80 state=4 app=2712 txAvail=128360 inflight=21754 cwnd=26640 maxData=147338119 rtoCount=0 tlpCount=2 alarm= alarmAt=2985.56 armed=1
+GAP_REQUEST t=2987.22 ptr=0x78d12c1c0 stream=1 wanted=147120860 sent=147120860 maxStream=147251932 app=0
+SOCKET_DIAG t=2993.15 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=2993.15 armed=1
+SOCKET_DIAG t=2995.37 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=12744 cwnd=46906 maxData=147485219 rtoCount=0 tlpCount=0 alarm= alarmAt=2995.51 armed=1
+GAP_REQUEST t=2997.22 ptr=0x78d12c1c0 stream=1 wanted=147269985 sent=147269985 maxStream=147401057 app=0
+APP_DIAG t=3000 delivered=3637 raw=762105834 last=2999.6 active=-1 frame=8518/0 queue=0 queueBytes=0 packets=552921 tx0=131072
+SOCKET_DIAG t=3003.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3003.27 armed=1
+SOCKET_DIAG t=3005.38 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=2639 cwnd=29174 maxData=147649462 rtoCount=0 tlpCount=0 alarm= alarmAt=3005.52 armed=1
+GAP_REQUEST t=3008.22 ptr=0x78d12c1c0 stream=1 wanted=147426795 sent=147428114 maxStream=147556556 app=0
+SOCKET_DIAG t=3013.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3013.33 armed=1
+SOCKET_DIAG t=3015.42 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1475 cwnd=41651 maxData=147803318 rtoCount=0 tlpCount=0 alarm= alarmAt=3015.36 armed=0
+GAP_REQUEST t=3018.22 ptr=0x78d12c1c0 stream=1 wanted=147573071 sent=147575611 maxStream=147703055 app=0
+SOCKET_DIAG t=3023.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3023.54 armed=1
+SOCKET_DIAG t=3025.43 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=5544 cwnd=23121 maxData=147945301 rtoCount=0 tlpCount=0 alarm= alarmAt=3025.43 armed=0
+GAP_REQUEST t=3029.22 ptr=0x78d12c1c0 stream=1 wanted=147731952 sent=147731952 maxStream=147863024 app=0
+APP_DIAG t=3030 delivered=3673 raw=763851374 last=3029.85 active=-1 frame=8472/0 queue=0 queueBytes=0 packets=555118 tx0=131072
+SOCKET_DIAG t=3033.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=3033.28 armed=1
+SOCKET_DIAG t=3035.44 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=5544 cwnd=23274 maxData=148063819 rtoCount=0 tlpCount=0 alarm= alarmAt=3035.42 armed=0
+GAP_REQUEST t=3040.21 ptr=0x78d12c1c0 stream=1 wanted=147883702 sent=147919399 maxStream=148014774 app=0
+SOCKET_DIAG t=3043.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3043.24 armed=1
+SOCKET_DIAG t=3045.45 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1451 cwnd=21374 maxData=148216556 rtoCount=0 tlpCount=0 alarm= alarmAt=3045.55 armed=1
+GAP_REQUEST t=3051.21 ptr=0x78d12c1c0 stream=1 wanted=148075103 sent=148075103 maxStream=148206175 app=0
+SOCKET_DIAG t=3053.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=1 tlpCount=2 alarm= alarmAt=3053.45 armed=1
+SOCKET_DIAG t=3055.46 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1475 cwnd=37458 maxData=148394981 rtoCount=0 tlpCount=0 alarm= alarmAt=3055.57 armed=1
+APP_DIAG t=3060 delivered=3710 raw=765597822 last=3059.98 active=-1 frame=8143/0 queue=0 queueBytes=0 packets=557265 tx0=131072
+GAP_REQUEST t=3062.21 ptr=0x78d12c1c0 stream=1 wanted=148235096 sent=148235096 maxStream=148366168 app=0
+SOCKET_DIAG t=3063.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3063.23 armed=1
+SOCKET_DIAG t=3065.53 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1460 cwnd=30140 maxData=148407294 rtoCount=0 tlpCount=0 alarm= alarmAt=3065.58 armed=1
+SOCKET_DIAG t=3073.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3073.27 armed=1
+GAP_REQUEST t=3073.21 ptr=0x78d12c1c0 stream=1 wanted=148389700 sent=148389700 maxStream=148520772 app=0
+SOCKET_DIAG t=3075.55 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=37072 maxData=148673777 rtoCount=0 tlpCount=2 alarm= alarmAt=3075.71 armed=1
+SOCKET_DIAG t=3083.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3083.32 armed=1
+GAP_REQUEST t=3083.21 ptr=0x78d12c1c0 stream=1 wanted=148534815 sent=148537517 maxStream=148665879 app=0
+SOCKET_DIAG t=3085.6 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=2703 cwnd=33106 maxData=148849385 rtoCount=0 tlpCount=0 alarm= alarmAt=3085.67 armed=1
+APP_DIAG t=3090 delivered=3746 raw=767338809 last=3089.19 active=-1 frame=8530/0 queue=0 queueBytes=0 packets=559463 tx0=131072
+SOCKET_DIAG t=3093.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3093.31 armed=1
+GAP_REQUEST t=3094.21 ptr=0x78d12c1c0 stream=1 wanted=148685100 sent=148693517 maxStream=148816172 app=0
+SOCKET_DIAG t=3095.62 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=15 cwnd=39817 maxData=148840002 rtoCount=0 tlpCount=0 alarm= alarmAt=3095.69 armed=1
+SOCKET_DIAG t=3103.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3103.32 armed=1
+GAP_REQUEST t=3104.21 ptr=0x78d12c1c0 stream=1 wanted=148832318 sent=148832318 maxStream=148963390 app=0
+SOCKET_DIAG t=3105.68 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=41713 maxData=149146830 rtoCount=0 tlpCount=0 alarm= alarmAt=3105.74 armed=1
+SOCKET_DIAG t=3113.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3113.34 armed=1
+GAP_REQUEST t=3115.21 ptr=0x78d12c1c0 stream=1 wanted=148993454 sent=149019400 maxStream=149123074 app=0
+SOCKET_DIAG t=3115.68 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=44206 maxData=149227882 rtoCount=0 tlpCount=0 alarm= alarmAt=3115.78 armed=1
+APP_DIAG t=3120 delivered=3782 raw=769085326 last=3119.51 active=-1 frame=8154/0 queue=0 queueBytes=0 packets=561697 tx0=131072
+SOCKET_DIAG t=3123.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3123.33 armed=1
+SOCKET_DIAG t=3125.69 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=2920 cwnd=46603 maxData=149427062 rtoCount=0 tlpCount=0 alarm= alarmAt=3125.79 armed=1
+GAP_REQUEST t=3126.21 ptr=0x78d12c1c0 stream=1 wanted=149174228 sent=149174228 maxStream=149305300 app=0
+SOCKET_DIAG t=3133.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3133.26 armed=1
+SOCKET_DIAG t=3135.72 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=5612 cwnd=38898 maxData=149444549 rtoCount=0 tlpCount=0 alarm= alarmAt=3135.8 armed=1
+GAP_REQUEST t=3136.21 ptr=0x78d12c1c0 stream=1 wanted=149320489 sent=149320489 maxStream=149451561 app=0
+SOCKET_DIAG t=3143.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3143.24 armed=1
+SOCKET_DIAG t=3145.74 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=36175 maxData=149723513 rtoCount=0 tlpCount=0 alarm= alarmAt=3145.84 armed=1
+GAP_REQUEST t=3147.21 ptr=0x78d12c1c0 stream=1 wanted=149474056 sent=149474056 maxStream=149605128 app=0
+APP_DIAG t=3150 delivered=3817 raw=770825557 last=3148.9 active=-1 frame=8309/0 queue=0 queueBytes=0 packets=564115 tx0=131072
+SOCKET_DIAG t=3153.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3153.25 armed=1
+SOCKET_DIAG t=3155.75 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=31879 maxData=149869396 rtoCount=0 tlpCount=0 alarm= alarmAt=3155.77 armed=1
+GAP_REQUEST t=3158.2 ptr=0x78d12c1c0 stream=1 wanted=149625844 sent=149628284 maxStream=149756908 app=0
+SOCKET_DIAG t=3163.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3163.24 armed=1
+SOCKET_DIAG t=3165.77 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=36835 maxData=150016359 rtoCount=0 tlpCount=0 alarm= alarmAt=3165.85 armed=1
+GAP_REQUEST t=3169.21 ptr=0x78d12c1c0 stream=1 wanted=149784259 sent=149784259 maxStream=149915331 app=0
+SOCKET_DIAG t=3173.15 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3173.29 armed=1
+SOCKET_DIAG t=3175.78 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=150164222 rtoCount=0 tlpCount=0 alarm= alarmAt=3175.86 armed=1
+GAP_REQUEST t=3179.25 ptr=0x78d12c1c0 stream=1 wanted=149932261 sent=149932261 maxStream=150063333 app=0
+APP_DIAG t=3180 delivered=3853 raw=772571579 last=3179.14 active=-1 frame=8274/0 queue=0 queueBytes=0 packets=566385 tx0=131072
+SOCKET_DIAG t=3183.15 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3183.35 armed=1
+SOCKET_DIAG t=3185.91 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1436 cwnd=46209 maxData=150315603 rtoCount=0 tlpCount=2 alarm= alarmAt=3185.87 armed=0
+GAP_REQUEST t=3190.2 ptr=0x78d12c1c0 stream=1 wanted=150088638 sent=150122782 maxStream=150218250 app=0
+SOCKET_DIAG t=3193.18 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3193.35 armed=1
+SOCKET_DIAG t=3195.94 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=41231 maxData=150461908 rtoCount=0 tlpCount=0 alarm= alarmAt=3196.01 armed=1
+GAP_REQUEST t=3200.2 ptr=0x78d12c1c0 stream=1 wanted=150241439 sent=150261553 maxStream=150371059 app=0
+SOCKET_DIAG t=3203.21 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3203.37 armed=1
+SOCKET_DIAG t=3205.95 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=46165 maxData=150609139 rtoCount=0 tlpCount=0 alarm= alarmAt=3205.99 armed=1
+APP_DIAG t=3210 delivered=3889 raw=774312444 last=3208.48 active=-1 frame=8333/0 queue=0 queueBytes=0 packets=568662 tx0=131072
+GAP_REQUEST t=3211.2 ptr=0x78d12c1c0 stream=1 wanted=150417252 sent=150417252 maxStream=150548324 app=0
+SOCKET_DIAG t=3213.24 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3213.25 armed=1
+SOCKET_DIAG t=3216.02 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=45397 maxData=150746434 rtoCount=0 tlpCount=0 alarm= alarmAt=3216.02 armed=1
+GAP_REQUEST t=3221.2 ptr=0x78d12c1c0 stream=1 wanted=150563377 sent=150563377 maxStream=150694449 app=0
+SOCKET_DIAG t=3223.27 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3223.3 armed=1
+SOCKET_DIAG t=3226.03 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=41570 maxData=150900313 rtoCount=0 tlpCount=0 alarm= alarmAt=3226.11 armed=1
+GAP_REQUEST t=3232.2 ptr=0x78d12c1c0 stream=1 wanted=150719205 sent=150719205 maxStream=150850277 app=0
+SOCKET_DIAG t=3233.28 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3233.36 armed=1
+SOCKET_DIAG t=3236.05 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=48173 maxData=151050134 rtoCount=0 tlpCount=0 alarm= alarmAt=3236.13 armed=1
+APP_DIAG t=3240 delivered=3926 raw=776065364 last=3239.83 active=-1 frame=8232/0 queue=0 queueBytes=0 packets=570959 tx0=131072
+SOCKET_DIAG t=3243.31 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=6 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=1 alarm= alarmAt=3243.29 armed=0
+GAP_REQUEST t=3244.19 ptr=0x78d12c1c0 stream=1 wanted=150870907 sent=150883520 maxStream=151001971 app=0
+SOCKET_DIAG t=3246.05 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=38451 maxData=151056282 rtoCount=0 tlpCount=0 alarm= alarmAt=3246.13 armed=1
+SOCKET_DIAG t=3253.33 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3253.34 armed=1
+GAP_REQUEST t=3254.19 ptr=0x78d12c1c0 stream=1 wanted=151031067 sent=151031067 maxStream=151162139 app=0
+SOCKET_DIAG t=3256.06 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1460 cwnd=40141 maxData=151330260 rtoCount=0 tlpCount=0 alarm= alarmAt=3256.13 armed=1
+SOCKET_DIAG t=3263.4 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3263.53 armed=1
+GAP_REQUEST t=3264.21 ptr=0x78d12c1c0 stream=1 wanted=151178323 sent=151178323 maxStream=151309395 app=0
+SOCKET_DIAG t=3266.1 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=7126 cwnd=39068 maxData=151350630 rtoCount=0 tlpCount=0 alarm= alarmAt=3266.24 armed=1
+APP_DIAG t=3270 delivered=3961 raw=777805202 last=3269.13 active=-1 frame=8604/0 queue=0 queueBytes=0 packets=573407 tx0=131072
+SOCKET_DIAG t=3273.45 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3273.46 armed=1
+GAP_REQUEST t=3274.29 ptr=0x78d12c1c0 stream=1 wanted=151320787 sent=151326461 maxStream=151457533 app=0
+SOCKET_DIAG t=3276.1 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=48212 maxData=151632432 rtoCount=0 tlpCount=0 alarm= alarmAt=3276.17 armed=1
+SOCKET_DIAG t=3283.48 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3283.52 armed=1
+GAP_REQUEST t=3285.28 ptr=0x78d12c1c0 stream=1 wanted=151491215 sent=151515519 maxStream=151638013 app=0
+SOCKET_DIAG t=3286.1 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=1436 cwnd=50952 maxData=151781263 rtoCount=0 tlpCount=2 alarm= alarmAt=3286.22 armed=1
+SOCKET_DIAG t=3293.48 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3293.54 armed=1
+SOCKET_DIAG t=3296.11 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=43601 maxData=151930217 rtoCount=0 tlpCount=0 alarm= alarmAt=3296.16 armed=1
+GAP_REQUEST t=3296.19 ptr=0x78d12c1c0 stream=1 wanted=151664473 sent=151664473 maxStream=151795545 app=0
+APP_DIAG t=3300 delivered=3997 raw=779551479 last=3299.43 active=-1 frame=8618/0 queue=0 queueBytes=0 packets=575998 tx0=131072
+SOCKET_DIAG t=3303.5 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3303.67 armed=1
+SOCKET_DIAG t=3306.12 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=47869 maxData=152078755 rtoCount=0 tlpCount=2 alarm= alarmAt=3306.29 armed=1
+GAP_REQUEST t=3306.19 ptr=0x78d12c1c0 stream=1 wanted=151813011 sent=151813011 maxStream=151944083 app=0
+SOCKET_DIAG t=3313.51 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3313.67 armed=1
+SOCKET_DIAG t=3316.14 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=152232805 rtoCount=0 tlpCount=0 alarm= alarmAt=3316.21 armed=1
+GAP_REQUEST t=3316.19 ptr=0x78d12c1c0 stream=1 wanted=151967061 sent=151967061 maxStream=152098133 app=0
+SOCKET_DIAG t=3323.54 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3323.7 armed=1
+SOCKET_DIAG t=3326.19 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=48481 maxData=152381837 rtoCount=0 tlpCount=2 alarm= alarmAt=3326.34 armed=1
+GAP_REQUEST t=3327.19 ptr=0x78d12c1c0 stream=1 wanted=152124695 sent=152124695 maxStream=152255767 app=0
+APP_DIAG t=3330 delivered=4034 raw=781298606 last=3329.75 active=-1 frame=8609/0 queue=0 queueBytes=0 packets=578450 tx0=131072
+SOCKET_DIAG t=3333.58 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3333.72 armed=1
+SOCKET_DIAG t=3336.25 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=58227 maxData=152530983 rtoCount=0 tlpCount=0 alarm= alarmAt=3336.3 armed=1
+GAP_REQUEST t=3338.19 ptr=0x78d12c1c0 stream=1 wanted=152282683 sent=152282683 maxStream=152413755 app=0
+SOCKET_DIAG t=3343.58 ptr=0x790208000 state=4 app=11 txAvail=131061 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3343.86 armed=1
+SOCKET_DIAG t=3346.25 ptr=0x1097fee80 state=4 app=77534 txAvail=53538 inflight=38258 cwnd=41179 maxData=153654821 rtoCount=0 tlpCount=0 alarm= alarmAt=3346.43 armed=1
+GAP_REQUEST t=3349.17 ptr=0x78d12c1c0 stream=1 wanted=153600761 sent=154082373 maxStream=154082373 app=130352
+SOCKET_DIAG t=3353.58 ptr=0x790208000 state=4 app=5 txAvail=131067 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3353.74 armed=1
+SOCKET_DIAG t=3356.26 ptr=0x1097fee80 state=4 app=62144 txAvail=68928 inflight=33908 cwnd=38886 maxData=155597161 rtoCount=0 tlpCount=0 alarm= alarmAt=3356.27 armed=1
+GAP_REQUEST t=3359.85 ptr=0x78d12c1c0 stream=1 wanted=155992933 sent=156233177 maxStream=156233177 app=129828
+APP_DIAG t=3360 delivered=4047 raw=782139508 last=3340.22 active=4363 frame=4090600/14991327 queue=23 queueBytes=266953 packets=590355 tx0=38538
+SOCKET_DIAG t=3363.58 ptr=0x790208000 state=4 app=27 txAvail=131045 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3363.59 armed=1
+SOCKET_DIAG t=3366.27 ptr=0x1097fee80 state=4 app=61748 txAvail=69324 inflight=35055 cwnd=38251 maxData=157485737 rtoCount=0 tlpCount=0 alarm= alarmAt=3366.43 armed=1
+SOCKET_DIAG t=3373.6 ptr=0x790208000 state=4 app=60 txAvail=131012 inflight=12 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3373.61 armed=1
+GAP_REQUEST t=3373.62 ptr=0x78d12c1c0 stream=1 wanted=156608841 sent=159035537 maxStream=159035537 app=130796
+SOCKET_DIAG t=3376.27 ptr=0x1097fee80 state=4 app=91141 txAvail=39931 inflight=37968 cwnd=41021 maxData=159697401 rtoCount=0 tlpCount=0 alarm= alarmAt=3376.27 armed=1
+SOCKET_DIAG t=3383.6 ptr=0x790208000 state=4 app=118 txAvail=130954 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3383.6 armed=1
+GAP_REQUEST t=3384.13 ptr=0x78d12c1c0 stream=1 wanted=158430949 sent=161217401 maxStream=161217401 app=129620
+SOCKET_DIAG t=3386.27 ptr=0x1097fee80 state=4 app=89605 txAvail=41467 inflight=42407 cwnd=43927 maxData=161713089 rtoCount=0 tlpCount=0 alarm= alarmAt=3386.28 armed=1
+APP_DIAG t=3390 delivered=4047 raw=782139508 last=3340.22 active=4363 frame=10230120/14991327 queue=59 queueBytes=706493 packets=607999 tx0=53506
+SOCKET_DIAG t=3393.6 ptr=0x790208000 state=4 app=24 txAvail=131048 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3393.6 armed=1
+GAP_REQUEST t=3394.39 ptr=0x78d12c1c0 stream=1 wanted=162563097 sent=163354229 maxStream=163354229 app=128592
+SOCKET_DIAG t=3396.28 ptr=0x1097fee80 state=4 app=89296 txAvail=41776 inflight=41308 cwnd=44091 maxData=163836865 rtoCount=0 tlpCount=0 alarm= alarmAt=3396.46 armed=1
+SOCKET_DIAG t=3403.61 ptr=0x790208000 state=4 app=27 txAvail=131045 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3403.61 armed=1
+GAP_REQUEST t=3405 ptr=0x78d12c1c0 stream=1 wanted=164819373 sent=165505345 maxStream=165505345 app=130232
+SOCKET_DIAG t=3406.28 ptr=0x1097fee80 state=4 app=89290 txAvail=41782 inflight=41315 cwnd=44218 maxData=165803537 rtoCount=0 tlpCount=0 alarm= alarmAt=3406.48 armed=1
+SOCKET_DIAG t=3413.61 ptr=0x790208000 state=4 app=45 txAvail=131027 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3413.79 armed=1
+GAP_REQUEST t=3415.26 ptr=0x78d12c1c0 stream=1 wanted=166651717 sent=167602793 maxStream=167602793 app=119725
+SOCKET_DIAG t=3416.29 ptr=0x1097fee80 state=4 app=68703 txAvail=62369 inflight=38305 cwnd=42578 maxData=167878757 rtoCount=0 tlpCount=0 alarm= alarmAt=3416.29 armed=1
+APP_DIAG t=3420 delivered=4137 raw=891280292 last=3419.91 active=-1 frame=8352/0 queue=0 queueBytes=0 packets=625466 tx0=37388
+SOCKET_DIAG t=3423.63 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3423.67 armed=1
+GAP_REQUEST t=3425.27 ptr=0x78d12c1c0 stream=1 wanted=168708051 sent=168722317 maxStream=168846415 app=0
+SOCKET_DIAG t=3426.29 ptr=0x1097fee80 state=4 app=83747 txAvail=47325 inflight=45398 cwnd=48910 maxData=168959961 rtoCount=0 tlpCount=0 alarm= alarmAt=3426.47 armed=1
+SOCKET_DIAG t=3433.64 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3433.64 armed=1
+GAP_REQUEST t=3435.31 ptr=0x78d12c1c0 stream=1 wanted=170497737 sent=170628809 maxStream=170628809 app=130844
+SOCKET_DIAG t=3436.29 ptr=0x1097fee80 state=4 app=124504 txAvail=6568 inflight=7336 cwnd=42914 maxData=170805141 rtoCount=0 tlpCount=0 alarm= alarmAt=3436.39 armed=1
+SOCKET_DIAG t=3443.64 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3443.82 armed=1
+GAP_REQUEST t=3446.19 ptr=0x78d12c1c0 stream=1 wanted=172524501 sent=172654121 maxStream=172654121 app=129836
+SOCKET_DIAG t=3446.3 ptr=0x1097fee80 state=4 app=95155 txAvail=35917 inflight=35400 cwnd=5840 maxData=172752645 rtoCount=0 tlpCount=0 alarm= alarmAt=3446.3 armed=1
+APP_DIAG t=3450 delivered=4151 raw=893388615 last=3425.38 active=4364 frame=4778400/4984460 queue=31 queueBytes=1.61673e+06 packets=639507 tx0=38459
+SOCKET_DIAG t=3453.65 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3453.81 armed=1
+GAP_REQUEST t=3456.27 ptr=0x78d12c1c0 stream=1 wanted=174433841 sent=174564913 maxStream=174564913 app=130068
+SOCKET_DIAG t=3456.3 ptr=0x1097fee80 state=4 app=62939 txAvail=68133 inflight=38281 cwnd=41594 maxData=174676337 rtoCount=0 tlpCount=0 alarm= alarmAt=3456.46 armed=1
+SOCKET_DIAG t=3463.65 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3463.82 armed=1
+SOCKET_DIAG t=3466.33 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=42531 maxData=176582097 rtoCount=0 tlpCount=2 alarm= alarmAt=3466.48 armed=1
+GAP_REQUEST t=3467.19 ptr=0x78d12c1c0 stream=1 wanted=176324637 sent=176324637 maxStream=176455709 app=0
+SOCKET_DIAG t=3473.69 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3473.84 armed=1
+SOCKET_DIAG t=3476.35 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=34926 maxData=176728264 rtoCount=0 tlpCount=2 alarm= alarmAt=3476.51 armed=1
+GAP_REQUEST t=3478.19 ptr=0x78d12c1c0 stream=1 wanted=176478636 sent=176478636 maxStream=176609708 app=0
+APP_DIAG t=3480 delivered=4220 raw=923893124 last=3479.17 active=-1 frame=8543/0 queue=0 queueBytes=0 packets=649387 tx0=123934
+SOCKET_DIAG t=3483.7 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3483.75 armed=1
+SOCKET_DIAG t=3486.42 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=37312 maxData=176875568 rtoCount=0 tlpCount=2 alarm= alarmAt=3486.55 armed=1
+GAP_REQUEST t=3488.19 ptr=0x78d12c1c0 stream=1 wanted=176621212 sent=176626558 maxStream=176752276 app=0
+SOCKET_DIAG t=3493.73 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3493.9 armed=1
+SOCKET_DIAG t=3496.43 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=42964 maxData=177018974 rtoCount=0 tlpCount=0 alarm= alarmAt=3496.5 armed=1
+GAP_REQUEST t=3498.19 ptr=0x78d12c1c0 stream=1 wanted=176765742 sent=176774277 maxStream=176896814 app=0
+SOCKET_DIAG t=3503.75 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3503.79 armed=1
+SOCKET_DIAG t=3506.46 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=177302877 rtoCount=0 tlpCount=2 alarm= alarmAt=3506.63 armed=1
+GAP_REQUEST t=3508.19 ptr=0x78d12c1c0 stream=1 wanted=177045434 sent=177045434 maxStream=177176506 app=0
+APP_DIAG t=3510 delivered=4256 raw=927027126 last=3508.46 active=4369 frame=485080/2308658 queue=1 queueBytes=8592 packets=652955 tx0=37341
+SOCKET_DIAG t=3513.75 ptr=0x790208000 state=4 app=11 txAvail=131061 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3513.76 armed=1
+SOCKET_DIAG t=3516.47 ptr=0x1097fee80 state=4 app=62873 txAvail=68199 inflight=42767 cwnd=44573 maxData=178697006 rtoCount=0 tlpCount=0 alarm= alarmAt=3516.47 armed=1
+GAP_REQUEST t=3518.59 ptr=0x78d12c1c0 stream=1 wanted=178975210 sent=179149746 maxStream=179149746 app=131044
+SOCKET_DIAG t=3523.77 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3523.93 armed=1
+SOCKET_DIAG t=3526.49 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=40377 maxData=179897325 rtoCount=0 tlpCount=0 alarm= alarmAt=3526.55 armed=1
+GAP_REQUEST t=3529.19 ptr=0x78d12c1c0 stream=1 wanted=179938676 sent=180069748 maxStream=180069748 app=130676
+SOCKET_DIAG t=3533.77 ptr=0x790208000 state=4 app=6 txAvail=131066 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3533.77 armed=1
+SOCKET_DIAG t=3536.58 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=50366 maxData=181255469 rtoCount=0 tlpCount=2 alarm= alarmAt=3536.69 armed=1
+GAP_REQUEST t=3539.19 ptr=0x78d12c1c0 stream=1 wanted=181014390 sent=181014390 maxStream=181145462 app=0
+APP_DIAG t=3540 delivered=4295 raw=940483254 last=3539.69 active=-1 frame=8329/0 queue=0 queueBytes=0 packets=664000 tx0=131072
+SOCKET_DIAG t=3543.77 ptr=0x790208000 state=4 app=5 txAvail=131067 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3543.85 armed=1
+SOCKET_DIAG t=3546.59 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=57486 maxData=181401647 rtoCount=0 tlpCount=0 alarm= alarmAt=3546.65 armed=1
+GAP_REQUEST t=3550.4 ptr=0x78d12c1c0 stream=1 wanted=181186182 sent=181200448 maxStream=181331520 app=0
+SOCKET_DIAG t=3553.79 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3554.01 armed=1
+SOCKET_DIAG t=3556.62 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=60574 maxData=181547042 rtoCount=0 tlpCount=0 alarm= alarmAt=3556.7 armed=1
+GAP_REQUEST t=3561.19 ptr=0x78d12c1c0 stream=1 wanted=181354332 sent=181354332 maxStream=181485404 app=0
+SOCKET_DIAG t=3563.86 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3563.98 armed=1
+SOCKET_DIAG t=3566.63 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=58070 maxData=181692888 rtoCount=0 tlpCount=2 alarm= alarmAt=3566.79 armed=1
+APP_DIAG t=3570 delivered=4331 raw=942224666 last=3569.12 active=-1 frame=8063/0 queue=0 queueBytes=0 packets=666453 tx0=131072
+GAP_REQUEST t=3571.19 ptr=0x78d12c1c0 stream=1 wanted=181505329 sent=181505329 maxStream=181635267 app=0
+SOCKET_DIAG t=3573.89 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=0 alarm= alarmAt=3573.91 armed=1
+SOCKET_DIAG t=3576.67 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=72872 maxData=181845047 rtoCount=0 tlpCount=2 alarm= alarmAt=3576.8 armed=1
+GAP_REQUEST t=3581.19 ptr=0x78d12c1c0 stream=1 wanted=181645238 sent=181653613 maxStream=181776310 app=0
+SOCKET_DIAG t=3583.89 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3584.06 armed=1
+SOCKET_DIAG t=3586.73 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=63115 maxData=181990750 rtoCount=0 tlpCount=2 alarm= alarmAt=3586.85 armed=1
+GAP_REQUEST t=3592.19 ptr=0x78d12c1c0 stream=1 wanted=181800718 sent=181800718 maxStream=181931790 app=0
+SOCKET_DIAG t=3593.96 ptr=0x790208000 state=4 app=0 txAvail=131072 inflight=0 cwnd=5840 maxData=262144 rtoCount=0 tlpCount=2 alarm= alarmAt=3594.09 armed=1
+SOCKET_DIAG t=3596.75 ptr=0x1097fee80 state=4 app=0 txAvail=131072 inflight=0 cwnd=56647 maxData=182138852 rtoCount=0 tlpCount=0 alarm= alarmAt=3596.81 armed=1
+Completed FULL files=4373

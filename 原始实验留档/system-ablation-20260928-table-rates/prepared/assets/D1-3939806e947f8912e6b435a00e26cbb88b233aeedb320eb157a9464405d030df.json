@@ -1,0 +1,14 @@
+{
+  "algorithm": "parquet_zstd6",
+  "encode_seconds": 0.00023499999952036887,
+  "decode_seconds": 0.00021062500309199095,
+  "integrity_scope": "typed_columns",
+  "logical_rows": 10,
+  "raw_decode_seconds": 0.0,
+  "stream": "D1",
+  "raw_bytes": 956,
+  "encoded_bytes": 4793,
+  "source_sha256": "3939806e947f8912e6b435a00e26cbb88b233aeedb320eb157a9464405d030df",
+  "encoded_sha256": "a493e5b085b86b3d0b39f84873e053f412e5221770539b622f2cae6301d2ed83",
+  "source": "assembled local records"
+}

@@ -1,0 +1,1 @@
+Resource sensitivity of three ocean monitoring data types. Points show mean JCT over five technical repetitions; error bars show the sample standard deviation. Each panel uses an independent linear vertical scale with a nonzero lower bound.

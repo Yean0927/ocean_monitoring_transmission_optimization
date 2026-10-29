@@ -1,0 +1,2 @@
+dataset,packet_size,bandwidth_mbps,cpu_limit,repeat,best_algorithm,best_T_total_ms,best_latency_reduction_pct,best_compression_ratio
+D3_wave_sensor,512,2.000000000,100,1,gzip,9.116800007,48.176443800,0.499772624

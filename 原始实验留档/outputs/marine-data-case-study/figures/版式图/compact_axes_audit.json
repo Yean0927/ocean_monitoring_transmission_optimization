@@ -1,0 +1,148 @@
+{
+  "verdict": "PASS",
+  "source_values_unchanged": true,
+  "plot_points": 27,
+  "embedded_fonts": [
+    "CNAJXZ+TimesNewRomanPSMT"
+  ],
+  "font_path": "/System/Library/Fonts/Supplemental/Times New Roman.ttf",
+  "font_policy_override": "User-provided reference uses serif typography; Times New Roman is configured and verified embedded. The generic validator only recognizes sans-serif fonts.",
+  "width_override": "203.2 mm follows the explicit user request for an 8-inch total width",
+  "raw_static_findings": [
+    {
+      "check_id": "SOURCE-SYNTAX",
+      "level": "PASS",
+      "message": "Python source parses successfully"
+    },
+    {
+      "check_id": "FONT-FAMILY",
+      "level": "FAIL",
+      "message": "No explicit publication-safe font family found in matplotlib rcParams"
+    },
+    {
+      "check_id": "FONT-SIZE",
+      "level": "PASS",
+      "message": "All detected text sizes are at least 5 pt (minimum 7 pt)"
+    },
+    {
+      "check_id": "FONT-GLYPH-FLOOR",
+      "level": "PASS",
+      "message": "No mathtext superscript/subscript expression detected"
+    },
+    {
+      "check_id": "LEGEND-LABEL-CASE",
+      "level": "PASS",
+      "message": "No auditable literal legend labels detected"
+    },
+    {
+      "check_id": "COLOR-MAP",
+      "level": "PASS",
+      "message": "No rainbow/jet/hsv color mapping detected"
+    },
+    {
+      "check_id": "EDITABLE-TEXT",
+      "level": "PASS",
+      "message": "SVG and PDF editable-text settings are configured"
+    },
+    {
+      "check_id": "EXPORT-VECTOR",
+      "level": "PASS",
+      "message": "Both SVG and PDF exports are present"
+    },
+    {
+      "check_id": "EXPORT-RASTER",
+      "level": "PASS",
+      "message": "TIFF raster export is present"
+    },
+    {
+      "check_id": "RASTER-DPI",
+      "level": "PASS",
+      "message": "A raster export of at least 600 dpi is configured"
+    },
+    {
+      "check_id": "FINAL-WIDTH",
+      "level": "WARN",
+      "message": "Detected width 122.0 mm is not near the common 89/183 mm defaults; verify the target journal"
+    },
+    {
+      "check_id": "DATA-SAMPLING",
+      "level": "PASS",
+      "message": "No high-confidence row-sampling operation detected"
+    },
+    {
+      "check_id": "DATA-EXCLUSION",
+      "level": "PASS",
+      "message": "No high-confidence missing-data exclusion detected"
+    },
+    {
+      "check_id": "DEMO-DATA",
+      "level": "PASS",
+      "message": "No obvious simulated-data generator detected"
+    },
+    {
+      "check_id": "LOG-GUARD",
+      "level": "PASS",
+      "message": "No logarithmic transform or axis detected"
+    },
+    {
+      "check_id": "INTERP-MONOTONIC",
+      "level": "PASS",
+      "message": "No NumPy interpolation requiring an increasing x-grid detected"
+    },
+    {
+      "check_id": "UNCERTAINTY-ENCODING",
+      "level": "PASS",
+      "message": "No stochastic aggregate requiring a variability audit was inferred"
+    },
+    {
+      "check_id": "ROTATION-ANCHOR",
+      "level": "PASS",
+      "message": "No rotated Matplotlib text detected"
+    },
+    {
+      "check_id": "ANNOTATION-WORKAROUND",
+      "level": "PASS",
+      "message": "No high-risk hard-coded label height or opaque white text mask detected"
+    },
+    {
+      "check_id": "PANEL-ALIGNMENT-GATE",
+      "level": "PASS",
+      "message": "Render-time panel-alignment gate is wired into the plotting source"
+    },
+    {
+      "check_id": "BACKEND-EXCLUSIVE",
+      "level": "PASS",
+      "message": "No obvious cross-backend plotting reference found for python"
+    }
+  ],
+  "layout": "equal axes; bottom panel label anchors independently checked",
+  "revision": "Overall canvas 8 x 6 inches, horizontal row of three panels",
+  "axis_limits_s": {
+    "D2": [
+      0.1,
+      0.32
+    ],
+    "V1": [
+      8,
+      25
+    ],
+    "I1": [
+      0.25,
+      0.62
+    ]
+  },
+  "error_bars": "Mean ± sample SD, n=5 technical repetitions, all intervals visible",
+  "pdf_text_minimum_pt": 7,
+  "collision_verdict": "PASS: 0 fail, 0 warn",
+  "alignment_verdict": "PASS",
+  "manual_panel_checks": {
+    "a": "All 9 means and SD intervals visible, labels and legend clear",
+    "b": "All 9 means and SD intervals visible, including CPU Good near 8.85 s",
+    "c": "All 9 means and SD intervals visible, labels and legend clear"
+  },
+  "axis_disclosure": "Each panel uses an independent linear y-axis with a nonzero lower bound.",
+  "pdf_dimensions_pt": [
+    576,
+    432
+  ]
+}

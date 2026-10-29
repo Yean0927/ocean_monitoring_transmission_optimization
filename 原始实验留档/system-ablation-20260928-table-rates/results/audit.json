@@ -1,0 +1,143 @@
+{
+  "FULL": {
+    "file_rows": 4373,
+    "status_counts": {
+      "delivered": 4367,
+      "assembling": 6
+    },
+    "generated_bytes": 959910221,
+    "delivered_bytes": 943970667,
+    "dropped_bytes": 0,
+    "pending_bytes": 15939554,
+    "last_delivery_s": 3599.4600134,
+    "transport_stalls_over_600s": [],
+    "accounting_and_event_order": "PASS",
+    "protocol_predictions": "PASS",
+    "transport_stall_audit": "PASS"
+  },
+  "WO_PROTOCOL": {
+    "file_rows": 4373,
+    "status_counts": {
+      "delivered": 3817,
+      "assembling": 6,
+      "cache_evicted": 453,
+      "in_transport": 5,
+      "queued": 92
+    },
+    "generated_bytes": 959910221,
+    "delivered_bytes": 717722563,
+    "dropped_bytes": 201152749,
+    "pending_bytes": 41034909,
+    "last_delivery_s": 3599.93396275,
+    "transport_stalls_over_600s": [],
+    "accounting_and_event_order": "PASS",
+    "protocol_predictions": "PASS",
+    "transport_stall_audit": "PASS"
+  },
+  "WO_COMPRESSION": {
+    "file_rows": 4373,
+    "status_counts": {
+      "delivered": 3861,
+      "queued": 57,
+      "assembling": 6,
+      "cache_evicted": 448,
+      "in_transport": 1
+    },
+    "generated_bytes": 959910221,
+    "delivered_bytes": 100438283,
+    "dropped_bytes": 799298587,
+    "pending_bytes": 60173351,
+    "last_delivery_s": 3560.3465058,
+    "transport_stalls_over_600s": [],
+    "accounting_and_event_order": "PASS",
+    "protocol_predictions": "PASS",
+    "transport_stall_audit": "PASS"
+  },
+  "WO_CACHE": {
+    "file_rows": 4373,
+    "status_counts": {
+      "delivered": 3431,
+      "source_dropped": 936,
+      "assembling": 6
+    },
+    "generated_bytes": 959910221,
+    "delivered_bytes": 688354655,
+    "dropped_bytes": 255616012,
+    "pending_bytes": 15939554,
+    "last_delivery_s": 3599.3836606,
+    "transport_stalls_over_600s": [],
+    "accounting_and_event_order": "PASS",
+    "protocol_predictions": "PASS",
+    "transport_stall_audit": "PASS"
+  },
+  "BASELINE": {
+    "file_rows": 4373,
+    "status_counts": {
+      "delivered": 608,
+      "source_dropped": 3759,
+      "assembling": 6
+    },
+    "generated_bytes": 959910221,
+    "delivered_bytes": 146073607,
+    "dropped_bytes": 797897060,
+    "pending_bytes": 15939554,
+    "last_delivery_s": 3599.36666687,
+    "transport_stalls_over_600s": [],
+    "accounting_and_event_order": "PASS",
+    "protocol_predictions": "PASS",
+    "transport_stall_audit": "PASS"
+  },
+  "ADD_PROTOCOL": {
+    "file_rows": 4373,
+    "status_counts": {
+      "delivered": 1218,
+      "source_dropped": 3149,
+      "assembling": 6
+    },
+    "generated_bytes": 959910221,
+    "delivered_bytes": 277255528,
+    "dropped_bytes": 666715139,
+    "pending_bytes": 15939554,
+    "last_delivery_s": 3599.37411695,
+    "transport_stalls_over_600s": [],
+    "accounting_and_event_order": "PASS",
+    "protocol_predictions": "PASS",
+    "transport_stall_audit": "PASS"
+  },
+  "ADD_COMPRESSION": {
+    "file_rows": 4373,
+    "status_counts": {
+      "delivered": 2042,
+      "source_dropped": 2325,
+      "assembling": 6
+    },
+    "generated_bytes": 959910221,
+    "delivered_bytes": 458014389,
+    "dropped_bytes": 485956278,
+    "pending_bytes": 15939554,
+    "last_delivery_s": 3599.37454556,
+    "transport_stalls_over_600s": [],
+    "accounting_and_event_order": "PASS",
+    "protocol_predictions": "PASS",
+    "transport_stall_audit": "PASS"
+  },
+  "ADD_CACHE": {
+    "file_rows": 4373,
+    "status_counts": {
+      "delivered": 3715,
+      "assembling": 6,
+      "in_transport": 3,
+      "queued": 127,
+      "cache_evicted": 522
+    },
+    "generated_bytes": 959910221,
+    "delivered_bytes": 157133460,
+    "dropped_bytes": 752321065,
+    "pending_bytes": 50455696,
+    "last_delivery_s": 3598.97182456,
+    "transport_stalls_over_600s": [],
+    "accounting_and_event_order": "PASS",
+    "protocol_predictions": "PASS",
+    "transport_stall_audit": "PASS"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "question": "How do resource improvements affect completion time for the three representative data types?",
+  "conclusion": "Resource sensitivity differs across text, video, and image objects.",
+  "archetype": "quantitative grid",
+  "backend": "python",
+  "panel_roles": {
+    "a": "Text: propagation delay dominates the small compressed object",
+    "b": "Video: CPU and bandwidth affect total processing and transfer",
+    "c": "Image: delay and bandwidth affect completion more than CPU"
+  },
+  "mapping": {
+    "stream": "panel",
+    "resource": "series",
+    "quality": "Poor/Medium/Good x-axis",
+    "mean_jct_s": "y in seconds",
+    "sd_jct_s": "sample SD error bars",
+    "n": "5 technical repetitions"
+  },
+  "integrity": {
+    "rows_before": 27,
+    "rows_after": 27,
+    "excluded": 0,
+    "statistics_changed": false
+  },
+  "revision": "Set overall canvas to 8 x 6 inches; preserve horizontal layout, all data, and compact nonzero y-axis limits.",
+  "axis_ranges_s": {
+    "D2": [
+      0.1,
+      0.32
+    ],
+    "V1": [
+      8,
+      25
+    ],
+    "I1": [
+      0.25,
+      0.62
+    ]
+  },
+  "risks": "Axes use independent nonzero lower bounds; compare numerical JCT values rather than visual slopes across panels.",
+  "export": {
+    "width_mm": 203.2,
+    "height_mm": 152.4,
+    "formats": [
+      "PDF",
+      "SVG",
+      "PNG",
+      "TIFF"
+    ],
+    "text_floor_pt": 7,
+    "figsize_inches": [
+      8,
+      6
+    ]
+  },
+  "style_exemptions": [
+    "Retain serif typography and bottom labels from the user-approved reference",
+    "Canvas dimensions follow the explicit user request: 8 x 6 inches."
+  ]
+}

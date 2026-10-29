@@ -1,0 +1,5 @@
+algorithm,old_2_mbps_pct,old_4_mbps_pct,old_10_mbps_pct,middle_point_expected_from_endpoints_pct,middle_point_residual_percentage_points,data_origin
+S0,0.0,0.0,0.0,0.0,0.0,historical_digitized_values_not_raw_measurements
+S1,78.442,70.885,50.104,71.35749999999999,-0.4724999999999824,historical_digitized_values_not_raw_measurements
+S2,73.719,60.022,17.516,59.66824999999999,0.3537500000000051,historical_digitized_values_not_raw_measurements
+S3,22.239,-44.355,-244.608,-44.47274999999999,0.1177499999999938,historical_digitized_values_not_raw_measurements

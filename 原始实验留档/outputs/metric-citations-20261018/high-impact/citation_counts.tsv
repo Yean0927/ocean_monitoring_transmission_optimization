@@ -1,0 +1,7 @@
+number	title	venue	CCF	Crossref_citations	date	DOI
+1	Data Center TCP (DCTCP)	SIGCOMM 2010	A	1285	2026-10-18	10.1145/1851182.1851192
+2	Fixed-Rate Compressed Floating-Point Arrays	IEEE Transactions on Visualization and Computer Graphics, 2014	A	651	2026-10-18	10.1109/TVCG.2014.2346458
+3	DTN Routing as a Resource Allocation Problem	SIGCOMM 2007	A	359	2026-10-18	10.1145/1282380.1282422
+4	Random Early Detection Gateways for Congestion Avoidance	IEEE/ACM Transactions on Networking, 1993	A	4538	2026-10-18	10.1109/90.251892
+5	Discretized Streams: Fault-Tolerant Streaming Computation at Scale	SOSP 2013	A	771	2026-10-18	10.1145/2517349.2522737
+6	A Delay-Tolerant Network Architecture for Challenged Internets	SIGCOMM 2003	A	1019	2026-10-18	10.1145/863955.863960

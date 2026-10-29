@@ -1,0 +1,2 @@
+id,stream,status,generated_raw_bytes,arrived_raw_bytes,raw_file_bytes,wire_file_bytes,first_s,assembled_s,ready_s,tx_start_s,received_s,decoded_s,protocol
+0,4,delivered,4354778,4354778,4354778,1212145,1,1.364355681,8.796344681,8.796344681,10.801194041,11.027143332,2

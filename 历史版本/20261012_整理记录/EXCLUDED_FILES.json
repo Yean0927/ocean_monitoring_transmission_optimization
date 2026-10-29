@@ -1,0 +1,478 @@
+[
+  {
+    "source": "adaptive-protocol-selection-package/dataset_generators/plot-random-interval-continuous-dashboard.py",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/ml_scripts/plot-model-training-performance-summary-png.py",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/protocol_scripts/plot-dynamic-link-fluctuation.py",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/protocol_scripts/plot-multidimensional-decision-boundary.py",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/model_results/xgboost_export/auc-comparison.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/model_results/xgboost_export/average-selected-throughput-comparison.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/model_results/xgboost_export/macro-f1-comparison.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/model_results/xgboost_export/oracle-gap-comparison.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/compression_scripts/plot_edge_compression_results.py",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/compression_scripts/plot_video_best_algorithm_heatmap.py",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/compression_scripts/plot_video_latency_reduction_lines.py",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/image-1.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/image-10.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/image-11.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/image-12.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/image-13.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/image-14.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/image-15.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/image-2.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/image-3.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/image-4.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/image-5.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/image-6.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/image-7.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/image-8.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/image-9.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/image.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_CD_optimized_cpu100/decision_figures/01-best-algorithm-share-by-file-type.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_CD_optimized_cpu100/decision_figures/02-latency-reduction-by-file-and-algorithm.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_CD_optimized_cpu100/decision_figures/03-total-latency-by-bandwidth.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_CD_optimized_cpu100/decision_figures/04-latency-reduction-by-cpu-limit.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_CD_optimized_cpu100/decision_figures/05-parameter-heatmap-D1_big_buoy_weather.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_CD_optimized_cpu100/decision_figures/05-parameter-heatmap-D2_weather_utf16.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_CD_optimized_cpu100/decision_figures/05-parameter-heatmap-D3_wave_sensor.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_CD_optimized_cpu100/decision_figures/05-parameter-heatmap-D4_ocean_current_log.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_CD_optimized_cpu100/decision_figures/06-best-algorithm-latency-reduction-by-file-type.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_CD_optimized_cpu100/decision_figures/07-best-algorithm-advantage-by-file-type.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_CD_optimized_cpu100/decision_figures/08-optimized-e2e-time-by-bandwidth-D1_big_buoy_weather.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_CD_optimized_cpu100/decision_figures/08-optimized-e2e-time-by-bandwidth-D2_weather_utf16.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_CD_optimized_cpu100/decision_figures/08-optimized-e2e-time-by-bandwidth-D3_wave_sensor.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_CD_optimized_cpu100/decision_figures/08-optimized-e2e-time-by-bandwidth-D4_ocean_current_log.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_C_parquet_optimized_cpu100/decision_figures/01-best-algorithm-share-by-file-type.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_C_parquet_optimized_cpu100/decision_figures/02-latency-reduction-by-file-and-algorithm.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_C_parquet_optimized_cpu100/decision_figures/03-latency-reduction-by-bandwidth.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_C_parquet_optimized_cpu100/decision_figures/04-latency-reduction-by-cpu-limit.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_C_parquet_optimized_cpu100/decision_figures/05-parameter-heatmap-D1_big_buoy_weather.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_C_parquet_optimized_cpu100/decision_figures/05-parameter-heatmap-D2_weather_utf16.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_C_parquet_optimized_cpu100/decision_figures/05-parameter-heatmap-D3_wave_sensor.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_C_parquet_optimized_cpu100/decision_figures/05-parameter-heatmap-D4_ocean_current_log.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_C_parquet_optimized_cpu100/decision_figures/06-best-algorithm-latency-reduction-by-file-type.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_C_parquet_optimized_cpu100/decision_figures/07-best-algorithm-advantage-by-file-type.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_D_timeseries_optimized_cpu100/decision_figures/01-best-algorithm-share-by-file-type.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_D_timeseries_optimized_cpu100/decision_figures/02-latency-reduction-by-file-and-algorithm.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_D_timeseries_optimized_cpu100/decision_figures/03-latency-reduction-by-bandwidth.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_D_timeseries_optimized_cpu100/decision_figures/04-latency-reduction-by-cpu-limit.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_D_timeseries_optimized_cpu100/decision_figures/05-parameter-heatmap-D1_big_buoy_weather.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_D_timeseries_optimized_cpu100/decision_figures/05-parameter-heatmap-D2_weather_utf16.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_D_timeseries_optimized_cpu100/decision_figures/05-parameter-heatmap-D3_wave_sensor.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_D_timeseries_optimized_cpu100/decision_figures/05-parameter-heatmap-D4_ocean_current_log.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_D_timeseries_optimized_cpu100/decision_figures/06-best-algorithm-latency-reduction-by-file-type.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_D_timeseries_optimized_cpu100/decision_figures/07-best-algorithm-advantage-by-file-type.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/01-best-algorithm-share-by-file-type.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/02-latency-reduction-by-file-and-algorithm.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/03-latency-reduction-by-bandwidth.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/04-latency-reduction-by-cpu-limit.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/05-parameter-heatmap-D1_big_buoy_weather.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/05-parameter-heatmap-D2_weather_utf16.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/05-parameter-heatmap-D3_wave_sensor.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/05-parameter-heatmap-D4_ocean_current_log.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/06-best-algorithm-latency-reduction-by-file-type.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/07-best-algorithm-advantage-by-file-type.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/08A-bandwidth-t-total-p4096-D1_big_buoy_weather.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/08A-bandwidth-t-total-p4096-D2_weather_utf16.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/08A-bandwidth-t-total-p4096-D3_wave_sensor.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/08A-bandwidth-t-total-p4096-D4_ocean_current_log.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/09A-packet-size-t-total-D1_big_buoy_weather.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/09A-packet-size-t-total-D2_weather_utf16.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/09A-packet-size-t-total-D3_wave_sensor.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/09A-packet-size-t-total-D4_ocean_current_log.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/10A-latency-reduction-bandwidth-packet-grid-D1_big_buoy_weather.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/10A-latency-reduction-bandwidth-packet-grid-D2_weather_utf16.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/10A-latency-reduction-bandwidth-packet-grid-D3_wave_sensor.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/decision_figures/10A-latency-reduction-bandwidth-packet-grid-D4_ocean_current_log.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_whole_file_cpu100/decision_figures/01-best-algorithm-share-by-file-type.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_whole_file_cpu100/decision_figures/02-latency-reduction-by-file-and-algorithm.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_whole_file_cpu100/decision_figures/03-latency-reduction-by-bandwidth.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_whole_file_cpu100/decision_figures/04-latency-reduction-by-cpu-limit.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_whole_file_cpu100/decision_figures/05-parameter-heatmap-D1_big_buoy_weather.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_whole_file_cpu100/decision_figures/05-parameter-heatmap-D2_weather_utf16.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_whole_file_cpu100/decision_figures/05-parameter-heatmap-D3_wave_sensor.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_whole_file_cpu100/decision_figures/05-parameter-heatmap-D4_ocean_current_log.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_whole_file_cpu100/decision_figures/06-best-algorithm-latency-reduction-by-file-type.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_whole_file_cpu100/decision_figures/07-best-algorithm-advantage-by-file-type.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts/file_01_latency_reduction.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts/file_02_latency_reduction.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts/file_03_latency_reduction.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts/file_04_latency_reduction.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts/file_05_latency_reduction.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts/file_06_latency_reduction.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts/file_07_latency_reduction.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts/file_08_latency_reduction.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts/file_09_latency_reduction.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts_no_decode/file_01_latency_reduction_no_decode.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts_no_decode/file_02_latency_reduction_no_decode.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts_no_decode/file_03_latency_reduction_no_decode.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts_no_decode/file_04_latency_reduction_no_decode.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts_no_decode/file_05_latency_reduction_no_decode.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts_no_decode/file_06_latency_reduction_no_decode.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts_no_decode/file_07_latency_reduction_no_decode.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts_no_decode/file_08_latency_reduction_no_decode.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/docker_compression_feasibility/video_latency_reduction_charts_no_decode/file_09_latency_reduction_no_decode.png",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "cache_exam/plot_packet_loss_rates.py",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "cache_exam/dynamic-link-config/plot-dynamic-link-fluctuation.py",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/02_protocol_evaluation/scripts/plot-protocol-evaluation.py",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/05_datasets_and_generators/generators/plot-training-data-distribution.py",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/plot-lightweight-model-results.py",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "outputs/marine-data-case-study/plot_bandwidth_comparison.py",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "outputs/marine-data-case-study/plot_case_study.py",
+    "reason": "绘图脚本或图像"
+  },
+  {
+    "source": "outputs/marine-data-case-study/plot_llncs_figure.py",
+    "reason": "绘图脚本或图像"
+  }
+]

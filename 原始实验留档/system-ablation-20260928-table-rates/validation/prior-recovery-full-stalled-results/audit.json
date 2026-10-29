@@ -1,0 +1,313 @@
+{
+  "FULL": {
+    "file_rows": 4373,
+    "status_counts": {
+      "delivered": 1099,
+      "in_transport": 36,
+      "queued": 2692,
+      "assembling": 6,
+      "in_service": 1,
+      "cache_evicted": 539
+    },
+    "generated_bytes": 959910221,
+    "delivered_bytes": 199627138,
+    "dropped_bytes": 559183183,
+    "pending_bytes": 201099900,
+    "last_delivery_s": 1795.1591082,
+    "transport_stalls_over_600s": [
+      {
+        "id": "7",
+        "stream": "0",
+        "protocol": "0",
+        "age_s": 2289.484
+      },
+      {
+        "id": "8",
+        "stream": "0",
+        "protocol": "0",
+        "age_s": 2372.063
+      },
+      {
+        "id": "9",
+        "stream": "0",
+        "protocol": "0",
+        "age_s": 2355.417
+      },
+      {
+        "id": "10",
+        "stream": "0",
+        "protocol": "0",
+        "age_s": 2284.722
+      },
+      {
+        "id": "11",
+        "stream": "0",
+        "protocol": "0",
+        "age_s": 2282.673
+      },
+      {
+        "id": "12",
+        "stream": "0",
+        "protocol": "0",
+        "age_s": 2219.247
+      },
+      {
+        "id": "13",
+        "stream": "0",
+        "protocol": "0",
+        "age_s": 2115.023
+      },
+      {
+        "id": "31",
+        "stream": "1",
+        "protocol": "0",
+        "age_s": 2972.255
+      },
+      {
+        "id": "32",
+        "stream": "1",
+        "protocol": "0",
+        "age_s": 2277.833
+      },
+      {
+        "id": "33",
+        "stream": "1",
+        "protocol": "0",
+        "age_s": 2277.833
+      },
+      {
+        "id": "946",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2972.255
+      },
+      {
+        "id": "947",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2946.905
+      },
+      {
+        "id": "948",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2969.849
+      },
+      {
+        "id": "949",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2946.081
+      },
+      {
+        "id": "955",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2971.664
+      },
+      {
+        "id": "961",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2966.865
+      },
+      {
+        "id": "962",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2955.291
+      },
+      {
+        "id": "966",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2961.977
+      },
+      {
+        "id": "974",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2933.821
+      },
+      {
+        "id": "975",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2942.828
+      },
+      {
+        "id": "978",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2948.537
+      },
+      {
+        "id": "979",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2948.219
+      },
+      {
+        "id": "982",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2947.514
+      },
+      {
+        "id": "989",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2938.888
+      },
+      {
+        "id": "1060",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2277.833
+      },
+      {
+        "id": "1125",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2145.212
+      },
+      {
+        "id": "1132",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2139.8
+      },
+      {
+        "id": "1133",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2148.658
+      },
+      {
+        "id": "1174",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2141.14
+      },
+      {
+        "id": "1463",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2200.781
+      },
+      {
+        "id": "1464",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2132.368
+      },
+      {
+        "id": "1528",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2062.406
+      },
+      {
+        "id": "1536",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2268.872
+      },
+      {
+        "id": "1538",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2136.261
+      },
+      {
+        "id": "1578",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2249.013
+      },
+      {
+        "id": "1610",
+        "stream": "2",
+        "protocol": "0",
+        "age_s": 2104.746
+      },
+      {
+        "id": "3788",
+        "stream": "5",
+        "protocol": "0",
+        "age_s": 2989.989
+      }
+    ],
+    "accounting_and_event_order": "PASS",
+    "protocol_predictions": "PASS",
+    "transport_stall_audit": "FLAG"
+  },
+  "WO_PROTOCOL": {
+    "file_rows": 4373,
+    "status_counts": {
+      "delivered": 3914,
+      "assembling": 6,
+      "cache_evicted": 453
+    },
+    "generated_bytes": 959910221,
+    "delivered_bytes": 742817918,
+    "dropped_bytes": 201152749,
+    "pending_bytes": 15939554,
+    "last_delivery_s": 3613.67261633,
+    "transport_stalls_over_600s": [],
+    "accounting_and_event_order": "PASS",
+    "protocol_predictions": "PASS",
+    "transport_stall_audit": "PASS"
+  },
+  "WO_COMPRESSION": {
+    "file_rows": 4373,
+    "status_counts": {
+      "delivered": 4291,
+      "assembling": 6,
+      "cache_evicted": 76
+    },
+    "generated_bytes": 959910221,
+    "delivered_bytes": 401229926,
+    "dropped_bytes": 542740741,
+    "pending_bytes": 15939554,
+    "last_delivery_s": 3684.55243738,
+    "transport_stalls_over_600s": [],
+    "accounting_and_event_order": "PASS",
+    "protocol_predictions": "PASS",
+    "transport_stall_audit": "PASS"
+  },
+  "WO_CACHE": {
+    "file_rows": 4373,
+    "status_counts": {
+      "delivered": 1233,
+      "source_dropped": 3134,
+      "assembling": 6
+    },
+    "generated_bytes": 959910221,
+    "delivered_bytes": 189135301,
+    "dropped_bytes": 754835366,
+    "pending_bytes": 15939554,
+    "last_delivery_s": 3701.42651385,
+    "transport_stalls_over_600s": [],
+    "accounting_and_event_order": "PASS",
+    "protocol_predictions": "PASS",
+    "transport_stall_audit": "PASS"
+  },
+  "BASELINE": {
+    "file_rows": 4373,
+    "status_counts": {
+      "delivered": 608,
+      "source_dropped": 3759,
+      "assembling": 6
+    },
+    "generated_bytes": 959910221,
+    "delivered_bytes": 146073607,
+    "dropped_bytes": 797897060,
+    "pending_bytes": 15939554,
+    "last_delivery_s": 3599.36666687,
+    "transport_stalls_over_600s": [],
+    "accounting_and_event_order": "PASS",
+    "protocol_predictions": "PASS",
+    "transport_stall_audit": "PASS"
+  }
+}

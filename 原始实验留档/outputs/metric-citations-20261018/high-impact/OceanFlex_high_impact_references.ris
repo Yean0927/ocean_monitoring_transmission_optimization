@@ -1,0 +1,85 @@
+TY  - CONF
+AU  - Alizadeh, Mohammad
+AU  - Greenberg, Albert
+AU  - Maltz, David A.
+AU  - Padhye, Jitendra
+AU  - Patel, Parveen
+AU  - Prabhakar, Balaji
+AU  - Sengupta, Sudipta
+AU  - Sridharan, Murari
+TI  - Data Center TCP (DCTCP)
+T2  - Proceedings of the ACM SIGCOMM 2010 conference
+PY  - 2010
+SP  - 63
+EP  - 74
+DO  - 10.1145/1851182.1851192
+UR  - https://doi.org/10.1145/1851182.1851192
+ER  -
+
+TY  - JOUR
+AU  - Lindstrom, Peter
+TI  - Fixed-Rate Compressed Floating-Point Arrays
+JO  - IEEE Transactions on Visualization and Computer Graphics
+PY  - 2014
+VL  - 20
+IS  - 12
+SP  - 2674
+EP  - 2683
+DO  - 10.1109/TVCG.2014.2346458
+UR  - https://doi.org/10.1109/TVCG.2014.2346458
+ER  -
+
+TY  - CONF
+AU  - Balasubramanian, Aruna
+AU  - Levine, Brian
+AU  - Venkataramani, Arun
+TI  - DTN Routing as a Resource Allocation Problem
+T2  - Proceedings of the 2007 conference on Applications, technologies, architectures, and protocols for computer communications
+PY  - 2007
+SP  - 373
+EP  - 384
+DO  - 10.1145/1282380.1282422
+UR  - https://doi.org/10.1145/1282380.1282422
+ER  -
+
+TY  - JOUR
+AU  - Floyd, S.
+AU  - Jacobson, V.
+TI  - Random Early Detection Gateways for Congestion Avoidance
+JO  - IEEE/ACM Transactions on Networking
+PY  - 1993
+VL  - 1
+IS  - 4
+SP  - 397
+EP  - 413
+DO  - 10.1109/90.251892
+UR  - https://doi.org/10.1109/90.251892
+ER  -
+
+TY  - CONF
+AU  - Zaharia, Matei
+AU  - Das, Tathagata
+AU  - Li, Haoyuan
+AU  - Hunter, Timothy
+AU  - Shenker, Scott
+AU  - Stoica, Ion
+TI  - Discretized Streams: Fault-Tolerant Streaming Computation at Scale
+T2  - Proceedings of the Twenty-Fourth ACM Symposium on Operating Systems Principles
+PY  - 2013
+SP  - 423
+EP  - 438
+DO  - 10.1145/2517349.2522737
+UR  - https://doi.org/10.1145/2517349.2522737
+ER  -
+
+TY  - CONF
+AU  - Fall, Kevin
+TI  - A Delay-Tolerant Network Architecture for Challenged Internets
+T2  - Proceedings of the 2003 conference on Applications, technologies, architectures, and protocols for computer communications
+PY  - 2003
+SP  - 27
+EP  - 34
+DO  - 10.1145/863955.863960
+UR  - https://doi.org/10.1145/863955.863960
+ER  -
+

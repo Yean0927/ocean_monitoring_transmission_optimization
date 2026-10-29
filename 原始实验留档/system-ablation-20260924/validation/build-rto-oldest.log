@@ -1,0 +1,155 @@
+[  0%] Building CXX object contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-congestion-ops.cc.o
+[  1%] Building CXX object contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-base.cc.o
+[  1%] Building CXX object contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-factory.cc.o
+[  1%] Building CXX object contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-l4-protocol.cc.o
+[  1%] Building CXX object contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-buffer.cc.o
+[  1%] Building CXX object contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-scheduler.cc.o
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.cc:881:29: warning: 'IsRunning' is deprecated: Deprecated in ns-3.42: Use IsPending instead [-Wdeprecated-declarations]
+  881 |   if (m_drainingPeriodEvent.IsRunning ())
+      |                             ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/event-id.h:112:5: note: 'IsRunning' has been explicitly marked deprecated here
+  112 |     NS_DEPRECATED_3_42("Use IsPending instead")
+      |     ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:102:33: note: expanded from macro 'NS_DEPRECATED_3_42'
+  102 | #define NS_DEPRECATED_3_42(msg) NS_DEPRECATED("Deprecated in ns-3.42: " msg)
+      |                                 ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:95:30: note: expanded from macro 'NS_DEPRECATED'
+   95 | #define NS_DEPRECATED(msg) [[deprecated(msg)]]
+      |                              ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.cc:903:29: warning: 'IsRunning' is deprecated: Deprecated in ns-3.42: Use IsPending instead [-Wdeprecated-declarations]
+  903 |   if (m_drainingPeriodEvent.IsRunning ())
+      |                             ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/event-id.h:112:5: note: 'IsRunning' has been explicitly marked deprecated here
+  112 |     NS_DEPRECATED_3_42("Use IsPending instead")
+      |     ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:102:33: note: expanded from macro 'NS_DEPRECATED_3_42'
+  102 | #define NS_DEPRECATED_3_42(msg) NS_DEPRECATED("Deprecated in ns-3.42: " msg)
+      |                                 ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:95:30: note: expanded from macro 'NS_DEPRECATED'
+   95 | #define NS_DEPRECATED(msg) [[deprecated(msg)]]
+      |                              ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.cc:938:39: warning: 'IsRunning' is deprecated: Deprecated in ns-3.42: Use IsPending instead [-Wdeprecated-declarations]
+  938 |           if (!m_sendPendingDataEvent.IsRunning ())
+      |                                       ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/event-id.h:112:5: note: 'IsRunning' has been explicitly marked deprecated here
+  112 |     NS_DEPRECATED_3_42("Use IsPending instead")
+      |     ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:102:33: note: expanded from macro 'NS_DEPRECATED_3_42'
+  102 | #define NS_DEPRECATED_3_42(msg) NS_DEPRECATED("Deprecated in ns-3.42: " msg)
+      |                                 ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:95:30: note: expanded from macro 'NS_DEPRECATED'
+   95 | #define NS_DEPRECATED(msg) [[deprecated(msg)]]
+      |                              ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.cc:1026:33: warning: 'IsRunning' is deprecated: Deprecated in ns-3.42: Use IsPending instead [-Wdeprecated-declarations]
+ 1026 |       if (m_drainingPeriodEvent.IsRunning ())
+      |                                 ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/event-id.h:112:5: note: 'IsRunning' has been explicitly marked deprecated here
+  112 |     NS_DEPRECATED_3_42("Use IsPending instead")
+      |     ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:102:33: note: expanded from macro 'NS_DEPRECATED_3_42'
+  102 | #define NS_DEPRECATED_3_42(msg) NS_DEPRECATED("Deprecated in ns-3.42: " msg)
+      |                                 ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:95:30: note: expanded from macro 'NS_DEPRECATED'
+   95 | #define NS_DEPRECATED(msg) [[deprecated(msg)]]
+      |                              ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.cc:1157:27: warning: 'IsRunning' is deprecated: Deprecated in ns-3.42: Use IsPending instead [-Wdeprecated-declarations]
+ 1157 |       if (!m_sendAckEvent.IsRunning ())
+      |                           ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/event-id.h:112:5: note: 'IsRunning' has been explicitly marked deprecated here
+  112 |     NS_DEPRECATED_3_42("Use IsPending instead")
+      |     ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:102:33: note: expanded from macro 'NS_DEPRECATED_3_42'
+  102 | #define NS_DEPRECATED_3_42(msg) NS_DEPRECATED("Deprecated in ns-3.42: " msg)
+      |                                 ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:95:30: note: expanded from macro 'NS_DEPRECATED'
+   95 | #define NS_DEPRECATED(msg) [[deprecated(msg)]]
+      |                              ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.cc:1167:27: warning: 'IsRunning' is deprecated: Deprecated in ns-3.42: Use IsPending instead [-Wdeprecated-declarations]
+ 1167 |       if (!m_sendAckEvent.IsRunning ())
+      |                           ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/event-id.h:112:5: note: 'IsRunning' has been explicitly marked deprecated here
+  112 |     NS_DEPRECATED_3_42("Use IsPending instead")
+      |     ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:102:33: note: expanded from macro 'NS_DEPRECATED_3_42'
+  102 | #define NS_DEPRECATED_3_42(msg) NS_DEPRECATED("Deprecated in ns-3.42: " msg)
+      |                                 ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:95:30: note: expanded from macro 'NS_DEPRECATED'
+   95 | #define NS_DEPRECATED(msg) [[deprecated(msg)]]
+      |                              ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.cc:1179:31: warning: 'IsRunning' is deprecated: Deprecated in ns-3.42: Use IsPending instead [-Wdeprecated-declarations]
+ 1179 |           if (!m_sendAckEvent.IsRunning ())
+      |                               ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/event-id.h:112:5: note: 'IsRunning' has been explicitly marked deprecated here
+  112 |     NS_DEPRECATED_3_42("Use IsPending instead")
+      |     ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:102:33: note: expanded from macro 'NS_DEPRECATED_3_42'
+  102 | #define NS_DEPRECATED_3_42(msg) NS_DEPRECATED("Deprecated in ns-3.42: " msg)
+      |                                 ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:95:30: note: expanded from macro 'NS_DEPRECATED'
+   95 | #define NS_DEPRECATED(msg) [[deprecated(msg)]]
+      |                              ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.cc:1186:30: warning: 'IsRunning' is deprecated: Deprecated in ns-3.42: Use IsPending instead [-Wdeprecated-declarations]
+ 1186 |           if (!m_delAckEvent.IsRunning ())
+      |                              ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/event-id.h:112:5: note: 'IsRunning' has been explicitly marked deprecated here
+  112 |     NS_DEPRECATED_3_42("Use IsPending instead")
+      |     ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:102:33: note: expanded from macro 'NS_DEPRECATED_3_42'
+  102 | #define NS_DEPRECATED_3_42(msg) NS_DEPRECATED("Deprecated in ns-3.42: " msg)
+      |                                 ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:95:30: note: expanded from macro 'NS_DEPRECATED'
+   95 | #define NS_DEPRECATED(msg) [[deprecated(msg)]]
+      |                              ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.cc:1279:30: warning: 'IsRunning' is deprecated: Deprecated in ns-3.42: Use IsPending instead [-Wdeprecated-declarations]
+ 1279 |   if (!m_drainingPeriodEvent.IsRunning ())
+      |                              ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/event-id.h:112:5: note: 'IsRunning' has been explicitly marked deprecated here
+  112 |     NS_DEPRECATED_3_42("Use IsPending instead")
+      |     ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:102:33: note: expanded from macro 'NS_DEPRECATED_3_42'
+  102 | #define NS_DEPRECATED_3_42(msg) NS_DEPRECATED("Deprecated in ns-3.42: " msg)
+      |                                 ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:95:30: note: expanded from macro 'NS_DEPRECATED'
+   95 | #define NS_DEPRECATED(msg) [[deprecated(msg)]]
+      |                              ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.cc:1320:87: warning: use of GNU ?: conditional expression extension, omitting middle operand [-Wgnu-conditional-omitted-operand]
+ 1320 |       m_tcb->m_appLimitedUntil = m_tcb->m_delivered + m_tcb->m_bytesInFlight.Get () ? : 1U;
+      |                                                                                       ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.cc:1721:26: warning: 'IsRunning' is deprecated: Deprecated in ns-3.42: Use IsPending instead [-Wdeprecated-declarations]
+ 1721 |   if (m_idleTimeoutEvent.IsRunning () and m_socketState != IDLE
+      |                          ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/event-id.h:112:5: note: 'IsRunning' has been explicitly marked deprecated here
+  112 |     NS_DEPRECATED_3_42("Use IsPending instead")
+      |     ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:102:33: note: expanded from macro 'NS_DEPRECATED_3_42'
+  102 | #define NS_DEPRECATED_3_42(msg) NS_DEPRECATED("Deprecated in ns-3.42: " msg)
+      |                                 ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:95:30: note: expanded from macro 'NS_DEPRECATED'
+   95 | #define NS_DEPRECATED(msg) [[deprecated(msg)]]
+      |                              ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.cc:2638:30: warning: 'IsRunning' is deprecated: Deprecated in ns-3.42: Use IsPending instead [-Wdeprecated-declarations]
+ 2638 |   if (!m_drainingPeriodEvent.IsRunning ())
+      |                              ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/event-id.h:112:5: note: 'IsRunning' has been explicitly marked deprecated here
+  112 |     NS_DEPRECATED_3_42("Use IsPending instead")
+      |     ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:102:33: note: expanded from macro 'NS_DEPRECATED_3_42'
+  102 | #define NS_DEPRECATED_3_42(msg) NS_DEPRECATED("Deprecated in ns-3.42: " msg)
+      |                                 ^
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/src/core/model/deprecated.h:95:30: note: expanded from macro 'NS_DEPRECATED'
+   95 | #define NS_DEPRECATED(msg) [[deprecated(msg)]]
+      |                              ^
+[  1%] Building CXX object contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-pfifo-scheduler.cc.o
+[  1%] Building CXX object contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-socket-tx-edf-scheduler.cc.o
+[  2%] Building CXX object contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-l5-protocol.cc.o
+[  2%] Building CXX object contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-stream-tx-buffer.cc.o
+[  2%] Building CXX object contrib/quic/CMakeFiles/libquic-obj.dir/model/quic-bbr.cc.o
+[  2%] Building CXX object contrib/quic/CMakeFiles/libquic-obj.dir/helper/quic-helper.cc.o
+12 warnings generated.
+/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-bbr.cc:367:78: warning: use of GNU ?: conditional expression extension, omitting middle operand [-Wgnu-conditional-omitted-operand]
+  367 |   tcb->m_appLimitedUntil = (tcb->m_delivered + tcb->m_bytesInFlight.Get ()) ?: 1;
+      |                                                                              ^
+1 warning generated.
+[  2%] Linking CXX shared library /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build/lib/libns3.42-quic-optimized.dylib
+[  2%] Building CXX object scratch/CMakeFiles/scratch_system-ablation.dir/system-ablation.cc.o
+[  2%] Linking CXX executable /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build/scratch/ns3.42-system-ablation-optimized

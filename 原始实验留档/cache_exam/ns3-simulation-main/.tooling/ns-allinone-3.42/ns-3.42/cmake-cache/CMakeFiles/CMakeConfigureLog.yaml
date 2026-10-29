@@ -1,0 +1,1022 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      The system is: Darwin - 25.5.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'c++' not found
+      c++: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/3.31.10/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'System' not found
+      cc: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/3.31.10/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-GaxYPH"
+      binary: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-GaxYPH"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-GaxYPH'
+        
+        Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_30536/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_30536.dir/build.make CMakeFiles/cmTC_30536.dir/build
+        Building CXX object CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o -c /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 21.0.0 (clang-2100.1.1.101)
+        Target: arm64-apple-darwin25.5.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        c++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=26.5 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-GaxYPH -target-linker-version 1267 -v -fcoverage-compilation-dir=/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-GaxYPH -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/21/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.0.0 (clang-2100.1.1.101) default target arm64-apple-darwin25.5.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/21/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks (framework directory)
+         /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/SubFrameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_30536
+        /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30536.dir/link.txt --verbose=1
+        Apple clang version 21.0.0 (clang-2100.1.1.101)
+        Target: arm64-apple-darwin25.5.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_30536 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1267
+        BUILD 16:38:58 Jun  8 2026
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 21.0.0 (static support for 30, runtime is 30)
+        TAPI support using: Apple TAPI version 21.0.0 (tapi-2100.0.2.6)
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_30536
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1]
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/21/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/21/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/21/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/21/include;/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-GaxYPH']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_30536/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_30536.dir/build.make CMakeFiles/cmTC_30536.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o -c /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 21.0.0 (clang-2100.1.1.101)]
+        ignore line: [Target: arm64-apple-darwin25.5.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [c++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=26.5 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-GaxYPH -target-linker-version 1267 -v -fcoverage-compilation-dir=/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-GaxYPH -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/21/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.0.0 (clang-2100.1.1.101) default target arm64-apple-darwin25.5.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/21/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/SubFrameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_30536]
+        ignore line: [/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30536.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 21.0.0 (clang-2100.1.1.101)]
+        ignore line: [Target: arm64-apple-darwin25.5.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_30536 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [26.0.0] ==> ignore
+          arg [26.5] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_30536] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_30536.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1267
+      BUILD 16:38:58 Jun  8 2026
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 21.0.0 (static support for 30, runtime is 30)
+      TAPI support using: Apple TAPI version 21.0.0 (tapi-2100.0.2.6)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-77fLta"
+      binary: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-77fLta"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-77fLta'
+        
+        Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c0db0/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c0db0.dir/build.make CMakeFiles/cmTC_c0db0.dir/build
+        Building C object CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o -c /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Apple clang version 21.0.0 (clang-2100.1.1.101)
+        Target: arm64-apple-darwin25.5.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        cc: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=26.5 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-77fLta -target-linker-version 1267 -v -fcoverage-compilation-dir=/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-77fLta -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/21/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/Library/Frameworks -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o -x c /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 21.0.0 (clang-2100.1.1.101) default target arm64-apple-darwin25.5.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/usr/lib/clang/21/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks (framework directory)
+         /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/SubFrameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_c0db0
+        /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0db0.dir/link.txt --verbose=1
+        Apple clang version 21.0.0 (clang-2100.1.1.101)
+        Target: arm64-apple-darwin25.5.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_c0db0 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1267
+        BUILD 16:38:58 Jun  8 2026
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 21.0.0 (static support for 30, runtime is 30)
+        TAPI support using: Apple TAPI version 21.0.0 (tapi-2100.0.2.6)
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o -o cmTC_c0db0
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/21/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/21/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/21/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/21/include;/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-77fLta']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c0db0/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c0db0.dir/build.make CMakeFiles/cmTC_c0db0.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o -c /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 21.0.0 (clang-2100.1.1.101)]
+        ignore line: [Target: arm64-apple-darwin25.5.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [cc: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=26.5 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-77fLta -target-linker-version 1267 -v -fcoverage-compilation-dir=/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-77fLta -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/21/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/Library/Frameworks -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o -x c /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 21.0.0 (clang-2100.1.1.101) default target arm64-apple-darwin25.5.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/21/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/SubFrameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_c0db0]
+        ignore line: [/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0db0.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 21.0.0 (clang-2100.1.1.101)]
+        ignore line: [Target: arm64-apple-darwin25.5.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_c0db0 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [26.0.0] ==> ignore
+          arg [26.5] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c0db0] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_c0db0.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Running the C compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1267
+      BUILD 16:38:58 Jun  8 2026
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 21.0.0 (static support for 30, runtime is 30)
+      TAPI support using: Apple TAPI version 21.0.0 (tapi-2100.0.2.6)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build-support/macros-and-definitions.cmake:620 (find_package)"
+      - "CMakeLists.txt:149 (process_options)"
+    directories:
+      source: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-nGUXdH"
+      binary: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-nGUXdH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/custom-modules;/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-nGUXdH'
+        
+        Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5578d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5578d.dir/build.make CMakeFiles/cmTC_5578d.dir/build
+        Building C object CMakeFiles/cmTC_5578d.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -fPIE -MD -MT CMakeFiles/cmTC_5578d.dir/src.c.o -MF CMakeFiles/cmTC_5578d.dir/src.c.o.d -o CMakeFiles/cmTC_5578d.dir/src.c.o -c /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-nGUXdH/src.c
+        Linking C executable cmTC_5578d
+        /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5578d.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5578d.dir/src.c.o -o cmTC_5578d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-support/macros-and-definitions.cmake:1066 (check_cxx_source_compiles)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Performing Test HAVE_UINT128_T"
+    directories:
+      source: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-CXbfUo"
+      binary: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-CXbfUo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/custom-modules;/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_UINT128_T"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-CXbfUo'
+        
+        Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_836db/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_836db.dir/build.make CMakeFiles/cmTC_836db.dir/build
+        Building CXX object CMakeFiles/cmTC_836db.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_UINT128_T  -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -fPIE -MD -MT CMakeFiles/cmTC_836db.dir/src.cxx.o -MF CMakeFiles/cmTC_836db.dir/src.cxx.o.d -o CMakeFiles/cmTC_836db.dir/src.cxx.o -c /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-CXbfUo/src.cxx
+        /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-CXbfUo/src.cxx:4:18: error: use of undeclared identifier 'uint128_t'
+            4 |             if ((uint128_t *) 0) return 0;
+              |                  ^~~~~~~~~
+        /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-CXbfUo/src.cxx:4:29: error: expected expression
+            4 |             if ((uint128_t *) 0) return 0;
+              |                             ^
+        /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-CXbfUo/src.cxx:5:25: error: use of undeclared identifier 'uint128_t'
+            5 |             if (sizeof (uint128_t)) return 0;
+              |                         ^~~~~~~~~
+        3 errors generated.
+        make[1]: *** [CMakeFiles/cmTC_836db.dir/src.cxx.o] Error 1
+        make: *** [cmTC_836db/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-support/macros-and-definitions.cmake:1076 (check_cxx_source_compiles)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Performing Test HAVE___UINT128_T"
+    directories:
+      source: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-Ug8XDZ"
+      binary: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-Ug8XDZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/custom-modules;/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE___UINT128_T"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-Ug8XDZ'
+        
+        Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e2c11/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e2c11.dir/build.make CMakeFiles/cmTC_e2c11.dir/build
+        Building CXX object CMakeFiles/cmTC_e2c11.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE___UINT128_T  -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -fPIE -MD -MT CMakeFiles/cmTC_e2c11.dir/src.cxx.o -MF CMakeFiles/cmTC_e2c11.dir/src.cxx.o.d -o CMakeFiles/cmTC_e2c11.dir/src.cxx.o -c /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-Ug8XDZ/src.cxx
+        Linking CXX executable cmTC_e2c11
+        /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2c11.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e2c11.dir/src.cxx.o -o cmTC_e2c11
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1122 (check_include_file)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-R1JHcq"
+      binary: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-R1JHcq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/custom-modules;/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-R1JHcq'
+        
+        Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_86584/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_86584.dir/build.make CMakeFiles/cmTC_86584.dir/build
+        Building C object CMakeFiles/cmTC_86584.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -fPIE -MD -MT CMakeFiles/cmTC_86584.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_86584.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_86584.dir/CheckIncludeFile.c.o -c /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-R1JHcq/CheckIncludeFile.c
+        Linking C executable cmTC_86584
+        /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86584.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_86584.dir/CheckIncludeFile.c.o -o cmTC_86584
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1123 (check_include_file)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-utfvBS"
+      binary: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-utfvBS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/custom-modules;/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-utfvBS'
+        
+        Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e3dd0/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e3dd0.dir/build.make CMakeFiles/cmTC_e3dd0.dir/build
+        Building C object CMakeFiles/cmTC_e3dd0.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -fPIE -MD -MT CMakeFiles/cmTC_e3dd0.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_e3dd0.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_e3dd0.dir/CheckIncludeFile.c.o -c /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-utfvBS/CheckIncludeFile.c
+        Linking C executable cmTC_e3dd0
+        /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3dd0.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e3dd0.dir/CheckIncludeFile.c.o -o cmTC_e3dd0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1124 (check_include_file)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-UfGK2D"
+      binary: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-UfGK2D"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/custom-modules;/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-UfGK2D'
+        
+        Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dfa19/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dfa19.dir/build.make CMakeFiles/cmTC_dfa19.dir/build
+        Building C object CMakeFiles/cmTC_dfa19.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -fPIE -MD -MT CMakeFiles/cmTC_dfa19.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_dfa19.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_dfa19.dir/CheckIncludeFile.c.o -c /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-UfGK2D/CheckIncludeFile.c
+        Linking C executable cmTC_dfa19
+        /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfa19.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_dfa19.dir/CheckIncludeFile.c.o -o cmTC_dfa19
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1125 (check_include_file)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for sys/stat.h"
+    directories:
+      source: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-G6hAs3"
+      binary: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-G6hAs3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/custom-modules;/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_STAT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-G6hAs3'
+        
+        Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d948e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d948e.dir/build.make CMakeFiles/cmTC_d948e.dir/build
+        Building C object CMakeFiles/cmTC_d948e.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -fPIE -MD -MT CMakeFiles/cmTC_d948e.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_d948e.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_d948e.dir/CheckIncludeFile.c.o -c /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-G6hAs3/CheckIncludeFile.c
+        Linking C executable cmTC_d948e
+        /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d948e.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d948e.dir/CheckIncludeFile.c.o -o cmTC_d948e
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1126 (check_include_file)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for dirent.h"
+    directories:
+      source: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-0H1Jhs"
+      binary: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-0H1Jhs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/custom-modules;/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_DIRENT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-0H1Jhs'
+        
+        Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_71a2b/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_71a2b.dir/build.make CMakeFiles/cmTC_71a2b.dir/build
+        Building C object CMakeFiles/cmTC_71a2b.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -fPIE -MD -MT CMakeFiles/cmTC_71a2b.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_71a2b.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_71a2b.dir/CheckIncludeFile.c.o -c /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-0H1Jhs/CheckIncludeFile.c
+        Linking C executable cmTC_71a2b
+        /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71a2b.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_71a2b.dir/CheckIncludeFile.c.o -o cmTC_71a2b
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1127 (check_include_file)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for stdlib.h"
+    directories:
+      source: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-10lWdj"
+      binary: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-10lWdj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/custom-modules;/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-10lWdj'
+        
+        Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_886f0/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_886f0.dir/build.make CMakeFiles/cmTC_886f0.dir/build
+        Building C object CMakeFiles/cmTC_886f0.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -fPIE -MD -MT CMakeFiles/cmTC_886f0.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_886f0.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_886f0.dir/CheckIncludeFile.c.o -c /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-10lWdj/CheckIncludeFile.c
+        Linking C executable cmTC_886f0
+        /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_886f0.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_886f0.dir/CheckIncludeFile.c.o -o cmTC_886f0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1128 (check_include_file)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for signal.h"
+    directories:
+      source: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-WZQ3jk"
+      binary: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-WZQ3jk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/custom-modules;/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SIGNAL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-WZQ3jk'
+        
+        Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_89be2/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_89be2.dir/build.make CMakeFiles/cmTC_89be2.dir/build
+        Building C object CMakeFiles/cmTC_89be2.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -fPIE -MD -MT CMakeFiles/cmTC_89be2.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_89be2.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_89be2.dir/CheckIncludeFile.c.o -c /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-WZQ3jk/CheckIncludeFile.c
+        Linking C executable cmTC_89be2
+        /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89be2.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_89be2.dir/CheckIncludeFile.c.o -o cmTC_89be2
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1129 (check_include_file)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for netpacket/packet.h"
+    directories:
+      source: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ushiEv"
+      binary: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ushiEv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/custom-modules;/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PACKETH"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ushiEv'
+        
+        Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e5b09/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e5b09.dir/build.make CMakeFiles/cmTC_e5b09.dir/build
+        Building C object CMakeFiles/cmTC_e5b09.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -fPIE -MD -MT CMakeFiles/cmTC_e5b09.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_e5b09.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_e5b09.dir/CheckIncludeFile.c.o -c /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ushiEv/CheckIncludeFile.c
+        /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ushiEv/CheckIncludeFile.c:1:10: fatal error: 'netpacket/packet.h' file not found
+            1 | #include <netpacket/packet.h>
+              |          ^~~~~~~~~~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_e5b09.dir/CheckIncludeFile.c.o] Error 1
+        make: *** [cmTC_e5b09/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1130 (check_function_exists)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for getenv"
+    directories:
+      source: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-doTiXp"
+      binary: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-doTiXp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/custom-modules;/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_GETENV"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-doTiXp'
+        
+        Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4e314/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4e314.dir/build.make CMakeFiles/cmTC_4e314.dir/build
+        Building C object CMakeFiles/cmTC_4e314.dir/CheckFunctionExists.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getenv -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -fPIE -MD -MT CMakeFiles/cmTC_4e314.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_4e314.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_4e314.dir/CheckFunctionExists.c.o -c /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-doTiXp/CheckFunctionExists.c
+        Linking C executable cmTC_4e314
+        /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e314.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getenv -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4e314.dir/CheckFunctionExists.c.o -o cmTC_4e314
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "src/antenna/CMakeLists.txt:2 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE_STD_BESSEL_FUNC"
+    directories:
+      source: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-R90MIH"
+      binary: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-R90MIH"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/custom-modules;/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STD_BESSEL_FUNC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-R90MIH'
+        
+        Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_22d9c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_22d9c.dir/build.make CMakeFiles/cmTC_22d9c.dir/build
+        Building CXX object CMakeFiles/cmTC_22d9c.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_STD_BESSEL_FUNC  -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -fPIE -MD -MT CMakeFiles/cmTC_22d9c.dir/src.cxx.o -MF CMakeFiles/cmTC_22d9c.dir/src.cxx.o.d -o CMakeFiles/cmTC_22d9c.dir/src.cxx.o -c /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-R90MIH/src.cxx
+        /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-R90MIH/src.cxx:4:19: error: no member named 'cyl_bessel_j' in namespace 'std'
+            4 |       return std::cyl_bessel_j(1, 1);
+              |                   ^~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_22d9c.dir/src.cxx.o] Error 1
+        make: *** [cmTC_22d9c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "src/antenna/CMakeLists.txt:27 (check_include_files)"
+    checks:
+      - "Looking for include file boost/math/special_functions/bessel.hpp"
+    directories:
+      source: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-hc2tUJ"
+      binary: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-hc2tUJ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/custom-modules;/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_BOOST_BESSEL_FUNC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-hc2tUJ'
+        
+        Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_57034/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_57034.dir/build.make CMakeFiles/cmTC_57034.dir/build
+        Building CXX object CMakeFiles/cmTC_57034.dir/HAVE_BOOST_BESSEL_FUNC.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -fPIE -MD -MT CMakeFiles/cmTC_57034.dir/HAVE_BOOST_BESSEL_FUNC.cpp.o -MF CMakeFiles/cmTC_57034.dir/HAVE_BOOST_BESSEL_FUNC.cpp.o.d -o CMakeFiles/cmTC_57034.dir/HAVE_BOOST_BESSEL_FUNC.cpp.o -c /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-hc2tUJ/HAVE_BOOST_BESSEL_FUNC.cpp
+        /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-hc2tUJ/HAVE_BOOST_BESSEL_FUNC.cpp:2:10: fatal error: 'boost/math/special_functions/bessel.hpp' file not found
+            2 | #include <boost/math/special_functions/bessel.hpp>
+              |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_57034.dir/HAVE_BOOST_BESSEL_FUNC.cpp.o] Error 1
+        make: *** [cmTC_57034/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "src/core/CMakeLists.txt:17 (check_include_files)"
+    checks:
+      - "Looking for include files boost/units/quantity.hpp, boost/units/systems/si.hpp"
+    directories:
+      source: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-z7egXL"
+      binary: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-z7egXL"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/custom-modules;/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_BOOST_UNITS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-z7egXL'
+        
+        Run Build Command(s): /Users/yean/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1d440/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1d440.dir/build.make CMakeFiles/cmTC_1d440.dir/build
+        Building CXX object CMakeFiles/cmTC_1d440.dir/HAVE_BOOST_UNITS.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -fPIE -MD -MT CMakeFiles/cmTC_1d440.dir/HAVE_BOOST_UNITS.cpp.o -MF CMakeFiles/cmTC_1d440.dir/HAVE_BOOST_UNITS.cpp.o.d -o CMakeFiles/cmTC_1d440.dir/HAVE_BOOST_UNITS.cpp.o -c /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-z7egXL/HAVE_BOOST_UNITS.cpp
+        /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-z7egXL/HAVE_BOOST_UNITS.cpp:2:10: fatal error: 'boost/units/quantity.hpp' file not found
+            2 | #include <boost/units/quantity.hpp>
+              |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_1d440.dir/HAVE_BOOST_UNITS.cpp.o] Error 1
+        make: *** [cmTC_1d440/fast] Error 2
+        
+      exitCode: 2
+...

@@ -1,0 +1,91 @@
+TY  - CONF
+AU  - Zhang, Ben
+AU  - Jin, Xin
+AU  - Ratnasamy, Sylvia
+AU  - Wawrzynek, John
+AU  - Lee, Edward A.
+TI  - AWStream: Adaptive Wide-Area Streaming Analytics
+T2  - Proceedings of the 2018 Conference of the ACM Special Interest Group on Data Communication
+PY  - 2018
+SP  - 236
+EP  - 252
+DO  - 10.1145/3230543.3230554
+UR  - https://doi.org/10.1145/3230543.3230554
+ER  -
+
+TY  - JOUR
+AU  - Blalock, Davis
+AU  - Madden, Samuel
+AU  - Guttag, John
+TI  - Sprintz: Time Series Compression for the Internet of Things
+JO  - Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies
+PY  - 2018
+VL  - 2
+IS  - 3
+SP  - 93:1
+EP  - 93:23
+DO  - 10.1145/3264903
+UR  - https://doi.org/10.1145/3264903
+ER  -
+
+TY  - JOUR
+AU  - QIN, Shuang
+AU  - FENG, Gang
+AU  - QIN, Wenyi
+AU  - GE, Yu
+AU  - PATHMASUNTHARAM, Jaya Shankar
+TI  - Performance Evaluation of Data Transmission in Maritime Delay-Tolerant-Networks
+JO  - IEICE Transactions on Communications
+PY  - 2013
+VL  - E96.B
+IS  - 6
+SP  - 1435
+EP  - 1443
+DO  - 10.1587/transcom.E96.B.1435
+UR  - https://doi.org/10.1587/transcom.E96.B.1435
+ER  -
+
+TY  - CONF
+AU  - Abbas, Ali
+AU  - Shah, Babar
+AU  - Al-Obeidat, Feras
+AU  - Iqbal, Farkhund
+TI  - Bounded message delay with threshold time constraint in delay tolerant networks (DTNs)
+T2  - 2016 3rd MEC International Conference on Big Data and Smart City (ICBDSC)
+PY  - 2016
+SP  - 1
+EP  - 6
+DO  - 10.1109/ICBDSC.2016.7460368
+UR  - https://doi.org/10.1109/ICBDSC.2016.7460368
+ER  -
+
+TY  - CONF
+AU  - Zaharia, Matei
+AU  - Das, Tathagata
+AU  - Li, Haoyuan
+AU  - Hunter, Timothy
+AU  - Shenker, Scott
+AU  - Stoica, Ion
+TI  - Discretized Streams: Fault-Tolerant Streaming Computation at Scale
+T2  - Proceedings of the Twenty-Fourth ACM Symposium on Operating Systems Principles
+PY  - 2013
+SP  - 423
+EP  - 438
+DO  - 10.1145/2517349.2522737
+UR  - https://doi.org/10.1145/2517349.2522737
+ER  -
+
+TY  - JOUR
+AU  - Knutsson, Björn
+AU  - Björkman, Mats
+TI  - Adaptive end-to-end compression for variable-bandwidth communication
+JO  - Computer Networks
+PY  - 1999
+VL  - 31
+IS  - 7
+SP  - 767
+EP  - 779
+DO  - 10.1016/S0169-7552(98)00299-2
+UR  - https://doi.org/10.1016/S0169-7552(98)00299-2
+ER  -
+

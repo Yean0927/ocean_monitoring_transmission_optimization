@@ -1,0 +1,7 @@
+{
+  "peak_queue_bytes": 49999700.0,
+  "peak_assembly_bytes": null,
+  "link_dropped_packets": null,
+  "wire_packets_both_directions": null,
+  "remaining_queue_bytes": 28303831
+}

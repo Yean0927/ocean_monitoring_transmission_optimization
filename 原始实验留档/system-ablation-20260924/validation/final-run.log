@@ -1,0 +1,33 @@
+RUN FULL
+RUN WO_PROTOCOL
+DONE WO_PROTOCOL 89.8 wall seconds
+RUN WO_COMPRESSION
+DONE FULL 93.1 wall seconds
+RUN WO_CACHE
+RUN BASELINE
+DONE WO_COMPRESSION 94.0 wall seconds
+DONE BASELINE 90.2 wall seconds
+Traceback (most recent call last):
+  File "/Users/yean/program/海洋监测/system-ablation-20260924/run_experiment.py", line 115, in <module>
+    '- `../prepared/events.tsv`、`files.json`、`link.csv`：共用来源事件、文件定义与原始状态时序。',
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yean/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yean/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/yean/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/yean/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/yean/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yean/program/海洋监测/system-ablation-20260924/run_experiment.py", line 111, in run
+    '- `summary.csv`、`by-stream.csv`、`actual-codec-totals.csv`：总体、各类数据和本轮真实编码体积统计。',
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yean/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build/scratch/ns3.42-system-ablation-optimized', '--input=/Users/yean/program/海洋监测/system-ablation-20260924/prepared', '--output=/Users/yean/program/海洋监测/system-ablation-20260924/results/WO_CACHE.csv', '--variant=WO_CACHE', '--duration=3600', '--drain=300', '--cacheBytes=50000000', '--seed=31']' died with <Signals.SIGABRT: 6>.

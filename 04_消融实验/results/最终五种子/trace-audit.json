@@ -1,0 +1,867 @@
+{
+  "status": "PASS",
+  "seeds": [
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "runs": 40,
+  "results": "/Users/yean/program/海洋监测/ocean/04_消融实验/results/最终五种子",
+  "per_seed": {
+    "31": {
+      "FULL": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 4367,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 943970667,
+        "permanently_dropped_raw_equivalent_bytes": 0,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 98.33947449966782,
+        "loss_pct": 0.0,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 387.68651910960835,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "WO_PROTOCOL": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 3817,
+          "assembling": 6,
+          "cache_evicted": 453,
+          "in_transport": 4,
+          "in_service": 1,
+          "queued": 92
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 717722563,
+        "permanently_dropped_raw_equivalent_bytes": 201152749,
+        "pending_raw_bytes": 41034909,
+        "success_delivery_pct": 74.76975943149166,
+        "loss_pct": 20.95537109610587,
+        "pending_pct": 4.274869472402461,
+        "restricted_mean_delivery_time_s": 1247.989075038635,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "WO_COMPRESSION": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 3960,
+          "queued": 336,
+          "assembling": 6,
+          "cache_evicted": 70,
+          "in_service": 1
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 345404540,
+        "permanently_dropped_raw_equivalent_bytes": 448694090,
+        "pending_raw_bytes": 165811591,
+        "success_delivery_pct": 35.98300470643702,
+        "loss_pct": 46.74333913567111,
+        "pending_pct": 17.273656157891875,
+        "restricted_mean_delivery_time_s": 1374.340799923498,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "WO_CACHE": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 3487,
+          "source_dropped": 879,
+          "assembling": 6,
+          "in_transport": 1
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 779157771,
+        "permanently_dropped_raw_equivalent_bytes": 164806422,
+        "pending_raw_bytes": 15946028,
+        "success_delivery_pct": 81.16985880078467,
+        "loss_pct": 17.16894126080985,
+        "pending_pct": 1.6611999384054896,
+        "restricted_mean_delivery_time_s": 651.9026735305787,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "BASELINE": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 608,
+          "source_dropped": 3759,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 146073607,
+        "permanently_dropped_raw_equivalent_bytes": 797897060,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 15.217423859475709,
+        "loss_pct": 83.12205064019211,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 1830.3297483035062,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "ADD_PROTOCOL": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 1413,
+          "source_dropped": 2953,
+          "assembling": 6,
+          "in_service": 1
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 279990757,
+        "permanently_dropped_raw_equivalent_bytes": 558905388,
+        "pending_raw_bytes": 121014076,
+        "success_delivery_pct": 29.168431679820607,
+        "loss_pct": 58.22475641708997,
+        "pending_pct": 12.606811903089424,
+        "restricted_mean_delivery_time_s": 1509.8208003614898,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "ADD_COMPRESSION": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 2042,
+          "source_dropped": 2325,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 458014389,
+        "permanently_dropped_raw_equivalent_bytes": 485956278,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 47.71429441837353,
+        "loss_pct": 50.62518008129429,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 1280.4497902416454,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "ADD_CACHE": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 3715,
+          "assembling": 6,
+          "in_transport": 2,
+          "in_service": 1,
+          "queued": 127,
+          "cache_evicted": 522
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 157133460,
+        "permanently_dropped_raw_equivalent_bytes": 752321065,
+        "pending_raw_bytes": 50455696,
+        "success_delivery_pct": 16.36959963154721,
+        "loss_pct": 78.37410713433793,
+        "pending_pct": 5.25629323411486,
+        "restricted_mean_delivery_time_s": 1829.7860261503806,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      }
+    },
+    "32": {
+      "FULL": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 4367,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 943970667,
+        "permanently_dropped_raw_equivalent_bytes": 0,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 98.33947449966782,
+        "loss_pct": 0.0,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 387.04588365201107,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "WO_PROTOCOL": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 3776,
+          "assembling": 6,
+          "cache_evicted": 466,
+          "in_transport": 3,
+          "in_service": 1,
+          "queued": 121
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 700025298,
+        "permanently_dropped_raw_equivalent_bytes": 211605994,
+        "pending_raw_bytes": 48278929,
+        "success_delivery_pct": 72.92612191072816,
+        "loss_pct": 22.044352624931577,
+        "pending_pct": 5.029525464340274,
+        "restricted_mean_delivery_time_s": 1267.5565764327841,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "WO_COMPRESSION": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 3965,
+          "queued": 336,
+          "assembling": 6,
+          "cache_evicted": 65,
+          "in_service": 1
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 346698115,
+        "permanently_dropped_raw_equivalent_bytes": 447400515,
+        "pending_raw_bytes": 165811591,
+        "success_delivery_pct": 36.11776470499734,
+        "loss_pct": 46.60857913711078,
+        "pending_pct": 17.273656157891875,
+        "restricted_mean_delivery_time_s": 1366.132629241042,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "WO_CACHE": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 3464,
+          "source_dropped": 903,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 777961264,
+        "permanently_dropped_raw_equivalent_bytes": 166009403,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 81.04521099791478,
+        "loss_pct": 17.294263501753047,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 661.3889657751929,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "BASELINE": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 592,
+          "source_dropped": 3775,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 144961399,
+        "permanently_dropped_raw_equivalent_bytes": 799009268,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 15.101558023726888,
+        "loss_pct": 83.23791647594093,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 1831.736691768599,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "ADD_PROTOCOL": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 1498,
+          "source_dropped": 2868,
+          "assembling": 6,
+          "in_service": 1
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 284323871,
+        "permanently_dropped_raw_equivalent_bytes": 554572274,
+        "pending_raw_bytes": 121014076,
+        "success_delivery_pct": 29.61983993709345,
+        "loss_pct": 57.773348159817125,
+        "pending_pct": 12.606811903089424,
+        "restricted_mean_delivery_time_s": 1492.3275946315962,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "ADD_COMPRESSION": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 2089,
+          "source_dropped": 2278,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 464143142,
+        "permanently_dropped_raw_equivalent_bytes": 479827525,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 48.352765898926705,
+        "loss_pct": 49.98670860074111,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 1265.5248086826389,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "ADD_CACHE": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 3724,
+          "assembling": 6,
+          "in_transport": 2,
+          "in_service": 1,
+          "queued": 121,
+          "cache_evicted": 519
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 159461895,
+        "permanently_dropped_raw_equivalent_bytes": 747448857,
+        "pending_raw_bytes": 52999469,
+        "success_delivery_pct": 16.612167628955792,
+        "loss_pct": 77.86653799991156,
+        "pending_pct": 5.521294371132652,
+        "restricted_mean_delivery_time_s": 1828.257972029089,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      }
+    },
+    "33": {
+      "FULL": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 4367,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 943970667,
+        "permanently_dropped_raw_equivalent_bytes": 0,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 98.33947449966782,
+        "loss_pct": 0.0,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 388.5104876116826,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "WO_PROTOCOL": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 1587,
+          "queued": 2165,
+          "assembling": 6,
+          "cache_evicted": 614,
+          "in_service": 1
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 168163934,
+        "permanently_dropped_raw_equivalent_bytes": 510989048,
+        "pending_raw_bytes": 280757239,
+        "success_delivery_pct": 17.518714804892156,
+        "loss_pct": 53.233004172793365,
+        "pending_pct": 29.248281022314483,
+        "restricted_mean_delivery_time_s": 1445.5358438776445,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": [
+          "4336"
+        ]
+      },
+      "WO_COMPRESSION": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 3943,
+          "queued": 336,
+          "assembling": 6,
+          "cache_evicted": 87,
+          "in_service": 1
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 341006385,
+        "permanently_dropped_raw_equivalent_bytes": 453092245,
+        "pending_raw_bytes": 165811591,
+        "success_delivery_pct": 35.52482071133192,
+        "loss_pct": 47.20152313077621,
+        "pending_pct": 17.273656157891875,
+        "restricted_mean_delivery_time_s": 1398.3816092467957,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "WO_CACHE": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 3479,
+          "source_dropped": 888,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 778854162,
+        "permanently_dropped_raw_equivalent_bytes": 165116505,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 81.13822990535695,
+        "loss_pct": 17.201244594310868,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 652.95370607144,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "BASELINE": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 624,
+          "source_dropped": 3743,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 147992803,
+        "permanently_dropped_raw_equivalent_bytes": 795977864,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 15.41735880735038,
+        "loss_pct": 82.92211569231743,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 1826.8147893812052,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "ADD_PROTOCOL": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 1635,
+          "source_dropped": 2731,
+          "assembling": 6,
+          "in_service": 1
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 291001635,
+        "permanently_dropped_raw_equivalent_bytes": 547894510,
+        "pending_raw_bytes": 121014076,
+        "success_delivery_pct": 30.315505412250424,
+        "loss_pct": 57.077682684660154,
+        "pending_pct": 12.606811903089424,
+        "restricted_mean_delivery_time_s": 1464.5785774374758,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "ADD_COMPRESSION": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 2085,
+          "source_dropped": 2282,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 453924607,
+        "permanently_dropped_raw_equivalent_bytes": 490046060,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 47.28823561510968,
+        "loss_pct": 51.051238884558146,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 1309.403559551181,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "ADD_CACHE": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 3739,
+          "assembling": 6,
+          "in_transport": 2,
+          "in_service": 1,
+          "queued": 116,
+          "cache_evicted": 509
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 163342620,
+        "permanently_dropped_raw_equivalent_bytes": 743802560,
+        "pending_raw_bytes": 52765041,
+        "success_delivery_pct": 17.01644762463676,
+        "loss_pct": 77.48667987149186,
+        "pending_pct": 5.49687250387138,
+        "restricted_mean_delivery_time_s": 1823.4235015404402,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      }
+    },
+    "34": {
+      "FULL": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 4367,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 943970667,
+        "permanently_dropped_raw_equivalent_bytes": 0,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 98.33947449966782,
+        "loss_pct": 0.0,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 387.41623812208957,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "WO_PROTOCOL": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 3768,
+          "assembling": 6,
+          "cache_evicted": 459,
+          "in_transport": 4,
+          "in_service": 1,
+          "queued": 135
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 720716779,
+        "permanently_dropped_raw_equivalent_bytes": 187033788,
+        "pending_raw_bytes": 52159654,
+        "success_delivery_pct": 75.08168610280899,
+        "loss_pct": 19.484508437169772,
+        "pending_pct": 5.433805460021245,
+        "restricted_mean_delivery_time_s": 1243.5613654465715,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "WO_COMPRESSION": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 4265,
+          "assembling": 6,
+          "queued": 21,
+          "cache_evicted": 80,
+          "in_service": 1
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 380986447,
+        "permanently_dropped_raw_equivalent_bytes": 549007097,
+        "pending_raw_bytes": 29916677,
+        "success_delivery_pct": 39.689800010994986,
+        "loss_pct": 57.19358800326807,
+        "pending_pct": 3.116611985736945,
+        "restricted_mean_delivery_time_s": 1391.0890461367062,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "WO_CACHE": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 3446,
+          "source_dropped": 921,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 781223542,
+        "permanently_dropped_raw_equivalent_bytes": 162747125,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 81.38506340584117,
+        "loss_pct": 16.95441109382666,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 654.4089652309369,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "BASELINE": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 608,
+          "source_dropped": 3759,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 145574710,
+        "permanently_dropped_raw_equivalent_bytes": 798395957,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 15.165450561443704,
+        "loss_pct": 83.17402393822411,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 1830.4218112742644,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "ADD_PROTOCOL": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 1512,
+          "source_dropped": 2854,
+          "assembling": 6,
+          "in_service": 1
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 284913925,
+        "permanently_dropped_raw_equivalent_bytes": 553982220,
+        "pending_raw_bytes": 121014076,
+        "success_delivery_pct": 29.681309644060974,
+        "loss_pct": 57.711878452849604,
+        "pending_pct": 12.606811903089424,
+        "restricted_mean_delivery_time_s": 1489.7228649348895,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "ADD_COMPRESSION": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 2134,
+          "source_dropped": 2233,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 456561899,
+        "permanently_dropped_raw_equivalent_bytes": 487408768,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 47.56297922574157,
+        "loss_pct": 50.77649527392625,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 1303.6008923963723,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "ADD_CACHE": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 4064,
+          "assembling": 6,
+          "queued": 13,
+          "cache_evicted": 289,
+          "in_service": 1
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 159541724,
+        "permanently_dropped_raw_equivalent_bytes": 749581601,
+        "pending_raw_bytes": 50786896,
+        "success_delivery_pct": 16.620483927527633,
+        "loss_pct": 78.08871961162293,
+        "pending_pct": 5.290796460849436,
+        "restricted_mean_delivery_time_s": 1722.8659204651055,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      }
+    },
+    "35": {
+      "FULL": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 4367,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 943970667,
+        "permanently_dropped_raw_equivalent_bytes": 0,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 98.33947449966782,
+        "loss_pct": 0.0,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 388.2337977505854,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "WO_PROTOCOL": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 3733,
+          "assembling": 6,
+          "in_service": 1,
+          "in_transport": 10,
+          "queued": 170,
+          "cache_evicted": 453
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 691675331,
+        "permanently_dropped_raw_equivalent_bytes": 201152749,
+        "pending_raw_bytes": 67082141,
+        "success_delivery_pct": 72.05625233153965,
+        "loss_pct": 20.95537109610587,
+        "pending_pct": 6.988376572354468,
+        "restricted_mean_delivery_time_s": 1251.9094508229234,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "WO_COMPRESSION": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 3956,
+          "queued": 336,
+          "assembling": 6,
+          "cache_evicted": 74,
+          "in_service": 1
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 344369680,
+        "permanently_dropped_raw_equivalent_bytes": 449728950,
+        "pending_raw_bytes": 165811591,
+        "success_delivery_pct": 35.87519670758876,
+        "loss_pct": 46.851147134519366,
+        "pending_pct": 17.273656157891875,
+        "restricted_mean_delivery_time_s": 1380.8733259180044,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "WO_CACHE": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 3463,
+          "source_dropped": 904,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 782090135,
+        "permanently_dropped_raw_equivalent_bytes": 161880532,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 81.47534195283873,
+        "loss_pct": 16.864132546829087,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 651.1629285215857,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "BASELINE": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 598,
+          "source_dropped": 3769,
+          "assembling": 6
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 145252491,
+        "permanently_dropped_raw_equivalent_bytes": 798718176,
+        "pending_raw_bytes": 15939554,
+        "success_delivery_pct": 15.131882943040358,
+        "loss_pct": 83.20759155662746,
+        "pending_pct": 1.6605255003321815,
+        "restricted_mean_delivery_time_s": 1831.3722161984808,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "ADD_PROTOCOL": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 1508,
+          "source_dropped": 2858,
+          "assembling": 6,
+          "in_service": 1
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 284641088,
+        "permanently_dropped_raw_equivalent_bytes": 554255057,
+        "pending_raw_bytes": 121014076,
+        "success_delivery_pct": 29.652886465097865,
+        "loss_pct": 57.74030163181271,
+        "pending_pct": 12.606811903089424,
+        "restricted_mean_delivery_time_s": 1490.2863649523981,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      },
+      "ADD_COMPRESSION": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 1062,
+          "source_dropped": 3304,
+          "assembling": 6,
+          "in_service": 1
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 157541199,
+        "permanently_dropped_raw_equivalent_bytes": 681354946,
+        "pending_raw_bytes": 121014076,
+        "success_delivery_pct": 16.412076416467286,
+        "loss_pct": 70.98111168044329,
+        "pending_pct": 12.606811903089424,
+        "restricted_mean_delivery_time_s": 1473.956641788344,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": [
+          "4336"
+        ]
+      },
+      "ADD_CACHE": {
+        "file_rows": 4373,
+        "status_counts": {
+          "delivered": 3710,
+          "assembling": 6,
+          "queued": 134,
+          "in_service": 1,
+          "cache_evicted": 522
+        },
+        "generated_raw_bytes": 959910221,
+        "delivered_raw_equivalent_bytes": 155839885,
+        "permanently_dropped_raw_equivalent_bytes": 752321065,
+        "pending_raw_bytes": 51749271,
+        "success_delivery_pct": 16.234839632986887,
+        "loss_pct": 78.37410713433793,
+        "pending_pct": 5.391053232675183,
+        "restricted_mean_delivery_time_s": 1829.795295896075,
+        "accounting_and_event_order": "PASS",
+        "protocol_predictions": "PASS",
+        "summary_matches_trace": "PASS",
+        "long_transport_item_ids": []
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "stream": "I1",
+  "stage": "decompress",
+  "batch_wall_s": 0.8084385419933824,
+  "batch_cpu_s": 0.40477799999999997,
+  "iterations": 500,
+  "per_object_s": 0.0016168770839867649,
+  "thread_limit": 1,
+  "width": 1280,
+  "height": 720,
+  "integrity": "decode_and_dimensions",
+  "cpu_profile": "shared1",
+  "quota_cpu_seconds_per_second": 0.5,
+  "limiter_stops": 45,
+  "limiter_paused_s": 0.4022481650899863,
+  "limiter_max_observed_budget_error_cpu_s": 0.006143817998849166,
+  "controller_poll_s": 0.003,
+  "controller_burst_tolerance_s": 0.003
+}

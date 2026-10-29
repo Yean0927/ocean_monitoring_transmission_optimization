@@ -1,0 +1,10 @@
+{
+  "pdf": "outputs/video-latency-redraw/fig9_latency_reduction_digitized.pdf",
+  "auditable": true,
+  "minimum_required_pt": 5.0,
+  "minimum_found_pt": 11.5,
+  "text_run_count": 17,
+  "below_minimum_count": 0,
+  "below_minimum": [],
+  "warnings": []
+}

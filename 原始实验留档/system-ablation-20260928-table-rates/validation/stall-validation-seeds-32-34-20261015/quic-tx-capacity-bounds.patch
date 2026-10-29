@@ -1,0 +1,12 @@
+--- a/model/quic-socket-tx-buffer.cc
++++ b/model/quic-socket-tx-buffer.cc
+@@ -665,7 +665,8 @@
+ 
+ uint32_t QuicSocketTxBuffer::Available (void) const
+ {
+-  return m_maxBuffer - m_streamZeroSize - m_scheduler->AppSize ();
++  const uint64_t used = uint64_t (m_streamZeroSize) + m_scheduler->AppSize ();
++  return used >= m_maxBuffer ? 0 : uint32_t (m_maxBuffer - used);
+ }
+ 
+ uint32_t QuicSocketTxBuffer::GetMaxBufferSize (void) const

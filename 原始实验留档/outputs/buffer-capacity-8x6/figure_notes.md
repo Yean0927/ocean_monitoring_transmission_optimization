@@ -1,0 +1,15 @@
+# Buffer capacity dual-axis figure with peak occupancy
+
+Figure contract: compare how seven buffer-capacity settings affect data loss, delivered volume and peak buffer occupancy in the reported simulation. Data loss decreases, delivered volume increases mainly between 0 and 20 MB, and peak occupancy increases from 0 to 117.310014 MB. This is a single quantitative trend comparison using the existing Python/matplotlib style.
+
+All seven source rows and all 21 outcome values are plotted directly at their supplied precision. No rows or outcome columns are excluded. There is no interpolation, smoothing, normalization, uncertainty calculation or invented data. Lines connect the reported observations.
+
+Horizontal axis: Buffer capacity (MB). Left axis: Data loss / peak occupancy (MB), range −10 to 380 with ticks from 0 through 350 in 50 MB increments. Data loss uses blue circles and a solid line; peak buffer occupancy uses purple triangles and a dash-dot line. Right axis: Delivered volume (MB), 580–760, orange squares and a dashed line. Left-axis tick and label colors are black because that axis now serves two series. All line widths are 3 pt, axis titles 20 pt bold and ticks 14 pt. The three-entry legend is 12.5 pt bold, stacked inside the upper-right plot area. Its borderless white background improves separation from grid lines and covers no data marks. The right axis extends to 760 MB to leave clear space above the delivered-volume line, and the plot top moves from 0.85 to 0.94 to reclaim the former external-legend space. The two vertical scales are independent; cross-axis line intersections do not express numerical equality.
+
+Canvas remains exactly 8 × 6 inches in all formats. PNG: 2400 × 1800 px at 300 dpi. TIFF: 4800 × 3600 px at 600 dpi. PDF: 576 × 432 pt. PDF/SVG retain editable text. Multi-panel alignment is not applicable to a single plot rectangle with shared twin axes, and the alignment JSON records that status.
+
+Fresh QA after adding occupancy: all peak-occupancy values checked against the supplied table, all three series and both axes visually inspected, PDF text audit passes with a 12.5 pt minimum, collision audit passes with zero failures and zero warnings, and raster/PDF dimensions verified. Source preflight has 20 passes and one expected width warning because the requested width is 8 inches.
+
+Legend revision QA: visually confirmed all three series remain clear of the inside legend; PDF text audit passes with a 12.5 pt minimum; rendered collision audit has zero failures and zero warnings. Three contained-fill records correspond to legend text inside its intentional white legend background. Export dimensions remain exactly 8 × 6 inches.
+
+Matched-layout revision: both the delivery-ratio and buffer-capacity figures now have an identical 8 × 6 inch canvas and identical plot bounds (left=0.15, right=0.82, bottom=0.16, top=0.94). Each plot rectangle is exactly 5.36 × 4.68 inches and has the same vertical position. The final rendered geometry comparison finds zero edge differences. Both fresh PDF text and collision audits pass.

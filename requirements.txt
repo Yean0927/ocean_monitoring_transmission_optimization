@@ -1,0 +1,18 @@
+# Consolidated Python dependencies; original per-module requirements are preserved.
+# For loading historical joblib weights, use xgboost_features/requirements.txt versions.
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+lightgbm
+catboost
+joblib
+threadpoolctl
+pyarrow
+pillow
+imageio-ffmpeg
+psutil
+
+# Restored standalone plotting scripts
+matplotlib

@@ -1,0 +1,19 @@
+{
+  "FULL": {
+    "QUIC_BBR": 1115
+  },
+  "WO_PROTOCOL": {
+    "TCP_CUBIC": 4905
+  },
+  "WO_COMPRESSION": {
+    "QUIC_BBR": 326,
+    "TCP_CUBIC": 194,
+    "TCP_BBR": 51
+  },
+  "WO_CACHE": {
+    "QUIC_BBR": 1109
+  },
+  "BASELINE": {
+    "TCP_CUBIC": 1625
+  }
+}

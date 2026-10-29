@@ -1,0 +1,25 @@
+{
+  "upstream": "https://github.com/signetlabdei/quic",
+  "commit": "833aea6e82fa16bddd6586461ebbcf44f0db0d69",
+  "ns3_version": "3.42",
+  "compatibility_changes": "Replace legacy Ptr comparisons by nullptr; omit optional tests; discard already delivered QUIC stream retransmissions; trim buffered overlapping ranges; fix erased-iterator access in Rx extraction. Congestion-control code unchanged. Remove invalid STREAM-header peeks from already header-stripped rejected payloads. Stop zero-byte sends from scheduling zero-delay pacing loops; wait for window/ACK updates. Match initial stream flow limit to 131072-byte receive buffer, advertise stream limits on ACKs, resume buffered stream sending on increasing MAX_STREAM_DATA. This is a local flow-control correctness change and must be considered when comparing against unpatched stage-one measurements. Correct ACK range floor when gaps are truncated, bound ACK history, retain unmodified payload in the retransmission queue, cap retransmission packet size, and count split stream segments in flight. No BBR congestion algorithm changes. One STREAM frame per QUIC datagram avoids treating later frame headers as stream payload on retransmission. RTO retransmits the oldest outstanding packet when no fresh socket payload is available. These fixes do not alter BBR congestion control but change transport reliability behavior. Receiver detects a missing stream byte offset and sends an explicit request on the bottleneck link after a 500 ms delay and then every 1 s until the gap closes; sender retransmits requested bytes from historical stream data. The request reuses the STREAM_BLOCKED control type, which is a nonstandard QUIC reliability extension and changes transport behavior, though BBR congestion-control implementation is unchanged.",
+  "model_sha256": "ac553ccdda63b4665f4ccf51a841febbbe07df8db2a96ceeb6cc6f6f0532dc7f",
+  "preprocessor_sha256": "7b53925745bd9da7a05777b9d4df2084e04e85bfd9a3d42b448f1291d3b7061b",
+  "sha256": {
+    "system-ablation.cc": "7684a4bfafb6e9d4e610752edc9287bf5a12ea8989d2cc5a6ceba5be7e30736e",
+    "quic-ns3.42.patch": "10033b02d9843db8285e26019271079db4df6df048f2653f1e3e945e7bb7e515",
+    "prepared/run-config.json": "1cb71e9b8f443afc50c451e5e45ce06d71a3f430946c306d4caf7ff886692e7d",
+    "prepared/link.csv": "97724dd8620d3f32e61883e2f2efee79b03ba1e93b59eeadd2116187b43f9b14",
+    "prepared/events.tsv": "ebe83d636de949bfb38558831d15f87433c482a59cc4c6bba53bc4d469ecd670",
+    "prepared/files.tsv": "8c9f1f1794e9e55e65f3e509144cc53f45accf0446004c82f5e7cbb958deeaa9",
+    "prepare.py": "e854885c5b5e588b94c64e17b8530effadd546e613909846d76cc0f951d4dc85",
+    "run_experiment.py": "f693e3d9cc56a6d6e810f2f62da5e8208521296b88c5a7b15c93e7112421feb8",
+    "audit_results.py": "be98991139453cffc379629e36b51ea8800a312187c87864e5bd16d9f3a3a95d",
+    "results/summary.csv": "09d391fa6e784620d76eddfa176295731cc13ae347c1c4f961bce776668e5891",
+    "results/audit.json": "c278f49238039b6f777e6ef675b05a658b89e11615bafe7958e195dd16adfe1e",
+    "results/report.md": "70828a4f700ff42cc8c108aed2f8dec30804dc0bcff8d0ccae258318d082881e",
+    "results/by-stream.csv": "569a58f82774438adfe67f5508c6548a2bcd4767b988fad9a9711ae5e859e3c3",
+    "README.md": "919fa118fbe89b681924090f64706e18f1e871cc4fa1e32bdce950c696c577ce"
+  },
+  "binary_sha256": "7f6d6875af687882e60a4e62f1b24cacc683ce3cbb291e29ac4fdf79f99c3a64"
+}

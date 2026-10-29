@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+.venv/
+python-packages/
+target/
+runs/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+.DS_Store
+checks.md
+
+# 排除文本数据及其归档副本
+文本文件/
+*海流log-info-*.log
+2020年大浮标气象数据.txt
+浮标中心波浪传感器.txt
+气象数据.txt
+
+# 排除图片、视频和原始数据
+视频样本/
+图片文件/
+*.raw
+*.tif
+*.tiff
+*.bmp
+*.gif
+*.webp
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.m4v

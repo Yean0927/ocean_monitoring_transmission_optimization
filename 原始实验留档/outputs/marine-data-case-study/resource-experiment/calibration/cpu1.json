@@ -1,0 +1,16 @@
+{
+  "stream": "calibration",
+  "stage": "burn",
+  "batch_wall_s": 1.2605698749976,
+  "batch_cpu_s": 1.275523,
+  "iterations": 1,
+  "per_object_s": 1.2605698749976,
+  "thread_limit": 1,
+  "cpu_profile": "cpu1",
+  "quota_cpu_seconds_per_second": 1.0,
+  "limiter_stops": 34,
+  "limiter_paused_s": 0.9280905009800335,
+  "limiter_max_observed_budget_error_cpu_s": 0.037656122005238324,
+  "controller_poll_s": 0.003,
+  "controller_burst_tolerance_s": 0.003
+}

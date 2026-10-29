@@ -1,0 +1,20 @@
+{
+  "frame_bounds_pt": [
+    86.39999999999999,
+    69.12000000000002,
+    567.36,
+    406.08
+  ],
+  "reference_bounds_pt": [
+    86.39999999999999,
+    69.12000000000002,
+    567.36,
+    406.08
+  ],
+  "max_edge_difference_pt": 0.0,
+  "axis_title_font": "Arial-BoldMT",
+  "axis_title_size_pt": 20,
+  "x_title_baseline_difference_pt": 0.03125,
+  "y_title_baseline_difference_pt": 0.0,
+  "verdict": "PASS"
+}

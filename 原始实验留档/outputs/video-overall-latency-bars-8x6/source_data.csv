@@ -1,0 +1,10 @@
+algorithm,bandwidth_mbps,n_videos,original_total_bytes,estimated_compressed_total_bytes,report_mean_encode_s,report_mean_decode_s,estimated_total_processing_s,T_direct_total_s,T_transfer_total_s,T_video_total_s,latency_reduction_pct,aggregation,data_origin
+S1,2,9,146973050,34338057.107999995,4.47,0.43,44.099999999999994,587.8922,137.35222843199998,181.45222843199997,69.13511891601897,ratio_of_summed_latencies,approximate_recalculation_from_rounded_report
+S1,4,9,146973050,34338057.107999995,4.47,0.43,44.099999999999994,293.9461,68.67611421599999,112.77611421599998,61.633743663889405,ratio_of_summed_latencies,approximate_recalculation_from_rounded_report
+S1,10,9,146973050,34338057.107999995,4.47,0.43,44.099999999999994,117.57844,27.470445686399998,71.57044568639999,39.12961790750074,ratio_of_summed_latencies,approximate_recalculation_from_rounded_report
+S2,2,9,146973050,12840755.166000001,9.53,0.72,92.25,587.8922,51.363020664000004,143.613020664,75.57153834257367,ratio_of_summed_latencies,approximate_recalculation_from_rounded_report
+S2,4,9,146973050,12840755.166000001,9.53,0.72,92.25,293.9461,25.681510332000002,117.931510332,59.87988602944552,ratio_of_summed_latencies,approximate_recalculation_from_rounded_report
+S2,10,9,146973050,12840755.166000001,9.53,0.72,92.25,117.57844,10.272604132800002,102.5226041328,12.804929090061071,ratio_of_summed_latencies,approximate_recalculation_from_rounded_report
+S3,2,9,146973050,11976374.933999998,82.99,4.26,785.25,587.8922,47.905499735999996,833.155499736,-41.71909403390622,ratio_of_summed_latencies,approximate_recalculation_from_rounded_report
+S3,4,9,146973050,11976374.933999998,82.99,4.26,785.25,293.9461,23.952749867999998,809.202749868,-175.28950030907026,ratio_of_summed_latencies,approximate_recalculation_from_rounded_report
+S3,10,9,146973050,11976374.933999998,82.99,4.26,785.25,117.57844,9.581099947199998,794.8310999472,-576.0007191345625,ratio_of_summed_latencies,approximate_recalculation_from_rounded_report

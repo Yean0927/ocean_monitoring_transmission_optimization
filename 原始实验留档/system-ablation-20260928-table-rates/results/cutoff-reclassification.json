@@ -1,0 +1,87 @@
+{
+  "method": "postprocess existing 3900 s per-file traces; no simulation run",
+  "observation_cutoff_s": 3600.0,
+  "source": "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/system-ablation-20260928-table-rates/validation/prior-3900s-eight-groups",
+  "variants": {
+    "FULL": {
+      "file_rows": 4373,
+      "ready_after_cutoff": 0,
+      "drops_reclassified": 0,
+      "deliveries_after_cutoff_reclassified_pending": 0,
+      "raw_bytes_reclassified_pending": 0,
+      "decisions_after_cutoff_removed": 0,
+      "file_metrics_reconstructible": true,
+      "packet_counters_at_cutoff_reconstructible": false
+    },
+    "WO_PROTOCOL": {
+      "file_rows": 4373,
+      "ready_after_cutoff": 0,
+      "drops_reclassified": 453,
+      "deliveries_after_cutoff_reclassified_pending": 97,
+      "raw_bytes_reclassified_pending": 25095355,
+      "decisions_after_cutoff_removed": 92,
+      "file_metrics_reconstructible": true,
+      "packet_counters_at_cutoff_reconstructible": false
+    },
+    "WO_COMPRESSION": {
+      "file_rows": 4373,
+      "ready_after_cutoff": 0,
+      "drops_reclassified": 448,
+      "deliveries_after_cutoff_reclassified_pending": 52,
+      "raw_bytes_reclassified_pending": 19497782,
+      "decisions_after_cutoff_removed": 52,
+      "file_metrics_reconstructible": true,
+      "packet_counters_at_cutoff_reconstructible": false
+    },
+    "WO_CACHE": {
+      "file_rows": 4373,
+      "ready_after_cutoff": 0,
+      "drops_reclassified": 936,
+      "deliveries_after_cutoff_reclassified_pending": 0,
+      "raw_bytes_reclassified_pending": 0,
+      "decisions_after_cutoff_removed": 0,
+      "file_metrics_reconstructible": true,
+      "packet_counters_at_cutoff_reconstructible": false
+    },
+    "BASELINE": {
+      "file_rows": 4373,
+      "ready_after_cutoff": 0,
+      "drops_reclassified": 3759,
+      "deliveries_after_cutoff_reclassified_pending": 0,
+      "raw_bytes_reclassified_pending": 0,
+      "decisions_after_cutoff_removed": 0,
+      "file_metrics_reconstructible": true,
+      "packet_counters_at_cutoff_reconstructible": false
+    },
+    "ADD_PROTOCOL": {
+      "file_rows": 4373,
+      "ready_after_cutoff": 0,
+      "drops_reclassified": 3149,
+      "deliveries_after_cutoff_reclassified_pending": 0,
+      "raw_bytes_reclassified_pending": 0,
+      "decisions_after_cutoff_removed": 0,
+      "file_metrics_reconstructible": true,
+      "packet_counters_at_cutoff_reconstructible": false
+    },
+    "ADD_COMPRESSION": {
+      "file_rows": 4373,
+      "ready_after_cutoff": 0,
+      "drops_reclassified": 2325,
+      "deliveries_after_cutoff_reclassified_pending": 0,
+      "raw_bytes_reclassified_pending": 0,
+      "decisions_after_cutoff_removed": 0,
+      "file_metrics_reconstructible": true,
+      "packet_counters_at_cutoff_reconstructible": false
+    },
+    "ADD_CACHE": {
+      "file_rows": 4373,
+      "ready_after_cutoff": 0,
+      "drops_reclassified": 522,
+      "deliveries_after_cutoff_reclassified_pending": 130,
+      "raw_bytes_reclassified_pending": 34516142,
+      "decisions_after_cutoff_removed": 127,
+      "file_metrics_reconstructible": true,
+      "packet_counters_at_cutoff_reconstructible": false
+    }
+  }
+}

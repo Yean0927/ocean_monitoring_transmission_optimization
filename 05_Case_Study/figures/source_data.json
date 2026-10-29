@@ -1,0 +1,117 @@
+{
+  "records": [
+    {
+      "stream": "D2",
+      "bandwidth_mbps": 2,
+      "direct_s": 0.004392,
+      "transfer_s": 0.001112,
+      "codec_s": 2.5000001187436283e-05,
+      "total_s": 0.0011370000011874362,
+      "reduction_pct": 74.11202183088716,
+      "codec_share_pct": 2.1987687916734657,
+      "direct_with_raw_decode_s": 0.004392
+    },
+    {
+      "stream": "D2",
+      "bandwidth_mbps": 4,
+      "direct_s": 0.002196,
+      "transfer_s": 0.000556,
+      "codec_s": 2.5000001187436283e-05,
+      "total_s": 0.0005810000011874362,
+      "reduction_pct": 73.54280504610946,
+      "codec_share_pct": 4.30292618525676,
+      "direct_with_raw_decode_s": 0.002196
+    },
+    {
+      "stream": "D2",
+      "bandwidth_mbps": 10,
+      "direct_s": 0.0008784,
+      "transfer_s": 0.0002224,
+      "codec_s": 2.5000001187436283e-05,
+      "total_s": 0.00024740000118743627,
+      "reduction_pct": 71.83515469177638,
+      "codec_share_pct": 10.105093398320427,
+      "direct_with_raw_decode_s": 0.0008784
+    },
+    {
+      "stream": "V1",
+      "bandwidth_mbps": 2,
+      "direct_s": 17.419112,
+      "transfer_s": 4.84594,
+      "codec_s": 2.6123811249999562,
+      "total_s": 7.458321124999956,
+      "reduction_pct": 57.18311516109458,
+      "codec_share_pct": 35.02639643985525,
+      "direct_with_raw_decode_s": 17.508303125007345
+    },
+    {
+      "stream": "V1",
+      "bandwidth_mbps": 4,
+      "direct_s": 8.709556,
+      "transfer_s": 2.42297,
+      "codec_s": 2.6123811249999562,
+      "total_s": 5.035351124999956,
+      "reduction_pct": 42.18590333422328,
+      "codec_share_pct": 51.88081347554446,
+      "direct_with_raw_decode_s": 8.798747125007345
+    },
+    {
+      "stream": "V1",
+      "bandwidth_mbps": 10,
+      "direct_s": 3.4838224,
+      "transfer_s": 0.969188,
+      "codec_s": 2.6123811249999562,
+      "total_s": 3.581569124999956,
+      "reduction_pct": -2.805732146390584,
+      "codec_share_pct": 72.93957016674887,
+      "direct_with_raw_decode_s": 3.5730135250073465
+    },
+    {
+      "stream": "I1",
+      "bandwidth_mbps": 2,
+      "direct_s": 1.03486,
+      "transfer_s": 0.127112,
+      "codec_s": 0.011468249998870306,
+      "total_s": 0.1385802499988703,
+      "reduction_pct": 86.6087924937798,
+      "codec_share_pct": 8.275529881757173,
+      "direct_with_raw_decode_s": 1.0367186660007712
+    },
+    {
+      "stream": "I1",
+      "bandwidth_mbps": 4,
+      "direct_s": 0.51743,
+      "transfer_s": 0.063556,
+      "codec_s": 0.011468249998870306,
+      "total_s": 0.07502424999887031,
+      "reduction_pct": 85.50059911507444,
+      "codec_share_pct": 15.28605750679679,
+      "direct_with_raw_decode_s": 0.5192886660007713
+    },
+    {
+      "stream": "I1",
+      "bandwidth_mbps": 10,
+      "direct_s": 0.206972,
+      "transfer_s": 0.0254224,
+      "codec_s": 0.011468249998870306,
+      "total_s": 0.036890649998870303,
+      "reduction_pct": 82.17601897895835,
+      "codec_share_pct": 31.087145385677662,
+      "direct_with_raw_decode_s": 0.20883066600077133
+    }
+  ],
+  "panel_order": [
+    "D2",
+    "V1",
+    "I1"
+  ],
+  "measures": [
+    "direct_s",
+    "total_s",
+    "codec_s"
+  ],
+  "uncertainty": "none: one recorded representative payload per type; deterministic size/B calculation",
+  "direct_scope": "original bytes/B; excludes original media decoding",
+  "compressed_scope": "measured compression + compressed bytes/B + measured decompression",
+  "exclusions": "No RTT or CPU-grade curves: the proposed three-grade measurements are unavailable."
+}

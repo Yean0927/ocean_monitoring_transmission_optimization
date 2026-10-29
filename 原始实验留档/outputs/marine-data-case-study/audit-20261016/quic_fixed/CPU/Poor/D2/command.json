@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/outputs/marine-data-case-study/resource-experiment/resource-simulator",
+    "--input=/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/outputs/marine-data-case-study/resource-experiment/network/CPU/Poor/D2/rep-0",
+    "--output=/Users/yean/program/\u6d77\u6d0b\u76d1\u6d4b/outputs/marine-data-case-study/audit-20261016/quic_fixed/CPU/Poor/D2/trace.csv",
+    "--variant=WO_PROTOCOL",
+    "--duration=3600",
+    "--drain=0",
+    "--seed=31",
+    "--cacheBytes=50000000"
+  ],
+  "library_mode": "quic_fixed"
+}

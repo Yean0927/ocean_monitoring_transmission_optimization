@@ -1,0 +1,222 @@
+{
+  "verdict": "PASS_CURRENT_RESOURCE_CASE_STUDY_NO_RERUN_REQUIRED",
+  "audited_date": "2026-10-16",
+  "codec_pairs": 45,
+  "formal_network_trials": 135,
+  "plot_points": 27,
+  "actual_protocol_ids": {
+    "2": 135
+  },
+  "max_queue_bytes": 0,
+  "max_remaining_queue_bytes": 0,
+  "max_link_drops": 0,
+  "source_sha256": "62d5d9d466037c760de1bdf2a0ff57be98cf0226f5065f37da1a9bc7d18a5efa",
+  "binary_sha256": "86e9176f4660143ee17d284985d1f291d5617784cf69bf2d5bf0bb6f7788f134",
+  "fixed_quic_library_sha256": "52654c946b1c85734ffc8bff44a26e6611457093916e88b9750eb153ea084ddb",
+  "summary_and_both_figure_sources_match": true,
+  "isolated_replays": [
+    {
+      "stream": "D2",
+      "resource": "Delay",
+      "quality": "Poor",
+      "library_mode": "public",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/public/Delay/Poor/D2/trace.csv"
+    },
+    {
+      "stream": "D2",
+      "resource": "Delay",
+      "quality": "Poor",
+      "library_mode": "quic_fixed",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/quic_fixed/Delay/Poor/D2/trace.csv"
+    },
+    {
+      "stream": "V1",
+      "resource": "Delay",
+      "quality": "Poor",
+      "library_mode": "public",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/public/Delay/Poor/V1/trace.csv"
+    },
+    {
+      "stream": "V1",
+      "resource": "Delay",
+      "quality": "Poor",
+      "library_mode": "quic_fixed",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/quic_fixed/Delay/Poor/V1/trace.csv"
+    },
+    {
+      "stream": "I1",
+      "resource": "Delay",
+      "quality": "Poor",
+      "library_mode": "public",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/public/Delay/Poor/I1/trace.csv"
+    },
+    {
+      "stream": "I1",
+      "resource": "Delay",
+      "quality": "Poor",
+      "library_mode": "quic_fixed",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/quic_fixed/Delay/Poor/I1/trace.csv"
+    },
+    {
+      "stream": "D2",
+      "resource": "BW",
+      "quality": "Good",
+      "library_mode": "public",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/public/BW/Good/D2/trace.csv"
+    },
+    {
+      "stream": "D2",
+      "resource": "BW",
+      "quality": "Good",
+      "library_mode": "quic_fixed",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/quic_fixed/BW/Good/D2/trace.csv"
+    },
+    {
+      "stream": "V1",
+      "resource": "BW",
+      "quality": "Good",
+      "library_mode": "public",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/public/BW/Good/V1/trace.csv"
+    },
+    {
+      "stream": "V1",
+      "resource": "BW",
+      "quality": "Good",
+      "library_mode": "quic_fixed",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/quic_fixed/BW/Good/V1/trace.csv"
+    },
+    {
+      "stream": "I1",
+      "resource": "BW",
+      "quality": "Good",
+      "library_mode": "public",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/public/BW/Good/I1/trace.csv"
+    },
+    {
+      "stream": "I1",
+      "resource": "BW",
+      "quality": "Good",
+      "library_mode": "quic_fixed",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/quic_fixed/BW/Good/I1/trace.csv"
+    },
+    {
+      "stream": "D2",
+      "resource": "CPU",
+      "quality": "Poor",
+      "library_mode": "public",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/public/CPU/Poor/D2/trace.csv"
+    },
+    {
+      "stream": "D2",
+      "resource": "CPU",
+      "quality": "Poor",
+      "library_mode": "quic_fixed",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/quic_fixed/CPU/Poor/D2/trace.csv"
+    },
+    {
+      "stream": "V1",
+      "resource": "CPU",
+      "quality": "Poor",
+      "library_mode": "public",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/public/CPU/Poor/V1/trace.csv"
+    },
+    {
+      "stream": "V1",
+      "resource": "CPU",
+      "quality": "Poor",
+      "library_mode": "quic_fixed",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/quic_fixed/CPU/Poor/V1/trace.csv"
+    },
+    {
+      "stream": "I1",
+      "resource": "CPU",
+      "quality": "Poor",
+      "library_mode": "public",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/public/CPU/Poor/I1/trace.csv"
+    },
+    {
+      "stream": "I1",
+      "resource": "CPU",
+      "quality": "Poor",
+      "library_mode": "quic_fixed",
+      "all_trace_fields_identical": true,
+      "decisions_identical": true,
+      "link_metrics_identical": true,
+      "trace": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/audit-20261016/quic_fixed/CPU/Poor/I1/trace.csv"
+    }
+  ],
+  "legacy_full_events": [
+    {
+      "stream": "D2",
+      "file_id": 31,
+      "protocol_id": 0
+    },
+    {
+      "stream": "V1",
+      "file_id": 4335,
+      "protocol_id": 0
+    },
+    {
+      "stream": "I1",
+      "file_id": 3607,
+      "protocol_id": 0
+    }
+  ],
+  "limitations": [
+    "Formal run config does not pin dynamic library hashes.",
+    "Runner reuses existing trace/codec caches without full input and version validation.",
+    "CPU repetition is technical repetition of one representative object per data type."
+  ],
+  "production_results_modified": false
+}

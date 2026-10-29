@@ -1,0 +1,13 @@
+video_name,algorithm,scheme_name,bandwidth_mbps,compression_scope,packet_size_role,packet_size_bytes,packet_count,T_direct_ms,T_transfer_ms,T_total_ms,T_direct_s,T_transfer_s,T_total_s,latency_reduction_pct,best_flag
+5cf7af68d381d7cb80e5567444e894c2.mp4,S0,original_h264_direct,2.0,encode_then_fragment,transfer_fragment_size_after_video_compression,4096,322,5271.448,5271.448,5271.448,5.27,5.27,5.27,0.0,
+5cf7af68d381d7cb80e5567444e894c2.mp4,S0,original_h264_direct,4.0,encode_then_fragment,transfer_fragment_size_after_video_compression,4096,322,2635.724,2635.724,2635.724,2.64,2.64,2.64,0.0,
+5cf7af68d381d7cb80e5567444e894c2.mp4,S0,original_h264_direct,10.0,encode_then_fragment,transfer_fragment_size_after_video_compression,4096,322,1054.2895999999998,1054.2895999999998,1054.2895999999998,1.05,1.05,1.05,0.0,
+5cf7af68d381d7cb80e5567444e894c2.mp4,S1,h264_lower_bitrate,2.0,encode_then_fragment,transfer_fragment_size_after_video_compression,4096,48,5271.448,780.144,872.9405413333333,5.27,0.78,0.87,83.44021336578994,best
+5cf7af68d381d7cb80e5567444e894c2.mp4,S1,h264_lower_bitrate,4.0,encode_then_fragment,transfer_fragment_size_after_video_compression,4096,48,2635.724,390.072,482.8685413333334,2.64,0.39,0.48,81.67985186106993,best
+5cf7af68d381d7cb80e5567444e894c2.mp4,S1,h264_lower_bitrate,10.0,encode_then_fragment,transfer_fragment_size_after_video_compression,4096,48,1054.2895999999998,156.0288,248.82534133333334,1.05,0.16,0.25,76.39876734690986,best
+5cf7af68d381d7cb80e5567444e894c2.mp4,S2,h265_hevc,2.0,encode_then_fragment,transfer_fragment_size_after_video_compression,4096,37,5271.448,593.8493333333333,914.7503749999998,5.27,0.59,0.91,82.64707581294553,
+5cf7af68d381d7cb80e5567444e894c2.mp4,S2,h265_hevc,4.0,encode_then_fragment,transfer_fragment_size_after_video_compression,4096,37,2635.724,296.92466666666667,617.8257083333333,2.64,0.3,0.62,76.55954461342185,
+5cf7af68d381d7cb80e5567444e894c2.mp4,S2,h265_hevc,10.0,encode_then_fragment,transfer_fragment_size_after_video_compression,4096,37,1054.2895999999998,118.76986666666667,439.67090833333333,1.05,0.12,0.44,58.29695101485082,
+5cf7af68d381d7cb80e5567444e894c2.mp4,S3,av1,2.0,encode_then_fragment,transfer_fragment_size_after_video_compression,4096,35,5271.448,567.3040000000001,4284.134333333333,5.27,0.57,4.28,18.72945852195956,
+5cf7af68d381d7cb80e5567444e894c2.mp4,S3,av1,4.0,encode_then_fragment,transfer_fragment_size_after_video_compression,4096,35,2635.724,283.65200000000004,4000.4823333333334,2.64,0.28,4.0,-51.77925812161415,
+5cf7af68d381d7cb80e5567444e894c2.mp4,S3,av1,10.0,encode_then_fragment,transfer_fragment_size_after_video_compression,4096,35,1054.2895999999998,113.4608,3830.291133333333,1.05,0.11,3.83,-263.3054080523353,

@@ -1,0 +1,24 @@
+Wrote /Users/yean/program/海洋监测/cache_exam/packet-level-cache-priority-experiment-report.md
+Wrote /Users/yean/program/海洋监测/cache_exam/packet_level_cache_priority_summary.csv
+Wrote /Users/yean/program/海洋监测/cache_exam/packet_level_cache_priority_by_stream.csv
+S1,No-Cache,cache=0.00%,source=24.69%,link=12.62%,total=34.20%,delivery=65.80%,pending=0.00%,accounting=0.000000000
+S2,No-Cache,cache=0.00%,source=24.69%,link=23.00%,total=42.01%,delivery=57.99%,pending=0.00%,accounting=0.000000000
+S3,No-Cache,cache=0.00%,source=24.68%,link=13.16%,total=34.60%,delivery=65.40%,pending=0.00%,accounting=-0.000000000
+S1,FIFO,cache=0.00%,source=0.00%,link=12.57%,total=11.04%,delivery=76.74%,pending=12.22%,accounting=0.000000000
+S2,FIFO,cache=10.95%,source=0.00%,link=22.55%,total=30.72%,delivery=67.91%,pending=1.37%,accounting=0.000000000
+S3,FIFO,cache=12.38%,source=0.00%,link=12.97%,total=23.74%,delivery=76.26%,pending=-0.00%,accounting=0.000000000
+S1,Priority-SP,cache=0.00%,source=0.00%,link=12.49%,total=10.95%,delivery=76.67%,pending=12.38%,accounting=0.000000000
+S2,Priority-SP,cache=11.21%,source=0.00%,link=22.66%,total=31.07%,delivery=67.76%,pending=1.17%,accounting=-0.000000000
+S3,Priority-SP,cache=12.38%,source=0.00%,link=13.06%,total=23.83%,delivery=76.17%,pending=-0.00%,accounting=0.000000000
+S1,Priority-Aging,cache=0.00%,source=0.00%,link=12.55%,total=11.00%,delivery=76.65%,pending=12.35%,accounting=0.000000000
+S2,Priority-Aging,cache=11.13%,source=0.00%,link=22.68%,total=31.01%,delivery=67.78%,pending=1.21%,accounting=0.000000000
+S3,Priority-Aging,cache=12.39%,source=0.00%,link=12.96%,total=23.74%,delivery=76.26%,pending=-0.00%,accounting=0.000000000
+S1,Priority-MaxF,cache=0.00%,source=0.00%,link=12.49%,total=10.95%,delivery=76.67%,pending=12.38%,accounting=-0.000000000
+S2,Priority-MaxF,cache=11.21%,source=0.00%,link=22.67%,total=31.07%,delivery=67.76%,pending=1.17%,accounting=0.000000000
+S3,Priority-MaxF,cache=12.38%,source=0.00%,link=13.06%,total=23.83%,delivery=76.18%,pending=-0.00%,accounting=0.000000000
+S1,Priority-Utility,cache=0.00%,source=0.00%,link=12.53%,total=10.98%,delivery=76.64%,pending=12.38%,accounting=0.000000000
+S2,Priority-Utility,cache=11.20%,source=0.00%,link=22.67%,total=31.06%,delivery=67.76%,pending=1.17%,accounting=-0.000000000
+S3,Priority-Utility,cache=12.37%,source=0.00%,link=13.03%,total=23.79%,delivery=76.21%,pending=0.00%,accounting=-0.000000000
+S1,Priority-Utility-Ti,cache=0.00%,source=0.00%,link=12.52%,total=10.97%,delivery=76.65%,pending=12.38%,accounting=-0.000000000
+S2,Priority-Utility-Ti,cache=11.21%,source=0.00%,link=22.70%,total=31.11%,delivery=67.73%,pending=1.17%,accounting=0.000000000
+S3,Priority-Utility-Ti,cache=12.38%,source=0.00%,link=13.02%,total=23.79%,delivery=76.21%,pending=0.00%,accounting=0.000000000

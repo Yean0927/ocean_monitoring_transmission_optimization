@@ -1,0 +1,46 @@
+{
+  "duration_s": 3600,
+  "drain_s": 300,
+  "cache_bytes": 50000000,
+  "model": "/Users/yean/program/海洋监测/xgboost-ablation-handoff/model",
+  "model_sha256": "ac553ccdda63b4665f4ccf51a841febbbe07df8db2a96ceeb6cc6f6f0532dc7f",
+  "text_max_wait_s": [
+    120.0,
+    300.0,
+    1.0,
+    1800.0
+  ],
+  "record_period_s": [
+    12.0,
+    12.0,
+    0.02,
+    120.0
+  ],
+  "raw_rates_mbps": [
+    6.400888888888889e-05,
+    6.265333333333333e-05,
+    0.05342999777777777,
+    0.0006383466666666667,
+    1.5669132711111111,
+    2.06972
+  ],
+  "generated_raw_bytes": [
+    28804.0,
+    28194.0,
+    24043499.0,
+    287256.0,
+    705110972.0,
+    931374000.0
+  ],
+  "image_representative_bytes": 258715,
+  "codec_timing": "per-distinct-content measured encode and decode, deterministic replay",
+  "feature_pacing": "per-file nominal fragment interval from actual generated stream byte rate",
+  "text_integrity": "D1/D3 typed columns; D2 byte exact; D4 ADCP numeric fields (stage-two scope)",
+  "variants": [
+    "FULL",
+    "WO_PROTOCOL",
+    "WO_COMPRESSION",
+    "WO_CACHE",
+    "BASELINE"
+  ]
+}

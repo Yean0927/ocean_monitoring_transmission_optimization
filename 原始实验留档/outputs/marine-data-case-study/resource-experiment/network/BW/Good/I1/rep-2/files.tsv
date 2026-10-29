@@ -1,0 +1,2 @@
+id	stream	raw_path	encoded_path	raw_bytes	encoded_bytes	first_s	deadline_s	encode_s	decode_s	raw_decode_s	raw_choices	comp_choices
+0	5	/Users/yean/program/海洋监测/system-ablation-20260928-table-rates/prepared/assets/I1-5be1a496c210b39ca36aee88363d59eb2fd2c19bef046fe33033164d6ec84528.raw	/Users/yean/program/海洋监测/outputs/marine-data-case-study/resource-experiment/codec/cpu1/I1/rep-2/payload.encoded	258715	31778	1.0	1.0	0.003924318340141326	0.0007010550840059295	0.0	2	2

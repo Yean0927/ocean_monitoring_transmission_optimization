@@ -1,0 +1,39 @@
+{
+  "original_source_sha256": {
+    "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.cc": "5c1d546cdc4003090edd06ec0374e606d36f1fda07800ba93cb3ce2ac1b95d42",
+    "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-stream-base.cc": "31dc9a54701ed24832367d9cd6a6c120f03af53fc145b387c9602295212d608c",
+    "/Users/yean/program/海洋监测/system-ablation-20260928-table-rates/system-ablation.cc": "6fafe7812db6bfec8e052860648e95554416bee724decc73798e07789f418e71"
+  },
+  "scope": "Isolated diagnostics and failed-seed validation; original sources and result folders preserved.",
+  "validation_candidates": {
+    "bounds": "Saturating capacity; seed32 completed, seed34 slow recovery; not final.",
+    "recovery": "Saturating capacity plus bounded recovery allowance; stalled, manually stopped; not final.",
+    "progress": "Saturating capacity plus small-window send; stalled, manually stopped; not final.",
+    "rto": "Complete: seeds32 and34, FULL, 3600 s, zero drain; use comparison-rto-full.csv."
+  },
+  "original_baseline_reproduction": {
+    "seed32_delivered_before_1000": 942,
+    "seed34_delivered_before_1000": 978,
+    "maximum_delivery_time_difference_s": 0
+  },
+  "original_sources_preserved": {
+    "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.cc": true,
+    "/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-stream-base.cc": true,
+    "/Users/yean/program/海洋监测/system-ablation-20260928-table-rates/system-ablation.cc": true
+  },
+  "final_library_sha256": "87784ee304e8e122365a798ab67132a5a8c2b44ab264c45afe9ebe35ba186e95",
+  "final_patch": "candidate-rto-capacity.patch",
+  "validation_result": {
+    "full_seed32": {
+      "success_pct": 98.33947449966782,
+      "loss_pct": 0,
+      "pending_pct": 1.6605255003321815
+    },
+    "full_seed34": {
+      "success_pct": 98.33947449966782,
+      "loss_pct": 0,
+      "pending_pct": 1.6605255003321815
+    }
+  },
+  "report": "report.md"
+}

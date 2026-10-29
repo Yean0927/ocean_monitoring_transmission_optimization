@@ -1,0 +1,14 @@
+{
+  "report_sha256": "506fe59f0e0452801c69f7c383dc771326c821afc8ccc97623687de54f74f48f",
+  "metric": "pooled end-to-end latency reduction relative to direct transfer",
+  "n_videos": 9,
+  "original_total_bytes": 146973050,
+  "mean_processing_time_assumption": "Report means are arithmetic means across the 9 videos",
+  "rounding": "Report compression ratios and processing means are already rounded",
+  "exclusion": "S0 bars omitted at user request; no source videos omitted",
+  "uncertainty": "No uncertainty intervals inferred from unavailable replicate data",
+  "shape": [
+    3,
+    3
+  ]
+}

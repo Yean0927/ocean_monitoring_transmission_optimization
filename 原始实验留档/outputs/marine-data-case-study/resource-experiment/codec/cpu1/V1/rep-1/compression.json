@@ -1,0 +1,20 @@
+{
+  "stream": "V1",
+  "stage": "compress",
+  "batch_wall_s": 7.482919917005347,
+  "batch_cpu_s": 7.48312,
+  "iterations": 1,
+  "per_object_s": 7.482919917005347,
+  "thread_limit": 1,
+  "raw_bytes": 4354778,
+  "compressed_bytes": 1213318,
+  "raw_sha256": "f7551a25d76ef4c487d2fb3f924296bb60035b7fa84775b73a06cd569baef161",
+  "compressed_sha256": "93fed0c58fac4d3048e5bd00514b3a26c0553316683e9ba6eef1f994f69d290f",
+  "cpu_profile": "cpu1",
+  "quota_cpu_seconds_per_second": 1.0,
+  "limiter_stops": 75,
+  "limiter_paused_s": 0.3554393319209339,
+  "limiter_max_observed_budget_error_cpu_s": 0.005304741012335024,
+  "controller_poll_s": 0.003,
+  "controller_burst_tolerance_s": 0.003
+}

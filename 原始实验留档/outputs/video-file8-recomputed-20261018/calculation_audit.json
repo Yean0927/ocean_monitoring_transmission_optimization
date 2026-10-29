@@ -1,0 +1,104 @@
+{
+  "raw_repeats": 12,
+  "integrity_passes": 12,
+  "linearity": [
+    {
+      "algorithm": "S0",
+      "slope_2_to_4": 0.0,
+      "slope_4_to_10": 0.0,
+      "slope_difference": 0.0,
+      "middle_point_residual_percentage_points": 0.0,
+      "tolerance_percentage_points": 1e-10,
+      "result": "PASS"
+    },
+    {
+      "algorithm": "S1",
+      "slope_2_to_4": -0.8801807523600047,
+      "slope_4_to_10": -0.8801807523600095,
+      "slope_difference": 4.773959005888173e-15,
+      "middle_point_residual_percentage_points": 1.4210854715202004e-14,
+      "tolerance_percentage_points": 1e-10,
+      "result": "PASS"
+    },
+    {
+      "algorithm": "S2",
+      "slope_2_to_4": -3.0437655997618336,
+      "slope_4_to_10": -3.043765599761836,
+      "slope_difference": 2.220446049250313e-15,
+      "middle_point_residual_percentage_points": 0.0,
+      "tolerance_percentage_points": 1e-10,
+      "result": "PASS"
+    },
+    {
+      "algorithm": "S3",
+      "slope_2_to_4": -35.25435832178685,
+      "slope_4_to_10": -35.25435832178686,
+      "slope_difference": 7.105427357601002e-15,
+      "middle_point_residual_percentage_points": 7.105427357601002e-15,
+      "tolerance_percentage_points": 1e-10,
+      "result": "PASS"
+    }
+  ],
+  "parameters": [
+    {
+      "algorithm": "S0",
+      "repeat_count": 3,
+      "original_size_bytes": 1317862,
+      "avg_output_size_bytes": 1317862.0,
+      "compression_ratio": 1.0,
+      "avg_encode_s": 0.0,
+      "avg_decode_s": 0.026200333333333332,
+      "encode_sd_s": 0.0,
+      "decode_sd_s": 0.0011293105832765073,
+      "effective_processing_s": 0.0,
+      "intercept_pct": 0.0,
+      "slope_percentage_points_per_mbps": -0.0,
+      "break_even_mbps": ""
+    },
+    {
+      "algorithm": "S1",
+      "repeat_count": 3,
+      "original_size_bytes": 1317862,
+      "avg_output_size_bytes": 195036.0,
+      "compression_ratio": 0.14799425129490038,
+      "avg_encode_s": 0.07922565266666667,
+      "avg_decode_s": 0.013570888666666668,
+      "encode_sd_s": 0.0059208452073858855,
+      "decode_sd_s": 9.504042453780732e-05,
+      "effective_processing_s": 0.09279654133333334,
+      "intercept_pct": 85.20057487050995,
+      "slope_percentage_points_per_mbps": -0.8801807523600095,
+      "break_even_mbps": 96.79895253567351
+    },
+    {
+      "algorithm": "S2",
+      "repeat_count": 3,
+      "original_size_bytes": 1317862,
+      "avg_output_size_bytes": 148462.33333333334,
+      "compression_ratio": 0.11265392987530815,
+      "avg_encode_s": 0.30194472233333325,
+      "avg_decode_s": 0.01895631933333338,
+      "encode_sd_s": 0.0021189964975010145,
+      "decode_sd_s": 0.00044540264099169225,
+      "effective_processing_s": 0.3209010416666666,
+      "intercept_pct": 88.73460701246918,
+      "slope_percentage_points_per_mbps": -3.0437655997618362,
+      "break_even_mbps": 29.152904224757762
+    },
+    {
+      "algorithm": "S3",
+      "repeat_count": 3,
+      "original_size_bytes": 1317862,
+      "avg_output_size_bytes": 141826.0,
+      "compression_ratio": 0.10761824834466735,
+      "avg_encode_s": 3.604688917,
+      "avg_decode_s": 0.11214141633333342,
+      "encode_sd_s": 0.03795232700105059,
+      "decode_sd_s": 0.0002526546968355179,
+      "effective_processing_s": 3.7168303333333332,
+      "intercept_pct": 89.23817516553326,
+      "slope_percentage_points_per_mbps": -35.25435832178685,
+      "break_even_mbps": 2.531266470687255
+    }
+  ]
+}

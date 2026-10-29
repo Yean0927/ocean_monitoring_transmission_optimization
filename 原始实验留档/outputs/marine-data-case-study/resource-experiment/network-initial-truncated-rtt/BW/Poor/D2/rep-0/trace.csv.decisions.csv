@@ -1,0 +1,2 @@
+time_s,id,stream,protocol,state_index,capacity_mbps,rtt_ms,packet_loss_rate
+1.000100749,0,1,2,0,2,153.61,0

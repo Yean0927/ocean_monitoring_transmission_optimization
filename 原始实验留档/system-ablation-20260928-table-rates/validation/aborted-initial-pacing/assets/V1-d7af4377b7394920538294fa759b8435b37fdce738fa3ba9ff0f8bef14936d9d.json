@@ -1,0 +1,13 @@
+{
+  "algorithm": "S2",
+  "encode_seconds": 0.3505690419988241,
+  "decode_seconds": 0.025534166998113506,
+  "raw_decode_seconds": 0.03815320899593644,
+  "integrity_scope": "lossy_video_full_decode",
+  "stream": "V1",
+  "raw_bytes": 1394148,
+  "encoded_bytes": 132003,
+  "source_sha256": "d7af4377b7394920538294fa759b8435b37fdce738fa3ba9ff0f8bef14936d9d",
+  "encoded_sha256": "8fe26628fa6040f24710cb9952240c95c1b457b69c355407fd99ab787b372b8a",
+  "source": "/Users/yean/program/海洋监测/实验数据/视频样本/705ccbb00cfbaab61780706633e3c7ce.mp4"
+}

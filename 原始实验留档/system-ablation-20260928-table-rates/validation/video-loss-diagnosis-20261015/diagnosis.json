@@ -1,0 +1,51 @@
+{
+  "scope": "Read-only review of existing results; no rerun or result changes",
+  "video_generation": "Nine source objects sequentially repeated, sizes preserved",
+  "dispatch_gap": {
+    "start_s": 502.366029153,
+    "end_s": 3187.33501132,
+    "duration_s": 2684.968982167,
+    "previous_file_id": 535,
+    "previous_stream": "D3",
+    "previous_bytes": 6470,
+    "protocol": "QUIC BBR"
+  },
+  "receives_during_gap": 0,
+  "small_video_examples": [
+    {
+      "id": "4329",
+      "raw_file_bytes": "1232547",
+      "ready_s": "586.322226758",
+      "status": "cache_evicted",
+      "tx_start_s": "-1"
+    },
+    {
+      "id": "4332",
+      "raw_file_bytes": "1317862",
+      "ready_s": "642.147088412",
+      "status": "cache_evicted",
+      "tx_start_s": "-1"
+    },
+    {
+      "id": "4334",
+      "raw_file_bytes": "1394148",
+      "ready_s": "684.082846093",
+      "status": "cache_evicted",
+      "tx_start_s": "-1"
+    }
+  ],
+  "interpretation": "Long interruption in application scheduling and completed reception precedes video queue evictions. Exact transport cause requires socket/buffer/recovery telemetry; cache size and priority alone are insufficient explanations.",
+  "audit_gap": "Current transport-stall audit checks only unfinished in_service/in_transport rows at cutoff. File 535 eventually delivered and escaped the audit despite 2686.803 s transport time.",
+  "additional_config_mismatch": "Integration Score uses stream array index for Zipf weights; current phase-three report specifies separate rank D3,D4,D1,D2,I1,V1.",
+  "conclusion": "Do not treat current WO_COMPRESSION video loss as validated evidence of algorithm effect until transport interruption and configuration consistency are resolved.",
+  "additional_confirmed_source_bug": {
+    "file": "ns-3 contrib/quic/model/quic-socket-base.cc",
+    "line": 1470,
+    "expression": "alarmDuration = alarmDuration * (2 ^ m_tcb->m_rtoCount)",
+    "issue": "C++ ^ is bitwise XOR, not exponentiation. Observed multipliers for retry counts 0..7 are 2,3,0,1,6,7,4,5; this is not exponential backoff and count 2 gives a zero multiplier before the minimum is re-applied on the next alarm calculation.",
+    "impact": "This can distort QUIC loss-recovery timing under the 2.5–16.4% packet-loss segment present during the file stall. It is a plausible direct transport cause, but current traces do not include per-RTO counters/timestamps to prove it caused this specific 2687 s stall.",
+    "scope": "The defect applies to QUIC retransmission alarm timing wherever the patched simulator is used."
+  },
+  "wire_activity_caveat": "Dispatch/complete-file traces prove no subsequent application file was dispatched and no complete file was received during the interval. They do not prove zero QUIC packets on the wire: the already-started stream may have emitted retransmissions, ACKs, or probes. Per-interval packet capture/counters were not recorded.",
+  "follow_up": "Fix the QUIC RTO multiplier with capped exponential backoff; add RTO/alarm, cwnd/bytes-in-flight, retransmitted-byte and per-interval packet telemetry; rerun affected ablations before interpreting protocol/compression comparisons."
+}

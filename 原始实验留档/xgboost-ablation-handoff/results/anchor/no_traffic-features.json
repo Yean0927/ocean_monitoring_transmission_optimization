@@ -1,0 +1,15 @@
+[
+  "rtt_ms",
+  "capacity_mbps",
+  "packet_loss_rate",
+  "phase_progress",
+  "loss_trend",
+  "capacity_trend",
+  "rtt_trend",
+  "prev_rtt_ms",
+  "prev_capacity_mbps",
+  "prev_packet_loss_rate",
+  "source_scenario",
+  "state_name",
+  "prev_best_protocol"
+]

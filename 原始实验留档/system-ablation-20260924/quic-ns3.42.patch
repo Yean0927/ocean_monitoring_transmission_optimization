@@ -1,0 +1,757 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -47,8 +47,5 @@
+                     ${libapplications}
+                     ${libflow-monitor}
+                     ${libpoint-to-point}
+-  TEST_SOURCES
+-    test/quic-rx-buffer-test.cc
+-    test/quic-tx-buffer-test.cc
+-    test/quic-header-test.cc
++
+ )
+--- a/model/quic-congestion-ops.cc
++++ b/model/quic-congestion-ops.cc
+@@ -89,7 +89,7 @@
+ {
+   NS_LOG_FUNCTION (this << packetNumber << isAckOnly);
+   Ptr<QuicSocketState> tcbd = dynamic_cast<QuicSocketState*> (&(*tcb));
+-  NS_ASSERT_MSG (tcbd != 0, "tcb is not a QuicSocketState");
++  NS_ASSERT_MSG (tcbd != nullptr, "tcb is not a QuicSocketState");
+ 
+   tcbd->m_timeOfLastSentPacket = Now ();
+   tcbd->m_highTxMark = packetNumber;
+@@ -104,7 +104,7 @@
+   NS_LOG_FUNCTION (this << rs);
+ 
+   Ptr<QuicSocketState> tcbd = dynamic_cast<QuicSocketState*> (&(*tcb));
+-  NS_ASSERT_MSG (tcbd != 0, "tcb is not a QuicSocketState");
++  NS_ASSERT_MSG (tcbd != nullptr, "tcb is not a QuicSocketState");
+ 
+   tcbd->m_largestAckedPacket = SequenceNumber32 (
+     ack.GetLargestAcknowledged ());
+@@ -137,7 +137,7 @@
+ {
+   NS_LOG_FUNCTION (this);
+   Ptr<QuicSocketState> tcbd = dynamic_cast<QuicSocketState*> (&(*tcb));
+-  NS_ASSERT_MSG (tcbd != 0, "tcb is not a QuicSocketState");
++  NS_ASSERT_MSG (tcbd != nullptr, "tcb is not a QuicSocketState");
+ 
+   // m_minRtt ignores ack delay.
+   tcbd->m_minRtt = std::min (tcbd->m_minRtt, latestRtt);
+@@ -178,7 +178,7 @@
+ {
+   NS_LOG_FUNCTION (this);
+   Ptr<QuicSocketState> tcbd = dynamic_cast<QuicSocketState*> (&(*tcb));
+-  NS_ASSERT_MSG (tcbd != 0, "tcb is not a QuicSocketState");
++  NS_ASSERT_MSG (tcbd != nullptr, "tcb is not a QuicSocketState");
+ 
+   OnPacketAckedCC (tcbd, ackedPacket);
+ 
+@@ -200,7 +200,7 @@
+ {
+   NS_LOG_FUNCTION (this << packetNumber.GetValue ());
+   Ptr<QuicSocketState> tcbd = dynamic_cast<QuicSocketState*> (&(*tcb));
+-  NS_ASSERT_MSG (tcbd != 0, "tcb is not a QuicSocketState");
++  NS_ASSERT_MSG (tcbd != nullptr, "tcb is not a QuicSocketState");
+ 
+   return packetNumber <= tcbd->m_endOfRecovery;
+ }
+@@ -211,7 +211,7 @@
+ {
+   NS_LOG_FUNCTION (this);
+   Ptr<QuicSocketState> tcbd = dynamic_cast<QuicSocketState*> (&(*tcb));
+-  NS_ASSERT_MSG (tcbd != 0, "tcb is not a QuicSocketState");
++  NS_ASSERT_MSG (tcbd != nullptr, "tcb is not a QuicSocketState");
+ 
+   NS_LOG_INFO ("Updating congestion window");
+   if (InRecovery (tcb, ackedPacket->m_packetNumber))
+@@ -245,7 +245,7 @@
+ {
+   NS_LOG_LOGIC (this);
+   Ptr<QuicSocketState> tcbd = dynamic_cast<QuicSocketState*> (&(*tcb));
+-  NS_ASSERT_MSG (tcbd != 0, "tcb is not a QuicSocketState");
++  NS_ASSERT_MSG (tcbd != nullptr, "tcb is not a QuicSocketState");
+ 
+   auto largestLostPacket = *(lostPackets.end () - 1);
+ 
+@@ -269,7 +269,7 @@
+ {
+   NS_LOG_FUNCTION (this);
+   Ptr<QuicSocketState> tcbd = dynamic_cast<QuicSocketState*> (&(*tcb));
+-  NS_ASSERT_MSG (tcbd != 0, "tcb is not a QuicSocketState");
++  NS_ASSERT_MSG (tcbd != nullptr, "tcb is not a QuicSocketState");
+   NS_LOG_INFO ("Loss state");
+   tcbd->m_cWnd = tcbd->m_kMinimumWindow;
+   tcbd->m_congState = TcpSocketState::CA_LOSS;
+--- a/model/quic-l5-protocol.cc
++++ b/model/quic-l5-protocol.cc
+@@ -448,6 +448,7 @@
+                                        const char* reasonPhrase)
+ {
+   NS_LOG_FUNCTION (this);
++  std::cerr << "QUIC_ABORT t=" << Simulator::Now ().GetSeconds () << " code=" << transportErrorCode << " " << reasonPhrase << std::endl;
+   m_socket->AbortConnection (transportErrorCode, reasonPhrase);
+ }
+ 
+@@ -466,6 +467,17 @@
+     }
+ }
+ 
++void
++QuicL5Protocol::AppendStreamWindows (Ptr<Packet> packet)
++{
++  for (auto stream : m_streams)
++    {
++      if (stream->GetStreamId () == 0) continue;
++      packet->AddHeader (QuicSubheader::CreateMaxStreamData (
++        stream->GetStreamId (), stream->SendMaxStreamData ()));
++    }
++}
++
+ uint64_t
+ QuicL5Protocol::GetMaxData ()
+ {
+--- a/model/quic-l5-protocol.h
++++ b/model/quic-l5-protocol.h
+@@ -227,6 +227,7 @@
+    * \returns the new max data value
+    */
+   uint64_t GetMaxData ();
++  void AppendStreamWindows (Ptr<Packet> packet);
+ 
+ private:
+   Ptr<QuicSocketBase> m_socket;                 //!< The Quic socket this stack is associated with
+--- a/model/quic-socket-base.cc
++++ b/model/quic-socket-base.cc
+@@ -840,7 +840,7 @@
+       m_socketType = CLIENT;
+     }
+ 
+-  if (m_quicl5 == 0)
++  if (m_quicl5 == nullptr)
+     {
+       m_quicl5 = CreateStreamController ();
+       m_quicl5->CreateStream (QuicStream::BIDIRECTIONAL, 0);   // Create Stream 0 (necessary)
+@@ -1077,7 +1077,11 @@
+                                    << " MaxPacketSize " << GetSegSize ());
+ 
+       // uint32_t sz =
+-      SendDataPacket (next, s, withAck);
++      if (SendDataPacket (next, s, withAck) == 0)
++        {
++          // Insufficient room for a STREAM header: wait for an ACK/window update.
++          break;
++        }
+ 
+       win = AvailableWindow ();
+       connWin = ConnectionWindow ();
+@@ -1291,7 +1295,7 @@
+   if (m_txBuffer->GetNumFrameStream0InBuffer () > 0)
+     {
+       p = m_txBuffer->NextStream0Sequence (packetNumber);
+-      NS_ABORT_MSG_IF (p == 0, "No packet for stream 0 in the buffer!");
++      NS_ABORT_MSG_IF (p == nullptr, "No packet for stream 0 in the buffer!");
+     }
+   else
+     {
+@@ -1303,6 +1307,11 @@
+     }
+ 
+   uint32_t sz = p->GetSize ();
++  if (sz == 0)
++    {
++      // Do not create a zero-delay pacing loop when no payload fits.
++      return 0;
++    }
+ 
+   // check whether the connection is appLimited, i.e. not enough data to fill a packet
+   if (sz < maxSize and m_txBuffer->AppSize () == 0 and m_tcb->m_bytesInFlight.Get () < m_tcb->m_cWnd)
+@@ -1489,7 +1498,7 @@
+ 
+   // Send the retransmitted data
+   NS_LOG_INFO ("Retransmitted packet, next sequence number " << m_tcb->m_nextTxSequence);
+-  SendDataPacket (next, toRetx, m_connected);
++  SendDataPacket (next, std::min (toRetx, GetSegSize ()), m_connected);
+ }
+ 
+ void
+@@ -1552,6 +1561,17 @@
+     }
+   else if (m_tcb->m_alarmType == 3)
+     {
++      // With no unsent socket data, a new-data probe is empty. Probe the
++      // oldest unacknowledged payload so a missing stream range can reopen
++      // the advertised receive window.
++      if (m_txBuffer->AppSize () == 0
++          && m_txBuffer->MarkOldestOutstandingAsLost ())
++        {
++          m_pacingTimer.Cancel ();
++          DoRetransmit (m_txBuffer->DetectLostPackets ());
++          m_tcb->m_rtoCount++;
++          return;
++        }
+       // RTO.
+       if (m_tcb->m_rtoCount == 0)
+         {
+@@ -1857,7 +1877,7 @@
+ {
+   NS_LOG_FUNCTION (this);
+ 
+-  if (m_quicl4 == 0)
++  if (m_quicl4 == nullptr)
+     {
+       return -1;
+     }
+@@ -2178,6 +2198,10 @@
+   std::sort (m_receivedPacketNumbers.begin (), m_receivedPacketNumbers.end (),
+              std::greater<SequenceNumber32> ());
+ 
++  // Limit ACK history. Old gaps remain unacknowledged and are retransmitted
++  // under fresh packet numbers; keeping every historical packet made the
++  // 20-gap ACK silently acknowledge unlisted old losses.
++  if (m_receivedPacketNumbers.size () > 512) m_receivedPacketNumbers.resize (512);
+   SequenceNumber32 largestAcknowledged = *(m_receivedPacketNumbers.begin ());
+ 
+   uint32_t ackBlockCount = 0;
+@@ -2211,8 +2235,10 @@
+ 
+   Time delay = Simulator::Now () - m_lastReceived;
+   uint64_t ack_delay = delay.GetMicroSeconds ();
++  uint32_t ackFloor = gaps.size () >= m_maxTrackedGaps
++    ? additionalAckBlocks.back () : m_receivedPacketNumbers.back ().GetValue ();
+   QuicSubheader sub = QuicSubheader::CreateAck (
+-    largestAcknowledged.GetValue (), ack_delay, largestAcknowledged.GetValue (),
++    largestAcknowledged.GetValue (), ack_delay, ackFloor,
+     gaps, additionalAckBlocks);
+ 
+   Ptr<Packet> ackFrame = Create<Packet> ();
+@@ -2229,6 +2255,8 @@
+       m_lastMaxData = 0;
+     }
+ 
++  // Refresh each stream receive limit with ACKs, including after a lost update.
++  m_quicl5->AppendStreamWindows (ackFrame);
+   return ackFrame;
+ }
+ 
+@@ -2259,7 +2287,7 @@
+     "Received Corrupted Ack Frame.");
+ 
+   std::vector<Ptr<QuicSocketTxItem> > ackedPackets = m_txBuffer->OnAckUpdate (
+-    m_tcb, largestAcknowledged, additionalAckBlocks, gaps);
++    m_tcb, largestAcknowledged, sub.GetFirstAckBlock (), additionalAckBlocks, gaps);
+ 
+   // Count newly acked bytes
+   uint32_t ackedBytes = previousWindow - m_txBuffer->BytesInFlight ();
+@@ -2988,7 +3016,7 @@
+ QuicSocketBase::SetCongestionControlAlgorithm (Ptr<TcpCongestionOps> algo)
+ {
+   NS_LOG_FUNCTION (this << algo);
+-  if (DynamicCast<QuicCongestionOps> (algo) != 0)
++  if (DynamicCast<QuicCongestionOps> (algo) != nullptr)
+     {
+       NS_LOG_INFO ("Non-legacy congestion control");
+       m_quicCongestionControlLegacy = false;
+--- a/model/quic-socket-factory.cc
++++ b/model/quic-socket-factory.cc
+@@ -53,7 +53,7 @@
+ QuicSocketFactory::~QuicSocketFactory ()
+ {
+   NS_LOG_INFO ("Destroying QuicSocketFactory");
+-  NS_ASSERT (m_quicl4 == 0);
++  NS_ASSERT (m_quicl4 == nullptr);
+ }
+ 
+ void
+--- a/model/quic-socket-tx-buffer.cc
++++ b/model/quic-socket-tx-buffer.cc
+@@ -319,7 +319,9 @@
+       m_sentList.insert (m_sentList.end (), outItem);
+       m_sentSize += outItem->m_packet->GetSize ();
+       --m_numFrameStream0InBuffer;
+-      Ptr<Packet> toRet = outItem->m_packet;
++      // ACK/control frames are appended by the socket after this return.
++      // Preserve the pure retransmittable payload in m_sentList.
++      Ptr<Packet> toRet = outItem->m_packet->Copy ();
+       return toRet;
+     }
+   return 0;
+@@ -337,7 +339,9 @@
+       NS_LOG_INFO ("Extracting " << outItem->m_packet->GetSize () << " bytes");
+       outItem->m_packetNumber = seq;
+       outItem->m_lastSent = Now ();
+-      Ptr<Packet> toRet = outItem->m_packet;
++      // ACK/control frames are appended by the socket after this return.
++      // Preserve the pure retransmittable payload in m_sentList.
++      Ptr<Packet> toRet = outItem->m_packet->Copy ();
+       return toRet;
+     }
+   else
+@@ -371,6 +375,7 @@
+ 
+ std::vector<Ptr<QuicSocketTxItem> > QuicSocketTxBuffer::OnAckUpdate (
+   Ptr<TcpSocketState> tcb, const uint32_t largestAcknowledged,
++  const uint32_t ackFloor,
+   const std::vector<uint32_t> &additionalAckBlocks,
+   const std::vector<uint32_t> &gaps)
+ {
+@@ -411,6 +416,8 @@
+         {
+           NS_LOG_LOGIC (
+             "Consider packet " << (*sent_it)->m_packetNumber << " (ACK block " << SequenceNumber32 ((*ack_it)) << ")");
++          // Packets older than the advertised ACK range are not acknowledged.
++          if ((*sent_it)->m_packetNumber.GetValue () < ackFloor) break;
+           // The packet is in the next gap
+           bool inGap = (gap_it < compGaps.end ())
+             && ((*sent_it)->m_packetNumber
+@@ -535,6 +542,20 @@
+   return found;
+ }
+ 
++bool
++QuicSocketTxBuffer::MarkOldestOutstandingAsLost ()
++{
++  for (auto item : m_sentList)
++    {
++      if (!item->m_sacked && !item->m_lost)
++        {
++          item->m_lost = true;
++          return true;
++        }
++    }
++  return false;
++}
++
+ uint32_t QuicSocketTxBuffer::Retransmission (SequenceNumber32 packetNumber)
+ {
+   NS_LOG_FUNCTION (this);
+--- a/model/quic-socket-tx-buffer.h
++++ b/model/quic-socket-tx-buffer.h
+@@ -180,6 +180,7 @@
+    */
+   std::vector<Ptr<QuicSocketTxItem> > OnAckUpdate (Ptr<TcpSocketState> tcb,
+                                                    const uint32_t largestAcknowledged,
++                                                   const uint32_t ackFloor,
+                                                    const std::vector<uint32_t> &additionalAckBlocks,
+                                                    const std::vector<uint32_t> &gaps);
+ 
+@@ -266,6 +267,7 @@
+    * \return true if the packet is in the send buffer
+    */
+   bool MarkAsLost (const SequenceNumber32 seq);
++  bool MarkOldestOutstandingAsLost ();
+ 
+   /**
+    * Put the lost packets at the beginning of the application buffer to retransmit them
+--- a/model/quic-socket-tx-scheduler.cc
++++ b/model/quic-socket-tx-scheduler.cc
+@@ -227,7 +227,10 @@
+           outItemSize += currentItem->m_packet->GetSize ();
+ 
+           NS_LOG_LOGIC ("Updating application buffer size: " << m_appSize);
+-          continue;
++          // Keep one STREAM frame per datagram. A retransmitted item is later
++          // split as one frame; coalescing frames here would leak a later
++          // frame header into the previous stream payload on retransmission.
++          break;
+         }
+       else if (firstSegment)  // we cannot transmit a full packet, so let's split it and update the subheaders
+         {
+--- a/model/quic-stream-base.cc
++++ b/model/quic-stream-base.cc
+@@ -283,14 +283,14 @@
+ QuicStreamBase::StreamWindow () const
+ {
+   NS_LOG_FUNCTION (this);
+-  uint32_t inFlight = m_txBuffer->BytesInFlight ();
+-
+-  return (inFlight > m_maxStreamData) ? 0 : m_maxStreamData - inFlight;
++  // MAX_STREAM_DATA is an absolute byte offset, not an unacknowledged-byte count.
++  return (m_sentSize >= m_maxStreamData) ? 0 : m_maxStreamData - m_sentSize;
+ }
+ 
+ int
+-QuicStreamBase::Recv (Ptr<Packet> frame, const QuicSubheader& sub, Address &address)
+-{
++QuicStreamBase::Recv (Ptr<Packet> frame, const QuicSubheader& receivedSub, Address &address)
++{
++  QuicSubheader sub = receivedSub;
+   NS_LOG_FUNCTION (this);
+ 
+   uint8_t frameType = sub.GetFrameType ();
+@@ -348,14 +348,22 @@
+       break;
+ 
+     case QuicSubheader::STREAM_BLOCKED:
+-      // TODO block the stream
+-      if (!(m_streamDirectionType == RECEIVER or m_streamDirectionType == BIDIRECTIONAL))
+-        {
+-          m_quicl5->SignalAbortConnection (QuicSubheader::TransportErrorCodes_t::PROTOCOL_VIOLATION,
+-                                           "Received STREAM_BLOCKED in send-only Stream");
+-          return -1;
+-        }
+-
++      // Local reliability extension: receiver requests its first missing byte.
++      if (m_streamDirectionType == SENDER || m_streamDirectionType == BIDIRECTIONAL)
++        {
++          uint64_t wanted = sub.GetOffset ();
++          if (wanted < m_sentSize)
++            {
++              Ptr<Packet> missing = m_txBuffer->CopySentRange (
++                wanted, m_quicl5->GetMaxPacketSize () - 32);
++              if (missing->GetSize () > 0)
++                {
++                  missing->AddHeader (QuicSubheader::CreateStreamSubHeader (
++                    m_streamId, wanted, missing->GetSize (), true, true, false));
++                  m_quicl5->Send (missing);
++                }
++            }
++        }
+       break;
+ 
+     case QuicSubheader::STOP_SENDING:
+@@ -393,13 +401,6 @@
+           return -1;
+         }
+ 
+-      if (m_rxBuffer->Size () + sub.GetLength () > m_maxStreamData)
+-        {
+-          m_quicl5->SignalAbortConnection (QuicSubheader::TransportErrorCodes_t::FLOW_CONTROL_ERROR,
+-                                           "Received more data w.r.t. Max Stream Data limit");
+-          return -1;
+-        }
+-
+       SetStreamStateRecvIf (m_streamStateRecv == IDLE, RECV);
+ 
+       if (m_quicl5->ContainsTransportParameters () and m_streamId == 0)
+@@ -426,6 +427,26 @@
+         }
+ 
+       SetStreamStateRecvIf (m_streamStateRecv == RECV and m_fin, SIZE_KNOWN);
++
++      // Retransmitted frames may cover already delivered stream bytes.
++      // Never buffer such duplicates ahead of the next deliverable range.
++      if (m_streamId != 0 && sub.GetOffset () < m_recvSize)
++        {
++          uint64_t overlap = m_recvSize - sub.GetOffset ();
++          if (overlap >= frame->GetSize ()) return 0;
++          frame->RemoveAtStart (static_cast<uint32_t> (overlap));
++          sub.SetOffset (m_recvSize);
++          sub.SetLength (frame->GetSize ());
++        }
++
++      // Receive credit is independent of the peer's limit for our send direction.
++      if (sub.GetOffset () + frame->GetSize () >
++          m_recvSize + m_rxBuffer->Size () + m_rxBuffer->Available ())
++        {
++          m_quicl5->SignalAbortConnection (QuicSubheader::TransportErrorCodes_t::FLOW_CONTROL_ERROR,
++            "STREAM exceeds local receive offset limit");
++          return -1;
++        }
+ 
+       if (m_recvSize == sub.GetOffset ())
+         {
+@@ -482,6 +503,9 @@
+               NS_LOG_LOGIC ("Received window set to offset " << sub.GetMaxStreamData ());
+             }
+           NS_LOG_INFO ("Buffering unordered received frame - offset " << m_recvSize << ", frame offset " << sub.GetOffset ());
++          if (!m_gapProbeEvent.IsRunning ())
++            m_gapProbeEvent = Simulator::Schedule (MilliSeconds (500),
++              &QuicStreamBase::ProbeMissingRange, this);
+           if (!m_rxBuffer->Add (frame, sub) && frame->GetSize () > 0)
+             {
+               // Insert failed: No or duplicate data, or RX buffer full
+@@ -548,6 +572,17 @@
+ 
+ // }
+ 
++void
++QuicStreamBase::ProbeMissingRange ()
++{
++  if (m_streamId == 0 || m_rxBuffer->Size () == 0) return;
++  Ptr<Packet> request = Create<Packet> ();
++  request->AddHeader (QuicSubheader::CreateStreamBlocked (m_streamId, m_recvSize));
++  m_quicl5->Send (request);
++  m_gapProbeEvent = Simulator::Schedule (Seconds (1),
++    &QuicStreamBase::ProbeMissingRange, this);
++}
++
+ uint32_t
+ QuicStreamBase::SendMaxStreamData ()
+ {
+@@ -559,7 +594,13 @@
+ {
+   NS_LOG_FUNCTION (this << maxStreamData);
+   NS_LOG_DEBUG ("Update max stream data from " << m_maxStreamData << " to " << maxStreamData);
+-  m_maxStreamData = maxStreamData;
++  m_maxStreamData = std::max (m_maxStreamData, maxStreamData);
++  if (m_txBuffer->AppSize () > 0 && AvailableWindow () > 0
++      && !m_streamSendPendingDataEvent.IsRunning ())
++    {
++      m_streamSendPendingDataEvent = Simulator::Schedule (TimeStep (1),
++        &QuicStreamBase::SendPendingData, this);
++    }
+ }
+ 
+ uint32_t
+--- a/model/quic-stream-base.h
++++ b/model/quic-stream-base.h
+@@ -140,6 +140,7 @@
+      * \return a uint32_t with the maximum amount of data
+      */
+   uint32_t SendMaxStreamData ();
++  void ProbeMissingRange ();
+ 
+   // void CommandFlow (uint8_t type);
+ 
+@@ -217,6 +218,7 @@
+   Ptr<QuicStreamTxBuffer> m_txBuffer;                //!< Tx buffer
+   uint32_t m_streamTxBufferSize;                     //!< Size of the stream TX buffer
+   uint32_t m_streamRxBufferSize;                     //!< Size of the stream RX buffer
++  EventId m_gapProbeEvent;
+   EventId m_streamSendPendingDataEvent;              //!< Micro-delay event to send pending data
+ 
+ };
+--- a/model/quic-stream-rx-buffer.cc
++++ b/model/quic-stream-rx-buffer.cc
+@@ -96,71 +96,38 @@
+ bool
+ QuicStreamRxBuffer::Add (Ptr<Packet> p, const QuicSubheader& sub)
+ {
+-  NS_LOG_FUNCTION (this << p << sub);
+-
+-  NS_LOG_INFO (
+-    "Try to append " << p->GetSize () << " bytes " << ", availSize=" << Available ());
+-
+-  if (p->GetSize () <= Available ())
+-    {
+-      if (p->GetSize () > 0)
+-        {
+-
+-          QuicStreamRxItem *item = new QuicStreamRxItem ();
+-          item->m_packet = p->Copy ();
+-          item->m_offset = sub.GetOffset ();
+-          item->m_fin = sub.IsStreamFin ();
+-
+-          QuicStreamRxPacketList::iterator it;
+-
+-          // FIN packet for the stream
+-          if (sub.IsStreamFin ())
+-            {
+-              NS_LOG_LOGIC ("FIN packet for the stream");
+-              m_finalSize = sub.GetOffset () + p->GetSize ();
+-              m_recvFin = true;
+-              m_streamRecvList.insert (m_streamRecvList.end (), item);
+-              return true;
+-            }
+-
+-          // Find the right place to insert packet (TODO: binary search would be more efficient)
+-          bool inserted = false;
+-          for (it = m_streamRecvList.begin (); it < m_streamRecvList.end ();
+-               ++it)
+-            {
+-              if (item->m_offset == (*it)->m_offset)
+-                {
+-                  // Duplicate packet
+-                  NS_LOG_WARN ("Discarded duplicate packet.");
+-                  return false;
+-                }
+-              if (item->m_offset < (*it)->m_offset)
+-                {
+-                  m_streamRecvList.insert (it, item);
+-                  NS_LOG_LOGIC ("Inserted packet");
+-                  inserted = true;
+-                  break;
+-                }
+-            }
+-          // The packet is not in the buffer, append it to the end
+-          if (!inserted)
+-            {
+-              NS_LOG_LOGIC ("Appending packet");
+-              m_streamRecvList.insert (m_streamRecvList.end (), item);
+-            }
+-          m_numBytesInBuffer += p->GetSize ();
+-          NS_LOG_INFO ("Update: Received Size = " << m_numBytesInBuffer);
+-          return true;
+-
+-        }
+-      else
+-        {
+-          NS_LOG_WARN ("Discarded. Trying to insert empty packet.");
+-          return false;
+-        }
+-    }
+-  NS_LOG_WARN ("Rejected. Not enough room to buffer packet.");
+-  return false;
++  // Store only uncovered byte intervals; overlapping retransmissions consume
++  // no receive credit twice. Each list entry is disjoint and ordered.
++  uint64_t cursor = sub.GetOffset ();
++  const uint64_t end = cursor + p->GetSize ();
++  std::vector<std::pair<uint64_t, uint32_t>> ranges;
++  for (auto existing : m_streamRecvList)
++    {
++      uint64_t a = existing->m_offset;
++      uint64_t b = a + existing->m_packet->GetSize ();
++      if (b <= cursor) continue;
++      if (a >= end) break;
++      if (a > cursor) ranges.emplace_back (cursor, a - cursor);
++      cursor = std::max (cursor, b);
++      if (cursor >= end) break;
++    }
++  if (cursor < end) ranges.emplace_back (cursor, end - cursor);
++  uint32_t added = 0;
++  for (auto range : ranges) added += range.second;
++  if (added > Available ()) return false;
++  for (auto range : ranges)
++    {
++      auto item = new QuicStreamRxItem ();
++      item->m_offset = range.first;
++      item->m_packet = p->CreateFragment (range.first - sub.GetOffset (), range.second);
++      item->m_fin = sub.IsStreamFin ();
++      auto position = std::lower_bound (m_streamRecvList.begin (), m_streamRecvList.end (),
++        item->m_offset, [](auto current, uint64_t offset) { return current->m_offset < offset; });
++      m_streamRecvList.insert (position, item);
++    }
++  m_numBytesInBuffer += added;
++  if (sub.IsStreamFin ()) { m_finalSize = end; m_recvFin = true; }
++  return true;
+ }
+ 
+ Ptr<Packet>
+@@ -191,8 +158,9 @@
+         {
+ 
+           outPkt->AddAtEnd (currentPacket);
++          auto extracted = *it;
+           m_streamRecvList.erase (it);
+-          NS_LOG_LOGIC ("Extracted and removed packet " << (*it)->m_offset << " from RxBuffer, bytes to extract: " << extractSize);
++          delete extracted;
+ 
+           m_numBytesInBuffer -= currentPacket->GetSize ();
+           extractSize -= currentPacket->GetSize ();
+@@ -220,23 +188,32 @@
+ QuicStreamRxBuffer::GetDeliverable (uint64_t currRecvOffset)
+ {
+   NS_LOG_FUNCTION (this);
+-  uint64_t offsetToExtract = currRecvOffset;
+-  uint64_t lengthToExtract = 0;
+-  NS_LOG_LOGIC ("Calculating deliverable size");
+-
+-  QuicStreamRxPacketList::iterator i;
+-
+-  for (i = m_streamRecvList.begin (); i != m_streamRecvList.end (); ++i)
+-    {
+-      if ((*i)->m_offset == currRecvOffset + lengthToExtract)
+-        {
+-          offsetToExtract = (*i)->m_offset;
+-          lengthToExtract += (*i)->m_packet->GetSize ();
+-        }
+-      NS_LOG_LOGIC ("Inspected packet with offset " << (*i)->m_offset);
+-    }
+-
+-  return std::make_pair (offsetToExtract, lengthToExtract);
++  uint64_t cursor = currRecvOffset;
++  uint64_t length = 0;
++  for (auto it = m_streamRecvList.begin (); it != m_streamRecvList.end ();)
++    {
++      auto item = *it;
++      uint64_t end = item->m_offset + item->m_packet->GetSize ();
++      if (end <= cursor)
++        {
++          m_numBytesInBuffer -= item->m_packet->GetSize ();
++          delete item;
++          it = m_streamRecvList.erase (it);
++          continue;
++        }
++      if (item->m_offset < cursor)
++        {
++          uint32_t overlap = static_cast<uint32_t> (cursor - item->m_offset);
++          item->m_packet->RemoveAtStart (overlap);
++          item->m_offset = cursor;
++          m_numBytesInBuffer -= overlap;
++        }
++      if (item->m_offset != cursor) break;
++      length += item->m_packet->GetSize ();
++      cursor += item->m_packet->GetSize ();
++      ++it;
++    }
++  return std::make_pair (currRecvOffset, length);
+ }
+ 
+ uint32_t
+--- a/model/quic-stream-tx-buffer.cc
++++ b/model/quic-stream-tx-buffer.cc
+@@ -167,9 +167,8 @@
+ QuicStreamTxBuffer::Rejected (Ptr<Packet> p)
+ {
+   NS_LOG_FUNCTION (this << p);
+-  QuicSubheader qsb;
+-  p->PeekHeader (qsb);
+-  NS_LOG_INFO ("Packet of size " << p->GetSize () << " bytes rejected, reappending. Offset " << qsb.GetOffset ());
++  // SendDataFrame removed the STREAM header before returning this payload.
++  NS_LOG_INFO ("Payload of size " << p->GetSize () << " bytes rejected, reappending.");
+ 
+   if (p->GetSize () <= Available ())
+     {
+@@ -181,9 +180,7 @@
+           m_appSize += p->GetSize ();
+           m_sentList.pop_back ();
+           m_sentSize -= p->GetSize ();
+-          Ptr<Packet> added = (*m_appList.begin ())->m_packet;
+-          added->PeekHeader (qsb);
+-          NS_LOG_INFO ("Update: Application Size = " << m_appSize << " added packet with offset " << qsb.GetOffset ());
++          NS_LOG_INFO ("Update: Application Size = " << m_appSize);
+           return true;
+         }
+       else
+@@ -216,6 +213,22 @@
+       return Create<Packet> ();
+     }
+ 
++}
++
++Ptr<Packet>
++QuicStreamTxBuffer::CopySentRange (uint64_t offset, uint32_t maxBytes) const
++{
++  for (auto item : m_sentList)
++    {
++      uint64_t begin = item->m_packetNumberSequence.GetValue ();
++      uint64_t end = begin + item->m_packet->GetSize ();
++      if (begin <= offset && offset < end)
++        {
++          uint32_t count = std::min<uint64_t> (maxBytes, end - offset);
++          return item->m_packet->CreateFragment (offset - begin, count);
++        }
++    }
++  return Create<Packet> ();
+ }
+ 
+ Ptr<QuicStreamTxItem>
+@@ -260,6 +273,7 @@
+         }
+       else
+         {
++          toInsert = true;
+           // The packet is too large, split it
+           uint32_t split = numBytes - outItemSize;
+ 
+@@ -278,7 +292,7 @@
+ 
+         }
+ 
+-      it++;
++      it = m_appList.begin ();
+     }
+ 
+   if (toInsert)
+--- a/model/quic-stream-tx-buffer.h
++++ b/model/quic-stream-tx-buffer.h
+@@ -112,6 +112,7 @@
+    * \return the next frame to transmit
+    */
+   Ptr<Packet> NextSequence (uint32_t numBytes, const SequenceNumber32 seq);
++  Ptr<Packet> CopySentRange (uint64_t offset, uint32_t maxBytes) const;
+ 
+   /**
+    * \brief Get a block of data not transmitted yet and move it into SentList

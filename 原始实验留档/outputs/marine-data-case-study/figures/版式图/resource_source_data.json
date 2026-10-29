@@ -1,0 +1,496 @@
+{
+  "records": [
+    {
+      "stream": "D2",
+      "resource": "Delay",
+      "quality": "Poor",
+      "rtt_ms": 194.38,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 0.2936563898000001,
+      "sd_jct_s": 1.2568691263804417e-07,
+      "mean_compression_s": 7.574718359974213e-06,
+      "mean_decompression_s": 2.3350412499712547e-06,
+      "mean_transport_s": 0.29364647999999993,
+      "mean_compressed_bytes": 278
+    },
+    {
+      "stream": "D2",
+      "resource": "Delay",
+      "quality": "Medium",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 0.23250138980000007,
+      "sd_jct_s": 1.2568691254370513e-07,
+      "mean_compression_s": 7.574718359974213e-06,
+      "mean_decompression_s": 2.3350412499712547e-06,
+      "mean_transport_s": 0.23249148000000003,
+      "mean_compressed_bytes": 278
+    },
+    {
+      "stream": "D2",
+      "resource": "Delay",
+      "quality": "Good",
+      "rtt_ms": 85.04,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 0.12964638980000007,
+      "sd_jct_s": 1.2568691263804417e-07,
+      "mean_compression_s": 7.574718359974213e-06,
+      "mean_decompression_s": 2.3350412499712547e-06,
+      "mean_transport_s": 0.12963647999999997,
+      "mean_compressed_bytes": 278
+    },
+    {
+      "stream": "D2",
+      "resource": "BW",
+      "quality": "Poor",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 0.23250138980000007,
+      "sd_jct_s": 1.2568691254370513e-07,
+      "mean_compression_s": 7.574718359974213e-06,
+      "mean_decompression_s": 2.3350412499712547e-06,
+      "mean_transport_s": 0.23249148000000003,
+      "mean_compressed_bytes": 278
+    },
+    {
+      "stream": "D2",
+      "resource": "BW",
+      "quality": "Medium",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 4,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 0.2314813898000001,
+      "sd_jct_s": 1.2568691260341786e-07,
+      "mean_compression_s": 7.574718359974213e-06,
+      "mean_decompression_s": 2.3350412499712547e-06,
+      "mean_transport_s": 0.23147148,
+      "mean_compressed_bytes": 278
+    },
+    {
+      "stream": "D2",
+      "resource": "BW",
+      "quality": "Good",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 10,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 0.2308693898000001,
+      "sd_jct_s": 1.2568691260041454e-07,
+      "mean_compression_s": 7.574718359974213e-06,
+      "mean_decompression_s": 2.3350412499712547e-06,
+      "mean_transport_s": 0.23085947999999998,
+      "mean_compressed_bytes": 278
+    },
+    {
+      "stream": "D2",
+      "resource": "CPU",
+      "quality": "Poor",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "shared1",
+      "n": 5,
+      "mean_jct_s": 0.23251209680000012,
+      "sd_jct_s": 1.0982432335579054e-06,
+      "mean_compression_s": 1.5688745020597708e-05,
+      "mean_decompression_s": 4.92821374500636e-06,
+      "mean_transport_s": 0.23249147999999997,
+      "mean_compressed_bytes": 278
+    },
+    {
+      "stream": "D2",
+      "resource": "CPU",
+      "quality": "Medium",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 0.23250138980000007,
+      "sd_jct_s": 1.2568691254370513e-07,
+      "mean_compression_s": 7.574718359974213e-06,
+      "mean_decompression_s": 2.3350412499712547e-06,
+      "mean_transport_s": 0.23249148000000003,
+      "mean_compressed_bytes": 278
+    },
+    {
+      "stream": "D2",
+      "resource": "CPU",
+      "quality": "Good",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu4",
+      "n": 5,
+      "mean_jct_s": 0.23250142860000006,
+      "sd_jct_s": 1.0129313897601905e-07,
+      "mean_compression_s": 7.594606679922435e-06,
+      "mean_decompression_s": 2.3538581250613786e-06,
+      "mean_transport_s": 0.23249147999999997,
+      "mean_compressed_bytes": 278
+    },
+    {
+      "stream": "V1",
+      "resource": "Delay",
+      "quality": "Poor",
+      "rtt_ms": 194.38,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 13.248956014600001,
+      "sd_jct_s": 0.023401805777591815,
+      "mean_compression_s": 7.4651473000005355,
+      "mean_decompression_s": 0.22402327459712978,
+      "mean_transport_s": 5.55978544,
+      "mean_compressed_bytes": 1213083.4
+    },
+    {
+      "stream": "V1",
+      "resource": "Delay",
+      "quality": "Medium",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 13.106261014600001,
+      "sd_jct_s": 0.023401805777591815,
+      "mean_compression_s": 7.4651473000005355,
+      "mean_decompression_s": 0.22402327459712978,
+      "mean_transport_s": 5.41709044,
+      "mean_compressed_bytes": 1213083.4
+    },
+    {
+      "stream": "V1",
+      "resource": "Delay",
+      "quality": "Good",
+      "rtt_ms": 85.04,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 12.883021534600001,
+      "sd_jct_s": 0.023401805777591815,
+      "mean_compression_s": 7.4651473000005355,
+      "mean_decompression_s": 0.22402327459712978,
+      "mean_transport_s": 5.19385096,
+      "mean_compressed_bytes": 1213083.4
+    },
+    {
+      "stream": "V1",
+      "resource": "BW",
+      "quality": "Poor",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 13.106261014600001,
+      "sd_jct_s": 0.023401805777591815,
+      "mean_compression_s": 7.4651473000005355,
+      "mean_decompression_s": 0.22402327459712978,
+      "mean_transport_s": 5.41709044,
+      "mean_compressed_bytes": 1213083.4
+    },
+    {
+      "stream": "V1",
+      "resource": "BW",
+      "quality": "Medium",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 4,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 10.7154142946,
+      "sd_jct_s": 0.022488459868896072,
+      "mean_compression_s": 7.4651473000005355,
+      "mean_decompression_s": 0.22402327459712978,
+      "mean_transport_s": 3.02624372,
+      "mean_compressed_bytes": 1213083.4
+    },
+    {
+      "stream": "V1",
+      "resource": "BW",
+      "quality": "Good",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 10,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 9.714912614600001,
+      "sd_jct_s": 0.02194855033300864,
+      "mean_compression_s": 7.4651473000005355,
+      "mean_decompression_s": 0.22402327459712978,
+      "mean_transport_s": 2.02574204,
+      "mean_compressed_bytes": 1213083.4
+    },
+    {
+      "stream": "V1",
+      "resource": "CPU",
+      "quality": "Poor",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "shared1",
+      "n": 5,
+      "mean_jct_s": 23.6989958984,
+      "sd_jct_s": 0.07771672093570435,
+      "mean_compression_s": 17.77721280840051,
+      "mean_decompression_s": 0.5056698499975028,
+      "mean_transport_s": 5.4161132400000005,
+      "mean_compressed_bytes": 1212848.8
+    },
+    {
+      "stream": "V1",
+      "resource": "CPU",
+      "quality": "Medium",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 13.106261014600001,
+      "sd_jct_s": 0.023401805777591815,
+      "mean_compression_s": 7.4651473000005355,
+      "mean_decompression_s": 0.22402327459712978,
+      "mean_transport_s": 5.41709044,
+      "mean_compressed_bytes": 1213083.4
+    },
+    {
+      "stream": "V1",
+      "resource": "CPU",
+      "quality": "Good",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu4",
+      "n": 5,
+      "mean_jct_s": 8.8455615382,
+      "sd_jct_s": 0.008500329454310753,
+      "mean_compression_s": 3.31952871659596,
+      "mean_decompression_s": 0.1160311336047016,
+      "mean_transport_s": 5.4100016879999995,
+      "mean_compressed_bytes": 1211365.6
+    },
+    {
+      "stream": "I1",
+      "resource": "Delay",
+      "quality": "Poor",
+      "rtt_ms": 194.38,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 0.5695177704000001,
+      "sd_jct_s": 4.952403194205575e-05,
+      "mean_compression_s": 0.003901224164001178,
+      "mean_decompression_s": 0.000698226583597716,
+      "mean_transport_s": 0.56491832,
+      "mean_compressed_bytes": 31778
+    },
+    {
+      "stream": "I1",
+      "resource": "Delay",
+      "quality": "Medium",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 0.4675927704000001,
+      "sd_jct_s": 4.952403194209395e-05,
+      "mean_compression_s": 0.003901224164001178,
+      "mean_decompression_s": 0.000698226583597716,
+      "mean_transport_s": 0.46299331999999993,
+      "mean_compressed_bytes": 31778
+    },
+    {
+      "stream": "I1",
+      "resource": "Delay",
+      "quality": "Good",
+      "rtt_ms": 85.04,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 0.29616777040000003,
+      "sd_jct_s": 4.952403194205575e-05,
+      "mean_compression_s": 0.003901224164001178,
+      "mean_decompression_s": 0.000698226583597716,
+      "mean_transport_s": 0.29156832,
+      "mean_compressed_bytes": 31778
+    },
+    {
+      "stream": "I1",
+      "resource": "BW",
+      "quality": "Poor",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 0.4675927704000001,
+      "sd_jct_s": 4.952403194209395e-05,
+      "mean_compression_s": 0.003901224164001178,
+      "mean_decompression_s": 0.000698226583597716,
+      "mean_transport_s": 0.46299331999999993,
+      "mean_compressed_bytes": 31778
+    },
+    {
+      "stream": "I1",
+      "resource": "BW",
+      "quality": "Medium",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 4,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 0.4282327704000001,
+      "sd_jct_s": 4.952403194215e-05,
+      "mean_compression_s": 0.003901224164001178,
+      "mean_decompression_s": 0.000698226583597716,
+      "mean_transport_s": 0.42363332,
+      "mean_compressed_bytes": 31778
+    },
+    {
+      "stream": "I1",
+      "resource": "BW",
+      "quality": "Good",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 10,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 0.40461677040000005,
+      "sd_jct_s": 4.952403194205575e-05,
+      "mean_compression_s": 0.003901224164001178,
+      "mean_decompression_s": 0.000698226583597716,
+      "mean_transport_s": 0.40001732,
+      "mean_compressed_bytes": 31778
+    },
+    {
+      "stream": "I1",
+      "resource": "CPU",
+      "quality": "Poor",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "shared1",
+      "n": 5,
+      "mean_jct_s": 0.473109908,
+      "sd_jct_s": 0.00012942188888477623,
+      "mean_compression_s": 0.008505213004071265,
+      "mean_decompression_s": 0.0016113746999937577,
+      "mean_transport_s": 0.46299332,
+      "mean_compressed_bytes": 31778
+    },
+    {
+      "stream": "I1",
+      "resource": "CPU",
+      "quality": "Medium",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu1",
+      "n": 5,
+      "mean_jct_s": 0.4675927704000001,
+      "sd_jct_s": 4.952403194209395e-05,
+      "mean_compression_s": 0.003901224164001178,
+      "mean_decompression_s": 0.000698226583597716,
+      "mean_transport_s": 0.46299331999999993,
+      "mean_compressed_bytes": 31778
+    },
+    {
+      "stream": "I1",
+      "resource": "CPU",
+      "quality": "Good",
+      "rtt_ms": 153.61,
+      "bandwidth_mbps": 2,
+      "cpu_profile": "cpu4",
+      "n": 5,
+      "mean_jct_s": 0.46771741600000005,
+      "sd_jct_s": 0.00022393809533776402,
+      "mean_compression_s": 0.004027083667984698,
+      "mean_decompression_s": 0.0006970122832048219,
+      "mean_transport_s": 0.46299331999999993,
+      "mean_compressed_bytes": 31778
+    }
+  ],
+  "panel_order": [
+    "D2",
+    "V1",
+    "I1"
+  ],
+  "resources": [
+    "Delay",
+    "BW",
+    "CPU"
+  ],
+  "quality_levels": [
+    "Poor",
+    "Medium",
+    "Good"
+  ],
+  "resource_series": {
+    "D2": {
+      "Delay": [
+        0.2936563898000001,
+        0.23250138980000007,
+        0.12964638980000007
+      ],
+      "BW": [
+        0.23250138980000007,
+        0.2314813898000001,
+        0.2308693898000001
+      ],
+      "CPU": [
+        0.23251209680000012,
+        0.23250138980000007,
+        0.23250142860000006
+      ]
+    },
+    "V1": {
+      "Delay": [
+        13.248956014600001,
+        13.106261014600001,
+        12.883021534600001
+      ],
+      "BW": [
+        13.106261014600001,
+        10.7154142946,
+        9.714912614600001
+      ],
+      "CPU": [
+        23.6989958984,
+        13.106261014600001,
+        8.8455615382
+      ]
+    },
+    "I1": {
+      "Delay": [
+        0.5695177704000001,
+        0.4675927704000001,
+        0.29616777040000003
+      ],
+      "BW": [
+        0.4675927704000001,
+        0.4282327704000001,
+        0.40461677040000005
+      ],
+      "CPU": [
+        0.473109908,
+        0.4675927704000001,
+        0.46771741600000005
+      ]
+    }
+  },
+  "axis_limits_s": {
+    "D2": [
+      0.1,
+      0.32
+    ],
+    "V1": [
+      8,
+      25
+    ],
+    "I1": [
+      0.25,
+      0.62
+    ]
+  },
+  "axis_note": "Each panel uses an independent linear y-axis with a nonzero lower bound.",
+  "uncertainty": "mean ± sample SD; n=5 technical repetitions per condition; paired codec repeats across Delay/BW",
+  "compressed_scope": "N1 complete raw file to N3 checked receipt and measured decompression completion; actual TCP CUBIC stack in ns-3",
+  "limitations": "single representative object per type; zero configured random packet loss; shared CPU emulated by 0.5 CPU-s/s quota; no visual quality equivalence measurement",
+  "trials_source": "/Users/yean/program/海洋监测/outputs/marine-data-case-study/resource-experiment/trials.json"
+}

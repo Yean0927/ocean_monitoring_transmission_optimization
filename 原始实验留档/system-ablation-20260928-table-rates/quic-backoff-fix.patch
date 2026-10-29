@@ -1,0 +1,38 @@
+--- a/model/quic-socket-base.cc
++++ b/model/quic-socket-base.cc
+@@ -1426,6 +1426,17 @@
+       m_tcb->m_lossTime = Simulator::Now () + m_tcb->m_kTimeReorderingFraction * m_tcb->m_smoothedRtt;
+     }
+ 
++  // QUIC retransmission timers use exponential backoff. Match ns-3 TCP's
++  // 60-second maximum RTO and bound the shift before constructing the factor.
++  const auto applyBackoff = [] (Time duration, uint32_t count) {
++    if (count >= 13)
++      {
++        return Seconds (60);
++      }
++    const uint32_t multiplier = 1U << count;
++    return std::min (duration * multiplier, Seconds (60));
++  };
++
+   Time alarmDuration;
+   // Handshake packets are outstanding
+   if (m_socketState == CONNECTING_CLT || m_socketState == CONNECTING_SVR)
+@@ -1442,7 +1453,7 @@
+         }
+       alarmDuration = std::max (alarmDuration + m_tcb->m_maxAckDelay,
+                                 m_tcb->m_kMinTLPTimeout);
+-      alarmDuration = alarmDuration * (2 ^ m_tcb->m_handshakeCount);
++      alarmDuration = applyBackoff (alarmDuration, m_tcb->m_handshakeCount);
+       m_tcb->m_alarmType = 0;
+     }
+   else if (m_tcb->m_lossTime != Seconds (0))
+@@ -1467,7 +1478,7 @@
+       alarmDuration = m_tcb->m_smoothedRtt + 4 * m_tcb->m_rttVar
+         + m_tcb->m_maxAckDelay;
+       alarmDuration = std::max (alarmDuration, m_tcb->m_kMinRTOTimeout);
+-      alarmDuration = alarmDuration * (2 ^ m_tcb->m_rtoCount);
++      alarmDuration = applyBackoff (alarmDuration, m_tcb->m_rtoCount);
+       m_tcb->m_alarmType = 3;
+     }
+   NS_LOG_INFO ("Schedule ReTxTimeout at time " << Simulator::Now ().GetSeconds () << " to expire at time " << (Simulator::Now () + alarmDuration).GetSeconds ());

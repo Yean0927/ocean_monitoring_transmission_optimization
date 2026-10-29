@@ -1,0 +1,15 @@
+{
+  "question": "How does delivery success vary across data categories and ablation configurations?",
+  "claim": "Category delivery rates vary by configuration; all comparisons use actual delivered and generated raw-equivalent bytes.",
+  "archetype": "quantitative grid",
+  "backend": "python",
+  "dimensions_inches": [
+    8,
+    6
+  ],
+  "statistic": "mean across five seeds; sample SD supplied in companion table",
+  "data_integrity": "All 240 stream summaries used; no exclusions; text pools D1-D4 bytes before division.",
+  "reuse": "Style-only inheritance from the supplied bar chart; statistics recomputed from current repeated runs.",
+  "uncertainty_exemption": "Dense reference-style bars show means; all SDs provided in the adjacent table and CSV.",
+  "risk": "Large seed variation makes mean-only bars insufficient for significance claims."
+}

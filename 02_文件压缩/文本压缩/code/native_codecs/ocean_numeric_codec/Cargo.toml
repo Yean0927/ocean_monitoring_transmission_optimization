@@ -1,0 +1,10 @@
+[package]
+name = "ocean_numeric_codec"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = 3
+panic = "abort"

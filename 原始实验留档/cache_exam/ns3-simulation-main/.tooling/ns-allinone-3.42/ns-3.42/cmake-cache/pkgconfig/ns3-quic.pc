@@ -1,0 +1,13 @@
+exec_prefix="/usr/local/bin"
+libdir="/usr/local/lib"
+includedir="/usr/local/include"
+
+Name: ns3-quic
+Description: 
+URL: 
+Version: 3.42
+Requires:  ns3-internet ns3-applications ns3-flow-monitor ns3-point-to-point
+Requires.private: 
+Cflags: -I"${includedir}"  -I/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr -I/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/libxml2
+Libs: -L"${libdir}" -lns3.42-quic-optimized  -lns3.42-internet-optimized -lns3.42-applications-optimized -lns3.42-flow-monitor-optimized -lns3.42-point-to-point-optimized
+Libs.private: -L"${libdir}" 

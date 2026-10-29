@@ -1,0 +1,18 @@
+{
+  "stream": "V1",
+  "stage": "decompress",
+  "batch_wall_s": 0.2225352079985896,
+  "batch_cpu_s": 0.22551600000000002,
+  "iterations": 1,
+  "per_object_s": 0.2225352079985896,
+  "thread_limit": 1,
+  "decoded_frames": 505,
+  "integrity": "full_video_decode",
+  "cpu_profile": "cpu1",
+  "quota_cpu_seconds_per_second": 1.0,
+  "limiter_stops": 1,
+  "limiter_paused_s": 0.004826124990358949,
+  "limiter_max_observed_budget_error_cpu_s": 0.003207370994138259,
+  "controller_poll_s": 0.003,
+  "controller_burst_tolerance_s": 0.003
+}

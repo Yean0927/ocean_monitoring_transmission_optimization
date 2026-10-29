@@ -1,0 +1,4 @@
+PAYLOAD_MISMATCH t=690.375 id=730 stream=2 len=8799 expected=8799 first=8752 received-byte=22 expected-byte=0
+aborted. msg="N3 payload mismatch", +690.375429907s 3 file=/Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/scratch/system-ablation.cc, line=158
+NS_FATAL, terminating
+libc++abi: terminating

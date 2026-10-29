@@ -1,0 +1,68 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'outputs/video-file8-recomputed-20261018/input/5cf7af68d381d7cb80e5567444e894c2.mp4':
+  Metadata:
+    compatible_brands: isomiso2avc1mp41
+    major_brand     : isom
+    minor_version   : 512
+    creation_time   : 2016-10-27T16:42:02.000000Z
+    encoder         : Lavf58.20.100
+  Duration: 00:00:06.66, start: 0.000000, bitrate: 1582 kb/s
+  Stream #0:0[0x1](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 48 kb/s (default)
+      Metadata:
+        creation_time   : 2016-10-27T16:42:02.000000Z
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, progressive), 320x240, 1560 kb/s, 18.10 fps, 18.08 tbr, 90k tbn (default)
+      Metadata:
+        creation_time   : 2016-10-27T16:42:02.000000Z
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:1 -> #0:0 (h264 (native) -> hevc (libx265))
+  Stream #0:0 -> #0:1 (copy)
+x265 [info]: HEVC encoder version 3.5+115-3cf6c1e53
+x265 [info]: build info [Mac OS X][clang 13.1.6][64 bit] 8bit+10bit+12bit
+x265 [info]: using cpu capabilities: NEON
+x265 [info]: Main profile, Level-2 (Main tier)
+x265 [info]: Thread pool created using 10 threads
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 3 / wpp(4 rows)
+x265 [warning]: Source height < 720p; disabling lookahead-slices
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 2
+x265 [info]: Keyframe min / max / scenecut / bias  : 18 / 250 / 40 / 5.00 
+x265 [info]: Lookahead / bframes / badapt        : 15 / 4 / 0
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 3 / on / on
+x265 [info]: AQ: mode / str / qg-size / cu-tree  : 2 / 1.0 / 32 / 1
+x265 [info]: Rate Control / qCompress            : CRF-30.0 / 0.60
+x265 [info]: tools: rd=2 psy-rd=2.00 rskip mode=1 signhide tmvp fast-intra
+x265 [info]: tools: strong-intra-smoothing deblock sao
+Output #0, mp4, to 'outputs/video-file8-recomputed-20261018/measurements/encoded_outputs/S2/5cf7af68d381d7cb80e5567444e894c2__h265_hevc__r1.tmp.mp4':
+  Metadata:
+    compatible_brands: isomiso2avc1mp41
+    major_brand     : isom
+    minor_version   : 512
+    encoder         : Lavf61.7.100
+  Stream #0:0(und): Video: hevc (hvc1 / 0x31637668), yuv420p(tv, progressive), 320x240, q=2-31, 18.08 fps, 13888 tbn (default)
+      Metadata:
+        creation_time   : 2016-10-27T16:42:02.000000Z
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 libx265
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 48 kb/s (default)
+      Metadata:
+        creation_time   : 2016-10-27T16:42:02.000000Z
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+[mp4 @ 0x15c0045c0] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x15c0043d0] video:97KiB audio:40KiB subtitle:0KiB other streams:0KiB global headers:2KiB muxing overhead: 6.156632%
+frame=  118 fps=0.0 q=37.0 Lsize=     145KiB time=00:00:06.52 bitrate= 181.8kbits/s speed=22.6x    
+x265 [info]: frame I:      1, Avg QP:30.52  kb/s: 420.11  
+x265 [info]: frame P:     24, Avg QP:30.64  kb/s: 269.18  
+x265 [info]: frame B:     93, Avg QP:35.72  kb/s: 79.39   
+x265 [info]: Weighted P-Frames: Y:0.0% UV:0.0%
+
+encoded 118 frames in 0.29s (411.66 fps), 120.88 kb/s, Avg QP:34.64

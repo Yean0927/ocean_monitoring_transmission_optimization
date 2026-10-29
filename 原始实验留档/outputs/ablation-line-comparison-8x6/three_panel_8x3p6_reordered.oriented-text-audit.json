@@ -1,0 +1,8 @@
+{
+  "method": "PDF recovered text quadrilaterals and separating-axis theorem",
+  "text_span_count": 47,
+  "overlaps": [],
+  "clipped_text": [],
+  "verdict": "PASS",
+  "axis_aligned_audit_disposition": "Rotated label bounding rectangles overlap; actual oriented text rectangles are checked here. Original unmodified report retained for traceability."
+}

@@ -1,0 +1,68 @@
+--- a/model/quic-socket-tx-buffer.cc
++++ b/model/quic-socket-tx-buffer.cc
+@@ -665,7 +665,8 @@
+ 
+ uint32_t QuicSocketTxBuffer::Available (void) const
+ {
+-  return m_maxBuffer - m_streamZeroSize - m_scheduler->AppSize ();
++  const uint64_t used = uint64_t (m_streamZeroSize) + m_scheduler->AppSize ();
++  return used >= m_maxBuffer ? 0 : uint32_t (m_maxBuffer - used);
+ }
+ 
+ uint32_t QuicSocketTxBuffer::GetMaxBufferSize (void) const
+--- a/model/quic-socket-base.cc
++++ b/model/quic-socket-base.cc
+@@ -1572,6 +1572,9 @@
+     }
+   else if (m_tcb->m_alarmType == 3)
+     {
++      // Establish the packet-number boundary before either retransmission path.
++      if (m_tcb->m_rtoCount == 0)
++        m_tcb->m_largestSentBeforeRto = m_tcb->m_highTxMark;
+       // Prioritize the oldest unacknowledged payload on every RTO, even while
+       // newer application bytes remain queued. Otherwise a lost tail/range can
+       // stay behind a continuously replenished socket buffer.
+@@ -2306,36 +2309,13 @@
+   rs->m_packetLoss = std::abs ((int) lostOut - (int) m_txBuffer->GetLost ());
+   m_tcb->m_lastAckedSackedBytes = m_tcb->m_delivered - delivered;
+ 
+-  // RTO packet acknowledged - IETF Draft QUIC Recovery, Sec. 4.3.3
+-  if (m_tcb->m_rtoCount > 0)
+-    {
+-      // Packets after the RTO have been acknowledged
+-      if (m_tcb->m_largestSentBeforeRto.GetValue () < largestAcknowledged)
+-        {
+-
+-          uint32_t newPackets = (largestAcknowledged
+-                                 - m_tcb->m_largestSentBeforeRto.GetValue ()) / GetSegSize ();
+-          uint32_t inFlightBeforeRto = m_txBuffer->BytesInFlight ();
+-          m_txBuffer->ResetSentList (newPackets);
+-          std::vector<Ptr<QuicSocketTxItem> > lostPackets =
+-            m_txBuffer->DetectLostPackets ();
+-          if (m_quicCongestionControlLegacy && !lostPackets.empty ())
+-            {
+-              // Reset congestion window and go into loss mode
+-              m_tcb->m_cWnd = m_tcb->m_kMinimumWindow;
+-              m_tcb->m_endOfRecovery = m_tcb->m_highTxMark;
+-              m_tcb->m_ssThresh = m_congestionControl->GetSsThresh (
+-                m_tcb, inFlightBeforeRto);
+-              m_tcb->m_congState = TcpSocketState::CA_LOSS;
+-              m_congestionControl->CongestionStateSet (
+-                m_tcb, TcpSocketState::CA_LOSS);
+-            }
+-        }
+-      else
+-        {
+-          m_tcb->m_rtoCount = 0;
+-        }
+-    }
++  // Fresh acknowledgement of a post-timeout packet proves forward progress.
++  // Reset backoff without reclassifying all remaining packets as lost. Packet
++  // numbers must not be divided by the byte-valued segment size; that legacy
++  // calculation repeatedly called ResetSentList(0) and flooded recovery.
++  if (m_tcb->m_rtoCount > 0 && !ackedPackets.empty () &&
++      largestAcknowledged > m_tcb->m_largestSentBeforeRto.GetValue ())
++    m_tcb->m_rtoCount = 0;
+ 
+   // Tail loss probe packet acknowledged - IETF Draft QUIC Recovery, Sec. 4.3.2
+   if (m_tcb->m_tlpCount > 0 && !ackedPackets.empty ())

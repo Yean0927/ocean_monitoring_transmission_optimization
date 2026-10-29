@@ -1,0 +1,1754 @@
+[
+  {
+    "source": "adaptive-protocol-selection-package/.gitignore",
+    "destination": "01_自适应协议选择/.gitignore",
+    "source_sha256": "b0e6e61c9f6b8ecf86b3ba99b9c3b73f12556e934ed441350b0b8596141deef1",
+    "sha256": "b0e6e61c9f6b8ecf86b3ba99b9c3b73f12556e934ed441350b0b8596141deef1"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/PACKAGE_MANIFEST.md",
+    "destination": "01_自适应协议选择/PACKAGE_MANIFEST.md",
+    "source_sha256": "b537e5defdcb37d39c99f5d7942b7707d318457a1b1c49bec2e6c8f2a4ad4005",
+    "sha256": "b537e5defdcb37d39c99f5d7942b7707d318457a1b1c49bec2e6c8f2a4ad4005"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/README.md",
+    "destination": "01_自适应协议选择/README-source.md",
+    "source_sha256": "cd6d10b3aa3c711f6feaceb1b58ca142458a3d22490e63e1ce49c62bbd4675f2",
+    "sha256": "cd6d10b3aa3c711f6feaceb1b58ca142458a3d22490e63e1ce49c62bbd4675f2"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/dataset_generators/build-jitter-from-real-anchors.py",
+    "destination": "01_自适应协议选择/dataset_generators/build-jitter-from-real-anchors.py",
+    "source_sha256": "b44ca0c9c7f47ca74643956b9e583fe91d1219d568a8b0a6c20479b7fa6ffcf2",
+    "sha256": "b44ca0c9c7f47ca74643956b9e583fe91d1219d568a8b0a6c20479b7fa6ffcf2"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/deployment/ml-requirements.txt",
+    "destination": "01_自适应协议选择/deployment/ml-requirements.txt",
+    "source_sha256": "4d201c11817091c36ea5da5ec2b55462538708c72009a1166bd9db8284f70735",
+    "sha256": "30d39f86834b78f827c881b7fa79c8bfcce7d9c93075f02292736e61b4fee13d",
+    "changes": [
+      "整理路径/绘图依赖/报告引用"
+    ]
+  },
+  {
+    "source": "adaptive-protocol-selection-package/ml_scripts/run-feature-ablation-study.py",
+    "destination": "01_自适应协议选择/ml_scripts/run-feature-ablation-study.py",
+    "source_sha256": "5f65e969a8cdb2c340af82406632f170157592333ee8a5b39eaaafca58d72d83",
+    "sha256": "2a8d0527d5eaeacfd74ca96de898e708be6b6d68eb6490d6536cd691253df194",
+    "changes": [
+      "移除绘图函数及调用",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "adaptive-protocol-selection-package/ml_scripts/train-lightweight-protocol-selector.py",
+    "destination": "01_自适应协议选择/ml_scripts/train-lightweight-protocol-selector.py",
+    "source_sha256": "214bfe33392df566d0ec42af40efe0c23dad59a28b36a74cde7d6b435a60223b",
+    "sha256": "86c7b8cfd3a6dc2d9120e902e066b0c656993c0fb2dffa80de0cf8309168062f",
+    "changes": [
+      "移除绘图函数及调用",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "adaptive-protocol-selection-package/ns3_source/quic-random-interval-source.cc",
+    "destination": "01_自适应协议选择/ns3_source/quic-random-interval-source.cc",
+    "source_sha256": "48c8dded48382e337614ed58540c164fbddc1af8ee7aefb42e3dab8e3bf48f7a",
+    "sha256": "48c8dded48382e337614ed58540c164fbddc1af8ee7aefb42e3dab8e3bf48f7a"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/ns3_source/tcp-exp.cc",
+    "destination": "01_自适应协议选择/ns3_source/tcp-exp.cc",
+    "source_sha256": "dda78261c967e8a9efcafa4d357ebb3304a6a16a6cc049263368a59a1ddc2400",
+    "sha256": "dda78261c967e8a9efcafa4d357ebb3304a6a16a6cc049263368a59a1ddc2400"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/protocol_scripts/build-protocol-labels.py",
+    "destination": "01_自适应协议选择/protocol_scripts/build-protocol-labels.py",
+    "source_sha256": "ba004bf4c8a88166d651d153b1f0850b8035f33d44730d6c5d69182b3726bd17",
+    "sha256": "ba004bf4c8a88166d651d153b1f0850b8035f33d44730d6c5d69182b3726bd17"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/protocol_scripts/dynamic-link-adaptive-protocol.py",
+    "destination": "01_自适应协议选择/protocol_scripts/dynamic-link-adaptive-protocol.py",
+    "source_sha256": "dd494de582d425968d2f92d94f3ae783426a143fa4de16fd069f66c446809254",
+    "sha256": "12907486f8a872469627d7c2b7e721d5674337794473cb5c38abe5f0cb2b11b6",
+    "changes": [
+      "移除绘图函数及调用",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "adaptive-protocol-selection-package/protocol_scripts/merge-quic-into-anchor-labels.py",
+    "destination": "01_自适应协议选择/protocol_scripts/merge-quic-into-anchor-labels.py",
+    "source_sha256": "a339d045ea91b4b5bfc802ebda4275f33ce2adad7d26e28f08e0426ea72604e6",
+    "sha256": "a339d045ea91b4b5bfc802ebda4275f33ce2adad7d26e28f08e0426ea72604e6"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/protocol_scripts/run-all-protocol-evaluations.py",
+    "destination": "01_自适应协议选择/protocol_scripts/run-all-protocol-evaluations.py",
+    "source_sha256": "65e495d405a81c3247e4380075bb708297b6d8d733df04c54c2e17ee4abd2671",
+    "sha256": "8ba4374fd134d34b7cc9b927ad8130d87a044845e60b8248d66225de8610af96",
+    "changes": [
+      "移除绘图函数及调用",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "adaptive-protocol-selection-package/protocol_scripts/run-quic-link-grid.py",
+    "destination": "01_自适应协议选择/protocol_scripts/run-quic-link-grid.py",
+    "source_sha256": "9820aa2c69ebef84e68b8760f34ac75cf19da9d4a1beb2ab6d29bfe71d1ccc27",
+    "sha256": "0ca88a93bd65bd246c7391cf29c8c6f2a457c5c7712ab7f4acde108d8176e2a8",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/model_results/model-metrics.csv",
+    "destination": "01_自适应协议选择/sample_results/model_results/model-metrics.csv",
+    "source_sha256": "219b2bab3929b7ceeb0e9fb9278bcfd73ce831f3123fcc03af6f6ee35de6fee9",
+    "sha256": "219b2bab3929b7ceeb0e9fb9278bcfd73ce831f3123fcc03af6f6ee35de6fee9"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/model_results/xgboost_export/classification-report-ContextualBandit-Ridge.txt",
+    "destination": "01_自适应协议选择/sample_results/model_results/xgboost_export/classification-report-ContextualBandit-Ridge.txt",
+    "source_sha256": "ccea3866b9ceedd5ff90d34e6872636f0d37ea5b4ddf25f6ccf854e371e93b23",
+    "sha256": "ccea3866b9ceedd5ff90d34e6872636f0d37ea5b4ddf25f6ccf854e371e93b23"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/model_results/xgboost_export/classification-report-XGBoost.txt",
+    "destination": "01_自适应协议选择/sample_results/model_results/xgboost_export/classification-report-XGBoost.txt",
+    "source_sha256": "2d48fcd394d47893a58a76061baea45680665632871104a34fb39e35cb7ce1d5",
+    "sha256": "2d48fcd394d47893a58a76061baea45680665632871104a34fb39e35cb7ce1d5"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/model_results/xgboost_export/confusion-matrix-ContextualBandit-Ridge.csv",
+    "destination": "01_自适应协议选择/sample_results/model_results/xgboost_export/confusion-matrix-ContextualBandit-Ridge.csv",
+    "source_sha256": "d0688ea6dcf2d4797e5bb1fa64c693b33178b2d7de7be46bbe3e08b42af8b018",
+    "sha256": "d0688ea6dcf2d4797e5bb1fa64c693b33178b2d7de7be46bbe3e08b42af8b018"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/model_results/xgboost_export/confusion-matrix-XGBoost.csv",
+    "destination": "01_自适应协议选择/sample_results/model_results/xgboost_export/confusion-matrix-XGBoost.csv",
+    "source_sha256": "89d8d7b438ad31557c8650fdd603cad8dd720ee70ebae794df3892929c46a20c",
+    "sha256": "89d8d7b438ad31557c8650fdd603cad8dd720ee70ebae794df3892929c46a20c"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/model_results/xgboost_export/model-metrics.csv",
+    "destination": "01_自适应协议选择/sample_results/model_results/xgboost_export/model-metrics.csv",
+    "source_sha256": "561a0ee648604dcc546167ef8430ed1a642d0ad1c66056468fb1b328279e17c6",
+    "sha256": "561a0ee648604dcc546167ef8430ed1a642d0ad1c66056468fb1b328279e17c6"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/model_results/xgboost_export/trained-models.joblib",
+    "destination": "01_自适应协议选择/sample_results/model_results/xgboost_export/trained-models.joblib",
+    "source_sha256": "c2bc6980259e31fd6a12b4825bdf97e97942a11cd5ecdae06329cac628fe4cb5",
+    "sha256": "c2bc6980259e31fd6a12b4825bdf97e97942a11cd5ecdae06329cac628fe4cb5"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/model_results/xgboost_export/training-summary.md",
+    "destination": "01_自适应协议选择/sample_results/model_results/xgboost_export/training-summary.md",
+    "source_sha256": "dec5018225c556014366ff606d7314811853219cf06350e5409a1ec176d57030",
+    "sha256": "dec5018225c556014366ff606d7314811853219cf06350e5409a1ec176d57030"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/model_results/xgboost_export/xgboost-booster.json",
+    "destination": "01_自适应协议选择/sample_results/model_results/xgboost_export/xgboost-booster.json",
+    "source_sha256": "e63bcc95ea69d8af02ab7587b708fba9385b65b98074939c9aecc118f819fde9",
+    "sha256": "e63bcc95ea69d8af02ab7587b708fba9385b65b98074939c9aecc118f819fde9"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/model_results/xgboost_export/xgboost-metadata.json",
+    "destination": "01_自适应协议选择/sample_results/model_results/xgboost_export/xgboost-metadata.json",
+    "source_sha256": "86b625fe626af6e95b25bae94c7d6ffb72b8f4007135c336c87a954813d5bd8c",
+    "sha256": "86b625fe626af6e95b25bae94c7d6ffb72b8f4007135c336c87a954813d5bd8c"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/model_results/xgboost_export/xgboost-protocol-selector.joblib",
+    "destination": "01_自适应协议选择/sample_results/model_results/xgboost_export/xgboost-protocol-selector.joblib",
+    "source_sha256": "177f0171ea20ab47acacd748a1f73bd97ba53908793cdbb4e4116d885de5089b",
+    "sha256": "177f0171ea20ab47acacd748a1f73bd97ba53908793cdbb4e4116d885de5089b"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/protocol_evaluation/real-anchor-labels-random-interval.csv",
+    "destination": "01_自适应协议选择/sample_results/protocol_evaluation/real-anchor-labels-random-interval.csv",
+    "source_sha256": "7143612eb34b7c67404626d3a02018d3a0a57488617a90eadf1524dc2a3e859f",
+    "sha256": "7143612eb34b7c67404626d3a02018d3a0a57488617a90eadf1524dc2a3e859f"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/training_data/dataset-summary.md",
+    "destination": "01_自适应协议选择/sample_results/training_data/dataset-summary.md",
+    "source_sha256": "1cc4a604739328e437112667c58b7765973836cdad5db87e57539833725348ea",
+    "sha256": "1cc4a604739328e437112667c58b7765973836cdad5db87e57539833725348ea"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/sample_results/training_data/jittered-training-samples-12000.csv",
+    "destination": "01_自适应协议选择/sample_results/training_data/jittered-training-samples-12000.csv",
+    "source_sha256": "fb3b0ffa176b0f011db37af793d017519520d7d9acd5432cf601445969442388",
+    "sha256": "fb3b0ffa176b0f011db37af793d017519520d7d9acd5432cf601445969442388"
+  },
+  {
+    "source": "海洋实验同步包/01_自适应协议选择/code/ml_scripts/train-lightweight-protocol-selector.py",
+    "destination": "01_自适应协议选择/ml_scripts/train-lightweight-protocol-selector-sync.py",
+    "source_sha256": "d20a82feea43edc8e7dc92dc9905e0a3678bcbae6b8913413933f9a863c2637a",
+    "sha256": "4a409a7f7c391700d1aa5125f3223de3325f5ad51acf1fd73147e6ca328cd211",
+    "changes": [
+      "移除绘图函数及调用",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/compression_scripts/merge_compression_measurements.py",
+    "destination": "02_文件压缩/compression_scripts/merge_compression_measurements.py",
+    "source_sha256": "c5ab85c529a684097e1703791abf1d4433a2a4187dc51f02c1f388ba5d82bacb",
+    "sha256": "c5ab85c529a684097e1703791abf1d4433a2a4187dc51f02c1f388ba5d82bacb"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/compression_scripts/run_best_compression_experiment.py",
+    "destination": "02_文件压缩/compression_scripts/run_best_compression_experiment.py",
+    "source_sha256": "06c7e57f39b57be878f7dd27a5fb7feeb77047b34ed92dec08e678c592ae72fc",
+    "sha256": "712de024894422245ec32c19dd2396daa9f7d0e7be58855683e398fcd12a5830",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/compression_scripts/run_edge_compression_experiment.py",
+    "destination": "02_文件压缩/compression_scripts/run_edge_compression_experiment.py",
+    "source_sha256": "5a6e97b2bd86cabeccf06906947c27d749eee902f7a8d59a4f5e421a5833e3f8",
+    "sha256": "ecef2c99315fa101d2dfbc6cedfccea1f30daa3ae6edb44579bddbb68e1d6359",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/compression_scripts/run_parquet_optimization_experiment.py",
+    "destination": "02_文件压缩/compression_scripts/run_parquet_optimization_experiment.py",
+    "source_sha256": "b2cde4986f529a21fa59da41ef0f86784d65231f21096bc4c64471b8dd4541b4",
+    "sha256": "782533d11668a8c8bd20d05f51f9a053f13c296459533a920f90b7c481bed0fe",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/compression_scripts/run_timeseries_optimization_experiment.py",
+    "destination": "02_文件压缩/compression_scripts/run_timeseries_optimization_experiment.py",
+    "source_sha256": "515df0587de93d1affab1b2a033fd847ce1b4230045c6f6b1f8469d1e3e1b1ce",
+    "sha256": "c4cdc19a41ef132254f9ce635217390a7d46a321859f3fac163cd6172367d6bb",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/compression_scripts/run_video_compression_experiment.py",
+    "destination": "02_文件压缩/compression_scripts/run_video_compression_experiment.py",
+    "source_sha256": "e06e346b136bb3eb5a2d57a439e53563fc2a66d9d2cb0ac1404f6cf6485e84e8",
+    "sha256": "c7d6aa82085e5bb3435105f85d79dc257742deea14032cb56ae0bc580544f85b",
+    "changes": [
+      "移除绘图函数及调用",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/compression_scripts/run_whole_file_compression_experiment.py",
+    "destination": "02_文件压缩/compression_scripts/run_whole_file_compression_experiment.py",
+    "source_sha256": "f334175831096488d5737109718612e4d7d2e9ea4ef575d608b07c0a474bedfb",
+    "sha256": "2b9a3928d539686bc973bca6a51f0a82d39c1bc1d33fc12291c57180601af915",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/compression_scripts/write_docker_video_weak_cpu_report.py",
+    "destination": "02_文件压缩/compression_scripts/write_docker_video_weak_cpu_report.py",
+    "source_sha256": "4957547805eb7569caf5c89ea9678c92285384f210fae3cf7fe3227700dc63bb",
+    "sha256": "4957547805eb7569caf5c89ea9678c92285384f210fae3cf7fe3227700dc63bb"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/deployment/compression-requirements.txt",
+    "destination": "02_文件压缩/deployment/compression-requirements.txt",
+    "source_sha256": "fd5ffdf4dfbd3cb546fc04af539ccfc9c001ce198621f1cde5ef7c9dff627b12",
+    "sha256": "60acde4d77a7c8f3bab6696fc2415ee15e6a0e75866da6ba00ac950a2c2d5679",
+    "changes": [
+      "整理路径/绘图依赖/报告引用"
+    ]
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/edge-compression-feasibility-docker-experiment-design.md",
+    "destination": "02_文件压缩/edge-compression-feasibility-docker-experiment-design.md",
+    "source_sha256": "36f454b8e37ae749bd8e13f7bd6ff749dace980aea5ac9cbaf355787ec465871",
+    "sha256": "36f454b8e37ae749bd8e13f7bd6ff749dace980aea5ac9cbaf355787ec465871"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/edge-text-compression-experiment-report-with-decode.md",
+    "destination": "02_文件压缩/edge-text-compression-experiment-report-with-decode.md",
+    "source_sha256": "607c944620880405961c88a354b4448eeec4997deb96553b15409f690acb591f",
+    "sha256": "607c944620880405961c88a354b4448eeec4997deb96553b15409f690acb591f"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/edge-text-compression-experiment-report.md",
+    "destination": "02_文件压缩/edge-text-compression-experiment-report.md",
+    "source_sha256": "c27e0abde21e6d2acd6fcc47131a112f5e0f47c4430b01d0947471b68f6c5aa0",
+    "sha256": "c27e0abde21e6d2acd6fcc47131a112f5e0f47c4430b01d0947471b68f6c5aa0"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/native_codecs/ocean_numeric_codec/Cargo.lock",
+    "destination": "02_文件压缩/native_codecs/ocean_numeric_codec/Cargo.lock",
+    "source_sha256": "2cf95c17e0dca2d75466c19eaabf3f2b2ea604bd6bb6185e8d96783bf89c483a",
+    "sha256": "2cf95c17e0dca2d75466c19eaabf3f2b2ea604bd6bb6185e8d96783bf89c483a"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/native_codecs/ocean_numeric_codec/Cargo.toml",
+    "destination": "02_文件压缩/native_codecs/ocean_numeric_codec/Cargo.toml",
+    "source_sha256": "6203a5021a24aee2fd100bd07b6a657e555767f031eab812b4bf0a4d67fa2ee0",
+    "sha256": "6203a5021a24aee2fd100bd07b6a657e555767f031eab812b4bf0a4d67fa2ee0"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/native_codecs/ocean_numeric_codec/src/main.rs",
+    "destination": "02_文件压缩/native_codecs/ocean_numeric_codec/src/main.rs",
+    "source_sha256": "adb8f9e0e19356f257c28140cc9eddb3b2ea4f0d3c99677c952cd5ea6499abea",
+    "sha256": "adb8f9e0e19356f257c28140cc9eddb3b2ea4f0d3c99677c952cd5ea6499abea"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_CD_optimized_cpu100/best_algorithm_by_scenario.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_CD_optimized_cpu100/best_algorithm_by_scenario.csv",
+    "source_sha256": "15055c7dbd56f0a5c7a5fe7ec59be4dbd6b630df0fa20fe721c4710520927cf8",
+    "sha256": "15055c7dbd56f0a5c7a5fe7ec59be4dbd6b630df0fa20fe721c4710520927cf8"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_CD_optimized_cpu100/best_config_by_algorithm_scenario.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_CD_optimized_cpu100/best_config_by_algorithm_scenario.csv",
+    "source_sha256": "0ae8f50208935d63cd244e6ad5b528effe598bad52276c626fc8f83d82943cd9",
+    "sha256": "0ae8f50208935d63cd244e6ad5b528effe598bad52276c626fc8f83d82943cd9"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_CD_optimized_cpu100/end_to_end_results.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_CD_optimized_cpu100/end_to_end_results.csv",
+    "source_sha256": "adf237424c221b8dafd21c2635dd30087eb32f3352c54f7fc91548eb60bb4be4",
+    "sha256": "adf237424c221b8dafd21c2635dd30087eb32f3352c54f7fc91548eb60bb4be4"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_C_parquet_optimized_cpu100/best_algorithm_by_scenario.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_C_parquet_optimized_cpu100/best_algorithm_by_scenario.csv",
+    "source_sha256": "8de41c08c6dc6b8630f5ba197592e68e755716986518fc781fe885fae8518085",
+    "sha256": "8de41c08c6dc6b8630f5ba197592e68e755716986518fc781fe885fae8518085"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_C_parquet_optimized_cpu100/candidate_end_to_end_results.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_C_parquet_optimized_cpu100/candidate_end_to_end_results.csv",
+    "source_sha256": "5265a2bb11d6de77c1393a9b7dc2b14dc5038a88885537c686651e0449385bec",
+    "sha256": "5265a2bb11d6de77c1393a9b7dc2b14dc5038a88885537c686651e0449385bec"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_C_parquet_optimized_cpu100/candidate_measurements.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_C_parquet_optimized_cpu100/candidate_measurements.csv",
+    "source_sha256": "f137f8bdcb6271f7b4e78f4d19430b0478d5f676500f46d1b11567e9908eebfe",
+    "sha256": "f137f8bdcb6271f7b4e78f4d19430b0478d5f676500f46d1b11567e9908eebfe"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_C_parquet_optimized_cpu100/end_to_end_results.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_C_parquet_optimized_cpu100/end_to_end_results.csv",
+    "source_sha256": "2a11a36d3024a92b4652f826f469656013676f35abfa6eaddc302c98a956737e",
+    "sha256": "2a11a36d3024a92b4652f826f469656013676f35abfa6eaddc302c98a956737e"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_D_timeseries_optimized_cpu100/best_algorithm_by_scenario.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_D_timeseries_optimized_cpu100/best_algorithm_by_scenario.csv",
+    "source_sha256": "0f6f96b118b7692f74d1d0d9a95b83142cb4cd408cc7cfd1e47167f5086de373",
+    "sha256": "0f6f96b118b7692f74d1d0d9a95b83142cb4cd408cc7cfd1e47167f5086de373"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_D_timeseries_optimized_cpu100/candidate_end_to_end_results.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_D_timeseries_optimized_cpu100/candidate_end_to_end_results.csv",
+    "source_sha256": "3c1da5e0fa23eca5ccdc4a41d103ac4426ccb719d3b8b0d461abe440faf38db9",
+    "sha256": "3c1da5e0fa23eca5ccdc4a41d103ac4426ccb719d3b8b0d461abe440faf38db9"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_D_timeseries_optimized_cpu100/candidate_measurements.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_D_timeseries_optimized_cpu100/candidate_measurements.csv",
+    "source_sha256": "3e10102cb5e7c2c1e17df6950f1f5ea905b5ef38cd427889fdb73a536922e534",
+    "sha256": "3e10102cb5e7c2c1e17df6950f1f5ea905b5ef38cd427889fdb73a536922e534"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_D_timeseries_optimized_cpu100/end_to_end_results.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_D_timeseries_optimized_cpu100/end_to_end_results.csv",
+    "source_sha256": "3843701b62c313fb9f52fbef6be47e980b97eaea6e6c11753c516d44bb76137e",
+    "sha256": "3843701b62c313fb9f52fbef6be47e980b97eaea6e6c11753c516d44bb76137e"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/best_algorithm_by_scenario.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_formal_cpu100/best_algorithm_by_scenario.csv",
+    "source_sha256": "8f1488dbbd548eeeb238be275c664c0cf1452b84d0b5f16c2401367d464a808e",
+    "sha256": "8f1488dbbd548eeeb238be275c664c0cf1452b84d0b5f16c2401367d464a808e"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/compression_measurements.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_formal_cpu100/compression_measurements.csv",
+    "source_sha256": "7156a3ea99699ab12dda8767384151298b652df03dbe8166857c46a3f40721ad",
+    "sha256": "7156a3ea99699ab12dda8767384151298b652df03dbe8166857c46a3f40721ad"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/end_to_end_results.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_formal_cpu100/end_to_end_results.csv",
+    "source_sha256": "8c8bc4b257018c6f483dac6d9a3afc7fef81e2a58f761f695390cf302ecf6357",
+    "sha256": "8c8bc4b257018c6f483dac6d9a3afc7fef81e2a58f761f695390cf302ecf6357"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_formal_cpu100/packet_summary.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_formal_cpu100/packet_summary.csv",
+    "source_sha256": "a09696ece8271e9899daad2f2c0bc17888441048bc745d71984aaade627ce82d",
+    "sha256": "a09696ece8271e9899daad2f2c0bc17888441048bc745d71984aaade627ce82d"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_new/best_algorithm_by_scenario.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_new/best_algorithm_by_scenario.csv",
+    "source_sha256": "30a0cbcdf7dd8bbe6524095aff93a8ac7206c4f29181ed0b7c5a952191f7bc08",
+    "sha256": "30a0cbcdf7dd8bbe6524095aff93a8ac7206c4f29181ed0b7c5a952191f7bc08"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_new/compression_measurements.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_new/compression_measurements.csv",
+    "source_sha256": "2ad3a9c8bfb83011b6e4cf84c75794a8fe407048206261d47c61fd5c33f5a7a9",
+    "sha256": "2ad3a9c8bfb83011b6e4cf84c75794a8fe407048206261d47c61fd5c33f5a7a9"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_new/end_to_end_results.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_new/end_to_end_results.csv",
+    "source_sha256": "107dcbe2627fee14e5f8aa09fcf49df62553be9b7a2023bfb475369c3116968b",
+    "sha256": "107dcbe2627fee14e5f8aa09fcf49df62553be9b7a2023bfb475369c3116968b"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_new/packet_summary.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_new/packet_summary.csv",
+    "source_sha256": "7425f50d5bb39767585c249d088b2eb734b4204b46ceaaf1d5a4cfb82c1638cb",
+    "sha256": "7425f50d5bb39767585c249d088b2eb734b4204b46ceaaf1d5a4cfb82c1638cb"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_whole_file_cpu100/best_algorithm_by_scenario.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_whole_file_cpu100/best_algorithm_by_scenario.csv",
+    "source_sha256": "d84bccbb6db9b6e3f9ef28cc436fcb1606f981362487ca0e8a9204ebc2ac6138",
+    "sha256": "d84bccbb6db9b6e3f9ef28cc436fcb1606f981362487ca0e8a9204ebc2ac6138"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_whole_file_cpu100/compression_measurements.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_whole_file_cpu100/compression_measurements.csv",
+    "source_sha256": "cc1dffa63b6162f9ac483fb56da2c7b27f506a1af2a80f2e182352436d9c8871",
+    "sha256": "cc1dffa63b6162f9ac483fb56da2c7b27f506a1af2a80f2e182352436d9c8871"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_whole_file_cpu100/end_to_end_results.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_whole_file_cpu100/end_to_end_results.csv",
+    "source_sha256": "2e4a73516246fa470636fb275acaabc5699bfa67402b57c43ad976881b675897",
+    "sha256": "2e4a73516246fa470636fb275acaabc5699bfa67402b57c43ad976881b675897"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_experiment_whole_file_cpu100/packet_summary.csv",
+    "destination": "02_文件压缩/sample_results/compression_experiment_whole_file_cpu100/packet_summary.csv",
+    "source_sha256": "b49ca0c923b0685d7eef00f97913fa02424de9f99b5483e07a6ca59366e01976",
+    "sha256": "b49ca0c923b0685d7eef00f97913fa02424de9f99b5483e07a6ca59366e01976"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/sample_results/compression_strategy_comparison_cpu100/A_vs_BCD_strategy_comparison_4096.csv",
+    "destination": "02_文件压缩/sample_results/compression_strategy_comparison_cpu100/A_vs_BCD_strategy_comparison_4096.csv",
+    "source_sha256": "a13fcf5373ebe489aa6524d6e23ef5cde5330c34ea5c90e9a7b1d950ee8aaf2d",
+    "sha256": "a13fcf5373ebe489aa6524d6e23ef5cde5330c34ea5c90e9a7b1d950ee8aaf2d"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/文本压缩实验.md",
+    "destination": "02_文件压缩/文本压缩实验.md",
+    "source_sha256": "88d2b6b8b83b2e7e1034e1e0ab005caf98e673f89dddf07119bcd58cf943fcdb",
+    "sha256": "88d2b6b8b83b2e7e1034e1e0ab005caf98e673f89dddf07119bcd58cf943fcdb"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/文本压缩实验报告.md",
+    "destination": "02_文件压缩/文本压缩实验报告.md",
+    "source_sha256": "54868e7301ae4ca152748c18c80fa6b3493857ee2f377802ce7bdfe74f665d57",
+    "sha256": "54868e7301ae4ca152748c18c80fa6b3493857ee2f377802ce7bdfe74f665d57"
+  },
+  {
+    "source": "海洋实验同步包/02_文本压缩算法选择/视频压缩.md",
+    "destination": "02_文件压缩/视频压缩.md",
+    "source_sha256": "938656fd66a32875500bd6024d0bc1e4310bdd7ffacc26456b492567ed1ecd5e",
+    "sha256": "938656fd66a32875500bd6024d0bc1e4310bdd7ffacc26456b492567ed1ecd5e"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/ablation/actual_image_codec.py",
+    "destination": "02_文件压缩/image_codecs/actual_image_codec.py",
+    "source_sha256": "18644a5ca0e5b35b9a3d653272c695d0a9537bae64e4305001f372cab9876e08",
+    "sha256": "18644a5ca0e5b35b9a3d653272c695d0a9537bae64e4305001f372cab9876e08"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/ablation/xgboost_selector.py",
+    "destination": "01_自适应协议选择/ml_scripts/xgboost_selector.py",
+    "source_sha256": "6278cb7998afb211b5e702c28ecd2dbbf7d2f6df570896fb2e84d785cd374073",
+    "sha256": "6278cb7998afb211b5e702c28ecd2dbbf7d2f6df570896fb2e84d785cd374073"
+  },
+  {
+    "source": "cache_exam/fifo_cache_capacity_experiment.py",
+    "destination": "03_缓存机制/fifo_cache_capacity_experiment.py",
+    "source_sha256": "79092dd8f75d514795c3c763fb49f96edb3d27ba0adb168cc1874e622410deaf",
+    "sha256": "7e3ab14fbbd8fdfda9555ddf1199d3750620106a9b2d43937ce79eb4b7a20587",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "cache_exam/cache_priority_simulation.py",
+    "destination": "03_缓存机制/cache_priority_simulation.py",
+    "source_sha256": "979bb0d85b64687e5fcb0b714366170adc280d88a59aafc6389590cd429e362f",
+    "sha256": "979bb0d85b64687e5fcb0b714366170adc280d88a59aafc6389590cd429e362f"
+  },
+  {
+    "source": "cache_exam/packet_level_cache_priority_60min_by_stream.csv",
+    "destination": "03_缓存机制/packet_level_cache_priority_60min_by_stream.csv",
+    "source_sha256": "19a5531d00381b90f9633407b199b381119a4b2df3bc411c4c8a2c959f5066b8",
+    "sha256": "19a5531d00381b90f9633407b199b381119a4b2df3bc411c4c8a2c959f5066b8"
+  },
+  {
+    "source": "cache_exam/packet_level_cache_priority_summary.csv",
+    "destination": "03_缓存机制/packet_level_cache_priority_summary.csv",
+    "source_sha256": "7cee208be4ab46bb904820a0dda1e8793b226668d1a4ce7f60ac3f2017017e80",
+    "sha256": "7cee208be4ab46bb904820a0dda1e8793b226668d1a4ce7f60ac3f2017017e80"
+  },
+  {
+    "source": "cache_exam/packet-level-cache-priority-experiment-report.md",
+    "destination": "03_缓存机制/packet-level-cache-priority-experiment-report.md",
+    "source_sha256": "177fa1bcf07e64c3159b8ec6e33ff165d274bfef69db3ee1bedb317e7a7d117c",
+    "sha256": "177fa1bcf07e64c3159b8ec6e33ff165d274bfef69db3ee1bedb317e7a7d117c"
+  },
+  {
+    "source": "cache_exam/packet_level_cache_priority_by_stream.csv",
+    "destination": "03_缓存机制/packet_level_cache_priority_by_stream.csv",
+    "source_sha256": "b3808b9628dc4f4c1205adac3fede52e9a53aa9dce32e4f03ebd1a6be998f5ec",
+    "sha256": "b3808b9628dc4f4c1205adac3fede52e9a53aa9dce32e4f03ebd1a6be998f5ec"
+  },
+  {
+    "source": "cache_exam/cache-priority-mechanism-experiment-report.md",
+    "destination": "03_缓存机制/cache-priority-mechanism-experiment-report.md",
+    "source_sha256": "85bfe674efde781196d877c0572be0f7138a8f988dcd41d7540f25a92e9b68e1",
+    "sha256": "85bfe674efde781196d877c0572be0f7138a8f988dcd41d7540f25a92e9b68e1"
+  },
+  {
+    "source": "cache_exam/packet_level_cache_priority_experiment.py",
+    "destination": "03_缓存机制/packet_level_cache_priority_experiment.py",
+    "source_sha256": "e76f4d4a8cb2f8b11a34b5e27fb6651f2b232ec72e59dab53cc40766a46d67ae",
+    "sha256": "8a10f0061435ac954c6ccc61e0512555f5635e96f5fc415c3ba25e8488ab7b57",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "cache_exam/dynamic-link-config/README.md",
+    "destination": "03_缓存机制/dynamic-link-config/README.md",
+    "source_sha256": "6f4df90fc6b9ff2b8c2ee7559ae79cbcddbe0ff87b239e6f2ad0cc1a2174cc27",
+    "sha256": "257687962522306b08cf42416ee53d14c86156dcd88d7ff5baccbf7e8cdd037d",
+    "changes": [
+      "整理路径/绘图依赖/报告引用"
+    ]
+  },
+  {
+    "source": "cache_exam/dynamic-link-config/dynamic-link-fluctuation.csv",
+    "destination": "03_缓存机制/dynamic-link-config/dynamic-link-fluctuation.csv",
+    "source_sha256": "97724dd8620d3f32e61883e2f2efee79b03ba1e93b59eeadd2116187b43f9b14",
+    "sha256": "97724dd8620d3f32e61883e2f2efee79b03ba1e93b59eeadd2116187b43f9b14"
+  },
+  {
+    "source": "海洋实验同步包/03_缓存机制/code/cache_experiment.py",
+    "destination": "03_缓存机制/file_cache/cache_experiment.py",
+    "source_sha256": "51882ea6c43b9ee4399ae894caa5ac8fcd317523d136960d68f04cf3b12450e7",
+    "sha256": "51882ea6c43b9ee4399ae894caa5ac8fcd317523d136960d68f04cf3b12450e7"
+  },
+  {
+    "source": "海洋实验同步包/03_缓存机制/code/run_n1_real_data_cache_experiment.py",
+    "destination": "03_缓存机制/file_cache/run_n1_real_data_cache_experiment.py",
+    "source_sha256": "9787fedf6de4952e993c26335ba104c1cac60c6fc1da2b0e4372c4d3d30d3bef",
+    "sha256": "799595779529fdf30998bc3f4178408cefa4aa4065bfd29188cbd45c2e40ed4c",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "海洋实验同步包/03_缓存机制/third-stage-cache-mechanism-report.md",
+    "destination": "03_缓存机制/third-stage-cache-mechanism-report.md",
+    "source_sha256": "ec09fa6b7ecd45dc6081c913b4e700a4f5f70850509b43d9c689806c4c9d9e81",
+    "sha256": "ec09fa6b7ecd45dc6081c913b4e700a4f5f70850509b43d9c689806c4c9d9e81"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/scratch/packet-cache-priority.cc",
+    "destination": "03_缓存机制/ns3_source/packet-cache-priority.cc",
+    "source_sha256": "6791061d532f832ae819c2bdc413e60e4b86ebe6910c233d9061ae50270664a9",
+    "sha256": "6791061d532f832ae819c2bdc413e60e4b86ebe6910c233d9061ae50270664a9"
+  },
+  {
+    "source": "xgboost-ablation-handoff/README.md",
+    "destination": "04_消融实验/xgboost_features/README.md",
+    "source_sha256": "50d80d4259bdefa62098c55b7f2f586c863a97a2af7cb7ad662140b4899a9f48",
+    "sha256": "50d80d4259bdefa62098c55b7f2f586c863a97a2af7cb7ad662140b4899a9f48"
+  },
+  {
+    "source": "xgboost-ablation-handoff/SHA256SUMS.txt",
+    "destination": "04_消融实验/xgboost_features/SHA256SUMS-source.txt",
+    "source_sha256": "524dd3d88402928c9c17f38f7496bddee97730d6a41955874a4139d3260b5771",
+    "sha256": "524dd3d88402928c9c17f38f7496bddee97730d6a41955874a4139d3260b5771"
+  },
+  {
+    "source": "xgboost-ablation-handoff/data/dataset-summary.md",
+    "destination": "04_消融实验/xgboost_features/data/dataset-summary.md",
+    "source_sha256": "e5a32c7f0000c4ff07defe57afbd08a7223fb0c9a8dc24e4a673f81f6abe0707",
+    "sha256": "e5a32c7f0000c4ff07defe57afbd08a7223fb0c9a8dc24e4a673f81f6abe0707"
+  },
+  {
+    "source": "xgboost-ablation-handoff/data/jittered-training-samples-12000.csv",
+    "destination": "04_消融实验/xgboost_features/data/jittered-training-samples-12000.csv",
+    "source_sha256": "bcde00dd7c6a48312375fa86e4013b4fe25ce0f1d236ec8fac22b1a5a8c30776",
+    "sha256": "bcde00dd7c6a48312375fa86e4013b4fe25ce0f1d236ec8fac22b1a5a8c30776"
+  },
+  {
+    "source": "xgboost-ablation-handoff/data/real-anchors-4000.csv",
+    "destination": "04_消融实验/xgboost_features/data/real-anchors-4000.csv",
+    "source_sha256": "77c523c293f89d07c1d650127cc09fb07781615394b5afd49a0869427fa04e6f",
+    "sha256": "77c523c293f89d07c1d650127cc09fb07781615394b5afd49a0869427fa04e6f"
+  },
+  {
+    "source": "xgboost-ablation-handoff/example-input.csv",
+    "destination": "04_消融实验/xgboost_features/example-input.csv",
+    "source_sha256": "5dea395af5280f23ca6b722408ce3c59d54ddd6c1aa9dcd78a35b75a8dc3998b",
+    "sha256": "5dea395af5280f23ca6b722408ce3c59d54ddd6c1aa9dcd78a35b75a8dc3998b"
+  },
+  {
+    "source": "xgboost-ablation-handoff/model/metadata.json",
+    "destination": "04_消融实验/xgboost_features/model/metadata.json",
+    "source_sha256": "f77c532db365ea8f0e1fe1ebb1269155886eb314d03d27b62727b0edc1fc498e",
+    "sha256": "f77c532db365ea8f0e1fe1ebb1269155886eb314d03d27b62727b0edc1fc498e"
+  },
+  {
+    "source": "xgboost-ablation-handoff/model/pipeline.joblib",
+    "destination": "04_消融实验/xgboost_features/model/pipeline.joblib",
+    "source_sha256": "a3d29d651bb668fd82cd3707d36760fdc83e28a360bc498fe65bc3d7a0986a88",
+    "sha256": "a3d29d651bb668fd82cd3707d36760fdc83e28a360bc498fe65bc3d7a0986a88"
+  },
+  {
+    "source": "xgboost-ablation-handoff/model/preprocessor.joblib",
+    "destination": "04_消融实验/xgboost_features/model/preprocessor.joblib",
+    "source_sha256": "7b53925745bd9da7a05777b9d4df2084e04e85bfd9a3d42b448f1291d3b7061b",
+    "sha256": "7b53925745bd9da7a05777b9d4df2084e04e85bfd9a3d42b448f1291d3b7061b"
+  },
+  {
+    "source": "xgboost-ablation-handoff/model/split.csv",
+    "destination": "04_消融实验/xgboost_features/model/split.csv",
+    "source_sha256": "7382f08c335fe3fee766bcf195aac70bd88246258406752a368fac1a0bf58487",
+    "sha256": "7382f08c335fe3fee766bcf195aac70bd88246258406752a368fac1a0bf58487"
+  },
+  {
+    "source": "xgboost-ablation-handoff/model/xgboost.json",
+    "destination": "04_消融实验/xgboost_features/model/xgboost.json",
+    "source_sha256": "ac553ccdda63b4665f4ccf51a841febbbe07df8db2a96ceeb6cc6f6f0532dc7f",
+    "sha256": "ac553ccdda63b4665f4ccf51a841febbbe07df8db2a96ceeb6cc6f6f0532dc7f"
+  },
+  {
+    "source": "xgboost-ablation-handoff/predictions.csv",
+    "destination": "04_消融实验/xgboost_features/predictions.csv",
+    "source_sha256": "09bdc3cad58911d465f47baa58e7cfd5b0cf9c695b329eea9b3159e1329cd26d",
+    "sha256": "09bdc3cad58911d465f47baa58e7cfd5b0cf9c695b329eea9b3159e1329cd26d"
+  },
+  {
+    "source": "xgboost-ablation-handoff/provenance/evaluate-fine-xgboost-random-interval.py",
+    "destination": "04_消融实验/xgboost_features/provenance/evaluate-fine-xgboost-random-interval.py",
+    "source_sha256": "52d49461d5c7ab26eeb254d2478632884d2081f5e300c5451dd57bd773d27e5d",
+    "sha256": "9f4affc0bdf3ba1d6a80a3dc12f4b2e970bdd7969bd8cf599977ffff7525ad5e",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "xgboost-ablation-handoff/provenance/historical-metrics.csv",
+    "destination": "04_消融实验/xgboost_features/provenance/historical-metrics.csv",
+    "source_sha256": "6db0bb7ba526c156abb824532ade27eb62f64c544ef7e1b4a62d4f2597aff788",
+    "sha256": "6db0bb7ba526c156abb824532ade27eb62f64c544ef7e1b4a62d4f2597aff788"
+  },
+  {
+    "source": "xgboost-ablation-handoff/provenance/ns3-LICENSE",
+    "destination": "04_消融实验/xgboost_features/provenance/ns3-LICENSE",
+    "source_sha256": "e01cda1cbedde03ba8154ecbdea6b42c14dd330eef498b462f97ca781b027b6e",
+    "sha256": "e01cda1cbedde03ba8154ecbdea6b42c14dd330eef498b462f97ca781b027b6e"
+  },
+  {
+    "source": "xgboost-ablation-handoff/provenance/train-lightweight-protocol-selector.py",
+    "destination": "04_消融实验/xgboost_features/provenance/train-lightweight-protocol-selector.py",
+    "source_sha256": "9ad41961b8f63dfaee75aa25bc64293c404b22c026a176dd894c424963e0557e",
+    "sha256": "90a7de44a80fa3b6eb0ba5cb779d8bb8203ddbc02eef8c05e7805929c037d296",
+    "changes": [
+      "移除绘图函数及调用",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "xgboost-ablation-handoff/requirements.txt",
+    "destination": "04_消融实验/xgboost_features/requirements.txt",
+    "source_sha256": "ca7fa030e738aee991fbf6bbc1187dad814683d3a86912d510a0c2c73d029548",
+    "sha256": "ca7fa030e738aee991fbf6bbc1187dad814683d3a86912d510a0c2c73d029548"
+  },
+  {
+    "source": "xgboost-ablation-handoff/run.py",
+    "destination": "04_消融实验/xgboost_features/run.py",
+    "source_sha256": "b765619ac9e12cd045aa44fbe5fe86f86fef3b8d6ce5c4768298128c5f646b2e",
+    "sha256": "b765619ac9e12cd045aa44fbe5fe86f86fef3b8d6ce5c4768298128c5f646b2e"
+  },
+  {
+    "source": "xgboost-ablation-handoff/results/anchor/ablation-metrics.csv",
+    "destination": "04_消融实验/xgboost_features/results/anchor/ablation-metrics.csv",
+    "source_sha256": "d02380e91c4d74ac7d03c9217a17a7086c31ded07bea45bf5d673cada3ab67e3",
+    "sha256": "d02380e91c4d74ac7d03c9217a17a7086c31ded07bea45bf5d673cada3ab67e3"
+  },
+  {
+    "source": "xgboost-ablation-handoff/results/anchor/full-features.json",
+    "destination": "04_消融实验/xgboost_features/results/anchor/full-features.json",
+    "source_sha256": "76fae711b9052c483019e0411fa93e5d58baee2aadf4b4573036d1e05643e3b1",
+    "sha256": "76fae711b9052c483019e0411fa93e5d58baee2aadf4b4573036d1e05643e3b1"
+  },
+  {
+    "source": "xgboost-ablation-handoff/results/anchor/full.json",
+    "destination": "04_消融实验/xgboost_features/results/anchor/full.json",
+    "source_sha256": "1fc032e1fb98088750b1f1e3440bc9a1e624ecec051021d122f0f1812eb82ab7",
+    "sha256": "1fc032e1fb98088750b1f1e3440bc9a1e624ecec051021d122f0f1812eb82ab7"
+  },
+  {
+    "source": "xgboost-ablation-handoff/results/anchor/link_only-features.json",
+    "destination": "04_消融实验/xgboost_features/results/anchor/link_only-features.json",
+    "source_sha256": "608d0580cccf818731e9086b480bcecf9477056ae56b9a6d74c74f4de9a834ac",
+    "sha256": "608d0580cccf818731e9086b480bcecf9477056ae56b9a6d74c74f4de9a834ac"
+  },
+  {
+    "source": "xgboost-ablation-handoff/results/anchor/link_only.json",
+    "destination": "04_消融实验/xgboost_features/results/anchor/link_only.json",
+    "source_sha256": "f49de065e93e06be191f35a29c72b680b6931e6e38662fdda414fe7270124748",
+    "sha256": "f49de065e93e06be191f35a29c72b680b6931e6e38662fdda414fe7270124748"
+  },
+  {
+    "source": "xgboost-ablation-handoff/results/anchor/no_context-features.json",
+    "destination": "04_消融实验/xgboost_features/results/anchor/no_context-features.json",
+    "source_sha256": "19efbfd25d98391925eb0ae583f58b84748e32cfb909b9566536d74edfe74e06",
+    "sha256": "19efbfd25d98391925eb0ae583f58b84748e32cfb909b9566536d74edfe74e06"
+  },
+  {
+    "source": "xgboost-ablation-handoff/results/anchor/no_context.json",
+    "destination": "04_消融实验/xgboost_features/results/anchor/no_context.json",
+    "source_sha256": "80f0a0146722be52ce3c61156245332a6f70c3ac5850b2a4a9ae23f59fc163e2",
+    "sha256": "80f0a0146722be52ce3c61156245332a6f70c3ac5850b2a4a9ae23f59fc163e2"
+  },
+  {
+    "source": "xgboost-ablation-handoff/results/anchor/no_packet_size-features.json",
+    "destination": "04_消融实验/xgboost_features/results/anchor/no_packet_size-features.json",
+    "source_sha256": "60bbcf4a592d7793feeb0c70ae9f9e9ddeb70137214ef944bf7cb7d18cfbff41",
+    "sha256": "60bbcf4a592d7793feeb0c70ae9f9e9ddeb70137214ef944bf7cb7d18cfbff41"
+  },
+  {
+    "source": "xgboost-ablation-handoff/results/anchor/no_packet_size.json",
+    "destination": "04_消融实验/xgboost_features/results/anchor/no_packet_size.json",
+    "source_sha256": "b12e72ffc3fd6be94d405538a1dc5314151166fa891249d049abd17d4f9dd1e1",
+    "sha256": "b12e72ffc3fd6be94d405538a1dc5314151166fa891249d049abd17d4f9dd1e1"
+  },
+  {
+    "source": "xgboost-ablation-handoff/results/anchor/no_send_interval-features.json",
+    "destination": "04_消融实验/xgboost_features/results/anchor/no_send_interval-features.json",
+    "source_sha256": "a1b9a7edbb9a68331a2b23c71295ce48f3a3a7313d1a3a164c6d98a4e606a371",
+    "sha256": "a1b9a7edbb9a68331a2b23c71295ce48f3a3a7313d1a3a164c6d98a4e606a371"
+  },
+  {
+    "source": "xgboost-ablation-handoff/results/anchor/no_send_interval.json",
+    "destination": "04_消融实验/xgboost_features/results/anchor/no_send_interval.json",
+    "source_sha256": "8e553e9637162caf13b420aa29ab182b54ac74fd41bb7c00fb942b3419d1db39",
+    "sha256": "8e553e9637162caf13b420aa29ab182b54ac74fd41bb7c00fb942b3419d1db39"
+  },
+  {
+    "source": "xgboost-ablation-handoff/results/anchor/no_traffic-features.json",
+    "destination": "04_消融实验/xgboost_features/results/anchor/no_traffic-features.json",
+    "source_sha256": "a1fc8fca876dab4456f4cb943e160f1b6466bca0dced2e47128d5266699cb1cc",
+    "sha256": "a1fc8fca876dab4456f4cb943e160f1b6466bca0dced2e47128d5266699cb1cc"
+  },
+  {
+    "source": "xgboost-ablation-handoff/results/anchor/no_traffic.json",
+    "destination": "04_消融实验/xgboost_features/results/anchor/no_traffic.json",
+    "source_sha256": "bcde4a7fa0b1ea2bc280a4fd1881179a247028a2ad55dad3d2cc3fae8f956617",
+    "sha256": "bcde4a7fa0b1ea2bc280a4fd1881179a247028a2ad55dad3d2cc3fae8f956617"
+  },
+  {
+    "source": "xgboost-ablation-handoff/results/anchor/run-config.json",
+    "destination": "04_消融实验/xgboost_features/results/anchor/run-config.json",
+    "source_sha256": "c714989645f3c3e7905161521a840619f16ca8edb3aaa85d3be8371c802ddcc3",
+    "sha256": "c714989645f3c3e7905161521a840619f16ca8edb3aaa85d3be8371c802ddcc3"
+  },
+  {
+    "source": "xgboost-ablation-handoff/results/anchor/split.csv",
+    "destination": "04_消融实验/xgboost_features/results/anchor/split.csv",
+    "source_sha256": "fc9007738ab7a54c8a2d1fc600c90320c040d7b1dfb705af73b42d1e337d6654",
+    "sha256": "fc9007738ab7a54c8a2d1fc600c90320c040d7b1dfb705af73b42d1e337d6654"
+  },
+  {
+    "source": "system-ablation-20260928-table-rates/README.md",
+    "destination": "04_消融实验/system_20260928/README-source.md",
+    "source_sha256": "91be54051ebc213e5c63c86b7828d0f79d40a9f61c2adfc4a275e78429f09977",
+    "sha256": "91be54051ebc213e5c63c86b7828d0f79d40a9f61c2adfc4a275e78429f09977"
+  },
+  {
+    "source": "system-ablation-20260928-table-rates/audit_results.py",
+    "destination": "04_消融实验/system_20260928/audit_results.py",
+    "source_sha256": "f55ca44a30381d0411b5a0d5ed88114a57e68e2de233c0fbad744c0685f9c9ac",
+    "sha256": "f55ca44a30381d0411b5a0d5ed88114a57e68e2de233c0fbad744c0685f9c9ac"
+  },
+  {
+    "source": "system-ablation-20260928-table-rates/prepare.py",
+    "destination": "04_消融实验/system_20260928/prepare.py",
+    "source_sha256": "7efe66ec423d3607f534cce515be39f650e167e6d698009770823a3145c7bda6",
+    "sha256": "e7e320986cdf30ec7671855bf2c1a0cddf9028c92c3e9b0ea18e2a7d2f918c2b",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "system-ablation-20260928-table-rates/provenance.json",
+    "destination": "04_消融实验/system_20260928/source-provenance.json",
+    "source_sha256": "029f7e488337e311a986cd01ef6118a68b9450bb1dc22ba0396fc050e99f0e38",
+    "sha256": "029f7e488337e311a986cd01ef6118a68b9450bb1dc22ba0396fc050e99f0e38"
+  },
+  {
+    "source": "system-ablation-20260928-table-rates/quic-ns3.42.patch",
+    "destination": "04_消融实验/system_20260928/quic-ns3.42.patch",
+    "source_sha256": "5dd586d4ff08a6b0de3e9a6d9407de7ad841efa5fff84ee258b22666f08c6468",
+    "sha256": "5dd586d4ff08a6b0de3e9a6d9407de7ad841efa5fff84ee258b22666f08c6468"
+  },
+  {
+    "source": "system-ablation-20260928-table-rates/recalculate_cutoff.py",
+    "destination": "04_消融实验/system_20260928/recalculate_cutoff.py",
+    "source_sha256": "c5b6618e22d81e74626c0c8bebe632bee2ad29c1af9ef5f879ea7308cd18ac82",
+    "sha256": "c5b6618e22d81e74626c0c8bebe632bee2ad29c1af9ef5f879ea7308cd18ac82"
+  },
+  {
+    "source": "system-ablation-20260928-table-rates/requirements.txt",
+    "destination": "04_消融实验/system_20260928/requirements.txt",
+    "source_sha256": "bf61ac1f7861184b8ebc4b99dff3adb985b800e5153b997983060a7e99ceaec5",
+    "sha256": "bf61ac1f7861184b8ebc4b99dff3adb985b800e5153b997983060a7e99ceaec5"
+  },
+  {
+    "source": "system-ablation-20260928-table-rates/run_experiment.py",
+    "destination": "04_消融实验/system_20260928/run_experiment.py",
+    "source_sha256": "7d5aaec50a13f275af237bbba3951481c455c88d2080575b3952cb9cfc4e678d",
+    "sha256": "0d87bf591d5a1eae01298f1a7c537d58b8bc2accd6d04f96ffd1809fde1401e1",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "system-ablation-20260928-table-rates/system-ablation.cc",
+    "destination": "04_消融实验/system_20260928/system-ablation.cc",
+    "source_sha256": "6fafe7812db6bfec8e052860648e95554416bee724decc73798e07789f418e71",
+    "sha256": "6fafe7812db6bfec8e052860648e95554416bee724decc73798e07789f418e71"
+  },
+  {
+    "source": "system-ablation-20260924/README.md",
+    "destination": "04_消融实验/system_20260924/README-source.md",
+    "source_sha256": "919fa118fbe89b681924090f64706e18f1e871cc4fa1e32bdce950c696c577ce",
+    "sha256": "919fa118fbe89b681924090f64706e18f1e871cc4fa1e32bdce950c696c577ce"
+  },
+  {
+    "source": "system-ablation-20260924/audit_results.py",
+    "destination": "04_消融实验/system_20260924/audit_results.py",
+    "source_sha256": "be98991139453cffc379629e36b51ea8800a312187c87864e5bd16d9f3a3a95d",
+    "sha256": "be98991139453cffc379629e36b51ea8800a312187c87864e5bd16d9f3a3a95d"
+  },
+  {
+    "source": "system-ablation-20260924/prepare.py",
+    "destination": "04_消融实验/system_20260924/prepare.py",
+    "source_sha256": "e854885c5b5e588b94c64e17b8530effadd546e613909846d76cc0f951d4dc85",
+    "sha256": "76dae8cbecb2db0bf3cb64536e9239ffe353b1a28b7cd9318fe1168cf6dc47fc",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "system-ablation-20260924/provenance.json",
+    "destination": "04_消融实验/system_20260924/source-provenance.json",
+    "source_sha256": "ee89d9ae1f44b83528beddf0f54bcbbbf3f90f8aa0733e31c1ec71fe5beb40a4",
+    "sha256": "ee89d9ae1f44b83528beddf0f54bcbbbf3f90f8aa0733e31c1ec71fe5beb40a4"
+  },
+  {
+    "source": "system-ablation-20260924/quic-ns3.42.patch",
+    "destination": "04_消融实验/system_20260924/quic-ns3.42.patch",
+    "source_sha256": "10033b02d9843db8285e26019271079db4df6df048f2653f1e3e945e7bb7e515",
+    "sha256": "10033b02d9843db8285e26019271079db4df6df048f2653f1e3e945e7bb7e515"
+  },
+  {
+    "source": "system-ablation-20260924/recompute_horizon.py",
+    "destination": "04_消融实验/system_20260924/recompute_horizon.py",
+    "source_sha256": "20088d573a615471b00e967e18ee9357d5ebd8dbea1b9d18aba6648858948573",
+    "sha256": "20088d573a615471b00e967e18ee9357d5ebd8dbea1b9d18aba6648858948573"
+  },
+  {
+    "source": "system-ablation-20260924/requirements.txt",
+    "destination": "04_消融实验/system_20260924/requirements.txt",
+    "source_sha256": "bf61ac1f7861184b8ebc4b99dff3adb985b800e5153b997983060a7e99ceaec5",
+    "sha256": "bf61ac1f7861184b8ebc4b99dff3adb985b800e5153b997983060a7e99ceaec5"
+  },
+  {
+    "source": "system-ablation-20260924/run_experiment.py",
+    "destination": "04_消融实验/system_20260924/run_experiment.py",
+    "source_sha256": "f693e3d9cc56a6d6e810f2f62da5e8208521296b88c5a7b15c93e7112421feb8",
+    "sha256": "cd3910455206234fefba43df59343732311a4a3eecd9469212368de07e52f86a",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "system-ablation-20260924/system-ablation.cc",
+    "destination": "04_消融实验/system_20260924/system-ablation.cc",
+    "source_sha256": "7684a4bfafb6e9d4e610752edc9287bf5a12ea8989d2cc5a6ceba5be7e30736e",
+    "sha256": "7684a4bfafb6e9d4e610752edc9287bf5a12ea8989d2cc5a6ceba5be7e30736e"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/01_ns3_simulation/README.md",
+    "destination": "04_消融实验/legacy_ns3_project/01_ns3_simulation/README.md",
+    "source_sha256": "d06a38d89c081d19c1a66ccc56482996b9e9112b0adf616abf0a08bd6346d5d9",
+    "sha256": "d06a38d89c081d19c1a66ccc56482996b9e9112b0adf616abf0a08bd6346d5d9"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/01_ns3_simulation/run-guide/ns3-run-guide.md",
+    "destination": "04_消融实验/legacy_ns3_project/01_ns3_simulation/run-guide/ns3-run-guide.md",
+    "source_sha256": "c74e98a772f074d7227a2323836d11c3bd2cf9b906897ecb69525f7450497546",
+    "sha256": "c74e98a772f074d7227a2323836d11c3bd2cf9b906897ecb69525f7450497546"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/01_ns3_simulation/source/tcp-exp.cc",
+    "destination": "04_消融实验/legacy_ns3_project/01_ns3_simulation/source/tcp-exp.cc",
+    "source_sha256": "beb579b3ba9d8479d08a30d303f281dcccd4d237557e2cbb6169c970e9c52e44",
+    "sha256": "beb579b3ba9d8479d08a30d303f281dcccd4d237557e2cbb6169c970e9c52e44"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/02_protocol_evaluation/README.md",
+    "destination": "04_消融实验/legacy_ns3_project/02_protocol_evaluation/README.md",
+    "source_sha256": "17d8b6f9eec79f90dbe12cc6867b9d27fa3090d72aa756fa5a3fe308b99cc5fb",
+    "sha256": "17d8b6f9eec79f90dbe12cc6867b9d27fa3090d72aa756fa5a3fe308b99cc5fb"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/02_protocol_evaluation/configs/protocol-evaluation-config-example.json",
+    "destination": "04_消融实验/legacy_ns3_project/02_protocol_evaluation/configs/protocol-evaluation-config-example.json",
+    "source_sha256": "a1f56638ce93783a38dbec6321873d3264ab0550dfec5335a4403ddf83dc8812",
+    "sha256": "a1f56638ce93783a38dbec6321873d3264ab0550dfec5335a4403ddf83dc8812"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/02_protocol_evaluation/protocol-evaluation-guide.md",
+    "destination": "04_消融实验/legacy_ns3_project/02_protocol_evaluation/protocol-evaluation-guide.md",
+    "source_sha256": "d5cb4f5fce4bc0ee87358ffad7c6426a82c6eb22b55f1f38abce0ba6318a173e",
+    "sha256": "d5cb4f5fce4bc0ee87358ffad7c6426a82c6eb22b55f1f38abce0ba6318a173e"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/02_protocol_evaluation/sample-results/dynamic-link-summary.csv",
+    "destination": "04_消融实验/legacy_ns3_project/02_protocol_evaluation/sample-results/dynamic-link-summary.csv",
+    "source_sha256": "ae81188397c08182926e6f41d2c918042b77d50ad3b707520424fcab85a5d82f",
+    "sha256": "ae81188397c08182926e6f41d2c918042b77d50ad3b707520424fcab85a5d82f"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/02_protocol_evaluation/sample-results/protocol-evaluation-results.csv",
+    "destination": "04_消融实验/legacy_ns3_project/02_protocol_evaluation/sample-results/protocol-evaluation-results.csv",
+    "source_sha256": "1527cc7b821bf33dabb77b548303a7f24b22e0b56e21e4fa770d9a3eb004e7cb",
+    "sha256": "1527cc7b821bf33dabb77b548303a7f24b22e0b56e21e4fa770d9a3eb004e7cb"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/02_protocol_evaluation/sample-results/protocol-winner-statistics.csv",
+    "destination": "04_消融实验/legacy_ns3_project/02_protocol_evaluation/sample-results/protocol-winner-statistics.csv",
+    "source_sha256": "79e0ac40a5bba5e1bfcf3e63bf1eb1dcbabf7a98b714a806491fb98845d6b8f5",
+    "sha256": "79e0ac40a5bba5e1bfcf3e63bf1eb1dcbabf7a98b714a806491fb98845d6b8f5"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/02_protocol_evaluation/scripts/dynamic-link-adaptive-protocol.py",
+    "destination": "04_消融实验/legacy_ns3_project/02_protocol_evaluation/scripts/dynamic-link-adaptive-protocol.py",
+    "source_sha256": "346339128c284eaa60ccc5dce883bdaee892e9874ed74158014a015392fbda07",
+    "sha256": "4d8d2c17d07db99bf1faf4dc9754f04f83ab4ea51875d5229a7a99885e17ea1d",
+    "changes": [
+      "移除绘图函数及调用",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/02_protocol_evaluation/scripts/run-all-protocol-evaluations.py",
+    "destination": "04_消融实验/legacy_ns3_project/02_protocol_evaluation/scripts/run-all-protocol-evaluations.py",
+    "source_sha256": "2e797c88cd69e5ddc148abaa14245ca379bbbccdf7846e1681b10d359432c6c0",
+    "sha256": "298c8320d112748a654b4e73794f7083d8e4e5fe59b3c02ffafd528eb7d58e14",
+    "changes": [
+      "移除绘图函数及调用",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/03_compression_evaluation/README.md",
+    "destination": "04_消融实验/legacy_ns3_project/03_compression_evaluation/README.md",
+    "source_sha256": "1c613e39c0a29ae0d724fce602a8cc5a6285fcc1920a7d2579591ee736b34efb",
+    "sha256": "1c613e39c0a29ae0d724fce602a8cc5a6285fcc1920a7d2579591ee736b34efb"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/03_compression_evaluation/code/compression-comparison-rf.py",
+    "destination": "04_消融实验/legacy_ns3_project/03_compression_evaluation/code/compression-comparison-rf.py",
+    "source_sha256": "01d04dd4b825a867aec533f2da908f04a7105b704503f694fbb259844cd40b64",
+    "sha256": "3fef3eb18ddade82f079e35424bef7ab6a83a5877aa010ed6cb0afb54ec66ec2",
+    "changes": [
+      "移除绘图函数及调用",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/03_compression_evaluation/code/evaluate-lightweight-protocol-selector.py",
+    "destination": "04_消融实验/legacy_ns3_project/03_compression_evaluation/code/evaluate-lightweight-protocol-selector.py",
+    "source_sha256": "6bbc331e2079f50ad9b5e3e2769f2e47fbb9db31e7794c3f6b42f81f40b50efa",
+    "sha256": "6cfd57a3220529fbc5a6db228f4e93702ef9422b1a4e78d154a034c4f0e275b3",
+    "changes": [
+      "移除绘图函数及调用",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/03_compression_evaluation/compression-report.md",
+    "destination": "04_消融实验/legacy_ns3_project/03_compression_evaluation/compression-report.md",
+    "source_sha256": "5ea3d814adbf64e3ef2c54982edfa34bbb612154f1bd2efeb492c26c78245c7b",
+    "sha256": "5ea3d814adbf64e3ef2c54982edfa34bbb612154f1bd2efeb492c26c78245c7b"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/03_compression_evaluation/sample-results/compression-rf-comparison.csv",
+    "destination": "04_消融实验/legacy_ns3_project/03_compression_evaluation/sample-results/compression-rf-comparison.csv",
+    "source_sha256": "90dbac3db1174042797ae2b6845b2e608deafffc30fb256ea8995d805fa5d001",
+    "sha256": "90dbac3db1174042797ae2b6845b2e608deafffc30fb256ea8995d805fa5d001"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/04_cache_mechanism_prototype/README.md",
+    "destination": "04_消融实验/legacy_ns3_project/04_cache_mechanism_prototype/README.md",
+    "source_sha256": "af446c8d9297c94660d8d67ffe9cd537712e95708531c927153256dd659334d9",
+    "sha256": "af446c8d9297c94660d8d67ffe9cd537712e95708531c927153256dd659334d9"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/05_datasets_and_generators/README.md",
+    "destination": "04_消融实验/legacy_ns3_project/05_datasets_and_generators/README.md",
+    "source_sha256": "6af8dda2011bed03524f65f651aada55d0fe48c94d511a3cad9fb27704e7c34f",
+    "sha256": "6af8dda2011bed03524f65f651aada55d0fe48c94d511a3cad9fb27704e7c34f"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/05_datasets_and_generators/dataset-description.md",
+    "destination": "04_消融实验/legacy_ns3_project/05_datasets_and_generators/dataset-description.md",
+    "source_sha256": "4e4f16ef37152625de1726e714926a934f38fccb8c8cb40d8441f2683d1f18dd",
+    "sha256": "4e4f16ef37152625de1726e714926a934f38fccb8c8cb40d8441f2683d1f18dd"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/05_datasets_and_generators/generators/build-expanded-learning-data.py",
+    "destination": "04_消融实验/legacy_ns3_project/05_datasets_and_generators/generators/build-expanded-learning-data.py",
+    "source_sha256": "5f5870e8deefe36d04753b1deffe57611d3402e7a3d45cb058e000f2b8accac8",
+    "sha256": "5f5870e8deefe36d04753b1deffe57611d3402e7a3d45cb058e000f2b8accac8"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/05_datasets_and_generators/generators/prepare-large-training-dataset.py",
+    "destination": "04_消融实验/legacy_ns3_project/05_datasets_and_generators/generators/prepare-large-training-dataset.py",
+    "source_sha256": "cf6b67b99ff86e2c9376fa162c97340de6107b69061fa80657545cd8423561f8",
+    "sha256": "cf6b67b99ff86e2c9376fa162c97340de6107b69061fa80657545cd8423561f8"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/05_datasets_and_generators/raw-samples/buoy-wave-sensor.txt",
+    "destination": "04_消融实验/legacy_ns3_project/05_datasets_and_generators/raw-samples/buoy-wave-sensor.txt",
+    "source_sha256": "291816ce6c0050cf0c295d6b087b18f28198a1e80a3629f1000d145ad835762e",
+    "sha256": "291816ce6c0050cf0c295d6b087b18f28198a1e80a3629f1000d145ad835762e"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/05_datasets_and_generators/raw-samples/large-buoy-weather-2020.txt",
+    "destination": "04_消融实验/legacy_ns3_project/05_datasets_and_generators/raw-samples/large-buoy-weather-2020.txt",
+    "source_sha256": "b14b0986a7f68e5904ef8333b1765c0ccab58087f4acc28db8442aa954521907",
+    "sha256": "b14b0986a7f68e5904ef8333b1765c0ccab58087f4acc28db8442aa954521907"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/05_datasets_and_generators/raw-samples/large-buoy-weather-2020.txt.gz",
+    "destination": "04_消融实验/legacy_ns3_project/05_datasets_and_generators/raw-samples/large-buoy-weather-2020.txt.gz",
+    "source_sha256": "5068ac8b30e43ae35214bde9447fb5e7571bfcaecb50244b7f090f8467401540",
+    "sha256": "5068ac8b30e43ae35214bde9447fb5e7571bfcaecb50244b7f090f8467401540"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/05_datasets_and_generators/raw-samples/weather-data.txt",
+    "destination": "04_消融实验/legacy_ns3_project/05_datasets_and_generators/raw-samples/weather-data.txt",
+    "source_sha256": "21ebc97103fb3aa5c6c28e283b8976289e08d92dbb11392a39abd698150ef93a",
+    "sha256": "21ebc97103fb3aa5c6c28e283b8976289e08d92dbb11392a39abd698150ef93a"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/06_ablation_reports/README.md",
+    "destination": "04_消融实验/legacy_ns3_project/06_ablation_reports/README.md",
+    "source_sha256": "67d4b834fe47c96a407ff6df0e1ccbed238068add39585c23290f8a1e32be914",
+    "sha256": "67d4b834fe47c96a407ff6df0e1ccbed238068add39585c23290f8a1e32be914"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/06_ablation_reports/current-ablation-report.md",
+    "destination": "04_消融实验/legacy_ns3_project/06_ablation_reports/current-ablation-report.md",
+    "source_sha256": "987c979338c8be9cc157e8253b8ade584d8c124927755b829cef50b8f204e0e0",
+    "sha256": "987c979338c8be9cc157e8253b8ade584d8c124927755b829cef50b8f204e0e0"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/06_ablation_reports/integrated-ablation-report.md",
+    "destination": "04_消融实验/legacy_ns3_project/06_ablation_reports/integrated-ablation-report.md",
+    "source_sha256": "ac7fd2f1b5f689c1a12f77c79b9089227a24a087f3f4cdf9f42d185617ec8637",
+    "sha256": "ac7fd2f1b5f689c1a12f77c79b9089227a24a087f3f4cdf9f42d185617ec8637"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/06_ablation_reports/run-integrated-ablation.py",
+    "destination": "04_消融实验/legacy_ns3_project/06_ablation_reports/run-integrated-ablation.py",
+    "source_sha256": "ff43675d167204225ad3bbdf5194d20766a835d2b08a87acfe8c1c6eebc36b6e",
+    "sha256": "9cfae3230b3e9601a16dd0830b94de096d2f9d9f83851957f597bf268e43aba4",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/07_system_design/README.md",
+    "destination": "04_消融实验/legacy_ns3_project/07_system_design/README.md",
+    "source_sha256": "bd50c13a829a81d22fc7de8bb2b7ba257412a786002cb6abbfdc0baf684de099",
+    "sha256": "bd50c13a829a81d22fc7de8bb2b7ba257412a786002cb6abbfdc0baf684de099"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/07_system_design/summary-slide-content.md",
+    "destination": "04_消融实验/legacy_ns3_project/07_system_design/summary-slide-content.md",
+    "source_sha256": "e47b82d13e385d5be27a95a753fec4e1bbc6bfdc9f844303d31958316afddd67",
+    "sha256": "e47b82d13e385d5be27a95a753fec4e1bbc6bfdc9f844303d31958316afddd67"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/07_system_design/system-design.md",
+    "destination": "04_消融实验/legacy_ns3_project/07_system_design/system-design.md",
+    "source_sha256": "eb88c95958e65f79ffad44883f889a88162b3e99ebc2168a39b4f27372fb24a6",
+    "sha256": "eb88c95958e65f79ffad44883f889a88162b3e99ebc2168a39b4f27372fb24a6"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/README.md",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/README.md",
+    "source_sha256": "bbfc35c768784a3eda7641659512dffc39379b1b223b33b879626ccd78e7756b",
+    "sha256": "bbfc35c768784a3eda7641659512dffc39379b1b223b33b879626ccd78e7756b"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/algorithm-description.md",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/algorithm-description.md",
+    "source_sha256": "7b3b9f8eea4e1c86a42248ae495ceebfd8904c2f3c2fbd97730789576b62c0bc",
+    "sha256": "7b3b9f8eea4e1c86a42248ae495ceebfd8904c2f3c2fbd97730789576b62c0bc"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/model-metrics.csv",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/model-metrics.csv",
+    "source_sha256": "6bb46576e57ed17421decc59da6cd0a30a35e07759576e42a589f9d7bde1a5a2",
+    "sha256": "6bb46576e57ed17421decc59da6cd0a30a35e07759576e42a589f9d7bde1a5a2"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/model-results/classification-report-CatBoost.txt",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/model-results/classification-report-CatBoost.txt",
+    "source_sha256": "b3a12576f60ead874b5d372a33f21e57dc4a2f72eb432a483f432a028e1bb3a5",
+    "sha256": "b3a12576f60ead874b5d372a33f21e57dc4a2f72eb432a483f432a028e1bb3a5"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/model-results/classification-report-ContextualBandit-Ridge.txt",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/model-results/classification-report-ContextualBandit-Ridge.txt",
+    "source_sha256": "1d7b7f6ad2bdaa6de86f780296c2ac07a0cfdd20411649d4cd3a8444fbc6db27",
+    "sha256": "1d7b7f6ad2bdaa6de86f780296c2ac07a0cfdd20411649d4cd3a8444fbc6db27"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/model-results/classification-report-LightGBM.txt",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/model-results/classification-report-LightGBM.txt",
+    "source_sha256": "0dd40663b1aec8ec33548a4b9e3f5cd133d2ad0fdc7e82ec104f68ae38429d8b",
+    "sha256": "0dd40663b1aec8ec33548a4b9e3f5cd133d2ad0fdc7e82ec104f68ae38429d8b"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/model-results/classification-report-LinearSVM.txt",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/model-results/classification-report-LinearSVM.txt",
+    "source_sha256": "30e7c66c7cf33859f4bff174df926856f7143bc6ccf9e304c23f3a8619bdad0e",
+    "sha256": "30e7c66c7cf33859f4bff174df926856f7143bc6ccf9e304c23f3a8619bdad0e"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/model-results/classification-report-RandomForest.txt",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/model-results/classification-report-RandomForest.txt",
+    "source_sha256": "a1d323d1ef739e0d760f2061553993e46c82a39eb07d21bfde77743d9334b6a7",
+    "sha256": "a1d323d1ef739e0d760f2061553993e46c82a39eb07d21bfde77743d9334b6a7"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/model-results/classification-report-TinyMLP.txt",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/model-results/classification-report-TinyMLP.txt",
+    "source_sha256": "d298d6067a2362cd6ceb431ec048a08f20f940d9848610c9a24b63c342d1b4a1",
+    "sha256": "d298d6067a2362cd6ceb431ec048a08f20f940d9848610c9a24b63c342d1b4a1"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/model-results/classification-report-XGBoost.txt",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/model-results/classification-report-XGBoost.txt",
+    "source_sha256": "69c43a2f67fca7a5d007852eef5265d928b3ccedb0f772e1e7f6421fda3d5a46",
+    "sha256": "69c43a2f67fca7a5d007852eef5265d928b3ccedb0f772e1e7f6421fda3d5a46"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/model-results/confusion-matrix-CatBoost.csv",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/model-results/confusion-matrix-CatBoost.csv",
+    "source_sha256": "e394d5052f5a912ba06fad1991a9c491c40aafe849311c2597eb559d18e982ca",
+    "sha256": "e394d5052f5a912ba06fad1991a9c491c40aafe849311c2597eb559d18e982ca"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/model-results/confusion-matrix-ContextualBandit-Ridge.csv",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/model-results/confusion-matrix-ContextualBandit-Ridge.csv",
+    "source_sha256": "77c5b3105753b83b5d42bc9e3ad1f54e44d9608e445a7fc4f5afcaafff67f4cb",
+    "sha256": "77c5b3105753b83b5d42bc9e3ad1f54e44d9608e445a7fc4f5afcaafff67f4cb"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/model-results/confusion-matrix-LightGBM.csv",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/model-results/confusion-matrix-LightGBM.csv",
+    "source_sha256": "9f295a0a4380e2c0ad3d76fb9006d6f8001355b46b2beda6d65fa98ef7dd59bc",
+    "sha256": "9f295a0a4380e2c0ad3d76fb9006d6f8001355b46b2beda6d65fa98ef7dd59bc"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/model-results/confusion-matrix-LinearSVM.csv",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/model-results/confusion-matrix-LinearSVM.csv",
+    "source_sha256": "b0fb5b705d0d2a482d3b42e5799632190d21a6dbae29343b2789b44831ba19cd",
+    "sha256": "b0fb5b705d0d2a482d3b42e5799632190d21a6dbae29343b2789b44831ba19cd"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/model-results/confusion-matrix-RandomForest.csv",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/model-results/confusion-matrix-RandomForest.csv",
+    "source_sha256": "84603249a3d92fa92d26d44dd7a5cbd79eed0b999f5d8815b49ccabea068f2f8",
+    "sha256": "84603249a3d92fa92d26d44dd7a5cbd79eed0b999f5d8815b49ccabea068f2f8"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/model-results/confusion-matrix-TinyMLP.csv",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/model-results/confusion-matrix-TinyMLP.csv",
+    "source_sha256": "9b3dbcb8f2bf2eab6084496374a5ee287ad9295be901a7c1830fd020482f1480",
+    "sha256": "9b3dbcb8f2bf2eab6084496374a5ee287ad9295be901a7c1830fd020482f1480"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/model-results/confusion-matrix-XGBoost.csv",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/model-results/confusion-matrix-XGBoost.csv",
+    "source_sha256": "8eec7e25a82e3a7777ed33e33f6e4dceb5cbcf8e0b7fafa066350f5bb13574c9",
+    "sha256": "8eec7e25a82e3a7777ed33e33f6e4dceb5cbcf8e0b7fafa066350f5bb13574c9"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/model-results/model-metrics.csv",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/model-results/model-metrics.csv",
+    "source_sha256": "6bb46576e57ed17421decc59da6cd0a30a35e07759576e42a589f9d7bde1a5a2",
+    "sha256": "6bb46576e57ed17421decc59da6cd0a30a35e07759576e42a589f9d7bde1a5a2"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/08_algorithm_docs/train-lightweight-protocol-selector.py",
+    "destination": "04_消融实验/legacy_ns3_project/08_algorithm_docs/train-lightweight-protocol-selector.py",
+    "source_sha256": "2d9dce69ea1665c1a5ab79a6c4528cdfdc0c518d72d8a3e7876c6ec08ce4f99b",
+    "sha256": "1b3d280133cd426d18fcb9878ab02e5a7d7b1abb7c540397aa24abd1d66f3512",
+    "changes": [
+      "移除绘图函数及调用",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/09_deployment_guide/README.md",
+    "destination": "04_消融实验/legacy_ns3_project/09_deployment_guide/README.md",
+    "source_sha256": "e3776c41b39c6666d5cdba9bfccb030adf76d1fc939478c02f94176284e53a30",
+    "sha256": "e3776c41b39c6666d5cdba9bfccb030adf76d1fc939478c02f94176284e53a30"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/09_deployment_guide/deployment-guide.md",
+    "destination": "04_消融实验/legacy_ns3_project/09_deployment_guide/deployment-guide.md",
+    "source_sha256": "d562315598a79c97cb13022bf46bf9a290cc0d1f1d4d76f834d4eb2675578fa2",
+    "sha256": "d562315598a79c97cb13022bf46bf9a290cc0d1f1d4d76f834d4eb2675578fa2"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/09_deployment_guide/ml-requirements.txt",
+    "destination": "04_消融实验/legacy_ns3_project/09_deployment_guide/ml-requirements.txt",
+    "source_sha256": "4d201c11817091c36ea5da5ec2b55462538708c72009a1166bd9db8284f70735",
+    "sha256": "30d39f86834b78f827c881b7fa79c8bfcce7d9c93075f02292736e61b4fee13d",
+    "changes": [
+      "整理路径/绘图依赖/报告引用"
+    ]
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/09_deployment_guide/ml-training-guide.md",
+    "destination": "04_消融实验/legacy_ns3_project/09_deployment_guide/ml-training-guide.md",
+    "source_sha256": "eb59f84160fb916fc0c66cd223ca615e3973cb51353320247629490d9bbec77b",
+    "sha256": "eb59f84160fb916fc0c66cd223ca615e3973cb51353320247629490d9bbec77b"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/README.md",
+    "destination": "04_消融实验/legacy_ns3_project/README.md",
+    "source_sha256": "0feb54ac7bfdbe86f6bd66ba8ea22fa8d526745ed4d52a4a1215e1b84bbd1279",
+    "sha256": "0feb54ac7bfdbe86f6bd66ba8ea22fa8d526745ed4d52a4a1215e1b84bbd1279"
+  },
+  {
+    "source": "outputs/marine-data-case-study/audit_resource_experiment.py",
+    "destination": "04_消融实验/resource_case_study/audit_resource_experiment.py",
+    "source_sha256": "33db3ce90bf9a77c775449d2ba53cf617ce6c5afbd9d1c6ef4cfe072139f625e",
+    "sha256": "33db3ce90bf9a77c775449d2ba53cf617ce6c5afbd9d1c6ef4cfe072139f625e"
+  },
+  {
+    "source": "outputs/marine-data-case-study/build_case_study.py",
+    "destination": "04_消融实验/resource_case_study/build_case_study.py",
+    "source_sha256": "fc688d8b8939b587bb998b0d5e013584d75408e893a979bf05d0381c1af789a6",
+    "sha256": "97677c291d21bf24b907439906b6b080d2fa7568d0b0787e1e5af1af463dd2a9",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "outputs/marine-data-case-study/build_measured_case_study.py",
+    "destination": "04_消融实验/resource_case_study/build_measured_case_study.py",
+    "source_sha256": "6e812c1339497e1ab933c60c03131bb8d1fe56cf7990750f3f4f0a7168ae7f15",
+    "sha256": "96a6c3d3f3ff6348f9c97f8be39295034f2e827f4fec745a6a1fd29e11780cc7",
+    "changes": [
+      "整理路径/绘图依赖/报告引用"
+    ]
+  },
+  {
+    "source": "outputs/marine-data-case-study/build_resource_simulator.py",
+    "destination": "04_消融实验/resource_case_study/build_resource_simulator.py",
+    "source_sha256": "49011b8b6a8cc7341f2595015e22ed61c0d3d5a6a555179b4b862c17ceca6511",
+    "sha256": "65c03e7af9ac0e206da20cecd3743f1fc869a510b8d4c2a2c5cd806c5c314b97",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "outputs/marine-data-case-study/case_measurements.json",
+    "destination": "04_消融实验/resource_case_study/case_measurements.json",
+    "source_sha256": "d22cc228005f63ef9601dc867de1e6f2fe8af560aae7a534a541054ec7d8a76c",
+    "sha256": "d22cc228005f63ef9601dc867de1e6f2fe8af560aae7a534a541054ec7d8a76c"
+  },
+  {
+    "source": "outputs/marine-data-case-study/case_study.md",
+    "destination": "04_消融实验/resource_case_study/case_study.md",
+    "source_sha256": "a1f2e161097e008cd576dd014f85b60f9922fc17e897bfd6f1dacae7b1d49645",
+    "sha256": "a1f2e161097e008cd576dd014f85b60f9922fc17e897bfd6f1dacae7b1d49645"
+  },
+  {
+    "source": "outputs/marine-data-case-study/codec_worker.py",
+    "destination": "04_消融实验/resource_case_study/codec_worker.py",
+    "source_sha256": "d34f723fde7c976f1f370c16183114ee02035251ab6d4aab1f542a77c3d09ddb",
+    "sha256": "d34f723fde7c976f1f370c16183114ee02035251ab6d4aab1f542a77c3d09ddb"
+  },
+  {
+    "source": "outputs/marine-data-case-study/evidence_notes.md",
+    "destination": "04_消融实验/resource_case_study/evidence_notes.md",
+    "source_sha256": "1d33d2316e639121ef9a74290d2c7eed87f858f3481d77960ec1ad276c39250e",
+    "sha256": "1d33d2316e639121ef9a74290d2c7eed87f858f3481d77960ec1ad276c39250e"
+  },
+  {
+    "source": "outputs/marine-data-case-study/figure_notes.md",
+    "destination": "04_消融实验/resource_case_study/figure_notes.md",
+    "source_sha256": "8b6653f1697732ecd413035d3bdc48d4b8b60d151484d79343fe50eef9b1b664",
+    "sha256": "8b6653f1697732ecd413035d3bdc48d4b8b60d151484d79343fe50eef9b1b664"
+  },
+  {
+    "source": "outputs/marine-data-case-study/run_resource_experiment.py",
+    "destination": "04_消融实验/resource_case_study/run_resource_experiment.py",
+    "source_sha256": "06110d847c6d86aafe66f807161ed3475f8033610f7340b3171459ec142ea8ea",
+    "sha256": "3112b2c06365cf732b9b98be4a694040d9b35eeac6e6d7f5abe89ccd0882119e",
+    "changes": [
+      "路径适配",
+      "按新目录和环境变量定位依赖"
+    ]
+  },
+  {
+    "source": "outputs/marine-data-case-study/resource-experiment/resource-simulator.cc",
+    "destination": "04_消融实验/resource_case_study/resource-experiment/resource-simulator.cc",
+    "source_sha256": "62d5d9d466037c760de1bdf2a0ff57be98cf0226f5065f37da1a9bc7d18a5efa",
+    "sha256": "62d5d9d466037c760de1bdf2a0ff57be98cf0226f5065f37da1a9bc7d18a5efa"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/ablation/README.md",
+    "destination": "04_消融实验/integration_components/README-source.md",
+    "source_sha256": "44f031f8dd5812f022c2705f2e3a64c00e287f96e7da55976c3b927d47591f3a",
+    "sha256": "44f031f8dd5812f022c2705f2e3a64c00e287f96e7da55976c3b927d47591f3a"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/ablation/inputs/source-inventory.json",
+    "destination": "04_消融实验/integration_components/inputs/source-inventory.json",
+    "source_sha256": "0c2b74b53541db829b3c77bff20c5b37135cef07961340dcef9038e01d0fbb5b",
+    "sha256": "0c2b74b53541db829b3c77bff20c5b37135cef07961340dcef9038e01d0fbb5b"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/ablation/inputs/stage1-link-trace.csv",
+    "destination": "04_消融实验/integration_components/inputs/stage1-link-trace.csv",
+    "source_sha256": "97724dd8620d3f32e61883e2f2efee79b03ba1e93b59eeadd2116187b43f9b14",
+    "sha256": "97724dd8620d3f32e61883e2f2efee79b03ba1e93b59eeadd2116187b43f9b14"
+  },
+  {
+    "source": "实验数据/1海流log-info-2019-09-29.0.log",
+    "destination": "data/1海流log-info-2019-09-29.0.log",
+    "source_sha256": "0c29356b0fd96d62c7484bf320a4c3ccc7ffe51aa672ae98acb29477c829ffad",
+    "sha256": "0c29356b0fd96d62c7484bf320a4c3ccc7ffe51aa672ae98acb29477c829ffad"
+  },
+  {
+    "source": "实验数据/2020年大浮标气象数据.txt",
+    "destination": "data/2020年大浮标气象数据.txt",
+    "source_sha256": "a5923e97ae3f43a03797b1920bfd95e9dbfb463f6df03c58c08c063922a4a3cd",
+    "sha256": "a5923e97ae3f43a03797b1920bfd95e9dbfb463f6df03c58c08c063922a4a3cd"
+  },
+  {
+    "source": "实验数据/2海流log-info-2019-09-28.0.log",
+    "destination": "data/2海流log-info-2019-09-28.0.log",
+    "source_sha256": "f4fb263f363cb3f627ec0b8ff77f92cba3431590a8e700fcceb3a3869bb042c8",
+    "sha256": "f4fb263f363cb3f627ec0b8ff77f92cba3431590a8e700fcceb3a3869bb042c8"
+  },
+  {
+    "source": "实验数据/3海流log-info-2019-09-30.0.log",
+    "destination": "data/3海流log-info-2019-09-30.0.log",
+    "source_sha256": "119158dc1b9b5e7936c5b9f25799cfca102ce596bf648ba05d2a15124c1b09ab",
+    "sha256": "119158dc1b9b5e7936c5b9f25799cfca102ce596bf648ba05d2a15124c1b09ab"
+  },
+  {
+    "source": "实验数据/气象数据.txt",
+    "destination": "data/气象数据.txt",
+    "source_sha256": "21ebc97103fb3aa5c6c28e283b8976289e08d92dbb11392a39abd698150ef93a",
+    "sha256": "21ebc97103fb3aa5c6c28e283b8976289e08d92dbb11392a39abd698150ef93a"
+  },
+  {
+    "source": "实验数据/浮标中心波浪传感器.txt",
+    "destination": "data/浮标中心波浪传感器.txt",
+    "source_sha256": "89592fdc4cf69b142dda87c2b7862652d78c4f40335f6704e3088772194a7f92",
+    "sha256": "89592fdc4cf69b142dda87c2b7862652d78c4f40335f6704e3088772194a7f92"
+  },
+  {
+    "source": "实验数据/视频样本/2019-05-30_18.50.28.mkv",
+    "destination": "data/视频样本/2019-05-30_18.50.28.mkv",
+    "source_sha256": "0459f10968ca426498045a3e4f3e446df9e8c27e19da9262be2b78065afbe02a",
+    "sha256": "0459f10968ca426498045a3e4f3e446df9e8c27e19da9262be2b78065afbe02a"
+  },
+  {
+    "source": "实验数据/视频样本/3f2b041a2f5cf63ddc2e449fa7e3fd80.mp4",
+    "destination": "data/视频样本/3f2b041a2f5cf63ddc2e449fa7e3fd80.mp4",
+    "source_sha256": "f20b823d2bd89dc5abd9857c4aaf8a1fb9a64b529fbc62c22bed1b27bacceaee",
+    "sha256": "f20b823d2bd89dc5abd9857c4aaf8a1fb9a64b529fbc62c22bed1b27bacceaee"
+  },
+  {
+    "source": "实验数据/视频样本/4412e5bfafeaa07161d2082422e349e1.mp4",
+    "destination": "data/视频样本/4412e5bfafeaa07161d2082422e349e1.mp4",
+    "source_sha256": "71c9d946d5032d7b02a57e88c8fdf20a9c02c01f5ec75ebc9cbca5311a55c83b",
+    "sha256": "71c9d946d5032d7b02a57e88c8fdf20a9c02c01f5ec75ebc9cbca5311a55c83b"
+  },
+  {
+    "source": "实验数据/视频样本/48290d122823a5cf9af2a146ba3d238b.mp4",
+    "destination": "data/视频样本/48290d122823a5cf9af2a146ba3d238b.mp4",
+    "source_sha256": "1dcc0c5386b61e9241382b9889f1e76589195f5c64cd87b45fb358f48bab43aa",
+    "sha256": "1dcc0c5386b61e9241382b9889f1e76589195f5c64cd87b45fb358f48bab43aa"
+  },
+  {
+    "source": "实验数据/视频样本/4a3b00dd39998a85cb1db439bf0bbe93.mp4",
+    "destination": "data/视频样本/4a3b00dd39998a85cb1db439bf0bbe93.mp4",
+    "source_sha256": "60161f263794e71bf805c4fc32f131d412892408cc9d43125179c4ac0093833d",
+    "sha256": "60161f263794e71bf805c4fc32f131d412892408cc9d43125179c4ac0093833d"
+  },
+  {
+    "source": "实验数据/视频样本/5cf7af68d381d7cb80e5567444e894c2.mp4",
+    "destination": "data/视频样本/5cf7af68d381d7cb80e5567444e894c2.mp4",
+    "source_sha256": "efc09d5981edfea1fb7f866978e088fc496c93cc754ccb1ec045a5b2b2aae355",
+    "sha256": "efc09d5981edfea1fb7f866978e088fc496c93cc754ccb1ec045a5b2b2aae355"
+  },
+  {
+    "source": "实验数据/视频样本/5fdbdd4dd7b628c0986de9028e8be48a.mp4",
+    "destination": "data/视频样本/5fdbdd4dd7b628c0986de9028e8be48a.mp4",
+    "source_sha256": "ff22e5ad77ee738e504cc1be6432a7587e9574ba45aaf66ef16f0f553a808369",
+    "sha256": "ff22e5ad77ee738e504cc1be6432a7587e9574ba45aaf66ef16f0f553a808369"
+  },
+  {
+    "source": "实验数据/视频样本/705ccbb00cfbaab61780706633e3c7ce.mp4",
+    "destination": "data/视频样本/705ccbb00cfbaab61780706633e3c7ce.mp4",
+    "source_sha256": "d7af4377b7394920538294fa759b8435b37fdce738fa3ba9ff0f8bef14936d9d",
+    "sha256": "d7af4377b7394920538294fa759b8435b37fdce738fa3ba9ff0f8bef14936d9d"
+  },
+  {
+    "source": "实验数据/视频样本/ba5cd3bd2090f260c1810d600604f038.mp4",
+    "destination": "data/视频样本/ba5cd3bd2090f260c1810d600604f038.mp4",
+    "source_sha256": "f7551a25d76ef4c487d2fb3f924296bb60035b7fa84775b73a06cd569baef161",
+    "sha256": "f7551a25d76ef4c487d2fb3f924296bb60035b7fa84775b73a06cd569baef161"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/CMakeLists.txt",
+    "destination": "third_party/quic/CMakeLists.txt",
+    "source_sha256": "354827e8e4c00682c51b1f7595aa6b6c22fb4a17dd04a38005f4932eda821d61",
+    "sha256": "354827e8e4c00682c51b1f7595aa6b6c22fb4a17dd04a38005f4932eda821d61"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/README.md",
+    "destination": "third_party/quic/README.md",
+    "source_sha256": "65c21c38af8b03fe33fb25b4058e62d57f4706551361f8141382c8d4b481557c",
+    "sha256": "65c21c38af8b03fe33fb25b4058e62d57f4706551361f8141382c8d4b481557c"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/doc/quic.rst",
+    "destination": "third_party/quic/doc/quic.rst",
+    "source_sha256": "617feea84586ddd941f3ff13e1db6f969a9b5f4ce7ba1538fc4084093478538c",
+    "sha256": "617feea84586ddd941f3ff13e1db6f969a9b5f4ce7ba1538fc4084093478538c"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/helper/quic-helper.cc",
+    "destination": "third_party/quic/helper/quic-helper.cc",
+    "source_sha256": "a0a678faa4698b4d6f6e1f5b08d294dbf796909dd26d6dbb0d2e1b81a3df5ac7",
+    "sha256": "a0a678faa4698b4d6f6e1f5b08d294dbf796909dd26d6dbb0d2e1b81a3df5ac7"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/helper/quic-helper.h",
+    "destination": "third_party/quic/helper/quic-helper.h",
+    "source_sha256": "d5b7a58ab982226703b29b4bbba943c2d0f02d7587addc894e713fe7b97e43f7",
+    "sha256": "d5b7a58ab982226703b29b4bbba943c2d0f02d7587addc894e713fe7b97e43f7"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-bbr.cc",
+    "destination": "third_party/quic/model/quic-bbr.cc",
+    "source_sha256": "f6ca685b3c1f2f2af24fdda5e9af9659e4892449cfb3f9373b91c61a53630a79",
+    "sha256": "f6ca685b3c1f2f2af24fdda5e9af9659e4892449cfb3f9373b91c61a53630a79"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-bbr.h",
+    "destination": "third_party/quic/model/quic-bbr.h",
+    "source_sha256": "c87d45a3e95c65400391aae7ddac565f0046e4aa20a78be92610df0df5a62af8",
+    "sha256": "c87d45a3e95c65400391aae7ddac565f0046e4aa20a78be92610df0df5a62af8"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-congestion-ops.cc",
+    "destination": "third_party/quic/model/quic-congestion-ops.cc",
+    "source_sha256": "ee2c4235f88428a7b9eab4d7aaad3cbe09c662b6e756f49d78dd7886a9f4e2ad",
+    "sha256": "ee2c4235f88428a7b9eab4d7aaad3cbe09c662b6e756f49d78dd7886a9f4e2ad"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-congestion-ops.h",
+    "destination": "third_party/quic/model/quic-congestion-ops.h",
+    "source_sha256": "63a52bc36ec447860a27716b48cb88b6d81199d2b4f6c2ccbccc9a6eb65066eb",
+    "sha256": "63a52bc36ec447860a27716b48cb88b6d81199d2b4f6c2ccbccc9a6eb65066eb"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-header.cc",
+    "destination": "third_party/quic/model/quic-header.cc",
+    "source_sha256": "4ce37ba5aef97f1e84c7b8c100eb14da0ea19ede474a70e3d7f7839833805ea2",
+    "sha256": "4ce37ba5aef97f1e84c7b8c100eb14da0ea19ede474a70e3d7f7839833805ea2"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-header.h",
+    "destination": "third_party/quic/model/quic-header.h",
+    "source_sha256": "f10141d52e055abf6a384d394ea12988c137ae247f82ce7d9f0a10d51ee9e144",
+    "sha256": "f10141d52e055abf6a384d394ea12988c137ae247f82ce7d9f0a10d51ee9e144"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-l4-protocol.cc",
+    "destination": "third_party/quic/model/quic-l4-protocol.cc",
+    "source_sha256": "a69333bb0ddfecb325c86b8c8ea32c57891fa199301e6d909502cb0df085c73f",
+    "sha256": "a69333bb0ddfecb325c86b8c8ea32c57891fa199301e6d909502cb0df085c73f"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-l4-protocol.h",
+    "destination": "third_party/quic/model/quic-l4-protocol.h",
+    "source_sha256": "b6f96732470f5d3b5b2d27076382dcd1b07cf93fb5a81c1329c3e0a6ddf6a154",
+    "sha256": "b6f96732470f5d3b5b2d27076382dcd1b07cf93fb5a81c1329c3e0a6ddf6a154"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-l5-protocol.cc",
+    "destination": "third_party/quic/model/quic-l5-protocol.cc",
+    "source_sha256": "b5f6f636daa636efc829783cadb241cf1ef4d8262dfdf5d753b1fb969dcd318e",
+    "sha256": "b5f6f636daa636efc829783cadb241cf1ef4d8262dfdf5d753b1fb969dcd318e"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-l5-protocol.h",
+    "destination": "third_party/quic/model/quic-l5-protocol.h",
+    "source_sha256": "0ccec6acbd641a0fadc2f4a8dbe434567a446c99d7db4042c7e8f037fccfa7cb",
+    "sha256": "0ccec6acbd641a0fadc2f4a8dbe434567a446c99d7db4042c7e8f037fccfa7cb"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.cc",
+    "destination": "third_party/quic/model/quic-socket-base.cc",
+    "source_sha256": "6889f3ff3a9844d80b2a4f0394036d8cd65684409624448731b44e826066cca6",
+    "sha256": "6889f3ff3a9844d80b2a4f0394036d8cd65684409624448731b44e826066cca6"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-base.h",
+    "destination": "third_party/quic/model/quic-socket-base.h",
+    "source_sha256": "0e906901001761e510581ce1b27353af9921d995321e0860c0e2311704b85954",
+    "sha256": "0e906901001761e510581ce1b27353af9921d995321e0860c0e2311704b85954"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-factory.cc",
+    "destination": "third_party/quic/model/quic-socket-factory.cc",
+    "source_sha256": "02aafa237008d8d2eb1d99737c72e84363f7017d868d1245f7c2458ead587ce9",
+    "sha256": "02aafa237008d8d2eb1d99737c72e84363f7017d868d1245f7c2458ead587ce9"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-factory.h",
+    "destination": "third_party/quic/model/quic-socket-factory.h",
+    "source_sha256": "2e1b334db11b76d81e8bc741be35e3fc60a9f9adebd57a24d826a18cd30908be",
+    "sha256": "2e1b334db11b76d81e8bc741be35e3fc60a9f9adebd57a24d826a18cd30908be"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-rx-buffer.cc",
+    "destination": "third_party/quic/model/quic-socket-rx-buffer.cc",
+    "source_sha256": "7c7e6531f9f1a3ce4a4c5a48c11124f1bebb20438ed1185b1b4a022839175610",
+    "sha256": "7c7e6531f9f1a3ce4a4c5a48c11124f1bebb20438ed1185b1b4a022839175610"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-rx-buffer.h",
+    "destination": "third_party/quic/model/quic-socket-rx-buffer.h",
+    "source_sha256": "6abae731e3bea0add5aee05c11a5ef0cd16ac481b37c237b41857a0cff0b1002",
+    "sha256": "6abae731e3bea0add5aee05c11a5ef0cd16ac481b37c237b41857a0cff0b1002"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-tx-buffer.cc",
+    "destination": "third_party/quic/model/quic-socket-tx-buffer.cc",
+    "source_sha256": "5bee10ee5dd5961a12497c97e43c9152ea6c47e5f2add3f9ba4b0f27ebc5956d",
+    "sha256": "5bee10ee5dd5961a12497c97e43c9152ea6c47e5f2add3f9ba4b0f27ebc5956d"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-tx-buffer.h",
+    "destination": "third_party/quic/model/quic-socket-tx-buffer.h",
+    "source_sha256": "cdcafcbc442db04acea0c3b96013c725800ac9576761638a90e5223f7fddc6dd",
+    "sha256": "cdcafcbc442db04acea0c3b96013c725800ac9576761638a90e5223f7fddc6dd"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-tx-edf-scheduler.cc",
+    "destination": "third_party/quic/model/quic-socket-tx-edf-scheduler.cc",
+    "source_sha256": "830f7793278ebebe62ab969445049ad4e3f556082a2cf8d50b0307c2d4594a25",
+    "sha256": "830f7793278ebebe62ab969445049ad4e3f556082a2cf8d50b0307c2d4594a25"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-tx-edf-scheduler.h",
+    "destination": "third_party/quic/model/quic-socket-tx-edf-scheduler.h",
+    "source_sha256": "70632e3160170e8d2ef9f887452bcd9776f79a0aa2aa0e8cfee9817a701e1529",
+    "sha256": "70632e3160170e8d2ef9f887452bcd9776f79a0aa2aa0e8cfee9817a701e1529"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-tx-pfifo-scheduler.cc",
+    "destination": "third_party/quic/model/quic-socket-tx-pfifo-scheduler.cc",
+    "source_sha256": "dcd3580839852d53b406fb73dd0293865b4df2d64b45ea6d64947e2b613c289e",
+    "sha256": "dcd3580839852d53b406fb73dd0293865b4df2d64b45ea6d64947e2b613c289e"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-tx-pfifo-scheduler.h",
+    "destination": "third_party/quic/model/quic-socket-tx-pfifo-scheduler.h",
+    "source_sha256": "8abfdb692d593efd2a796a0f32127e739e8f11214afc87faf5ec4ef566384b9b",
+    "sha256": "8abfdb692d593efd2a796a0f32127e739e8f11214afc87faf5ec4ef566384b9b"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-tx-scheduler.cc",
+    "destination": "third_party/quic/model/quic-socket-tx-scheduler.cc",
+    "source_sha256": "478713efbe33e7f78a906e25e67db73dc8059569287ef26271de0fec0f0a4c30",
+    "sha256": "478713efbe33e7f78a906e25e67db73dc8059569287ef26271de0fec0f0a4c30"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket-tx-scheduler.h",
+    "destination": "third_party/quic/model/quic-socket-tx-scheduler.h",
+    "source_sha256": "08e53cfbad5f52dc68f229d896d3392dd858fc796b9e7cff7c8af37f8ae706ec",
+    "sha256": "08e53cfbad5f52dc68f229d896d3392dd858fc796b9e7cff7c8af37f8ae706ec"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket.cc",
+    "destination": "third_party/quic/model/quic-socket.cc",
+    "source_sha256": "0519be3c9358b1999f0af9446a505459229339d5480479f569d51cfa7ef56cf1",
+    "sha256": "0519be3c9358b1999f0af9446a505459229339d5480479f569d51cfa7ef56cf1"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-socket.h",
+    "destination": "third_party/quic/model/quic-socket.h",
+    "source_sha256": "0ef7e89fb8ca55f4c46c4bea6bff719e8d82b4273b02264a9eca06e775d4bf29",
+    "sha256": "0ef7e89fb8ca55f4c46c4bea6bff719e8d82b4273b02264a9eca06e775d4bf29"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-stream-base.cc",
+    "destination": "third_party/quic/model/quic-stream-base.cc",
+    "source_sha256": "31dc9a54701ed24832367d9cd6a6c120f03af53fc145b387c9602295212d608c",
+    "sha256": "31dc9a54701ed24832367d9cd6a6c120f03af53fc145b387c9602295212d608c"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-stream-base.h",
+    "destination": "third_party/quic/model/quic-stream-base.h",
+    "source_sha256": "91f2aa31d3ade9d3564f4c1aed64934db27a681d382cfae8e922ac18f1b1fc03",
+    "sha256": "91f2aa31d3ade9d3564f4c1aed64934db27a681d382cfae8e922ac18f1b1fc03"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-stream-rx-buffer.cc",
+    "destination": "third_party/quic/model/quic-stream-rx-buffer.cc",
+    "source_sha256": "a2dd65ac5bee7d16d4ea7505570715a094a17fa61edde473dc458cf89481bd8a",
+    "sha256": "a2dd65ac5bee7d16d4ea7505570715a094a17fa61edde473dc458cf89481bd8a"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-stream-rx-buffer.h",
+    "destination": "third_party/quic/model/quic-stream-rx-buffer.h",
+    "source_sha256": "d12fba8ada5a647295196e560e1a37fd260f0abfe03f038cca88bc41db32fd6a",
+    "sha256": "d12fba8ada5a647295196e560e1a37fd260f0abfe03f038cca88bc41db32fd6a"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-stream-tx-buffer.cc",
+    "destination": "third_party/quic/model/quic-stream-tx-buffer.cc",
+    "source_sha256": "d990b252ef2788d15104a111f5b1c9fdcf49d2873a7b5b07fdb1fe05171b1853",
+    "sha256": "d990b252ef2788d15104a111f5b1c9fdcf49d2873a7b5b07fdb1fe05171b1853"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-stream-tx-buffer.h",
+    "destination": "third_party/quic/model/quic-stream-tx-buffer.h",
+    "source_sha256": "827d6eee0d6b2ae886f393e88a549181286960e34a9af4f11d03563558193844",
+    "sha256": "827d6eee0d6b2ae886f393e88a549181286960e34a9af4f11d03563558193844"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-stream.cc",
+    "destination": "third_party/quic/model/quic-stream.cc",
+    "source_sha256": "17daf87f58e82fdacefc89823df48c884eb64b122d382b3961db435fc7294db8",
+    "sha256": "17daf87f58e82fdacefc89823df48c884eb64b122d382b3961db435fc7294db8"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-stream.h",
+    "destination": "third_party/quic/model/quic-stream.h",
+    "source_sha256": "0510007bb6a7f3d08f1ee6ad6e6771942ae2c6aea06507ab4f0b32b8b3279212",
+    "sha256": "0510007bb6a7f3d08f1ee6ad6e6771942ae2c6aea06507ab4f0b32b8b3279212"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-subheader.cc",
+    "destination": "third_party/quic/model/quic-subheader.cc",
+    "source_sha256": "d5fd6c2b2f0cadabadd8c43dfb8624798579b89deed07f1299a644aea2fc898c",
+    "sha256": "d5fd6c2b2f0cadabadd8c43dfb8624798579b89deed07f1299a644aea2fc898c"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-subheader.h",
+    "destination": "third_party/quic/model/quic-subheader.h",
+    "source_sha256": "c75a46dca7876ebcc05e28a5293ebdc888d57cc80a7ffffbb49792529e80cc52",
+    "sha256": "c75a46dca7876ebcc05e28a5293ebdc888d57cc80a7ffffbb49792529e80cc52"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-transport-parameters.cc",
+    "destination": "third_party/quic/model/quic-transport-parameters.cc",
+    "source_sha256": "d7a9315c4d16a95f65be31532d129171a7de9cc535b08701cec1dc150cdb9ed9",
+    "sha256": "d7a9315c4d16a95f65be31532d129171a7de9cc535b08701cec1dc150cdb9ed9"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/quic-transport-parameters.h",
+    "destination": "third_party/quic/model/quic-transport-parameters.h",
+    "source_sha256": "89ca2924e03b3d36a71c081e7da8cf9ecdad988889669f7d43a10d61604e19dc",
+    "sha256": "89ca2924e03b3d36a71c081e7da8cf9ecdad988889669f7d43a10d61604e19dc"
+  },
+  {
+    "source": "cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/contrib/quic/model/windowed-filter.h",
+    "destination": "third_party/quic/model/windowed-filter.h",
+    "source_sha256": "6ec3c04a2d15706790d25eb27147885150c1fce58380cbbc3534e3c1b557de56",
+    "sha256": "6ec3c04a2d15706790d25eb27147885150c1fce58380cbbc3534e3c1b557de56"
+  },
+  {
+    "source": "xgboost-ablation-handoff/provenance/ns3-LICENSE",
+    "destination": "third_party/ns3-LICENSE",
+    "source_sha256": "e01cda1cbedde03ba8154ecbdea6b42c14dd330eef498b462f97ca781b027b6e",
+    "sha256": "e01cda1cbedde03ba8154ecbdea6b42c14dd330eef498b462f97ca781b027b6e"
+  },
+  {
+    "source": "adaptive-protocol-selection-package/protocol_scripts/plot-dynamic-link-fluctuation.py",
+    "destination": "shared/link_profile.py",
+    "source_sha256": "878e137680f47adc7a9470a1cf74cd30c1a8be351fdf1e2767be9b00da80ea5b",
+    "changes": [
+      "仅提取链路生成与 CSV 写入函数"
+    ],
+    "sha256": "d8ea90caf0533e59ca4c798f3b00f2a7ed8a31f3f566e2cb085af3ad0941d14f"
+  }
+]

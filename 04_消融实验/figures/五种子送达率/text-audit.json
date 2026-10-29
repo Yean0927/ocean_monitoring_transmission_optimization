@@ -1,0 +1,10 @@
+{
+  "pdf": "outputs/delivery-ratio-five-seeds-20261015/delivery_ratio.pdf",
+  "auditable": true,
+  "minimum_required_pt": 5.0,
+  "minimum_found_pt": 6.4,
+  "text_run_count": 44,
+  "below_minimum_count": 0,
+  "below_minimum": [],
+  "warnings": []
+}

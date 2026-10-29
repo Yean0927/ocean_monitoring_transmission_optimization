@@ -1,0 +1,51 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'outputs/video-file8-recomputed-20261018/input/5cf7af68d381d7cb80e5567444e894c2.mp4':
+  Metadata:
+    compatible_brands: isomiso2avc1mp41
+    major_brand     : isom
+    minor_version   : 512
+    creation_time   : 2016-10-27T16:42:02.000000Z
+    encoder         : Lavf58.20.100
+  Duration: 00:00:06.66, start: 0.000000, bitrate: 1582 kb/s
+  Stream #0:0[0x1](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 48 kb/s (default)
+      Metadata:
+        creation_time   : 2016-10-27T16:42:02.000000Z
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, progressive), 320x240, 1560 kb/s, 18.10 fps, 18.08 tbr, 90k tbn (default)
+      Metadata:
+        creation_time   : 2016-10-27T16:42:02.000000Z
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:1 -> #0:0 (h264 (native) -> av1 (libaom-av1))
+  Stream #0:0 -> #0:1 (copy)
+[libaom-av1 @ 0x136e2d0f0] 3.6.0-274-gb7ebfe882
+Output #0, mp4, to 'outputs/video-file8-recomputed-20261018/measurements/encoded_outputs/S3/5cf7af68d381d7cb80e5567444e894c2__av1__r2.tmp.mp4':
+  Metadata:
+    compatible_brands: isomiso2avc1mp41
+    major_brand     : isom
+    minor_version   : 512
+    encoder         : Lavf61.7.100
+  Stream #0:0(und): Video: av1 (av01 / 0x31307661), yuv420p(tv, progressive), 320x240, q=2-31, 18.08 fps, 13888 tbn (default)
+      Metadata:
+        creation_time   : 2016-10-27T16:42:02.000000Z
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 libaom-av1
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 48 kb/s (default)
+      Metadata:
+        creation_time   : 2016-10-27T16:42:02.000000Z
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+frame=    9 fps=0.0 q=0.0 size=       0KiB time=00:00:00.60 bitrate=   0.6kbits/s speed= 1.2x    
+frame=   31 fps= 31 q=0.0 size=       0KiB time=00:00:01.82 bitrate=   0.2kbits/s speed=1.81x    
+frame=   43 fps= 28 q=0.0 size=       0KiB time=00:00:02.48 bitrate=   0.2kbits/s speed=1.65x    
+frame=   65 fps= 32 q=0.0 size=       0KiB time=00:00:03.70 bitrate=   0.1kbits/s speed=1.84x    
+frame=   79 fps= 31 q=0.0 size=       0KiB time=00:00:04.47 bitrate=   0.1kbits/s speed=1.78x    
+frame=   97 fps= 32 q=0.0 size=       0KiB time=00:00:05.47 bitrate=   0.1kbits/s speed=1.81x    
+frame=  113 fps= 32 q=0.0 size=       0KiB time=00:00:06.35 bitrate=   0.1kbits/s speed= 1.8x    
+[mp4 @ 0x136e2c410] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x136e1c9c0] video:94KiB audio:40KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 3.669430%
+frame=  118 fps= 33 q=0.0 Lsize=     139KiB time=00:00:06.63 bitrate= 171.0kbits/s speed=1.85x    

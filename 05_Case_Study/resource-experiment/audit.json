@@ -1,0 +1,59 @@
+{
+  "verdict": "PASS",
+  "codec_pairs": 45,
+  "network_trials": 135,
+  "plot_points": 27,
+  "delivered_before_horizon": 135,
+  "source_and_all_compressed_video_frames": 505,
+  "fractional_rtt_source_verified": true,
+  "byte_checks": "all saved payloads verified; all network traces delivered",
+  "jct_sum_verified": true,
+  "summary_means_and_sample_sd_verified": true,
+  "measured_cpu_per_wall": {
+    "cpu1/D2": {
+      "min": 0.9979807792761731,
+      "mean": 0.9993577942501606,
+      "max": 0.9997307327026362
+    },
+    "cpu4/V1": {
+      "min": 2.2243159515922755,
+      "mean": 2.3555355444416315,
+      "max": 2.476008275368591
+    },
+    "shared1/V1": {
+      "min": 0.49749718408437377,
+      "mean": 0.5016578345264419,
+      "max": 0.5082406769033961
+    },
+    "cpu4/D2": {
+      "min": 0.9979144722422978,
+      "mean": 0.9990851359314943,
+      "max": 0.9996570091521138
+    },
+    "cpu4/I1": {
+      "min": 0.9987914324959849,
+      "mean": 0.9991494624409922,
+      "max": 0.9994210453145781
+    },
+    "shared1/I1": {
+      "min": 0.4993686359156044,
+      "mean": 0.5049923587546252,
+      "max": 0.5171058861712303
+    },
+    "cpu1/I1": {
+      "min": 0.9989657246306718,
+      "mean": 0.9991363669492931,
+      "max": 0.9993948531386468
+    },
+    "shared1/D2": {
+      "min": 0.5027668915974046,
+      "mean": 0.5245842283702298,
+      "max": 0.5467251560432931
+    },
+    "cpu1/V1": {
+      "min": 0.9934469958383252,
+      "mean": 1.001638928513179,
+      "max": 1.0159004414610546
+    }
+  }
+}

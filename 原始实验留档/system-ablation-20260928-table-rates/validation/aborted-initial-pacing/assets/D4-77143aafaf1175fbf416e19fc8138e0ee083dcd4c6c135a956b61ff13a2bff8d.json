@@ -1,0 +1,14 @@
+{
+  "algorithm": "chimp_python_d4_semantic_1024",
+  "encode_seconds": 0.0029904580005677417,
+  "decode_seconds": 0.003352584011736326,
+  "integrity_scope": "ADCP_numeric_observations",
+  "logical_rows": 1,
+  "raw_decode_seconds": 0.0,
+  "stream": "D4",
+  "raw_bytes": 19150,
+  "encoded_bytes": 28969,
+  "source_sha256": "77143aafaf1175fbf416e19fc8138e0ee083dcd4c6c135a956b61ff13a2bff8d",
+  "encoded_sha256": "fa5a95f3b83696d3146bbf47672f3be62fcdefa7546cafe81764e603d1553bc2",
+  "source": "assembled local records"
+}

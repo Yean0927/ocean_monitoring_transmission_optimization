@@ -1,0 +1,13 @@
+video_name,algorithm,bandwidth_mbps,packet_size_bytes,latency_reduction_pct,data_origin,marker_y_pixel
+5cf7af68d381d7cb80e5567444e894c2.mp4,S0,2,4096,0.0,digitized_from_reference_not_raw_measurements,
+5cf7af68d381d7cb80e5567444e894c2.mp4,S0,4,4096,0.0,digitized_from_reference_not_raw_measurements,
+5cf7af68d381d7cb80e5567444e894c2.mp4,S0,10,4096,0.0,digitized_from_reference_not_raw_measurements,
+5cf7af68d381d7cb80e5567444e894c2.mp4,S1,2,4096,78.442,digitized_from_reference_not_raw_measurements,208.0
+5cf7af68d381d7cb80e5567444e894c2.mp4,S1,4,4096,70.885,digitized_from_reference_not_raw_measurements,224.0
+5cf7af68d381d7cb80e5567444e894c2.mp4,S1,10,4096,50.104,digitized_from_reference_not_raw_measurements,268.0
+5cf7af68d381d7cb80e5567444e894c2.mp4,S2,2,4096,73.719,digitized_from_reference_not_raw_measurements,218.0
+5cf7af68d381d7cb80e5567444e894c2.mp4,S2,4,4096,60.022,digitized_from_reference_not_raw_measurements,247.0
+5cf7af68d381d7cb80e5567444e894c2.mp4,S2,10,4096,17.516,digitized_from_reference_not_raw_measurements,337.0
+5cf7af68d381d7cb80e5567444e894c2.mp4,S3,2,4096,22.239,digitized_from_reference_not_raw_measurements,327.0
+5cf7af68d381d7cb80e5567444e894c2.mp4,S3,4,4096,-44.355,digitized_from_reference_not_raw_measurements,468.0
+5cf7af68d381d7cb80e5567444e894c2.mp4,S3,10,4096,-244.608,digitized_from_reference_not_raw_measurements,892.0

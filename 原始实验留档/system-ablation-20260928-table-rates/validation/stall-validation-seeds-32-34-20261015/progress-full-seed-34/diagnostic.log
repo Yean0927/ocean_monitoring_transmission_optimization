@@ -1,0 +1,11 @@
+APP_DIAG t=30 delivered=34 raw=1481024 last=29.3707 active=-1 frame=8720/0 queue=0 queueBytes=0 packets=2403 tx0=131072
+APP_DIAG t=60 delivered=69 raw=3220748 last=58.6597 active=-1 frame=8396/0 queue=0 queueBytes=0 packets=4886 tx0=131072
+APP_DIAG t=90 delivered=105 raw=4967272 last=89.0088 active=-1 frame=8714/0 queue=0 queueBytes=0 packets=7379 tx0=131072
+APP_DIAG t=120 delivered=141 raw=6713631 last=119.334 active=-1 frame=8575/0 queue=0 queueBytes=0 packets=9822 tx0=131072
+APP_DIAG t=150 delivered=178 raw=8460320 last=149.585 active=-1 frame=8637/0 queue=0 queueBytes=0 packets=12356 tx0=131072
+APP_DIAG t=180 delivered=214 raw=10205662 last=179.748 active=-1 frame=8407/0 queue=0 queueBytes=0 packets=14914 tx0=131072
+APP_DIAG t=210 delivered=250 raw=11951448 last=209.98 active=-1 frame=8311/0 queue=0 queueBytes=0 packets=17384 tx0=131072
+APP_DIAG t=240 delivered=285 raw=13691359 last=239.293 active=-1 frame=8213/0 queue=0 queueBytes=0 packets=19805 tx0=131072
+APP_DIAG t=270 delivered=322 raw=15438624 last=269.636 active=-1 frame=8202/0 queue=0 queueBytes=0 packets=22347 tx0=131072
+APP_DIAG t=300 delivered=357 raw=17179033 last=299.034 active=-1 frame=8204/0 queue=0 queueBytes=0 packets=24801 tx0=131072
+APP_DIAG t=330 delivered=363 raw=17470028 last=304.079 active=3670 frame=17883/31786 queue=11 queueBytes=115560 packets=76476 tx0=165

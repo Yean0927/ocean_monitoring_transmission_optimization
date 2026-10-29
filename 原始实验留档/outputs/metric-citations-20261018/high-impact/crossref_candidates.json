@@ -1,0 +1,5006 @@
+{
+  "DCTCP": {
+    "doi": "10.1145/1851182.1851192",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            18
+          ]
+        ],
+        "date-time": "2026-10-18T12:43:33Z",
+        "timestamp": 1792327413357,
+        "version": "4.4.0"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 34,
+      "publisher": "ACM",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2010,
+                8,
+                30
+              ]
+            ],
+            "date-time": "2010-08-30T00:00:00Z",
+            "timestamp": 1283126400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2010,
+            8,
+            30
+          ]
+        ]
+      },
+      "DOI": "10.1145/1851182.1851192",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2010,
+            8,
+            31
+          ]
+        ],
+        "date-time": "2010-08-31T09:06:04Z",
+        "timestamp": 1283245564000
+      },
+      "page": "63-74",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1285,
+      "title": [
+        "Data center TCP (DCTCP)"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "given": "Mohammad",
+          "family": "Alizadeh",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Stanford University, Palo Alto, CA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Albert",
+          "family": "Greenberg",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, Redmond, WA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David A.",
+          "family": "Maltz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, Redmond, WA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jitendra",
+          "family": "Padhye",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, Redmond, WA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Parveen",
+          "family": "Patel",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, Redmond, WA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Balaji",
+          "family": "Prabhakar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University, Palo Alto, CA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sudipta",
+          "family": "Sengupta",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, Redmond, WA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Murari",
+          "family": "Sridharan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, Redmond, WA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2010,
+            8,
+            30
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_1_1_1",
+          "volume-title": "Flexible buffer allocation entities for traffic aggregate containment. US Patent",
+          "author": "Agarwal P.",
+          "year": "2009",
+          "unstructured": "P. Agarwal , B. Kwan , and L. Ashvin . Flexible buffer allocation entities for traffic aggregate containment. US Patent 2009 0207848, August 2009. P. Agarwal, B. Kwan, and L. Ashvin. Flexible buffer allocation entities for traffic aggregate containment. US Patent 20090207848, August 2009."
+        },
+        {
+          "key": "e_1_3_2_1_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1402958.1402967"
+        },
+        {
+          "key": "e_1_3_2_1_3_1",
+          "unstructured": "M. Alizadeh etal Data Center TCP (DCTCP). Technical report.  M. Alizadeh et al. Data Center TCP (DCTCP). Technical report."
+        },
+        {
+          "key": "e_1_3_2_1_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1015467.1015499"
+        },
+        {
+          "key": "e_1_3_2_1_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/190314.190317"
+        },
+        {
+          "key": "e_1_3_2_1_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/11499169_22"
+        },
+        {
+          "key": "e_1_3_2_1_7_1",
+          "unstructured": "S. Floyd. RED: Discussions of setting parameters. http://www.icir.org/floyd/REDparameters.txt.  S. Floyd. RED: Discussions of setting parameters. http://www.icir.org/floyd/REDparameters.txt."
+        },
+        {
+          "key": "e_1_3_2_1_8_1",
+          "unstructured": "S. Floyd. RFC 3649: HighSpeed TCP for large congestion windows.   S. Floyd. RFC 3649: HighSpeed TCP for large congestion windows."
+        },
+        {
+          "key": "e_1_3_2_1_9_1",
+          "volume-title": "ACIRI",
+          "author": "Floyd S.",
+          "year": "2001",
+          "unstructured": "S. Floyd , R. Gummadi , and S. Shenker . Adaptive RED: An algorithm for increasing the robustness of RED's active queue management. Technical report , ACIRI , 2001 . S. Floyd, R. Gummadi, and S. Shenker. Adaptive RED: An algorithm for increasing the robustness of RED's active queue management. Technical report, ACIRI, 2001."
+        },
+        {
+          "key": "e_1_3_2_1_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/90.251892"
+        },
+        {
+          "key": "e_1_3_2_1_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/90.298431"
+        },
+        {
+          "key": "e_1_3_2_1_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1592568.1592576"
+        },
+        {
+          "key": "e_1_3_2_1_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1592681.1592693"
+        },
+        {
+          "key": "e_1_3_2_1_14_1",
+          "volume-title": "INFOCOM",
+          "author": "Gu Y.",
+          "year": "2007",
+          "unstructured": "Y. Gu , D. Towsley , C. Hollot , and H. Zhang . Congestion control for small buffer high bandwidth networks . In INFOCOM , 2007 . Y. Gu, D. Towsley, C. Hollot, and H. Zhang. Congestion control for small buffer high bandwidth networks. In INFOCOM, 2007."
+        },
+        {
+          "key": "e_1_3_2_1_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1592568.1592577"
+        },
+        {
+          "key": "e_1_3_2_1_16_1",
+          "volume-title": "USENIX LISA",
+          "author": "Hamilton J.",
+          "year": "2007",
+          "unstructured": "J. Hamilton . On designing and deploying Internet-scale services . In USENIX LISA , 2007 . J. Hamilton. On designing and deploying Internet-scale services. In USENIX LISA, 2007."
+        },
+        {
+          "key": "e_1_3_2_1_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/897477"
+        },
+        {
+          "key": "e_1_3_2_1_18_1",
+          "volume-title": "The Future of TCP: Train-wreck or Evolution",
+          "author": "Kabbani A.",
+          "year": "2008",
+          "unstructured": "A. Kabbani and B. Prabhakar . In defense of TCP . In The Future of TCP: Train-wreck or Evolution , 2008 . A. Kabbani and B. Prabhakar. In defense of TCP. In The Future of TCP: Train-wreck or Evolution, 2008."
+        },
+        {
+          "key": "e_1_3_2_1_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1644893.1644918"
+        },
+        {
+          "key": "e_1_3_2_1_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1384609.1384615"
+        },
+        {
+          "key": "e_1_3_2_1_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1281192.1281295"
+        },
+        {
+          "key": "e_1_3_2_1_22_1",
+          "volume-title": "Proc. Protocols for Fast Long Distance Networks 2007",
+          "author": "Leith D.",
+          "year": "2007",
+          "unstructured": "D. Leith , R. Shorten , and G. McCullagh . Experimental evaluation of cubic-TCP . In Proc. Protocols for Fast Long Distance Networks 2007 , 2007 . D. Leith, R. Shorten, and G. McCullagh. Experimental evaluation of cubic-TCP. In Proc. Protocols for Fast Long Distance Networks 2007, 2007."
+        },
+        {
+          "key": "e_1_3_2_1_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TNET.2007.896240"
+        },
+        {
+          "key": "e_1_3_2_1_24_1",
+          "unstructured": "R. Pan B. Prabhakar and A. Laxmikantha. QCN: Quantized congestion notification an overview. http://www.ieee802.org/1/files/public/docs2007/au_ prabhakar_qcn_overview_geneva.pdf.  R. Pan B. Prabhakar and A. Laxmikantha. QCN: Quantized congestion notification an overview. http://www.ieee802.org/1/files/public/docs2007/au_ prabhakar_qcn_overview_geneva.pdf."
+        },
+        {
+          "key": "e_1_3_2_1_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/INFCOM.2009.5061901"
+        },
+        {
+          "key": "e_1_3_2_1_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1070873.1070885"
+        },
+        {
+          "key": "e_1_3_2_1_27_1",
+          "unstructured": "K. Ramakrishnan S. Floyd and D. Black. RFC 3168: the addition of explicit congestion notification (ECN) to IP.   K. Ramakrishnan S. Floyd and D. Black. RFC 3168: the addition of explicit congestion notification (ECN) to IP."
+        },
+        {
+          "key": "e_1_3_2_1_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/78952.78955"
+        },
+        {
+          "key": "e_1_3_2_1_29_1",
+          "unstructured": "J. Rothschild. High performance at massive scale: Lessons learned at facebook. mms://video-jsoe.ucsd.edu/calit2/JeffRothschildFacebook.wmv.  J. Rothschild. High performance at massive scale: Lessons learned at facebook. mms://video-jsoe.ucsd.edu/calit2/JeffRothschildFacebook.wmv."
+        },
+        {
+          "key": "e_1_3_2_1_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1400097.1400105"
+        },
+        {
+          "key": "e_1_3_2_1_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/INFOCOM.2006.188"
+        },
+        {
+          "key": "e_1_3_2_1_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1592568.1592604"
+        },
+        {
+          "key": "e_1_3_2_1_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TNET.2006.886335"
+        },
+        {
+          "key": "e_1_3_2_1_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1080091.1080098"
+        }
+      ],
+      "event": {
+        "name": "SIGCOMM '10: ACM SIGCOMM 2010 Conference",
+        "location": "New Delhi India",
+        "acronym": "SIGCOMM '10",
+        "sponsor": [
+          "SIGCOMM ACM Special Interest Group on Data Communication"
+        ]
+      },
+      "container-title": [
+        "Proceedings of the ACM SIGCOMM 2010 conference"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/1851182.1851192",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/1851182.1851192",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            18
+          ]
+        ],
+        "date-time": "2025-06-18T08:08:50Z",
+        "timestamp": 1750234130000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/1851182.1851192"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2010,
+            8,
+            30
+          ]
+        ]
+      },
+      "references-count": 34,
+      "alternative-id": [
+        "10.1145/1851182.1851192",
+        "10.1145/1851182"
+      ],
+      "URL": "https://doi.org/10.1145/1851182.1851192",
+      "relation": {
+        "is-identical-to": [
+          {
+            "id-type": "doi",
+            "id": "10.1145/1851275.1851192",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            8,
+            30
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2010-08-30",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "FPC": {
+    "doi": "10.1109/TC.2008.131",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            24
+          ]
+        ],
+        "date-time": "2026-08-24T09:30:32Z",
+        "timestamp": 1787563832314,
+        "version": "build-2736575974"
+      },
+      "reference-count": 29,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2009,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2009-01-01T00:00:00Z",
+            "timestamp": 1230768000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IEEE Trans. Comput."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2009,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1109/tc.2008.131",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2008,
+            8,
+            18
+          ]
+        ],
+        "date-time": "2008-08-18T16:28:32Z",
+        "timestamp": 1219076912000
+      },
+      "page": "18-31",
+      "source": "Crossref",
+      "is-referenced-by-count": 218,
+      "title": [
+        "FPC: A High-Speed Compressor for Double-Precision Floating-Point Data"
+      ],
+      "prefix": "10.1109",
+      "volume": "58",
+      "author": [
+        {
+          "given": "Martin",
+          "family": "Burtscher",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Paruj",
+          "family": "Ratanaworabhan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "reference": [
+        {
+          "key": "ref1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2172/983318"
+        },
+        {
+          "key": "ref2",
+          "article-title": "A Block-Sorting Lossless Data Compression Algorithm",
+          "volume-title": "Digital SRC Research Report 124",
+          "author": "Burrows",
+          "year": "1994"
+        },
+        {
+          "key": "ref3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1005686.1005708"
+        },
+        {
+          "key": "ref4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/DCC.2007.44"
+        },
+        {
+          "key": "ref5",
+          "first-page": "205",
+          "article-title": "Numerical Modeling of Brain Dynamics in Traumatic Situations—Impulsive Translations",
+          "volume-title": "Proc. Int’l Conf. Math. and Eng. Techniques in Medicine and Biological Sciences (METMBS ’05)",
+          "author": "Burtscher"
+        },
+        {
+          "key": "ref6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/PACT.1999.807407"
+        },
+        {
+          "key": "ref7",
+          "first-page": "124",
+          "article-title": "Lossless Compression of Point-Based 3D Models",
+          "author": "Chen",
+          "year": "2005",
+          "journal-title": "Pacific Graphics"
+        },
+        {
+          "key": "ref8",
+          "article-title": "Compiler Writer’s Guide for the Alpha 21264",
+          "year": "1999"
+        },
+        {
+          "key": "ref9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/DCC.2000.838221"
+        },
+        {
+          "key": "ref10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/197938.197961"
+        },
+        {
+          "key": "ref11",
+          "article-title": "Speculative Execution Based on Value Prediction",
+          "author": "Gabbay",
+          "year": "1996"
+        },
+        {
+          "key": "ref12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1117/12.564830"
+        },
+        {
+          "key": "ref13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/DCC.2004.1281488"
+        },
+        {
+          "key": "ref14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/HPCA.2001.903264"
+        },
+        {
+          "key": "ref18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/1467-8659.00681"
+        },
+        {
+          "key": "ref19",
+          "article-title": "Intel Itanium 2 Processor Reference Manual for Software Development and Optimization",
+          "year": "2004"
+        },
+        {
+          "key": "ref20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/16864360.2004.10738292"
+        },
+        {
+          "key": "ref21",
+          "first-page": "59",
+          "article-title": "Runtime Compression of MPI Messages to Improve the Performance and Scalability of Parallel Applications",
+          "volume-title": "Proc. High-Performance Computing, Networking and Storage Conf. (SC ’04)",
+          "author": "Ke"
+        },
+        {
+          "key": "ref22",
+          "first-page": "1",
+          "article-title": "Data Compression Study with the E2 Data",
+          "author": "Klimenko",
+          "year": "2001",
+          "journal-title": "LIGO-T010033-00-E Technical Report"
+        },
+        {
+          "key": "ref23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TVCG.2006.143"
+        },
+        {
+          "key": "ref24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/237090.237173"
+        },
+        {
+          "key": "ref25",
+          "first-page": "101",
+          "article-title": "Simulations of Gravity Wave Induced Turbulence Using 512 PE CRAY T3E",
+          "volume": "11",
+          "author": "Prusa",
+          "year": "2001",
+          "journal-title": "Int’l J. Applied Math. and Computational Science"
+        },
+        {
+          "key": "ref26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/DCC.2006.35"
+        },
+        {
+          "key": "ref27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MICRO.1997.645815"
+        },
+        {
+          "key": "ref28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/DCC.1998.672314"
+        },
+        {
+          "key": "ref29",
+          "first-page": "26",
+          "article-title": "Triangle Mesh Compression",
+          "volume-title": "Graphics Interface",
+          "author": "Touma",
+          "year": "1998"
+        },
+        {
+          "key": "ref30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/VISUAL.1996.568138"
+        },
+        {
+          "key": "ref31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/DCC.2003.1194070"
+        },
+        {
+          "key": "ref32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIT.1977.1055714"
+        }
+      ],
+      "container-title": [
+        "IEEE Transactions on Computers"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx5/12/4688917/04589203.pdf?arnumber=4589203",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            17
+          ]
+        ],
+        "date-time": "2025-03-17T00:01:32Z",
+        "timestamp": 1742169692000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://ieeexplore.ieee.org/document/4589203/"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2009,
+            1
+          ]
+        ]
+      },
+      "references-count": 29,
+      "journal-issue": {
+        "issue": "1"
+      },
+      "URL": "https://doi.org/10.1109/tc.2008.131",
+      "relation": {},
+      "ISSN": [
+        "0018-9340"
+      ],
+      "issn-type": [
+        {
+          "value": "0018-9340",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2009,
+            1
+          ]
+        ]
+      }
+    }
+  },
+  "RAPID": {
+    "doi": "10.1145/1282380.1282422",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            6
+          ]
+        ],
+        "date-time": "2026-10-06T17:09:42Z",
+        "timestamp": 1791306582858,
+        "version": "4.3.1"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 35,
+      "publisher": "ACM",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2007,
+                8,
+                27
+              ]
+            ],
+            "date-time": "2007-08-27T00:00:00Z",
+            "timestamp": 1188172800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2007,
+            8,
+            27
+          ]
+        ]
+      },
+      "DOI": "10.1145/1282380.1282422",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2012,
+            10,
+            11
+          ]
+        ],
+        "date-time": "2012-10-11T11:35:23Z",
+        "timestamp": 1349955323000
+      },
+      "page": "373-384",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 359,
+      "title": [
+        "DTN routing as a resource allocation problem"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "given": "Aruna",
+          "family": "Balasubramanian",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Massachusetts, Amherst, MA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brian",
+          "family": "Levine",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Massachusetts, Amherst, MA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Arun",
+          "family": "Venkataramani",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Massachusetts, Amherst, MA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2007,
+            8,
+            27
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_1_1_1",
+          "unstructured": "One laptop per child. http://www.laptop.org.  One laptop per child. http://www.laptop.org."
+        },
+        {
+          "key": "e_1_3_2_1_2_1",
+          "unstructured": "TIER Project UC Berkeley. http://tier.cs.berkeley.edu/.  TIER Project UC Berkeley. http://tier.cs.berkeley.edu/."
+        },
+        {
+          "key": "e_1_3_2_1_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/INFCOM.2007.96"
+        },
+        {
+          "key": "e_1_3_2_1_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1288107.1288116"
+        },
+        {
+          "key": "e_1_3_2_1_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/INFOCOM.2006.228"
+        },
+        {
+          "key": "e_1_3_2_1_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/INFCOM.2005.1497909"
+        },
+        {
+          "key": "e_1_3_2_1_8_1",
+          "volume-title": "Statistical Inference",
+          "author": "Casella G.",
+          "year": "2002",
+          "unstructured": "G. Casella and R. L. Berger . Statistical Inference . Second Edition. Duxbury , 2002 . G. Casella and R. L. Berger. Statistical Inference. Second Edition. Duxbury, 2002."
+        },
+        {
+          "key": "e_1_3_2_1_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/INFOCOM.2006.172"
+        },
+        {
+          "key": "e_1_3_2_1_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4086/toc.2006.v002a007"
+        },
+        {
+          "key": "e_1_3_2_1_11_1",
+          "unstructured": "CPLEX. http://www.ilog.com.  CPLEX. http://www.ilog.com."
+        },
+        {
+          "key": "e_1_3_2_1_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/580581.856576"
+        },
+        {
+          "key": "e_1_3_2_1_13_1",
+          "volume-title": "Proc. USENIX HotOS",
+          "author": "Desnoyers P.",
+          "year": "2005",
+          "unstructured": "P. Desnoyers , D. Ganesan , H. Li , M. Li , and P. Shenoy . PRESTO: A Predictive Storage Architecture for Sensor Networks . In Proc. USENIX HotOS , June 2005 . P. Desnoyers, D. Ganesan, H. Li, M. Li, and P. Shenoy. PRESTO: A Predictive Storage Architecture for Sensor Networks. In Proc. USENIX HotOS, June 2005."
+        },
+        {
+          "key": "e_1_3_2_1_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TCOM.1977.1093711"
+        },
+        {
+          "key": "e_1_3_2_1_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1063786.1063791"
+        },
+        {
+          "key": "e_1_3_2_1_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/301250.301262"
+        },
+        {
+          "key": "e_1_3_2_1_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1182807.1182821"
+        },
+        {
+          "key": "e_1_3_2_1_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1080091.1080106"
+        },
+        {
+          "key": "e_1_3_2_1_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1015467.1015484"
+        },
+        {
+          "key": "e_1_3_2_1_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1080139.1080141"
+        },
+        {
+          "key": "e_1_3_2_1_21_1",
+          "first-page": "237",
+          "volume-title": "J. Op. Res",
+          "author": "Kelly F.",
+          "year": "1998",
+          "unstructured": "F. Kelly , A. Maulloo , and D. Tan . Rate Control for Communication Networks: Shadow Prices, Proportional Fairness and Stability . In J. Op. Res . Society , volume 49 , pages 237 -- 252 , 1998 . F. Kelly, A. Maulloo, and D. Tan. Rate Control for Communication Networks: Shadow Prices, Proportional Fairness and Stability. In J. Op. Res. Society, volume 49, pages 237--252, 1998."
+        },
+        {
+          "key": "e_1_3_2_1_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1080139.1080146"
+        },
+        {
+          "key": "e_1_3_2_1_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-540-27767-5_24"
+        },
+        {
+          "key": "e_1_3_2_1_24_1",
+          "volume-title": "Proc. AGU Ocean Sciences Conf.",
+          "author": "Maffei A.",
+          "year": "2006",
+          "unstructured": "A. Maffei , K. Fall , and D. Chayes . Ocean Instrument Internet . In Proc. AGU Ocean Sciences Conf. , Feb 2006 . A. Maffei, K. Fall, and D. Chayes. Ocean Instrument Internet. In Proc. AGU Ocean Sciences Conf., Feb 2006."
+        },
+        {
+          "key": "e_1_3_2_1_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/INFCOM.2005.1498464"
+        },
+        {
+          "key": "e_1_3_2_1_27_1",
+          "volume-title": "Computational Complexity",
+          "author": "Papadimitriou C.",
+          "year": "1994",
+          "unstructured": "C. Papadimitriou . Computational Complexity . Addison Wesley , 1994 . C. Papadimitriou. Computational Complexity. Addison Wesley, 1994."
+        },
+        {
+          "key": "e_1_3_2_1_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1161039.1161045"
+        },
+        {
+          "key": "e_1_3_2_1_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/SNPA.2003.1203354"
+        },
+        {
+          "key": "e_1_3_2_1_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1080139.1080144"
+        },
+        {
+          "key": "e_1_3_2_1_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1080139.1080143"
+        },
+        {
+          "key": "e_1_3_2_1_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1132905.1132912"
+        },
+        {
+          "key": "e_1_3_2_1_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/SAHCN.2004.1381922"
+        },
+        {
+          "key": "e_1_3_2_1_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1080139.1080147"
+        },
+        {
+          "key": "e_1_3_2_1_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1013763825347"
+        },
+        {
+          "key": "e_1_3_2_1_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1031495.1031522"
+        },
+        {
+          "key": "e_1_3_2_1_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/11753810_69"
+        }
+      ],
+      "event": {
+        "name": "SIGCOMM07: ACM SIGCOMM 2007 Conference",
+        "location": "Kyoto Japan",
+        "acronym": "SIGCOMM07",
+        "sponsor": [
+          "SIGCOMM ACM Special Interest Group on Data Communication",
+          "ACM Association for Computing Machinery"
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 2007 conference on Applications, technologies, architectures, and protocols for computer communications"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/1282380.1282422",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/1282380.1282422",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            18
+          ]
+        ],
+        "date-time": "2025-06-18T11:13:51Z",
+        "timestamp": 1750245231000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/1282380.1282422"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2007,
+            8,
+            27
+          ]
+        ]
+      },
+      "references-count": 35,
+      "alternative-id": [
+        "10.1145/1282380.1282422",
+        "10.1145/1282380"
+      ],
+      "URL": "https://doi.org/10.1145/1282380.1282422",
+      "relation": {
+        "is-identical-to": [
+          {
+            "id-type": "doi",
+            "id": "10.1145/1282427.1282422",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2007,
+            8,
+            27
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2007-08-27",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "Sizing": {
+    "doi": "10.1145/1015467.1015499",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            3
+          ]
+        ],
+        "date-time": "2026-10-03T14:46:30Z",
+        "timestamp": 1791038790233,
+        "version": "4.1.0"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 31,
+      "publisher": "ACM",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2004,
+                8,
+                30
+              ]
+            ],
+            "date-time": "2004-08-30T00:00:00Z",
+            "timestamp": 1093824000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2004,
+            8,
+            30
+          ]
+        ]
+      },
+      "DOI": "10.1145/1015467.1015499",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2004,
+            10,
+            7
+          ]
+        ],
+        "date-time": "2004-10-07T13:39:48Z",
+        "timestamp": 1097156388000
+      },
+      "page": "281-292",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 352,
+      "title": [
+        "Sizing router buffers"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "given": "Guido",
+          "family": "Appenzeller",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Isaac",
+          "family": "Keslassy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nick",
+          "family": "McKeown",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2004,
+            8,
+            30
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_1_1_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/205511.205520"
+        },
+        {
+          "key": "e_1_3_2_1_2_1",
+          "unstructured": "Cisco line cards. http://www.cisco.com/en/US/products/hw/modules/ps2710/products_data_sheets_list.html.]]  Cisco line cards. http://www.cisco.com/en/US/products/hw/modules/ps2710/products_data_sheets_list.html.]]"
+        },
+        {
+          "key": "e_1_3_2_1_3_1",
+          "volume-title": "December",
+          "author": "Bush R.",
+          "year": "2003",
+          "unstructured": "R. Bush and D. Meyer . RFC 3439: Some internet architectural guidelines and philosophy , December 2003 .]] R. Bush and D. Meyer. RFC 3439: Some internet architectural guidelines and philosophy, December 2003.]]"
+        },
+        {
+          "key": "e_1_3_2_1_5_1",
+          "volume-title": "January 21",
+          "author": "Ferguson D.",
+          "year": "2003",
+          "unstructured": "D. Ferguson . {e2e} Queue size of routers. Posting to the end-to-end mailing list , January 21 , 2003 .]] D. Ferguson. {e2e} Queue size of routers. Posting to the end-to-end mailing list, January 21, 2003.]]"
+        },
+        {
+          "key": "e_1_3_2_1_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/INFCOM.2002.1019265"
+        },
+        {
+          "key": "e_1_3_2_1_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/HPSR.2001.923663"
+        },
+        {
+          "key": "e_1_3_2_1_9_1",
+          "volume-title": "January 17",
+          "author": "Dovrolis C.",
+          "year": "2003",
+          "unstructured": "C. Dovrolis . {e2e} Queue size of routers. Posting to the end-to-end mailing list , January 17 , 2003 .]] C. Dovrolis. {e2e} Queue size of routers. Posting to the end-to-end mailing list, January 17, 2003.]]"
+        },
+        {
+          "key": "e_1_3_2_1_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/381906.381931"
+        },
+        {
+          "key": "e_1_3_2_1_11_1",
+          "unstructured": "The network simulator - ns-2. http://www.isi.edu/nsnam/ns/.]]  The network simulator - ns-2. http://www.isi.edu/nsnam/ns/.]]"
+        },
+        {
+          "key": "e_1_3_2_1_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/90.251892"
+        },
+        {
+          "key": "e_1_3_2_1_13_1",
+          "first-page": "101",
+          "article-title": "Oscillating behaviour of network traffic: A case study simulation. Internetworking",
+          "volume": "1",
+          "author": "Zhang L.",
+          "year": "1990",
+          "unstructured": "L. Zhang and D. D. Clark . Oscillating behaviour of network traffic: A case study simulation. Internetworking : Research and Experience , 1 : 101 -- 112 , 1990 .]] L. Zhang and D. D. Clark. Oscillating behaviour of network traffic: A case study simulation. Internetworking: Research and Experience, 1:101--112, 1990.]]",
+          "journal-title": "Research and Experience"
+        },
+        {
+          "key": "e_1_3_2_1_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1389-1286(01)00203-1"
+        },
+        {
+          "key": "e_1_3_2_1_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/505659.505661"
+        },
+        {
+          "key": "e_1_3_2_1_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/90.392383"
+        },
+        {
+          "key": "e_1_3_2_1_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/285237.285256"
+        },
+        {
+          "key": "e_1_3_2_1_18_1",
+          "volume-title": "Stochastic Modelling and the Theory of Queues",
+          "author": "Wolff R. W.",
+          "year": "1989",
+          "unstructured": "R. W. Wolff . Stochastic Modelling and the Theory of Queues , chapter 8. Prentice Hall , October 1989 .]] R. W. Wolff. Stochastic Modelling and the Theory of Queues, chapter 8. Prentice Hall, October 1989.]]"
+        },
+        {
+          "key": "e_1_3_2_1_19_1",
+          "first-page": "141",
+          "volume-title": "Notes on Effective Bandwidth",
+          "author": "Kelly F. P.",
+          "year": "1996",
+          "unstructured": "F. P. Kelly . Notes on Effective Bandwidth , pages 141 -- 168 . Oxford University Press , 1996 .]] F. P. Kelly. Notes on Effective Bandwidth, pages 141--168. Oxford University Press, 1996.]]"
+        },
+        {
+          "key": "e_1_3_2_1_20_1",
+          "volume-title": "Bell Labs",
+          "author": "Cao J.",
+          "year": "2001",
+          "unstructured": "J. Cao , W. Cleveland , D. Lin , and D. Sun . Internet traffic tends to poisson and independent as the load increases. Technical report , Bell Labs , 2001 .]] J. Cao, W. Cleveland, D. Lin, and D. Sun. Internet traffic tends to poisson and independent as the load increases. Technical report, Bell Labs, 2001.]]"
+        },
+        {
+          "key": "e_1_3_2_1_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/90.944338"
+        },
+        {
+          "key": "e_1_3_2_1_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/INFCOM.2000.832487"
+        },
+        {
+          "key": "e_1_3_2_1_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/383059.383068"
+        },
+        {
+          "key": "e_1_3_2_1_24_1",
+          "unstructured": "Personal communication with stanford networking on characteristics of residential traffic.]]  Personal communication with stanford networking on characteristics of residential traffic.]]"
+        },
+        {
+          "key": "e_1_3_2_1_25_1",
+          "unstructured": "Cisco 12000 series routers. http://www.cisco.com/en/US/products/hw/routers/ps167/.]]  Cisco 12000 series routers. http://www.cisco.com/en/US/products/hw/routers/ps167/.]]"
+        },
+        {
+          "key": "e_1_3_2_1_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1005686.1005733"
+        },
+        {
+          "key": "e_1_3_2_1_27_1",
+          "volume-title": "July",
+          "author": "Cisco~Systems I.",
+          "year": "2001",
+          "unstructured": "I. Cisco~Systems . Netflow services solution guido , July 2001 . http://www.cisco.com/.]] I. Cisco~Systems. Netflow services solution guido, July 2001. http://www.cisco.com/.]]"
+        },
+        {
+          "key": "e_1_3_2_1_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/115992.116006"
+        },
+        {
+          "key": "e_1_3_2_1_29_1",
+          "volume-title": "November 4",
+          "year": "2003",
+          "unstructured": "Microsoft. Tcp/ip and nbt configuration parameters for windows xp. Microsoft Knowledge Base Article - 314053 , November 4 , 2003 .]] Microsoft. Tcp/ip and nbt configuration parameters for windows xp. Microsoft Knowledge Base Article - 314053, November 4, 2003.]]"
+        },
+        {
+          "key": "e_1_3_2_1_30_1",
+          "volume-title": "March",
+          "author": "McCloghrie K.",
+          "year": "1991",
+          "unstructured": "K. McCloghrie and M. T. Rose . RFC 1213: Management information base for network management of TCP/IP-based internets:MIB-II , March 1991 . Status : STANDARD. ]] K. McCloghrie and M. T. Rose. RFC 1213: Management information base for network management of TCP/IP-based internets:MIB-II, March 1991. Status: STANDARD.]]"
+        },
+        {
+          "key": "e_1_3_2_1_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/850935.852431"
+        },
+        {
+          "key": "e_1_3_2_1_32_1",
+          "first-page": "116",
+          "volume-title": "Proceedings of the LONIIS Workshop on Telecommunication Networks and Teletraffic Theory",
+          "author": "Avrachenkov K.",
+          "year": "2002",
+          "unstructured": "K. Avrachenkov , U. Ayesta , E. Altman , P. Nain , and C. Barakat . The effect of router buffer size on the tcp performance . In Proceedings of the LONIIS Workshop on Telecommunication Networks and Teletraffic Theory , pages 116 -- 121 , St.Petersburg, Russia , January 2002 .]] K. Avrachenkov, U. Ayesta, E. Altman, P. Nain, and C. Barakat. The effect of router buffer size on the tcp performance. In Proceedings of the LONIIS Workshop on Telecommunication Networks and Teletraffic Theory, pages 116--121, St.Petersburg, Russia, January 2002.]]"
+        },
+        {
+          "key": "e_1_3_2_1_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/781027.781034"
+        }
+      ],
+      "event": {
+        "name": "SIGCOMM04: ACM SIGCOMM 2004 Conference",
+        "location": "Portland Oregon USA",
+        "acronym": "SIGCOMM04",
+        "sponsor": [
+          "SIGCOMM ACM Special Interest Group on Data Communication",
+          "ACM Association for Computing Machinery"
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 2004 conference on Applications, technologies, architectures, and protocols for computer communications"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/1015467.1015499",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/1015467.1015499",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            18
+          ]
+        ],
+        "date-time": "2025-06-18T13:23:45Z",
+        "timestamp": 1750253025000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/1015467.1015499"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2004,
+            8,
+            30
+          ]
+        ]
+      },
+      "references-count": 31,
+      "alternative-id": [
+        "10.1145/1015467.1015499",
+        "10.1145/1015467"
+      ],
+      "URL": "https://doi.org/10.1145/1015467.1015499",
+      "relation": {
+        "is-identical-to": [
+          {
+            "id-type": "doi",
+            "id": "10.1145/1030194.1015499",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2004,
+            8,
+            30
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2004-08-30",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "DStreams": {
+    "doi": "10.1145/2517349.2522737",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            16
+          ]
+        ],
+        "date-time": "2026-10-16T18:05:34Z",
+        "timestamp": 1792173934545,
+        "version": "4.4.0"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 42,
+      "publisher": "ACM",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2013,
+                11,
+                3
+              ]
+            ],
+            "date-time": "2013-11-03T00:00:00Z",
+            "timestamp": 1383436800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Clearstory Data"
+        },
+        {
+          "name": "FitWave"
+        },
+        {
+          "DOI": "10.13039/100002418",
+          "name": "Intel Corporation",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/100002418",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100004682",
+          "name": "Oracle",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/100004682",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "name": "VMware"
+        },
+        {
+          "name": "Cloudera"
+        },
+        {
+          "DOI": "10.13039/100005801",
+          "name": "Facebook",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/100005801",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100004358",
+          "name": "Samsung",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/100004358",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000185",
+          "name": "Defense Advanced Research Projects Agency",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "FA8750-12-2-0331"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "FA8750-12-2-0331"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000185",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000143",
+          "name": "Division of Computing and Communication Foundations",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "CCF-1139158"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "CCF-1139158"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000143",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100004783",
+          "name": "SAP America",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/100004783",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100003816",
+          "name": "Huawei Technologies",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100003816",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100004318",
+          "name": "Microsoft",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/100004318",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100006785",
+          "name": "Google",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/100006785",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "name": "Amazon Web Services"
+        },
+        {
+          "name": "Ericsson"
+        },
+        {
+          "name": "Hortonworks"
+        },
+        {
+          "name": "WANdisco"
+        },
+        {
+          "name": "NetApp"
+        },
+        {
+          "name": "Splunk"
+        },
+        {
+          "name": "Yahoo!"
+        },
+        {
+          "DOI": "10.13039/100004351",
+          "name": "Cisco Systems",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/100004351",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100004313",
+          "name": "General Electric",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/100004313",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2013,
+            11,
+            3
+          ]
+        ]
+      },
+      "DOI": "10.1145/2517349.2522737",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2013,
+            10,
+            8
+          ]
+        ],
+        "date-time": "2013-10-08T13:27:04Z",
+        "timestamp": 1381238824000
+      },
+      "page": "423-438",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 771,
+      "title": [
+        "Discretized streams"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "given": "Matei",
+          "family": "Zaharia",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of California, Berkeley"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tathagata",
+          "family": "Das",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, Berkeley"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Haoyuan",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, Berkeley"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Timothy",
+          "family": "Hunter",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, Berkeley"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Scott",
+          "family": "Shenker",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, Berkeley"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ion",
+          "family": "Stoica",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, Berkeley"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2013,
+            11,
+            3
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_2_1_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2536222.2536229"
+        },
+        {
+          "key": "e_1_3_2_2_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/1687553.1687590"
+        },
+        {
+          "key": "e_1_3_2_2_3_1",
+          "unstructured": "Apache Flume. http://incubator.apache.org/flume/.  Apache Flume. http://incubator.apache.org/flume/."
+        },
+        {
+          "key": "e_1_3_2_2_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/872757.872854"
+        },
+        {
+          "key": "e_1_3_2_2_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1331904.1331907"
+        },
+        {
+          "key": "e_1_3_2_2_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2038916.2038923"
+        },
+        {
+          "key": "e_1_3_2_2_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/1287369.1287389"
+        },
+        {
+          "key": "e_1_3_2_2_8_1",
+          "volume-title": "CIDR",
+          "author": "Chandrasekaran S.",
+          "year": "2003",
+          "unstructured": "S. Chandrasekaran , O. Cooper , A. Deshpande , M. J. Franklin , J. M. Hellerstein , W. Hong , S. Krishnamurthy , S. Madden , V. Raman , F. Reiss , and M. Shah . TelegraphCQ: Continuous dataflow processing for an uncertain world . In CIDR , 2003 . S. Chandrasekaran, O. Cooper, A. Deshpande, M. J. Franklin, J. M. Hellerstein, W. Hong, S. Krishnamurthy, S. Madden, V. Raman, F. Reiss, and M. Shah. TelegraphCQ: Continuous dataflow processing for an uncertain world. In CIDR, 2003."
+        },
+        {
+          "key": "e_1_3_2_2_9_1",
+          "volume-title": "CIDR",
+          "author": "Cherniack M.",
+          "year": "2003",
+          "unstructured": "M. Cherniack , H. Balakrishnan , M. Balazinska , D. Carney , U. Cetintemel , Y. Xing , and S. B. Zdonik . Scalable distributed stream processing . In CIDR , 2003 . M. Cherniack, H. Balakrishnan, M. Balazinska, D. Carney, U. Cetintemel, Y. Xing, and S. B. Zdonik. Scalable distributed stream processing. In CIDR, 2003."
+        },
+        {
+          "key": "e_1_3_2_2_10_1",
+          "volume-title": "NSDI",
+          "author": "Condie T.",
+          "year": "2010",
+          "unstructured": "T. Condie , N. Conway , P. Alvaro , and J. M. Hellerstein . MapReduce online . NSDI , 2010 . T. Condie, N. Conway, P. Alvaro, and J. M. Hellerstein. MapReduce online. NSDI, 2010."
+        },
+        {
+          "key": "e_1_3_2_2_11_1",
+          "volume-title": "OSDI",
+          "author": "Dean J.",
+          "year": "2004",
+          "unstructured": "J. Dean and S. Ghemawat . MapReduce: Simplified data processing on large clusters . In OSDI , 2004 . J. Dean and S. Ghemawat. MapReduce: Simplified data processing on large clusters. In OSDI, 2004."
+        },
+        {
+          "key": "e_1_3_2_2_12_1",
+          "unstructured": "EsperTech. Performance-related information. http://esper.codehaus.org/esper/performance/performance.html Retrieved March 2013.  EsperTech. Performance-related information. http://esper.codehaus.org/esper/performance/performance.html Retrieved March 2013."
+        },
+        {
+          "key": "e_1_3_2_2_13_1",
+          "volume-title": "Retrieved",
+          "year": "2013",
+          "unstructured": "EsperTech. Tutorial. http://esper.codehaus.org/tutorials/tutorial/tutorial.html , Retrieved March 2013 . EsperTech. Tutorial. http://esper.codehaus.org/tutorials/tutorial/tutorial.html, Retrieved March 2013."
+        },
+        {
+          "key": "e_1_3_2_2_14_1",
+          "volume-title": "CIDR",
+          "author": "Franklin M.",
+          "year": "2009",
+          "unstructured": "M. Franklin , S. Krishnamurthy , N. Conway , A. Li , A. Russakovsky , and N. Thombre . Continuous analytics: Rethinking query processing in a network-effect world . CIDR , 2009 . M. Franklin, S. Krishnamurthy, N. Conway, A. Li, A. Russakovsky, and N. Thombre. Continuous analytics: Rethinking query processing in a network-effect world. CIDR, 2009."
+        },
+        {
+          "key": "e_1_3_2_2_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/945445.945450"
+        },
+        {
+          "key": "e_1_3_2_2_16_1",
+          "unstructured": "J. Hammerbacher. Who is using flume in production? http://www.quora.com/Flume/Who-is-using-Flume-in-production/answer/Jeff-Hammerbacher.  J. Hammerbacher. Who is using flume in production? http://www.quora.com/Flume/Who-is-using-Flume-in-production/answer/Jeff-Hammerbacher."
+        },
+        {
+          "key": "e_1_3_2_2_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1807128.1807139"
+        },
+        {
+          "key": "e_1_3_2_2_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2038916.2038944"
+        },
+        {
+          "key": "e_1_3_2_2_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE.2005.72"
+        },
+        {
+          "key": "e_1_3_2_2_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE.2007.367863"
+        },
+        {
+          "key": "e_1_3_2_2_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1272996.1273005"
+        },
+        {
+          "key": "e_1_3_2_2_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1807167.1807290"
+        },
+        {
+          "key": "e_1_3_2_2_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1807128.1807138"
+        },
+        {
+          "key": "e_1_3_2_2_24_1",
+          "volume-title": "USENIX ATC",
+          "author": "Logothetis D.",
+          "year": "2011",
+          "unstructured": "D. Logothetis , C. Trezzo , K. C. Webb , and K. Yocum . In-situ MapReduce for log processing . In USENIX ATC , 2011 . D. Logothetis, C. Trezzo, K. C. Webb, and K. Yocum. In-situ MapReduce for log processing. In USENIX ATC, 2011."
+        },
+        {
+          "key": "e_1_3_2_2_25_1",
+          "unstructured": "N. Marz. Trident: a high-level abstraction for realtime computation. http://engineering.twitter.com/2012/08/trident-high-level-abstraction-for.html.  N. Marz. Trident: a high-level abstraction for realtime computation. http://engineering.twitter.com/2012/08/trident-high-level-abstraction-for.html."
+        },
+        {
+          "key": "e_1_3_2_2_26_1",
+          "volume-title": "Conference on Innovative Data Systems Research (CIDR)",
+          "author": "McSherry F.",
+          "year": "2013",
+          "unstructured": "F. McSherry , D. G. Murray , R. Isaacs , and M. Isard . Differential dataflow . In Conference on Innovative Data Systems Research (CIDR) , 2013 . F. McSherry, D. G. Murray, R. Isaacs, and M. Isard. Differential dataflow. In Conference on Innovative Data Systems Research (CIDR), 2013."
+        },
+        {
+          "key": "e_1_3_2_2_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2517349.2522738"
+        },
+        {
+          "key": "e_1_3_2_2_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDMW.2010.172"
+        },
+        {
+          "key": "e_1_3_2_2_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2043556.2043560"
+        },
+        {
+          "key": "e_1_3_2_2_30_1",
+          "unstructured": "Oracle. Oracle complex event processing performance. http://www.oracle.com/technetwork/middleware/complex-event-processing/overview/cepperformancewhitepaper-128060.pdf 2008.  Oracle. Oracle complex event processing performance. http://www.oracle.com/technetwork/middleware/complex-event-processing/overview/cepperformancewhitepaper-128060.pdf 2008."
+        },
+        {
+          "key": "e_1_3_2_2_31_1",
+          "volume-title": "OSDI",
+          "author": "Peng D.",
+          "year": "2010",
+          "unstructured": "D. Peng and F. Dabek . Large-scale incremental processing using distributed transactions and notifications . In OSDI 2010 . D. Peng and F. Dabek. Large-scale incremental processing using distributed transactions and notifications. In OSDI 2010."
+        },
+        {
+          "key": "e_1_3_2_2_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2465351.2465353"
+        },
+        {
+          "key": "e_1_3_2_2_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1007568.1007662"
+        },
+        {
+          "key": "e_1_3_2_2_34_1",
+          "volume-title": "XLDB 2011",
+          "author": "Shao Z.",
+          "year": "2011",
+          "unstructured": "Z. Shao . Real-time analytics at Facebook . XLDB 2011 , http://www-conf.slac.stanford.edu/xldb 2011 /talks/xldb2011_tue_0940_facebookrealtimeanalytics.pdf. Z. Shao. Real-time analytics at Facebook. XLDB 2011, http://www-conf.slac.stanford.edu/xldb2011/talks/xldb2011_tue_0940_facebookrealtimeanalytics.pdf."
+        },
+        {
+          "key": "e_1_3_2_2_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1055558.1055596"
+        },
+        {
+          "key": "e_1_3_2_2_36_1",
+          "unstructured": "Storm. https://github.com/nathanmarz/storm/wiki.  Storm. https://github.com/nathanmarz/storm/wiki."
+        },
+        {
+          "key": "e_1_3_2_2_37_1",
+          "unstructured": "Guaranteed message processing (Storm wiki). https://github.com/nathanmarz/storm/wiki/Guaranteeing-message-processing.  Guaranteed message processing (Storm wiki). https://github.com/nathanmarz/storm/wiki/Guaranteeing-message-processing."
+        },
+        {
+          "key": "e_1_3_2_2_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/SP.2011.25"
+        },
+        {
+          "key": "e_1_3_2_2_39_1",
+          "volume-title": "http://www.streambase.com/wp-content/uploads/downloads/StreamBase_White_Paper_Performance_and_Scalability_Characterization.pdf",
+          "author": "Tibbetts R.",
+          "year": "2009",
+          "unstructured": "R. Tibbetts . Streambase performance & scalability characterization. http://www.streambase.com/wp-content/uploads/downloads/StreamBase_White_Paper_Performance_and_Scalability_Characterization.pdf , 2009 . R. Tibbetts. Streambase performance & scalability characterization. http://www.streambase.com/wp-content/uploads/downloads/StreamBase_White_Paper_Performance_and_Scalability_Characterization.pdf, 2009."
+        },
+        {
+          "key": "e_1_3_2_2_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/IPDPS.2012.108"
+        },
+        {
+          "key": "e_1_3_2_2_41_1",
+          "volume-title": "OSDI '08",
+          "author": "Yu Y.",
+          "year": "2008",
+          "unstructured": "Y. Yu , M. Isard , D. Fetterly , M. Budiu , Ú. Erlingsson, P. K. Gunda , and J. Currey . DryadLINQ: A system for general-purpose distributed data-parallel computing using a high-level language . In OSDI '08 , 2008 . Y. Yu, M. Isard, D. Fetterly, M. Budiu, Ú. Erlingsson, P. K. Gunda, and J. Currey. DryadLINQ: A system for general-purpose distributed data-parallel computing using a high-level language. In OSDI '08, 2008."
+        },
+        {
+          "key": "e_1_3_2_2_42_1",
+          "volume-title": "NSDI",
+          "author": "Zaharia M.",
+          "year": "2012",
+          "unstructured": "M. Zaharia , M. Chowdhury , T. Das , A. Dave , J. Ma , M. McCauley , M. Franklin , S. Shenker , and I. Stoica . Resilient distributed datasets: A fault-tolerant abstraction for in-memory cluster computing . In NSDI , 2012 . M. Zaharia, M. Chowdhury, T. Das, A. Dave, J. Ma, M. McCauley, M. Franklin, S. Shenker, and I. Stoica. Resilient distributed datasets: A fault-tolerant abstraction for in-memory cluster computing. In NSDI, 2012."
+        }
+      ],
+      "event": {
+        "name": "SOSP '13: ACM SIGOPS 24th Symposium on Operating Systems Principles",
+        "location": "Farminton Pennsylvania",
+        "acronym": "SOSP '13",
+        "sponsor": [
+          "SIGOPS ACM Special Interest Group on Operating Systems"
+        ]
+      },
+      "container-title": [
+        "Proceedings of the Twenty-Fourth ACM Symposium on Operating Systems Principles"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/2517349.2522737",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/2517349.2522737",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            18
+          ]
+        ],
+        "date-time": "2025-06-18T07:28:53Z",
+        "timestamp": 1750231733000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/2517349.2522737"
+        }
+      },
+      "subtitle": [
+        "fault-tolerant streaming computation at scale"
+      ],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2013,
+            11,
+            3
+          ]
+        ]
+      },
+      "references-count": 42,
+      "alternative-id": [
+        "10.1145/2517349.2522737",
+        "10.1145/2517349"
+      ],
+      "URL": "https://doi.org/10.1145/2517349.2522737",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            11,
+            3
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2013-11-03",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "Krifa": {
+    "doi": "10.1109/TMC.2011.163",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            6
+          ]
+        ],
+        "date-time": "2026-10-06T17:09:41Z",
+        "timestamp": 1791306581770,
+        "version": "4.3.1"
+      },
+      "reference-count": 31,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "issue": "9",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2012,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2012-09-01T00:00:00Z",
+            "timestamp": 1346457600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IEEE Trans. on Mobile Comput."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2012,
+            9
+          ]
+        ]
+      },
+      "DOI": "10.1109/tmc.2011.163",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2011,
+            8,
+            15
+          ]
+        ],
+        "date-time": "2011-08-15T16:20:09Z",
+        "timestamp": 1313425209000
+      },
+      "page": "1470-1483",
+      "source": "Crossref",
+      "is-referenced-by-count": 84,
+      "title": [
+        "Message Drop and Scheduling in DTNs: Theory and Practice"
+      ],
+      "prefix": "10.1109",
+      "volume": "11",
+      "author": [
+        {
+          "given": "Amir",
+          "family": "Krifa",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chadi",
+          "family": "Barakat",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thrasyvoulos",
+          "family": "Spyropoulos",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "reference": [
+        {
+          "key": "ref1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1030194.1015484"
+        },
+        {
+          "key": "ref2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1090191.1080106"
+        },
+        {
+          "key": "ref3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/s1389-1286(00)00183-3"
+        },
+        {
+          "key": "ref4",
+          "volume-title": "Delay Tolerant Networking Research Group",
+          "year": "2012"
+        },
+        {
+          "key": "ref5",
+          "article-title": "Epidemic Routing for Partially Connected Ad Hoc Networks",
+          "volume-title": "Technical Report CS-200006",
+          "author": "Vahdat",
+          "year": "2000"
+        },
+        {
+          "key": "ref6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/961268.961272"
+        },
+        {
+          "key": "ref7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TNET.2007.897964"
+        },
+        {
+          "key": "ref8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TNET.2005.863461"
+        },
+        {
+          "key": "ref9",
+          "article-title": "Message Delay in Manet (Extended Abstract)",
+          "volume-title": "Proc. Int’l Conf. Measurement and Modeling of Computer Systems (ACM SIGMETRICS)",
+          "author": "Groenevelt"
+        },
+        {
+          "key": "ref10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1132905.1132912"
+        },
+        {
+          "key": "ref11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1282427.1282422"
+        },
+        {
+          "key": "ref12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/comswa.2006.1665196"
+        },
+        {
+          "key": "ref13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/11753810_69"
+        },
+        {
+          "key": "ref14",
+          "article-title": "Minimizing the Impact of Buffer Overflow in DTN",
+          "volume-title": "Proc. Int’l Conf. Future Internet Technologies (CFI)",
+          "author": "Dohyung Kim"
+        },
+        {
+          "key": "ref15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/SAHCN.2008.40"
+        },
+        {
+          "key": "ref16",
+          "article-title": "Adaptive Optimal Buffer Management Policies for Realistic DTN",
+          "volume-title": "Proc. IEEE Global Telecomm. Conf. (GlobeCom)",
+          "author": "Yong"
+        },
+        {
+          "key": "ref17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TMC.2008.172"
+        },
+        {
+          "key": "ref18",
+          "article-title": "Reversible Markov Chains and Random Walks on Graphs, (Monograph in Preparation)",
+          "author": "Aldous",
+          "year": "2012"
+        },
+        {
+          "key": "ref19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1287853.1287875"
+        },
+        {
+          "key": "ref20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1504/IJAACS.2008.019198"
+        },
+        {
+          "key": "ref21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1555349.1555363"
+        },
+        {
+          "key": "ref22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/CBO9780511804441"
+        },
+        {
+          "key": "ref23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2283970"
+        },
+        {
+          "key": "ref24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/WOWMOM.2009.5282449"
+        },
+        {
+          "key": "ref25",
+          "volume-title": "DTN Architecture for NS-2",
+          "year": "2012"
+        },
+        {
+          "key": "ref26",
+          "article-title": "Users Mobility Models for Opportunistic Networks: The Role of Physical Locations",
+          "volume-title": "Proc. IEEE Wireless Rural and Emergency Comm. (WRECOM)",
+          "author": "Boldrini"
+        },
+        {
+          "key": "ref27",
+          "article-title": "Movement Data Traces from Princeton Zebranet Deployments",
+          "volume-title": "CRAWDAD Database",
+          "author": "Wang",
+          "year": "2007"
+        },
+        {
+          "key": "ref28",
+          "volume-title": "Cabspotting Project",
+          "year": "2012"
+        },
+        {
+          "key": "ref29",
+          "article-title": "KAIST Mobility Traces",
+          "year": "2012"
+        },
+        {
+          "key": "ref30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1454503.1454541"
+        },
+        {
+          "key": "ref31",
+          "volume-title": "Nyquist Shannon Sampling Theorem",
+          "year": "2012"
+        }
+      ],
+      "container-title": [
+        "IEEE Transactions on Mobile Computing"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx5/7755/6247413/05975155.pdf?arnumber=5975155",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            19
+          ]
+        ],
+        "date-time": "2025-03-19T02:04:33Z",
+        "timestamp": 1742349873000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://ieeexplore.ieee.org/document/5975155/"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2012,
+            9
+          ]
+        ]
+      },
+      "references-count": 31,
+      "journal-issue": {
+        "issue": "9"
+      },
+      "URL": "https://doi.org/10.1109/tmc.2011.163",
+      "relation": {},
+      "ISSN": [
+        "1536-1233"
+      ],
+      "issn-type": [
+        {
+          "value": "1536-1233",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2012,
+            9
+          ]
+        ]
+      }
+    }
+  },
+  "Fall": {
+    "doi": "10.1145/863955.863960",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            16
+          ]
+        ],
+        "date-time": "2026-10-16T17:15:58Z",
+        "timestamp": 1792170958142,
+        "version": "4.4.0"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 19,
+      "publisher": "ACM",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2003,
+                8,
+                25
+              ]
+            ],
+            "date-time": "2003-08-25T00:00:00Z",
+            "timestamp": 1061769600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2003,
+            8,
+            25
+          ]
+        ]
+      },
+      "DOI": "10.1145/863955.863960",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2004,
+            4,
+            19
+          ]
+        ],
+        "date-time": "2004-04-19T17:18:43Z",
+        "timestamp": 1082395123000
+      },
+      "page": "27-34",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1019,
+      "title": [
+        "A delay-tolerant network architecture for challenged internets"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "given": "Kevin",
+          "family": "Fall",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Intel Research, Berkeley, CA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2003,
+            8,
+            25
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_1_2_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Border et. al. \"Performance Enhancing Proxies Intended to Mitigate Link-Related Degradations\" Internet RFC3135 June 2001.]]   Border et. al. \"Performance Enhancing Proxies Intended to Mitigate Link-Related Degradations\" Internet RFC3135 June 2001.]]",
+          "DOI": "10.17487/rfc3135"
+        },
+        {
+          "key": "e_1_3_2_1_3_1",
+          "unstructured": "V. Cerf et. al. \"Interplanetary Internet (IPN): Architectural Definition\" http://www.ipnsig.org/reports/memo-ipnrg-arch-00.pdf.]]  V. Cerf et. al. \"Interplanetary Internet (IPN): Architectural Definition\" http://www.ipnsig.org/reports/memo-ipnrg-arch-00.pdf.]]"
+        },
+        {
+          "key": "e_1_3_2_1_4_1",
+          "author": "Cerf V.",
+          "year": "1974",
+          "unstructured": "V. Cerf , R. Kahn , \" A Protocol for Packet Network Inter- communication\" , IEEE Trans. on Comm., COM-22(5) , May 1974 CFDP Protocol Specification, CCSDS 727.0-B-1, Jan 2002, http://www.ccsds.org.]] V. Cerf, R. Kahn, \"A Protocol for Packet Network Inter- communication\", IEEE Trans. on Comm., COM-22(5), May 1974 CFDP Protocol Specification, CCSDS 727.0-B-1, Jan 2002, http://www.ccsds.org.]]",
+          "journal-title": "IEEE Trans. on Comm., COM-22(5)"
+        },
+        {
+          "key": "e_1_3_2_1_5_1",
+          "unstructured": "CFDP Protocol Specification CCSDS 727.0-B-1 Jan 2002 http://www.ccsds.org]]  CFDP Protocol Specification CCSDS 727.0-B-1 Jan 2002 http://www.ccsds.org]]"
+        },
+        {
+          "key": "e_1_3_2_1_6_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "E. Chen J. Stewart \"A Framework for Inter-Domain Route Aggregation\" Internet RFC2519 Feb 1999.]]   E. Chen J. Stewart \"A Framework for Inter-Domain Route Aggregation\" Internet RFC2519 Feb 1999.]]",
+          "DOI": "10.17487/rfc2519"
+        },
+        {
+          "key": "e_1_3_2_1_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/52324.52336"
+        },
+        {
+          "key": "e_1_3_2_1_9_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D. Feldmeier A. McAuley J. Smith D. Bakin W. Marcus T. Raleigh \"Protocol Boosters\" IEEE JSAC Apr 1998.]]  D. Feldmeier A. McAuley J. Smith D. Bakin W. Marcus T. Raleigh \"Protocol Boosters\" IEEE JSAC Apr 1998.]]",
+          "DOI": "10.1109/49.669053"
+        },
+        {
+          "key": "e_1_3_2_1_10_1",
+          "volume-title": "Proc. Usenix USITS",
+          "author": "Gritter M.",
+          "year": "2001",
+          "unstructured": "M. Gritter , D. Cheriton , \" An Architecture for Content Routing Support in the Internet \", Proc. Usenix USITS , March 2001 .]] M. Gritter, D. Cheriton, \"An Architecture for Content Routing Support in the Internet\", Proc. Usenix USITS, March 2001.]]"
+        },
+        {
+          "key": "e_1_3_2_1_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/502034.502049"
+        },
+        {
+          "key": "e_1_3_2_1_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/605397.605408"
+        },
+        {
+          "key": "e_1_3_2_1_13_1",
+          "volume-title": "Internet RFC",
+          "author": "Mealling M.",
+          "year": "2002",
+          "unstructured": "M. Mealling , R. Denenbers , eds., \"Report from the Joint W3C/IETF URI Planning Interest Group : Uniform Resource Identifiers (URIs), URLs, and Uniform Resource Names (URNs): Clarifications and Recommendations \", Internet RFC 3305, Aug 2002 .]] M. Mealling, R. Denenbers, eds., \"Report from the Joint W3C/IETF URI Planning Interest Group: Uniform Resource Identifiers (URIs), URLs, and Uniform Resource Names (URNs): Clarifications and Recommendations\", Internet RFC 3305, Aug 2002.]]"
+        },
+        {
+          "key": "e_1_3_2_1_14_1",
+          "volume-title": "Internet RFC1305",
+          "author": "Mills D.",
+          "year": "1992",
+          "unstructured": "D. Mills , \" Network Time Protocol (Version 3) Specification , Implementation and Analysis \", Internet RFC1305 , Mar 1992 .]] D. Mills, \"Network Time Protocol (Version 3) Specification, Implementation and Analysis\", Internet RFC1305, Mar 1992.]]"
+        },
+        {
+          "key": "e_1_3_2_1_15_1",
+          "unstructured": "D. Mills H. Nair \"Timekeeping in the Interplanetary Internet\" in progress http//:www.eecis.udel.edu/ mills/ipin.html.]]  D. Mills H. Nair \"Timekeeping in the Interplanetary Internet\" in progress http//:www.eecis.udel.edu/ mills/ipin.html.]]"
+        },
+        {
+          "key": "e_1_3_2_1_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/357401.357402"
+        },
+        {
+          "key": "e_1_3_2_1_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/SNPA.2003.1203354"
+        },
+        {
+          "key": "e_1_3_2_1_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/570681.570685"
+        },
+        {
+          "key": "e_1_3_2_1_19_1",
+          "volume-title": "Report",
+          "author": "Sterbenz J.",
+          "year": "2002",
+          "unstructured": "J. Sterbenz , T. Saxena , R. Krishnan , \" Latency-Aware Information Access with User-Directed Fetch Behaviour for Weakly-Connected Mobile Wireless Clients\", BBN Tech . Report 8340, May 2002 .]] J. Sterbenz, T. Saxena, R. Krishnan, \"Latency-Aware Information Access with User-Directed Fetch Behaviour for Weakly-Connected Mobile Wireless Clients\", BBN Tech. Report 8340, May 2002.]]"
+        },
+        {
+          "key": "e_1_3_2_1_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/319151.319164"
+        },
+        {
+          "key": "e_1_3_2_1_22_1",
+          "volume-title": "Workshop on Research Directions for the Next Generation Internet\"",
+          "author": "Wroclawski J.",
+          "year": "1997",
+          "unstructured": "J. Wroclawski , \" The MetaNet : White Paper \", Workshop on Research Directions for the Next Generation Internet\" , May 1997 , http://www.cra.org/Policy/NGI/papers/wroklawWP.]] J. Wroclawski, \"The MetaNet: White Paper\", Workshop on Research Directions for the Next Generation Internet\", May 1997, http://www.cra.org/Policy/NGI/papers/wroklawWP.]]"
+        }
+      ],
+      "event": {
+        "name": "SIGCOMM03: Applications, Technologies, Architectures, and Protocols for Computer Communications",
+        "location": "Karlsruhe Germany",
+        "acronym": "SIGCOMM03",
+        "sponsor": [
+          "SIGCOMM ACM Special Interest Group on Data Communication",
+          "ACM Association for Computing Machinery"
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 2003 conference on Applications, technologies, architectures, and protocols for computer communications"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/863955.863960",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/863955.863960",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            18
+          ]
+        ],
+        "date-time": "2025-06-18T17:43:25Z",
+        "timestamp": 1750268605000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/863955.863960"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2003,
+            8,
+            25
+          ]
+        ]
+      },
+      "references-count": 19,
+      "alternative-id": [
+        "10.1145/863955.863960",
+        "10.1145/863955"
+      ],
+      "URL": "https://doi.org/10.1145/863955.863960",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2003,
+            8,
+            25
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2003-08-25",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "AWStream": {
+    "doi": "10.1145/3230543.3230554",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            13
+          ]
+        ],
+        "date-time": "2026-10-13T17:19:17Z",
+        "timestamp": 1791911957394,
+        "version": "4.3.4"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 98,
+      "publisher": "ACM",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2018,
+                8,
+                7
+              ]
+            ],
+            "date-time": "2018-08-07T00:00:00Z",
+            "timestamp": 1533600000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100000001",
+          "name": "National Science Foundation",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "CRII-NeTS-1755646"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "CRII-NeTS-1755646"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000001",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000028",
+          "name": "Semiconductor Research Corporation",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "TerraSwarm Research Center"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "TerraSwarm Research Center"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000028",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100005801",
+          "name": "Facebook",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "Communications & Networking Research Award"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "Communications & Networking Research Award"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100005801",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            8,
+            7
+          ]
+        ]
+      },
+      "DOI": "10.1145/3230543.3230554",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2018,
+            8,
+            8
+          ]
+        ],
+        "date-time": "2018-08-08T15:13:06Z",
+        "timestamp": 1533741186000
+      },
+      "page": "236-252",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 220,
+      "title": [
+        "AWStream"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "given": "Ben",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "UC Berkeley"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xin",
+          "family": "Jin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Johns Hopkins University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sylvia",
+          "family": "Ratnasamy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UC Berkeley"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "John",
+          "family": "Wawrzynek",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UC Berkeley"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Edward A.",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UC Berkeley"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2018,
+            8,
+            7
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_1_1_1",
+          "volume-title": "CIDR",
+          "volume": "5",
+          "author": "Abadi Daniel J",
+          "year": "2005",
+          "unstructured": "Daniel J Abadi , Yanif Ahmad , Magdalena Balazinska , Ugur Cetintemel , Mitch Cherniack , Jeong-Hyon Hwang , Wolfgang Lindner , Anurag Maskey , Alex Rasin , Esther Ryvkina , 2005 . The Design of the Borealis Stream Processing Engine . In CIDR , Vol. 5 . Asilomar, CA, 277--289. Daniel J Abadi, Yanif Ahmad, Magdalena Balazinska, Ugur Cetintemel, Mitch Cherniack, Jeong-Hyon Hwang, Wolfgang Lindner, Anurag Maskey, Alex Rasin, Esther Ryvkina, et al. 2005. The Design of the Borealis Stream Processing Engine. In CIDR, Vol. 5. Asilomar, CA, 277--289."
+        },
+        {
+          "key": "e_1_3_2_1_2_1",
+          "volume-title": "TensorFlow: A System for Large-scale Machine Learning. In 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 16)",
+          "author": "Abadi Martín",
+          "year": "2016",
+          "unstructured": "Martín Abadi , Paul Barham , Jianmin Chen , Zhifeng Chen , Andy Davis , Jeffrey Dean , Matthieu Devin , Sanjay Ghemawat , Geoffrey Irving , Michael Isard , 2016 . TensorFlow: A System for Large-scale Machine Learning. In 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 16) . USENIX Association, GA, 265--283. https://www.usenix.org/conference/osdi16/technical-sessions/presentation/abadi Martín Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Geoffrey Irving, Michael Isard, et al. 2016. TensorFlow: A System for Large-scale Machine Learning. In 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 16). USENIX Association, GA, 265--283. https://www.usenix.org/conference/osdi16/technical-sessions/presentation/abadi"
+        },
+        {
+          "key": "e_1_3_2_1_3_1",
+          "volume-title": "Enabling High-Quality Untethered Virtual Reality. In 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17)",
+          "author": "Abari Omid",
+          "year": "2017",
+          "unstructured": "Omid Abari , Dinesh Bharadia , Austin Duffield , and Dina Katabi . 2017 . Enabling High-Quality Untethered Virtual Reality. In 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17) . USENIX Association, Boston, MA, 531--544. https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/abari Omid Abari, Dinesh Bharadia, Austin Duffield, and Dina Katabi. 2017. Enabling High-Quality Untethered Virtual Reality. In 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17). USENIX Association, Boston, MA, 531--544. https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/abari"
+        },
+        {
+          "key": "e_1_3_2_1_4_1",
+          "volume-title": "The Kendall Rank Correlation Coefficient. Encyclopedia of Measurement and Statistics",
+          "author": "Abdi Hervé",
+          "year": "2007",
+          "unstructured": "Hervé Abdi . 2007. The Kendall Rank Correlation Coefficient. Encyclopedia of Measurement and Statistics . Sage , Thousand Oaks, CA ( 2007 ), 508--510. Hervé Abdi. 2007. The Kendall Rank Correlation Coefficient. Encyclopedia of Measurement and Statistics. Sage, Thousand Oaks, CA (2007), 508--510."
+        },
+        {
+          "key": "e_1_3_2_1_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2465351.2465355"
+        },
+        {
+          "key": "e_1_3_2_1_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2536222.2536229"
+        },
+        {
+          "key": "e_1_3_2_1_7_1",
+          "volume-title": "Proceedings of the 28th USENIX Conference on Large Installation System Administration (LISA'14)",
+          "author": "Alspaugh Sara",
+          "year": "2014",
+          "unstructured": "Sara Alspaugh , Bei Di Chen , Jessica Lin , Archana Ganapathi , Marti A Hearst , and Randy H Katz . 2014 . Analyzing Log Analysis: An Empirical Study of User Log Mining . In Proceedings of the 28th USENIX Conference on Large Installation System Administration (LISA'14) . USENIX Association, Berkeley, CA, USA, 53--68. http://dl.acm.org/citation.cfm?id=2717491.2717495 Sara Alspaugh, Bei Di Chen, Jessica Lin, Archana Ganapathi, Marti A Hearst, and Randy H Katz. 2014. Analyzing Log Analysis: An Empirical Study of User Log Mining. In Proceedings of the 28th USENIX Conference on Large Installation System Administration (LISA'14). USENIX Association, Berkeley, CA, USA, 53--68. http://dl.acm.org/citation.cfm?id=2717491.2717495"
+        },
+        {
+          "key": "e_1_3_2_1_8_1",
+          "unstructured": "Amazon. 2017. Amazone EC2 Pricing. https://aws.amazon.com/ec2/pricing/. (2017). Accessed: 2017-04-12.  Amazon. 2017. Amazone EC2 Pricing. https://aws.amazon.com/ec2/pricing/. (2017). Accessed: 2017-04-12."
+        },
+        {
+          "key": "e_1_3_2_1_9_1",
+          "volume-title": "GRASS: Trimming Stragglers in Approximation Analytics. In 11th USENIX Symposium on Networked Systems Design and Implementation (NSDI 14)",
+          "author": "Ananthanarayanan Ganesh",
+          "year": "2014",
+          "unstructured": "Ganesh Ananthanarayanan , Michael Chien-Chun Hung , Xiaoqi Ren , Ion Stoica , Adam Wierman , and Minlan Yu . 2014 . GRASS: Trimming Stragglers in Approximation Analytics. In 11th USENIX Symposium on Networked Systems Design and Implementation (NSDI 14) . USENIX Association, Seattle, WA, 289--302. https://www.usenix.org/conference/nsdi14/technical-sessions/presentation/ananthanarayanan Ganesh Ananthanarayanan, Michael Chien-Chun Hung, Xiaoqi Ren, Ion Stoica, Adam Wierman, and Minlan Yu. 2014. GRASS: Trimming Stragglers in Approximation Analytics. In 11th USENIX Symposium on Networked Systems Design and Implementation (NSDI 14). USENIX Association, Seattle, WA, 289--302. https://www.usenix.org/conference/nsdi14/technical-sessions/presentation/ananthanarayanan"
+        },
+        {
+          "key": "e_1_3_2_1_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/872757.872764"
+        },
+        {
+          "key": "e_1_3_2_1_11_1",
+          "volume-title": "Enterprise IoT: A Definitive Handbook",
+          "author": "Balani Naveen",
+          "unstructured": "Naveen Balani and Rajeev Hathi . 2016. Enterprise IoT: A Definitive Handbook . CreateSpace Independent Publishing Platform . Naveen Balani and Rajeev Hathi. 2016. Enterprise IoT: A Definitive Handbook. CreateSpace Independent Publishing Platform."
+        },
+        {
+          "key": "e_1_3_2_1_12_1",
+          "unstructured": "Fabrice Bellard M Niedermayer etal 2012. FFmpeg. https://www.ffmpeg.org/. (2012).  Fabrice Bellard M Niedermayer et al. 2012. FFmpeg. https://www.ffmpeg.org/. (2012)."
+        },
+        {
+          "key": "e_1_3_2_1_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2785956.2787489"
+        },
+        {
+          "key": "e_1_3_2_1_14_1",
+          "unstructured": "G. Bradski. 2000--2017. The OpenCV Library. Doctor Dobbs Journal (2000--2017). http://opencv.org  G. Bradski. 2000--2017. The OpenCV Library. Doctor Dobbs Journal (2000--2017). http://opencv.org"
+        },
+        {
+          "key": "e_1_3_2_1_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2504730.2504754"
+        },
+        {
+          "key": "e_1_3_2_1_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1011767.1011798"
+        },
+        {
+          "key": "e_1_3_2_1_17_1",
+          "volume-title": "Apache flink: Stream and batch processing in a single engine. Data Engineering 38, 4",
+          "author": "Carbone Paris",
+          "year": "2015",
+          "unstructured": "Paris Carbone , Asterios Katsifodimos , Stephan Ewen , Volker Markl , Seif Haridi , and Kostas Tzoumas . 2015. Apache flink: Stream and batch processing in a single engine. Data Engineering 38, 4 ( 2015 ). https://flink.apache.org/ Paris Carbone, Asterios Katsifodimos, Stephan Ewen, Volker Markl, Seif Haridi, and Kostas Tzoumas. 2015. Apache flink: Stream and batch processing in a single engine. Data Engineering 38, 4 (2015). https://flink.apache.org/"
+        },
+        {
+          "key": "e_1_3_2_1_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3009824"
+        },
+        {
+          "key": "e_1_3_2_1_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/872757.872857"
+        },
+        {
+          "key": "e_1_3_2_1_20_1",
+          "volume-title": "Surviving Congestion in Geo-Distributed Storage Systems. In USENIX Annual Technical Conference (USENIX ATC 12)",
+          "author": "Cho Brian",
+          "year": "2012",
+          "unstructured": "Brian Cho and Marcos K Aguilera . 2012 . Surviving Congestion in Geo-Distributed Storage Systems. In USENIX Annual Technical Conference (USENIX ATC 12) . USENIX, 439--451. https://www.usenix.org/conference/atc12/technical-sessions/presentation/cho Brian Cho and Marcos K Aguilera. 2012. Surviving Congestion in Geo-Distributed Storage Systems. In USENIX Annual Technical Conference (USENIX ATC 12). USENIX, 439--451. https://www.usenix.org/conference/atc12/technical-sessions/presentation/cho"
+        },
+        {
+          "key": "e_1_3_2_1_21_1",
+          "unstructured": "Cisco. 2013. The Zettabyte Era: Trends and Analysis. http://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/vni-hyperconnectivity-wp.html. Cisco White Paper (2013).  Cisco. 2013. The Zettabyte Era: Trends and Analysis. http://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/vni-hyperconnectivity-wp.html. Cisco White Paper (2013)."
+        },
+        {
+          "key": "e_1_3_2_1_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0968-090X(98)00019-9"
+        },
+        {
+          "key": "e_1_3_2_1_23_1",
+          "volume-title": "Histograms, Wavelets and Sketches",
+          "author": "Cormode Graham",
+          "year": "2011",
+          "unstructured": "Graham Cormode . 2011. Sketch Techniques for Massive Data. Synposes for Massive Data: Samples , Histograms, Wavelets and Sketches ( 2011 ), 1--3. Graham Cormode. 2011. Sketch Techniques for Massive Data. Synposes for Massive Data: Samples, Histograms, Wavelets and Sketches (2011), 1--3."
+        },
+        {
+          "key": "e_1_3_2_1_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2005.177"
+        },
+        {
+          "key": "e_1_3_2_1_25_1",
+          "unstructured": "Martin Devera. 2001--2003. HTB Home. http://luxik.cdi.cz/~devik/qos/htb/. (2001--2003). Accessed: 2017-04-08.  Martin Devera. 2001--2003. HTB Home. http://luxik.cdi.cz/~devik/qos/htb/. (2001--2003). Accessed: 2017-04-08."
+        },
+        {
+          "key": "e_1_3_2_1_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2011.155"
+        },
+        {
+          "key": "e_1_3_2_1_27_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Arjan Durresi and Raj Jain. 2005. RTP RTCP and RTSP-Internet Protocols for Real-Time Multimedia Communication. (2005).  Arjan Durresi and Raj Jain. 2005. RTP RTCP and RTSP-Internet Protocols for Real-Time Multimedia Communication. (2005).",
+          "DOI": "10.1201/9781420036336.ch28"
+        },
+        {
+          "key": "e_1_3_2_1_28_1",
+          "volume-title": "iPerf: The TCP/UDP bandwidth measurement tool",
+          "unstructured": "ESnet. 2014-2017. iPerf: The TCP/UDP bandwidth measurement tool . http://software.es.net/iperf/. (2014-2017). Accessed: 2017-03-07. ESnet. 2014-2017. iPerf: The TCP/UDP bandwidth measurement tool. http://software.es.net/iperf/. (2014-2017). Accessed: 2017-03-07."
+        },
+        {
+          "key": "e_1_3_2_1_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11263-009-0275-4"
+        },
+        {
+          "key": "e_1_3_2_1_30_1",
+          "volume-title": "MEANTIME: Achieving Both Minimal Energy and Timeliness with Approximate Computing. In 2016 USENIX Annual Technical Conference (USENIX ATC 16)",
+          "author": "Farrell Anne",
+          "year": "2016",
+          "unstructured": "Anne Farrell and Henry Hoffmann . 2016 . MEANTIME: Achieving Both Minimal Energy and Timeliness with Approximate Computing. In 2016 USENIX Annual Technical Conference (USENIX ATC 16) . USENIX Association, Denver, CO, 421--435. https://www.usenix.org/conference/atc16/technical-sessions/presentation/farrell Anne Farrell and Henry Hoffmann. 2016. MEANTIME: Achieving Both Minimal Energy and Timeliness with Approximate Computing. In 2016 USENIX Annual Technical Conference (USENIX ATC 16). USENIX Association, Denver, CO, 421--435. https://www.usenix.org/conference/atc16/technical-sessions/presentation/farrell"
+        },
+        {
+          "key": "e_1_3_2_1_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/49.53013"
+        },
+        {
+          "key": "e_1_3_2_1_32_1",
+          "volume-title": "Proceedings of the 27th International Conference on Very Large Data Bases (VLDB '01)",
+          "author": "Minos",
+          "unstructured": "Minos N. Garofalakis and Phillip B. Gibbon. 2001. Approximate Query Processing: Taming the TeraBytes . In Proceedings of the 27th International Conference on Very Large Data Bases (VLDB '01) . Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 725--. http://dl.acm.org/citation.cfm?id=645927.672356 Minos N. Garofalakis and Phillip B. Gibbon. 2001. Approximate Query Processing: Taming the TeraBytes. In Proceedings of the 27th International Conference on Very Large Data Bases (VLDB '01). Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 725--. http://dl.acm.org/citation.cfm?id=645927.672356"
+        },
+        {
+          "key": "e_1_3_2_1_33_1",
+          "unstructured": "GE. 2017. Industrial Internet Insights. https://www.ge.com/digital/industrial-internet. (2017). Accessed: 2017-09-23.  GE. 2017. Industrial Internet Insights. https://www.ge.com/digital/industrial-internet. (2017). Accessed: 2017-09-23."
+        },
+        {
+          "key": "e_1_3_2_1_34_1",
+          "unstructured": "Google. 2009-2017. Nest Cam Indoor. https://www.dropcam.com. (2009-2017). Accessed: 2017-04-03.  Google. 2009-2017. Nest Cam Indoor. https://www.dropcam.com. (2009-2017). Accessed: 2017-04-03."
+        },
+        {
+          "key": "e_1_3_2_1_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2504730.2504736"
+        },
+        {
+          "key": "e_1_3_2_1_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/253260.253291"
+        },
+        {
+          "key": "e_1_3_2_1_37_1",
+          "volume-title": "Proceedings of The 33rd International Conference on Machine Learning (Proceedings of Machine Learning Research), Maria Florina Balcan and Kilian Q. Weinberger (Eds.)",
+          "volume": "48",
+          "author": "Hernández-Lobato Daniel",
+          "year": "2016",
+          "unstructured": "Daniel Hernández-Lobato , Jose Hernandez-Lobato , Amar Shah , and Ryan Adams . 2016 . Predictive Entropy Search for Multi-Objective Bayesian Optimization . In Proceedings of The 33rd International Conference on Machine Learning (Proceedings of Machine Learning Research), Maria Florina Balcan and Kilian Q. Weinberger (Eds.) , Vol. 48 . PMLR, New York, New York, USA, 1492--1501. http://proceedings.mlr.press/v48/hernandez-lobatoa16.html Daniel Hernández-Lobato, Jose Hernandez-Lobato, Amar Shah, and Ryan Adams. 2016. Predictive Entropy Search for Multi-Objective Bayesian Optimization. In Proceedings of The 33rd International Conference on Machine Learning (Proceedings of Machine Learning Research), Maria Florina Balcan and Kilian Q. Weinberger (Eds.), Vol. 48. PMLR, New York, New York, USA, 1492--1501. http://proceedings.mlr.press/v48/hernandez-lobatoa16.html"
+        },
+        {
+          "key": "e_1_3_2_1_38_1",
+          "volume-title": "Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds. In 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17)",
+          "author": "Hsieh Kevin",
+          "year": "2017",
+          "unstructured": "Kevin Hsieh , Aaron Harlap , Nandita Vijaykumar , Dimitris Konomis , Gregory R Ganger , Phillip B Gibbons , and Onur Mutlu . 2017 . Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds. In 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17) . USENIX Association, USENIX Association. https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/hsieh Kevin Hsieh, Aaron Harlap, Nandita Vijaykumar, Dimitris Konomis, Gregory R Ganger, Phillip B Gibbons, and Onur Mutlu. 2017. Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds. In 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17). USENIX Association, USENIX Association. https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/hsieh"
+        },
+        {
+          "key": "e_1_3_2_1_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2398776.2398800"
+        },
+        {
+          "key": "e_1_3_2_1_40_1",
+          "volume-title": "Linux Advanced Routing & Traffic Control",
+          "author": "Hubert Bert",
+          "unstructured": "Bert Hubert . 2002. Linux Advanced Routing & Traffic Control . http://lartc.org/. (2002). Accessed: 2017-04-06. Bert Hubert. 2002. Linux Advanced Routing & Traffic Control. http://lartc.org/. (2002). Accessed: 2017-04-06."
+        },
+        {
+          "key": "e_1_3_2_1_41_1",
+          "volume-title": "Algorithms and Theory of Computation Handbook",
+          "author": "Karger David",
+          "year": "1882",
+          "unstructured": "David Karger , Cliff Stein , and Joel Wein . 2010. Algorithms and Theory of Computation Handbook . Chapman & Hall/CRC. 20--20 pages. http://dl.acm.org/citation.cfm?id= 1882 723.1882743 David Karger, Cliff Stein, and Joel Wein. 2010. Algorithms and Theory of Computation Handbook. Chapman & Hall/CRC. 20--20 pages. http://dl.acm.org/citation.cfm?id=1882723.1882743"
+        },
+        {
+          "key": "e_1_3_2_1_42_1",
+          "unstructured": "Joel W King. 2009. Cisco IP Video Surveillance Design Guide. https://www.cisco.com/c/en/us/td/docs/solutions/Enterprise/Video/IPVS/IPVS_DG/IPVS-DesignGuide.pdf. (2009).  Joel W King. 2009. Cisco IP Video Surveillance Design Guide. https://www.cisco.com/c/en/us/td/docs/solutions/Enterprise/Video/IPVS/IPVS_DG/IPVS-DesignGuide.pdf. (2009)."
+        },
+        {
+          "key": "e_1_3_2_1_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2850578.2850582"
+        },
+        {
+          "key": "e_1_3_2_1_44_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2422531.2422546"
+        },
+        {
+          "key": "e_1_3_2_1_45_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2723372.2742788"
+        },
+        {
+          "key": "e_1_3_2_1_46_1",
+          "unstructured": "Frank Langfitt. 2013. In China Beware: A Camera May Be Watching You. http://www.npr.org/2013/01/29/170469038/in-china-beware-a-camera-may-be-watching-you. (2013). Accessed: 2017-04-04.  Frank Langfitt. 2013. In China Beware: A Camera May Be Watching You. http://www.npr.org/2013/01/29/170469038/in-china-beware-a-camera-may-be-watching-you. (2013). Accessed: 2017-04-04."
+        },
+        {
+          "key": "e_1_3_2_1_47_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2926534.2926544"
+        },
+        {
+          "key": "e_1_3_2_1_48_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1879141.1879143"
+        },
+        {
+          "key": "e_1_3_2_1_49_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/B:VISI.0000029664.99615.94"
+        },
+        {
+          "key": "e_1_3_2_1_50_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/2888116.2888245"
+        },
+        {
+          "key": "e_1_3_2_1_51_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3098822.3098843"
+        },
+        {
+          "key": "e_1_3_2_1_52_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.25103/jestr.052.06"
+        },
+        {
+          "key": "e_1_3_2_1_53_1",
+          "volume-title": "MOT16: A Benchmark for Multi-Object Tracking. arXiv preprint arXiv:1603.00831",
+          "author": "Milan Anton",
+          "year": "2016",
+          "unstructured": "Anton Milan , Laura Leal-Taixé , Ian Reid , Stefan Roth , and Konrad Schindler . 2016. MOT16: A Benchmark for Multi-Object Tracking. arXiv preprint arXiv:1603.00831 ( 2016 ). https://motchallenge.net/ Anton Milan, Laura Leal-Taixé, Ian Reid, Stefan Roth, and Konrad Schindler. 2016. MOT16: A Benchmark for Multi-Object Tracking. arXiv preprint arXiv:1603.00831 (2016). https://motchallenge.net/"
+        },
+        {
+          "key": "e_1_3_2_1_54_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2829988.2787475"
+        },
+        {
+          "key": "e_1_3_2_1_55_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/502034.502052"
+        },
+        {
+          "key": "e_1_3_2_1_56_1",
+          "volume-title": "Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update",
+          "author": "Networking Cisco Visual",
+          "year": "2016",
+          "unstructured": "Cisco Visual Networking . 2016. Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update , 2016 -2021 White Paper . https://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/mobile-white-paper-c11-520862.html. Cisco White Paper (2016). Cisco Visual Networking. 2016. Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update, 2016-2021 White Paper. https://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/mobile-white-paper-c11-520862.html. Cisco White Paper (2016)."
+        },
+        {
+          "key": "e_1_3_2_1_57_1",
+          "volume-title": "Usability Engineering",
+          "author": "Nielsen Jakob",
+          "unstructured": "Jakob Nielsen . 1994. Usability Engineering . Elsevier . Jakob Nielsen. 1994. Usability Engineering. Elsevier."
+        },
+        {
+          "key": "e_1_3_2_1_58_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-319-04918-2_2"
+        },
+        {
+          "key": "e_1_3_2_1_59_1",
+          "unstructured": "The Division of Economic and Risk Analysis (DERA). 2003-2016. EDGAR Log File Data Set. https://www.sec.gov/data/edgar-log-file-data-set. (2003--2016). Accessed: 2017-01-25.  The Division of Economic and Risk Analysis (DERA). 2003-2016. EDGAR Log File Data Set. https://www.sec.gov/data/edgar-log-file-data-set. (2003--2016). Accessed: 2017-01-25."
+        },
+        {
+          "key": "e_1_3_2_1_60_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2011.5995586"
+        },
+        {
+          "key": "e_1_3_2_1_61_1",
+          "volume-title": "CherryPick: Adaptively Unearthing the Best Cloud Configurations for Big Data Analytics. In 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17)",
+          "author": "Alipourfard Omid",
+          "year": "2017",
+          "unstructured": "Omid Alipourfard and Hongqiang Harry Liu and Jianshu Chen and Shivaram Venkataraman and Minlan Yu and Ming Zhang . 2017 . CherryPick: Adaptively Unearthing the Best Cloud Configurations for Big Data Analytics. In 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17) . USENIX Association, Boston, MA, 469--482. https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/alipourfard Omid Alipourfard and Hongqiang Harry Liu and Jianshu Chen and Shivaram Venkataraman and Minlan Yu and Ming Zhang. 2017. CherryPick: Adaptively Unearthing the Best Cloud Configurations for Big Data Analytics. In 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17). USENIX Association, Boston, MA, 469--482. https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/alipourfard"
+        },
+        {
+          "key": "e_1_3_2_1_62_1",
+          "unstructured": "Roger Pantos and William May. 2016. HTTP Live Streaming. (2016). https://tools.ietf.org/html/draft-pantos-http-live-streaming-19  Roger Pantos and William May. 2016. HTTP Live Streaming. (2016). https://tools.ietf.org/html/draft-pantos-http-live-streaming-19"
+        },
+        {
+          "key": "e_1_3_2_1_63_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5244/C.29.41"
+        },
+        {
+          "key": "e_1_3_2_1_64_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2785956.2787505"
+        },
+        {
+          "key": "e_1_3_2_1_65_1",
+          "volume-title": "Proceedings of the 11th USENIX Conference on Networked Systems Design and Implementation (NSDI'14)",
+          "author": "Rabkin Ariel",
+          "year": "2014",
+          "unstructured": "Ariel Rabkin , Matvey Arye , Siddhartha Sen , Vivek S Pai , and Michael J Freedman . 2014 . Aggregation and Degradation in JetStream: Streaming Analytics in the Wide Area . In Proceedings of the 11th USENIX Conference on Networked Systems Design and Implementation (NSDI'14) . USENIX Association, Berkeley, CA, USA, 275--288. http://dl.acm.org/citation.cfm?id=2616448.2616474 Ariel Rabkin, Matvey Arye, Siddhartha Sen, Vivek S Pai, and Michael J Freedman. 2014. Aggregation and Degradation in JetStream: Streaming Analytics in the Wide Area. In Proceedings of the 11th USENIX Conference on Networked Systems Design and Implementation (NSDI'14). USENIX Association, Berkeley, CA, USA, 275--288. http://dl.acm.org/citation.cfm?id=2616448.2616474"
+        },
+        {
+          "key": "e_1_3_2_1_66_1",
+          "unstructured": "Joseph Redmon. 2013--2017. Darknet: Open Source Neural Networks in C. http://pjreddie.com/darknet/. (2013--2017).  Joseph Redmon. 2013--2017. Darknet: Open Source Neural Networks in C. http://pjreddie.com/darknet/. (2013--2017)."
+        },
+        {
+          "key": "e_1_3_2_1_67_1",
+          "volume-title": "Faster, Stronger. arXiv preprint arXiv:1612.08242",
+          "author": "Redmon Joseph",
+          "year": "2016",
+          "unstructured": "Joseph Redmon and Ali Farhadi . 2016. YOLO9000 : Better , Faster, Stronger. arXiv preprint arXiv:1612.08242 ( 2016 ). http://arxiv.org/abs/1612.08242 Joseph Redmon and Ali Farhadi. 2016. YOLO9000: Better, Faster, Stronger. arXiv preprint arXiv:1612.08242 (2016). http://arxiv.org/abs/1612.08242"
+        },
+        {
+          "key": "e_1_3_2_1_68_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/49.898735"
+        },
+        {
+          "key": "e_1_3_2_1_69_1",
+          "volume-title": "The H.264 Advanced Video Compression Standard",
+          "author": "Richardson Iain E.",
+          "unstructured": "Iain E. Richardson . 2010. The H.264 Advanced Video Compression Standard ( 2 nd ed.). Wiley Publishing . Iain E. Richardson. 2010. The H.264 Advanced Video Compression Standard (2nd ed.). Wiley Publishing.",
+          "edition": "2"
+        },
+        {
+          "key": "e_1_3_2_1_70_1",
+          "volume-title": "Information Retrieval",
+          "author": "Van Rijsbergen C. J.",
+          "unstructured": "C. J. Van Rijsbergen . 1979. Information Retrieval ( 2 nd ed.). Butterworth-Heinemann , Newton, MA, USA . C. J. Van Rijsbergen. 1979. Information Retrieval (2nd ed.). Butterworth-Heinemann, Newton, MA, USA.",
+          "edition": "2"
+        },
+        {
+          "key": "e_1_3_2_1_71_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11263-007-0090-8"
+        },
+        {
+          "key": "e_1_3_2_1_72_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1993316.1993518"
+        },
+        {
+          "key": "e_1_3_2_1_73_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MPRV.2009.82"
+        },
+        {
+          "key": "e_1_3_2_1_74_1",
+          "volume-title": "RTP: A Transport Protocol for Real-Time.",
+          "author": "Schulzrinne H",
+          "year": "2006",
+          "unstructured": "H Schulzrinne , S Casner , R Frederick , and V Jaconson . 2006 . RTP: A Transport Protocol for Real-Time. (2006). H Schulzrinne, S Casner, R Frederick, and V Jaconson. 2006. RTP: A Transport Protocol for Real-Time. (2006)."
+        },
+        {
+          "key": "e_1_3_2_1_75_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.17487/RFC2326"
+        },
+        {
+          "key": "e_1_3_2_1_76_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/49.414637"
+        },
+        {
+          "key": "e_1_3_2_1_77_1",
+          "volume-title": "Integrated services in the Internet architecture: an overview. IETF Request for Comments (RFC) 1633",
+          "author": "Shenker Scott",
+          "year": "1994",
+          "unstructured": "Scott Shenker , R Braden , and D Clark . 1994. Integrated services in the Internet architecture: an overview. IETF Request for Comments (RFC) 1633 ( 1994 ). Scott Shenker, R Braden, and D Clark. 1994. Integrated services in the Internet architecture: an overview. IETF Request for Comments (RFC) 1633 (1994)."
+        },
+        {
+          "key": "e_1_3_2_1_78_1",
+          "unstructured": "Jasper Snoek Hugo Larochelle and Ryan P Adams. 2012. Practical Bayesian Optimization of Machine Learning Algorithms. In Advances in neural information processing systems. 2951--2959.   Jasper Snoek Hugo Larochelle and Ryan P Adams. 2012. Practical Bayesian Optimization of Machine Learning Algorithms. In Advances in neural information processing systems. 2951--2959."
+        },
+        {
+          "key": "e_1_3_2_1_79_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MMUL.2011.71"
+        },
+        {
+          "key": "e_1_3_2_1_80_1",
+          "volume-title": "Subhodeep Moitra, and D Sculley.",
+          "author": "Solnik Benjamin",
+          "year": "2017",
+          "unstructured": "Benjamin Solnik , Daniel Golovin , Greg Kochanski , John Elliot Karro , Subhodeep Moitra, and D Sculley. 2017 . Bayesian Optimization for a Better Dessert . (2017). https://research.google.com/pubs/archive/46507.pdf Benjamin Solnik, Daniel Golovin, Greg Kochanski, John Elliot Karro, Subhodeep Moitra, and D Sculley. 2017. Bayesian Optimization for a Better Dessert. (2017). https://research.google.com/pubs/archive/46507.pdf"
+        },
+        {
+          "key": "e_1_3_2_1_81_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2934872.2934898"
+        },
+        {
+          "key": "e_1_3_2_1_82_1",
+          "volume-title": "Proceedings of the 2014 USENIX Conference on USENIX Annual Technical Conference (USENIXATC'14)",
+          "author": "Sundaresan Srikanth",
+          "year": "2014",
+          "unstructured": "Srikanth Sundaresan , Sam Burnett , Nick Feamster , and Walter De Donato . 2014 . BISmark: A Testbed for Deploying Measurements and Applications in Broadband Access Networks . In Proceedings of the 2014 USENIX Conference on USENIX Annual Technical Conference (USENIXATC'14) . USENIX Association, Berkeley, CA, USA, 383394. http://dl.acm.org/citation.cfm?id=2643634.2643673 Srikanth Sundaresan, Sam Burnett, Nick Feamster, and Walter De Donato. 2014. BISmark: A Testbed for Deploying Measurements and Applications in Broadband Access Networks. In Proceedings of the 2014 USENIX Conference on USENIX Annual Technical Conference (USENIXATC'14). USENIX Association, Berkeley, CA, USA, 383394. http://dl.acm.org/citation.cfm?id=2643634.2643673"
+        },
+        {
+          "key": "e_1_3_2_1_83_1",
+          "unstructured": "GStreamer Team. 2001--2017. GStreamer: Open Source Multimedia Framework. (2001--2017). https://gstreamer.freedesktop.org/  GStreamer Team. 2001--2017. GStreamer: Open Source Multimedia Framework. (2001--2017). https://gstreamer.freedesktop.org/"
+        },
+        {
+          "key": "e_1_3_2_1_84_1",
+          "unstructured": "TeleGeography. 2016. Global Internet Geography. https://www.telegeography.com/research-services/global-internet-geography/. (2016). Accessed: 2017-04-10.  TeleGeography. 2016. Global Internet Geography. https://www.telegeography.com/research-services/global-internet-geography/. (2016). Accessed: 2017-04-10."
+        },
+        {
+          "key": "e_1_3_2_1_85_1",
+          "volume-title": "One nation under CCTV: the future of automated surveillance",
+          "author": "Temperton James",
+          "unstructured": "James Temperton . 2015. One nation under CCTV: the future of automated surveillance . http://www.wired.co.uk/article/one-nation-under-cctv. (2015). Accessed: 2017-01-27. James Temperton. 2015. One nation under CCTV: the future of automated surveillance. http://www.wired.co.uk/article/one-nation-under-cctv. (2015). Accessed: 2017-01-27."
+        },
+        {
+          "key": "e_1_3_2_1_86_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2588555.2595641"
+        },
+        {
+          "key": "e_1_3_2_1_87_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/rtim.2001.0224"
+        },
+        {
+          "key": "e_1_3_2_1_88_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2001.990517"
+        },
+        {
+          "key": "e_1_3_2_1_89_1",
+          "volume-title": "Clarinet: WAN-Aware Optimization for Analytics Queries. In 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 16)",
+          "author": "Viswanathan Raajay",
+          "year": "2016",
+          "unstructured": "Raajay Viswanathan , Ganesh Ananthanarayanan , and Aditya Akella . 2016 . Clarinet: WAN-Aware Optimization for Analytics Queries. In 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 16) . USENIX Association, GA, 435--450. https://www.usenix.org/conference/osdi16/technical-sessions/presentation/viswanathan Raajay Viswanathan, Ganesh Ananthanarayanan, and Aditya Akella. 2016. Clarinet: WAN-Aware Optimization for Analytics Queries. In 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 16). USENIX Association, GA, 435--450. https://www.usenix.org/conference/osdi16/technical-sessions/presentation/viswanathan"
+        },
+        {
+          "key": "e_1_3_2_1_90_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2723372.2735365"
+        },
+        {
+          "key": "e_1_3_2_1_91_1",
+          "volume-title": "Global Analytics in the Face of Bandwidth and Regulatory Constraints. In 12th USENIX Symposium on Networked Systems Design and Implementation (NSDI 15)",
+          "author": "Vulimiri Ashish",
+          "year": "2015",
+          "unstructured": "Ashish Vulimiri , Carlo Curino , Philip Brighten Godfrey , Thomas Jungblut , Jitu Padhye , and George Varghese . 2015 . Global Analytics in the Face of Bandwidth and Regulatory Constraints. In 12th USENIX Symposium on Networked Systems Design and Implementation (NSDI 15) . 323--336. https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/vulimiri Ashish Vulimiri, Carlo Curino, Philip Brighten Godfrey, Thomas Jungblut, Jitu Padhye, and George Varghese. 2015. Global Analytics in the Face of Bandwidth and Regulatory Constraints. In 12th USENIX Symposium on Networked Systems Design and Implementation (NSDI 15). 323--336. https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/vulimiri"
+        },
+        {
+          "key": "e_1_3_2_1_92_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/103085.103089"
+        },
+        {
+          "key": "e_1_3_2_1_93_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2987443.2987453"
+        },
+        {
+          "key": "e_1_3_2_1_94_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2785956.2787486"
+        },
+        {
+          "key": "e_1_3_2_1_95_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2517349.2522737"
+        },
+        {
+          "key": "e_1_3_2_1_96_1",
+          "volume-title": "14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17)",
+          "author": "Zhang Haoyu",
+          "unstructured": "Haoyu Zhang , Ganesh Ananthanarayanan , Peter Bodik , Matthai Philipose , Paramvir Bahl , and Michael J. Freedman . 2017. Live Video Analytics at Scale with Approximation and Delay-Tolerance . In 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17) . USENIX Association, Boston, MA, 377--392. https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/zhang Haoyu Zhang, Ganesh Ananthanarayanan, Peter Bodik, Matthai Philipose, Paramvir Bahl, and Michael J. Freedman. 2017. Live Video Analytics at Scale with Approximation and Delay-Tolerance. In 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17). USENIX Association, Boston, MA, 377--392. https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/zhang"
+        },
+        {
+          "key": "e_1_3_2_1_97_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2789168.2790123"
+        },
+        {
+          "key": "e_1_3_2_1_98_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2699343.2699359"
+        }
+      ],
+      "event": {
+        "name": "SIGCOMM '18: ACM SIGCOMM 2018 Conference",
+        "location": "Budapest Hungary",
+        "acronym": "SIGCOMM '18",
+        "sponsor": [
+          "SIGCOMM ACM Special Interest Group on Data Communication"
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 2018 Conference of the ACM Special Interest Group on Data Communication"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/3230543.3230554",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3230543.3230554",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3230543.3230554",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            17
+          ]
+        ],
+        "date-time": "2025-06-17T21:39:46Z",
+        "timestamp": 1750196386000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3230543.3230554"
+        }
+      },
+      "subtitle": [
+        "adaptive wide-area streaming analytics"
+      ],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            8,
+            7
+          ]
+        ]
+      },
+      "references-count": 98,
+      "alternative-id": [
+        "10.1145/3230543.3230554",
+        "10.1145/3230543"
+      ],
+      "URL": "https://doi.org/10.1145/3230543.3230554",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            8,
+            7
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2018-08-07",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "Old6": {
+    "doi": "10.1016/S0169-7552(98)00299-2",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            16
+          ]
+        ],
+        "date-time": "2024-09-16T21:14:37Z",
+        "timestamp": 1726521277932
+      },
+      "reference-count": 10,
+      "publisher": "Elsevier BV",
+      "issue": "7",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                1999,
+                4,
+                1
+              ]
+            ],
+            "date-time": "1999-04-01T00:00:00Z",
+            "timestamp": 922924800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Computer Networks"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            1999,
+            4
+          ]
+        ]
+      },
+      "DOI": "10.1016/s0169-7552(98)00299-2",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2002,
+            7,
+            25
+          ]
+        ],
+        "date-time": "2002-07-25T15:04:40Z",
+        "timestamp": 1027609480000
+      },
+      "page": "767-779",
+      "source": "Crossref",
+      "is-referenced-by-count": 16,
+      "title": [
+        "Adaptive end-to-end compression for variable-bandwidth communication"
+      ],
+      "prefix": "10.1016",
+      "volume": "31",
+      "author": [
+        {
+          "given": "Björn",
+          "family": "Knutsson",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mats",
+          "family": "Björkman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. Ahlgren, M. Björkman, P. Gunningberg, The applicability of integrated layer processing, IEEE Journal of Selected Areas of Communication, 1998.",
+          "key": "10.1016/S0169-7552(98)00299-2_BIB1",
+          "DOI": "10.1109/49.669041"
+        },
+        {
+          "unstructured": "T.C. Bell, J.G. Cleary, I.H. Witten, Text Compression, Prentice-Hall, Englewood Cliffs, NJ, 1990.",
+          "key": "10.1016/S0169-7552(98)00299-2_BIB2"
+        },
+        {
+          "unstructured": "BreezeCOM, BreezeNET product line. http://www.breezecom.com/. Description of BreezeNET products.",
+          "key": "10.1016/S0169-7552(98)00299-2_BIB3"
+        },
+        {
+          "unstructured": "CCITT, Recommendation V.42 bis, F ITU 1990 edn.",
+          "key": "10.1016/S0169-7552(98)00299-2_BIB4"
+        },
+        {
+          "doi-asserted-by": "crossref",
+          "unstructured": "D.D. Clark, D.L. Tennenhouse, Architectural considerations for a new generation of protocols, Proc. ACM SIGCOMM '90, 1990, pp. 200–208.",
+          "key": "10.1016/S0169-7552(98)00299-2_BIB5",
+          "DOI": "10.1145/99508.99553"
+        },
+        {
+          "unstructured": "CNN, CNN Front web page, http://www.cnn.com/.",
+          "key": "10.1016/S0169-7552(98)00299-2_BIB6"
+        },
+        {
+          "doi-asserted-by": "crossref",
+          "unstructured": "P. Deutsch, J.-L. Gailly, RFC1950: ZLIB Compressed Data Format Specification version 3.3, 1996.",
+          "key": "10.1016/S0169-7552(98)00299-2_BIB7",
+          "DOI": "10.17487/rfc1950"
+        },
+        {
+          "doi-asserted-by": "crossref",
+          "unstructured": "V. Jacobsen, RFC1144: Compressing TCP/IP Headers for Low-Speed Serial Links, 1990.",
+          "key": "10.1016/S0169-7552(98)00299-2_BIB8",
+          "DOI": "10.17487/rfc1144"
+        },
+        {
+          "unstructured": "Pathfinder, The UNA-bomber Manifesto. http://www.pathfinder.com/ pathfinder/features/unabomber/wholemanifesto.html.",
+          "key": "10.1016/S0169-7552(98)00299-2_BIB9"
+        },
+        {
+          "doi-asserted-by": "crossref",
+          "unstructured": "J.H. Saltzer, D.P. Reed, D.D. Clark, End-to-end arguments in system design, ACM Transactions on Computer Systems, 1984.",
+          "key": "10.1016/S0169-7552(98)00299-2_BIB10",
+          "DOI": "10.1145/357401.357402"
+        }
+      ],
+      "container-title": [
+        "Computer Networks"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0169755298002992?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0169755298002992?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2020,
+            1,
+            14
+          ]
+        ],
+        "date-time": "2020-01-14T20:04:04Z",
+        "timestamp": 1579032244000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0169755298002992"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            1999,
+            4
+          ]
+        ]
+      },
+      "references-count": 10,
+      "journal-issue": {
+        "issue": "7",
+        "published-print": {
+          "date-parts": [
+            [
+              1999,
+              4
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S0169755298002992"
+      ],
+      "URL": "https://doi.org/10.1016/s0169-7552(98)00299-2",
+      "relation": {},
+      "ISSN": [
+        "1389-1286"
+      ],
+      "issn-type": [
+        {
+          "type": "print",
+          "value": "1389-1286"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            1999,
+            4
+          ]
+        ]
+      }
+    }
+  },
+  "Gorilla": {
+    "doi": "10.14778/2824032.2824078",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            24
+          ]
+        ],
+        "date-time": "2026-09-24T16:55:28Z",
+        "timestamp": 1790268928218,
+        "version": "4.1.0"
+      },
+      "reference-count": 28,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "issue": "12",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Proc. VLDB Endow."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2015,
+            8
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Large-scale internet services aim to remain highly available and responsive in the presence of unexpected failures. Providing this service often requires monitoring and analyzing tens of millions of measurements per second across a large number of systems, and one particularly effective solution is to store and query such measurements in a time series database (TSDB).</jats:p>\n                  <jats:p>A key challenge in the design of TSDBs is how to strike the right balance between efficiency, scalability, and reliability. In this paper we introduce Gorilla, Facebook's in-memory TSDB. Our insight is that users of monitoring systems do not place much emphasis on individual data points but rather on aggregate analysis, and recent data points are of much higher value than older points to quickly detect and diagnose the root cause of an ongoing problem. Gorilla optimizes for remaining highly available for writes and reads, even in the face of failures, at the expense of possibly dropping small amounts of data on the write path. To improve query efficiency, we aggressively leverage compression techniques such as delta-of-delta timestamps and XOR'd floating point values to reduce Gorilla's storage footprint by 10x. This allows us to store Gorilla's data in memory, reducing query latency by 73x and improving query throughput by 14x when compared to a traditional database (HBase)-backed time series data. This performance improvement has unlocked new monitoring and debugging tools, such as time series correlation search and more dense visualization tools. Gorilla also gracefully handles failures from a single-node to entire regions with little to no operational overhead.</jats:p>",
+      "DOI": "10.14778/2824032.2824078",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2015,
+            9,
+            16
+          ]
+        ],
+        "date-time": "2015-09-16T08:18:17Z",
+        "timestamp": 1442391497000
+      },
+      "page": "1816-1827",
+      "source": "Crossref",
+      "is-referenced-by-count": 255,
+      "title": [
+        "Gorilla"
+      ],
+      "prefix": "10.14778",
+      "volume": "8",
+      "author": [
+        {
+          "given": "Tuomas",
+          "family": "Pelkonen",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Facebook, Inc., Menlo Park, CA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Scott",
+          "family": "Franklin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Facebook, Inc., Menlo Park, CA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Justin",
+          "family": "Teller",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Facebook, Inc., Menlo Park, CA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Paul",
+          "family": "Cavallaro",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Facebook, Inc., Menlo Park, CA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qi",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Facebook, Inc., Menlo Park, CA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Justin",
+          "family": "Meza",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Facebook, Inc., Menlo Park, CA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kaushik",
+          "family": "Veeraraghavan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Facebook, Inc., Menlo Park, CA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2015,
+            8
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_1_1_1",
+          "volume-title": "http://graphite.wikidot.com/. Accessed",
+          "author": "Scalable Realtime Graphing Graphite",
+          "year": "2015"
+        },
+        {
+          "key": "e_1_2_1_2_1",
+          "volume-title": "Accessed",
+          "year": "2015"
+        },
+        {
+          "key": "e_1_2_1_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2536222.2536231"
+        },
+        {
+          "key": "e_1_2_1_4_1",
+          "volume-title": "Los Alamos National Laboratory (LANL)",
+          "author": "Boyer E. B.",
+          "year": "2012"
+        },
+        {
+          "key": "e_1_2_1_5_1",
+          "volume-title": "Workshops Proceedings of the 31st International Conference on Data Engineering Workshops, ICDE Seoul, Korea. IEEE",
+          "author": "Bronson N.",
+          "year": "2015"
+        },
+        {
+          "key": "e_1_2_1_6_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "398",
+          "DOI": "10.1145/1281100.1281103",
+          "volume-title": "Proceedings of the twenty-sixth annual ACM symposium on Principles of distributed computing",
+          "author": "Chandra T. D.",
+          "year": "2007"
+        },
+        {
+          "key": "e_1_2_1_7_1",
+          "first-page": "124",
+          "volume-title": "Mobile Ad-hoc and Sensor Systems, 2004 IEEE International Conference on",
+          "author": "Chen H.",
+          "year": "2004"
+        },
+        {
+          "key": "e_1_2_1_8_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. Hu Y. Chen and E. J. Keogh . Time Series Classification under More Realistic Assumptions . In SDM pages 578 -- 586 2013 . B. Hu Y. Chen and E. J. Keogh. Time Series Classification under More Realistic Assumptions. In SDM pages 578--586 2013.",
+          "DOI": "10.1137/1.9781611972832.64"
+        },
+        {
+          "key": "e_1_2_1_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/376284.375680"
+        },
+        {
+          "key": "e_1_2_1_10_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "550",
+          "DOI": "10.1145/775047.775128",
+          "volume-title": "Proceedings of the eighth ACM SIGKDD international conference on Knowledge discovery and data mining",
+          "author": "Keogh E.",
+          "year": "2002"
+        },
+        {
+          "key": "e_1_2_1_11_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "206",
+          "DOI": "10.1145/1014052.1014077",
+          "volume-title": "Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining",
+          "author": "Keogh E.",
+          "year": "2004"
+        },
+        {
+          "key": "e_1_2_1_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10115-004-0154-9"
+        },
+        {
+          "key": "e_1_2_1_13_1",
+          "first-page": "429",
+          "volume-title": "Data Engineering, 2003. Proceedings. 19th International Conference on",
+          "author": "Lazaridis I.",
+          "year": "2003"
+        },
+        {
+          "key": "e_1_2_1_14_1",
+          "volume-title": "December",
+          "author": "Lamport Leslie",
+          "year": "2001"
+        },
+        {
+          "key": "e_1_2_1_15_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "2",
+          "DOI": "10.1145/882082.882086",
+          "volume-title": "Proceedings of the 8th ACM SIGMOD workshop on Research issues in data mining and knowledge discovery",
+          "author": "Lin J.",
+          "year": "2003"
+        },
+        {
+          "key": "e_1_2_1_16_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "460",
+          "DOI": "10.1145/1014052.1014104",
+          "volume-title": "Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining",
+          "author": "Lin J.",
+          "year": "2004"
+        },
+        {
+          "key": "e_1_2_1_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TVCG.2006.143"
+        },
+        {
+          "key": "e_1_2_1_18_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "171",
+          "DOI": "10.1145/1807167.1807188",
+          "volume-title": "Proceedings of the 2010 ACM SIGMOD International Conference on Management of data",
+          "author": "Mueen A.",
+          "year": "2010"
+        },
+        {
+          "key": "e_1_2_1_19_1",
+          "volume-title": "CA",
+          "author": "Nishtala R.",
+          "year": "2015"
+        },
+        {
+          "key": "e_1_2_1_20_1",
+          "first-page": "385",
+          "volume-title": "Scaling Memcache at Facebook. In nsdi",
+          "author": "Nishtala R.",
+          "year": "2013"
+        },
+        {
+          "key": "e_1_2_1_21_1",
+          "volume-title": "CA",
+          "author": "Parikh J.",
+          "year": "2014"
+        },
+        {
+          "key": "e_1_2_1_22_1",
+          "volume-title": "Proceedings of the Royal Society of London, 58(347--352)",
+          "author": "Pearson K.",
+          "year": "1895"
+        },
+        {
+          "key": "e_1_2_1_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDM.2014.27"
+        },
+        {
+          "key": "e_1_2_1_24_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "262",
+          "DOI": "10.1145/2339530.2339576",
+          "volume-title": "Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining",
+          "author": "Rakthanmanon T.",
+          "year": "2012"
+        },
+        {
+          "key": "e_1_2_1_25_1",
+          "first-page": "133",
+          "volume-title": "DCC",
+          "author": "Ratanaworabhan P.",
+          "year": "2006"
+        },
+        {
+          "key": "e_1_2_1_26_1",
+          "volume-title": "Strata Conference",
+          "author": "Tang L.",
+          "year": "2012"
+        },
+        {
+          "key": "e_1_2_1_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/1687553.1687609"
+        },
+        {
+          "key": "e_1_2_1_28_1",
+          "first-page": "625",
+          "volume-title": "Proceedings of the 2012 IEEE 4th International Conference on Cloud Computing Technology and Science (CloudCom)",
+          "author": "Wlodarczyk T. W.",
+          "year": "2012"
+        }
+      ],
+      "container-title": [
+        "Proceedings of the VLDB Endowment"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.14778/2824032.2824078",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            14
+          ]
+        ],
+        "date-time": "2023-08-14T01:50:21Z",
+        "timestamp": 1691977821000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.14778/2824032.2824078"
+        }
+      },
+      "subtitle": [
+        "a fast, scalable, in-memory time series database"
+      ],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2015,
+            8
+          ]
+        ]
+      },
+      "references-count": 28,
+      "journal-issue": {
+        "issue": "12",
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              8
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.14778/2824032.2824078"
+      ],
+      "URL": "https://doi.org/10.14778/2824032.2824078",
+      "relation": {},
+      "ISSN": [
+        "2150-8097"
+      ],
+      "issn-type": [
+        {
+          "value": "2150-8097",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            8
+          ]
+        ]
+      }
+    }
+  },
+  "ZFP": {
+    "doi": "10.1109/TVCG.2014.2346458",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            14
+          ]
+        ],
+        "date-time": "2026-10-14T22:10:49Z",
+        "timestamp": 1792015849615,
+        "version": "4.4.0"
+      },
+      "reference-count": 50,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "issue": "12",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2014,
+                12,
+                31
+              ]
+            ],
+            "date-time": "2014-12-31T00:00:00Z",
+            "timestamp": 1419984000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100006227",
+          "name": "Lawrence Livermore National Laboratory",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "DE-AC52-07NA27344"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DE-AC52-07NA27344"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100006227",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IEEE Trans. Visual. Comput. Graphics"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2014,
+            12,
+            31
+          ]
+        ]
+      },
+      "DOI": "10.1109/tvcg.2014.2346458",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2014,
+            8,
+            11
+          ]
+        ],
+        "date-time": "2014-08-11T14:20:46Z",
+        "timestamp": 1407766846000
+      },
+      "page": "2674-2683",
+      "source": "Crossref",
+      "is-referenced-by-count": 651,
+      "title": [
+        "Fixed-Rate Compressed Floating-Point Arrays"
+      ],
+      "prefix": "10.1109",
+      "volume": "20",
+      "author": [
+        {
+          "given": "Peter",
+          "family": "Lindstrom",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "reference": [
+        {
+          "key": "ref39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/DCC.2006.35"
+        },
+        {
+          "key": "ref38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00371-009-0372-y"
+        },
+        {
+          "key": "ref33",
+          "first-page": "19",
+          "article-title": "Memory bandwidth and machine balance in current high performance computers",
+          "author": "mccalpin",
+          "year": "0",
+          "journal-title": "IEEE Computer Society Technical Committee on Computer Architecture (TCCA) Newsletter"
+        },
+        {
+          "key": "ref32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/78.165657"
+        },
+        {
+          "key": "ref31",
+          "first-page": "263",
+          "article-title": "Texture hardware rendering of time-varying volume",
+          "author": "lum",
+          "year": "2001",
+          "journal-title": "IEEE Visualization"
+        },
+        {
+          "key": "ref30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TVCG.2006.143"
+        },
+        {
+          "key": "ref37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2159616.2159624"
+        },
+        {
+          "key": "ref36",
+          "first-page": "105",
+          "article-title": "Adaptive scalable texture",
+          "author": "nystad",
+          "year": "0",
+          "journal-title": "Eurographics/ACM SIGGRAPH Symposium on High Performance Graphics"
+        },
+        {
+          "key": "ref35",
+          "first-page": "69",
+          "article-title": "Vector quantization for volume",
+          "author": "ning",
+          "year": "0",
+          "journal-title": "ACM Workshop on Volume Visualization"
+        },
+        {
+          "key": "ref34",
+          "doi-asserted-by": "crossref",
+          "first-page": "173",
+          "DOI": "10.1007/978-3-540-45167-9_14",
+          "article-title": "Comparing clusterings by the variation of",
+          "author": "meila",
+          "year": "2003",
+          "journal-title": "Learning Theory and Kernel Machines"
+        },
+        {
+          "key": "ref28",
+          "first-page": "2717",
+          "article-title": "Embedded DCT coding with significance",
+          "author": "laurance",
+          "year": "0",
+          "journal-title": "IEEE International Conference on Acoustics Speech and Signal Processing"
+        },
+        {
+          "key": "ref27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2503210.2503283"
+        },
+        {
+          "key": "ref29",
+          "author": "lindstrom",
+          "year": "2014",
+          "journal-title": "FPZIP version 1 1 0"
+        },
+        {
+          "key": "ref2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2600212.2600217"
+        },
+        {
+          "key": "ref1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JPROC.2008.917719"
+        },
+        {
+          "key": "ref20",
+          "author": "iourcha",
+          "year": "1999",
+          "journal-title": "System and method for fixed-rate block-based image compression with inferred pixel values"
+        },
+        {
+          "key": "ref22",
+          "first-page": "843",
+          "article-title": "Fast and effective lossy compression algorithms for scientific",
+          "author": "iverson",
+          "year": "2012",
+          "journal-title": "Euro-Par Parallel Processing"
+        },
+        {
+          "key": "ref21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cad.2004.09.015"
+        },
+        {
+          "key": "ref24",
+          "article-title": "ISABELA version 0.2",
+          "author": "lakshminarasimhan",
+          "year": "2014"
+        },
+        {
+          "key": "ref23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/IPDPS.2013.115"
+        },
+        {
+          "key": "ref26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TVCG.2006.186"
+        },
+        {
+          "key": "ref25",
+          "first-page": "366",
+          "article-title": "Compressing the incompressible with IS-ABELA: In-situ reduction of spatio-temporal",
+          "author": "lakshminarasimhan",
+          "year": "2011",
+          "journal-title": "Euro-Par Parallel Processing"
+        },
+        {
+          "key": "ref50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/2945.468390"
+        },
+        {
+          "key": "ref10",
+          "article-title": "Texture compression using low-frequency signal",
+          "author": "fenney",
+          "year": "2003",
+          "journal-title": "Graphics Hardware"
+        },
+        {
+          "key": "ref11",
+          "first-page": "77",
+          "article-title": "High-quality rendering of compressed volume data",
+          "author": "fout",
+          "year": "0",
+          "journal-title": "EuroVis"
+        },
+        {
+          "key": "ref40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/76.499834"
+        },
+        {
+          "key": "ref12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TVCG.2007.70516"
+        },
+        {
+          "key": "ref13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TVCG.2012.194"
+        },
+        {
+          "key": "ref14",
+          "first-page": "43",
+          "article-title": "Lossless compression of volume",
+          "author": "fowler",
+          "year": "0",
+          "journal-title": "IEEE Symposium on Volume Visualization"
+        },
+        {
+          "key": "ref15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/VISUAL.2001.964531"
+        },
+        {
+          "key": "ref16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TVCG.2012.209"
+        },
+        {
+          "key": "ref17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIP.2002.801124"
+        },
+        {
+          "key": "ref18",
+          "first-page": "769",
+          "article-title": "Group testing for block transform image",
+          "author": "hong",
+          "year": "0",
+          "journal-title": "Asilomar Conference on Signals Systems and Computers"
+        },
+        {
+          "key": "ref19",
+          "first-page": "343",
+          "article-title": "Evaluating lossy compression on climate",
+          "author": "hucbbe",
+          "year": "0",
+          "journal-title": "International Supercomputing Conference"
+        },
+        {
+          "key": "ref4",
+          "author": "burtscher",
+          "year": "2006",
+          "journal-title": "FPC version 1 1"
+        },
+        {
+          "key": "ref3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/IPDPS.2013.81"
+        },
+        {
+          "key": "ref6",
+          "author": "clarke",
+          "year": "1985",
+          "journal-title": "Transform Coding of Images"
+        },
+        {
+          "key": "ref5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/DCC.2007.44"
+        },
+        {
+          "key": "ref8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1103900.1103929"
+        },
+        {
+          "key": "ref7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02476026"
+        },
+        {
+          "key": "ref49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/LDAV.2011.6092314"
+        },
+        {
+          "key": "ref9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/DCC.2000.838221"
+        },
+        {
+          "key": "ref46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/DCC.2003.1194070"
+        },
+        {
+          "key": "ref45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/VISUAL.1996.568138"
+        },
+        {
+          "key": "ref48",
+          "article-title": "Block floating point compression of signal data",
+          "author": "wegener",
+          "year": "2012"
+        },
+        {
+          "key": "ref47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/CBO9781139015158"
+        },
+        {
+          "key": "ref42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/78.258085"
+        },
+        {
+          "key": "ref41",
+          "first-page": "293",
+          "article-title": "Compression domain volume",
+          "author": "schneider",
+          "year": "2003",
+          "journal-title": "IEEE Visualization"
+        },
+        {
+          "key": "ref44",
+          "first-page": "75",
+          "article-title": "Floating-point buffer compression in a unified codec",
+          "author": "ström",
+          "year": "2008",
+          "journal-title": "Graphics Hardware"
+        },
+        {
+          "key": "ref43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1071866.1071877"
+        }
+      ],
+      "container-title": [
+        "IEEE Transactions on Visualization and Computer Graphics"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx7/2945/6935054/06876024.pdf?arnumber=6876024",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            12
+          ]
+        ],
+        "date-time": "2022-01-12T11:06:12Z",
+        "timestamp": 1641985572000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://ieeexplore.ieee.org/document/6876024/"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2014,
+            12,
+            31
+          ]
+        ]
+      },
+      "references-count": 50,
+      "journal-issue": {
+        "issue": "12"
+      },
+      "URL": "https://doi.org/10.1109/tvcg.2014.2346458",
+      "relation": {},
+      "ISSN": [
+        "1077-2626",
+        "1941-0506",
+        "2160-9306"
+      ],
+      "issn-type": [
+        {
+          "value": "1077-2626",
+          "type": "print"
+        },
+        {
+          "value": "1941-0506",
+          "type": "electronic"
+        },
+        {
+          "value": "2160-9306",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2014,
+            12,
+            31
+          ]
+        ]
+      }
+    }
+  }
+}

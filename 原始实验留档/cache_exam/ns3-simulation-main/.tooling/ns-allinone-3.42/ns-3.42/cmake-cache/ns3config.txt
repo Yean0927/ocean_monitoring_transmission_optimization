@@ -1,0 +1,48 @@
+---- Summary of ns-3 settings:
+Build profile                 : optimized
+Build directory               : /Users/yean/program/海洋监测/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42/build
+Build with runtime asserts    : OFF (not requested)
+Build with runtime logging    : OFF (not requested)
+Build version embedding       : OFF (not requested)
+BRITE Integration             : OFF (Missing headers: "Brite.h" and missing libraries: "brite")
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : OFF (not requested)
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : OFF (missing dependency)
+GNU Scientific Library (GSL)  : OFF (GSL was not found)
+GtkConfigStore                : OFF (Harfbuzz is required by GTK3 and was not found)
+LibXml2 support               : ON
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : OFF (Missing headers: "simclick.h" and missing libraries: "nsclickclick")
+ns-3 OpenFlow Integration     : OFF (Missing headers: "openflow.h" and missing libraries: "openflow")
+Netmap emulation FdNetDevice  : OFF (not requested)
+PyViz visualizer              : OFF (Python Bindings are disabled)
+Python Bindings               : OFF (not requested)
+SQLite support                : ON
+Eigen3 support                : OFF (Eigen was not found)
+Tap Bridge                    : OFF (not requested)
+Tap FdNetDevice               : OFF (not requested)
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+flow-monitor              internet                  internet-apps             
+lr-wpan                   lte                       mesh                      
+mobility                  netanim                   network                   
+nix-vector-routing        olsr                      point-to-point            
+point-to-point-layout     propagation               quic                      
+sixlowpan                 spectrum                  stats                     
+topology-read             traffic-control           uan                       
+virtual-net-device        wifi                      wimax                     
+
+
+Modules that cannot be built:
+brite                     click                     fd-net-device             
+mpi                       openflow                  tap-bridge                
+test                      visualizer                
+

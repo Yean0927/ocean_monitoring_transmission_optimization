@@ -1,0 +1,13 @@
+exec_prefix="/usr/local/bin"
+libdir="/usr/local/lib"
+includedir="/usr/local/include"
+
+Name: ns3-mesh
+Description: 
+URL: 
+Version: 3.42
+Requires:  ns3-wifi ns3-applications
+Requires.private: 
+Cflags: -I"${includedir}"  -I/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr -I/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/libxml2
+Libs: -L"${libdir}" -lns3.42-mesh-optimized  -lns3.42-wifi-optimized -lns3.42-applications-optimized
+Libs.private: -L"${libdir}" 

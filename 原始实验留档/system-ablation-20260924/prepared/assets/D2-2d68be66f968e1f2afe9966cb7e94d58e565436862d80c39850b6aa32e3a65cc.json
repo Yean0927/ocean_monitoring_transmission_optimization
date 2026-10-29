@@ -1,0 +1,14 @@
+{
+  "algorithm": "gzip6",
+  "encode_seconds": 5.066698940936476e-05,
+  "decode_seconds": 2.2833002731204033e-05,
+  "integrity_scope": "byte_exact",
+  "logical_rows": 26,
+  "raw_decode_seconds": 0.0,
+  "stream": "D2",
+  "raw_bytes": 2370,
+  "encoded_bytes": 414,
+  "source_sha256": "2d68be66f968e1f2afe9966cb7e94d58e565436862d80c39850b6aa32e3a65cc",
+  "encoded_sha256": "ea341540c557fb2b8d62fafec5fb9e7913307c226ee76da1028d9e81f31c58fd",
+  "source": "assembled local records"
+}
