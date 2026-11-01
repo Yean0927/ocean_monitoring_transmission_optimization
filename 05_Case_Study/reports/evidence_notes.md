@@ -10,9 +10,9 @@
 
 ## 可复现文件
 
-- [试验入口](../../原始实验留档/outputs/marine-data-case-study/run_resource_experiment.py)
-- [仿真程序构建入口](../../原始实验留档/outputs/marine-data-case-study/build_resource_simulator.py)：首次运行须先构建，再执行试验入口。
-- [真实处理测量](../../原始实验留档/outputs/marine-data-case-study/codec_worker.py)
+- [试验入口](../../raw_experiments/outputs/marine-data-case-study/run_resource_experiment.py)
+- [仿真程序构建入口](../../raw_experiments/outputs/marine-data-case-study/build_resource_simulator.py)：首次运行须先构建，再执行试验入口。
+- [真实处理测量](../../raw_experiments/outputs/marine-data-case-study/codec_worker.py)
 - [配置、版本和 SHA-256](../resource-experiment/run-config.json)
 - [结果审计](../resource-experiment/audit.json)
 - [独立仿真程序的构建记录](../resource-experiment/simulator-build.json)
@@ -20,8 +20,8 @@
 - [45 组处理测量](../resource-experiment/codec-measurements.json)
 - [135 次事件结果](../resource-experiment/trials.json)
 - [27 个点汇总 CSV](../resource-experiment/summary.csv)
-- [绘图脚本](../../原始实验留档/outputs/marine-data-case-study/plot_case_study.py)
-- [原有大小/B 名义计算及 FULL 代表事件](../../原始实验留档/outputs/marine-data-case-study/case_measurements.json)：保留为历史计算，不参与新图。
+- [绘图脚本](../../raw_experiments/outputs/marine-data-case-study/plot_case_study.py)
+- [原有大小/B 名义计算及 FULL 代表事件](../../raw_experiments/outputs/marine-data-case-study/case_measurements.json)：保留为历史计算，不参与新图。
 
 每次处理的完整日志、CPU 配额控制记录和实际压缩文件位于 resource-experiment/codec，各次网络试验的输入、事件 trace.csv、协议决策和链路计数位于 resource-experiment/network。结果可由保存的处理耗时与网络事件核对。
 

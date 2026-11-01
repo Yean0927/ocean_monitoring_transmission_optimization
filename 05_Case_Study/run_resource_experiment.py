@@ -5,8 +5,8 @@ import os
 from pathlib import Path
 OCEAN_ROOT = next(p for p in Path(__file__).resolve().parents if (p / '.ocean-root').is_file())
 OCEAN_DATA = Path(os.environ.get('OCEAN_DATA_DIR', str(OCEAN_ROOT / 'data'))).expanduser().resolve()
-OCEAN_IMAGE_DIR = Path(os.environ.get('OCEAN_IMAGE_DIR', str(OCEAN_ROOT / 'data/图片文件'))).expanduser().resolve()
-OCEAN_NS3 = Path(os.environ.get('OCEAN_NS3_ROOT', str(OCEAN_ROOT / '原始实验留档/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42'))).expanduser().resolve()
+OCEAN_IMAGE_DIR = Path(os.environ.get('OCEAN_IMAGE_DIR', str(OCEAN_ROOT / 'data/images'))).expanduser().resolve()
+OCEAN_NS3 = Path(os.environ.get('OCEAN_NS3_ROOT', str(OCEAN_ROOT / 'raw_experiments/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42'))).expanduser().resolve()
 
 import argparse
 import csv
@@ -204,7 +204,7 @@ def main():
         return
     case = json.loads((HERE/'case_measurements.json').read_text())
     assets = {}
-    definitions = json.loads((ROOT/'04_消融实验/system_20260928/prepared/files.json').read_text())
+    definitions = json.loads((ROOT/'04_ablation_experiments/system_20260928/prepared/files.json').read_text())
     for m in case['samples']:
         f = next(f for f in definitions if m['source_sha256'] in f['raw_path'])
         assets[m['stream']] = Path(f['raw_path'])

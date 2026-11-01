@@ -1,2 +1,0 @@
-dataset,source_files,encoding,kind,original_size_bytes,original_size_MB,record_count,packet_size,packet_count,avg_packet_bytes,min_packet_bytes,max_packet_bytes,total_packet_bytes,long_record_count
-D3_wave_sensor,浮标中心波浪传感器.txt,utf-8,wave_sensor_tsv,2544182,2.426321030,19515,512,10,439.800000000,385,512,4398,0

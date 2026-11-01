@@ -5,8 +5,8 @@ import os
 from pathlib import Path
 OCEAN_ROOT = next(p for p in Path(__file__).resolve().parents if (p / '.ocean-root').is_file())
 OCEAN_DATA = Path(os.environ.get('OCEAN_DATA_DIR', str(OCEAN_ROOT / 'data'))).expanduser().resolve()
-OCEAN_IMAGE_DIR = Path(os.environ.get('OCEAN_IMAGE_DIR', str(OCEAN_ROOT / 'data/图片文件'))).expanduser().resolve()
-OCEAN_NS3 = Path(os.environ.get('OCEAN_NS3_ROOT', str(OCEAN_ROOT / '原始实验留档/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42'))).expanduser().resolve()
+OCEAN_IMAGE_DIR = Path(os.environ.get('OCEAN_IMAGE_DIR', str(OCEAN_ROOT / 'data/images'))).expanduser().resolve()
+OCEAN_NS3 = Path(os.environ.get('OCEAN_NS3_ROOT', str(OCEAN_ROOT / 'raw_experiments/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42'))).expanduser().resolve()
 
 import csv
 import hashlib
@@ -20,7 +20,7 @@ if (OUT / 'resource-experiment/summary.json').exists():
     runpy.run_path(str(OUT/'build_measured_case_study.py'), run_name='__main__')
     raise SystemExit(0)
 ROOT = OCEAN_ROOT
-EXP = ROOT / '04_消融实验/system_20260928'
+EXP = ROOT / '04_ablation_experiments/system_20260928'
 measurements = json.loads((EXP / 'prepared/codec-measurements.json').read_text())
 files = json.loads((EXP / 'prepared/files.json').read_text())
 with (EXP / 'results/FULL.csv').open() as f:
@@ -237,7 +237,7 @@ notes = f'''# 案例证据与计算口径
 - [FULL 文件事件记录]({EXP / 'results/FULL.csv'})：实际送达阶段时间。
 - [动态链路轨迹]({EXP / 'prepared/link.csv'})：时延分位数来自 t<60 min 的 {len(link)} 个状态，按 (N−1)p 线性插值。分位数用于拟定案例对照的固定 RTT 档位，未替换已有系统消融的逐状态输入。
 - [当前生成与压缩实现]({EXP / 'prepare.py'})：Gzip level 6、S2、图片压缩调用与生成速率的来源。
-- [第二阶段含解压缩报告]({ROOT / '02_文件压缩/弱CPUdocker实验/实验报告_含解码.md'})：CPU 对照的来源。各视频压缩方案尚未经过统一画质指标的等效验证。
+- [第二阶段含解压缩报告]({ROOT / '02_file_compression/weak_cpu_docker/experiment_report_with_decode.md'})：CPU 对照的来源。各视频压缩方案尚未经过统一画质指标的等效验证。
 
 ## 选择与计量
 

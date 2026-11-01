@@ -1,11 +1,11 @@
 # 第五阶段：Case study
 
-本阶段从旧 04_消融实验/resource_case_study 独立整理，保留真实编解码 CPU 配额控制、网络传输、测量审计及报告生成源码。
+本阶段从旧 04_ablation_experiments/resource_case_study 独立整理，保留真实编解码 CPU 配额控制、网络传输、测量审计及报告生成源码。
 
 - [最终正文与审计说明](reports/README.md)
 - `figures/`：资源敏感性及带宽对比的 PNG / PDF / SVG / TIFF。
-- `resource-experiment/`：最终 summary、trials、编解码与 CPU 校准摘要和构建记录。大批逐次原始记录在 ocean/原始实验留档/outputs/marine-data-case-study/resource-experiment。
-- `figures/版式图/`：原论文版式使用的实验图和源数据；论文源码及编译文件已清理。历史名义传输时间版本另放 reports/历史版本。
+- `resource-experiment/`：最终 summary、trials、编解码与 CPU 校准摘要和构建记录。大批逐次原始记录在 ocean/raw_experiments/outputs/marine-data-case-study/resource-experiment。
+- `figures/layout_figures/`：原论文版式使用的实验图和源数据；论文源码及编译文件已清理。历史名义传输时间版本另放 reports/historical_versions。
 
 在 ocean 根目录，先完成第四阶段 prepared/与必要的 FULL 轨迹，再运行：
 

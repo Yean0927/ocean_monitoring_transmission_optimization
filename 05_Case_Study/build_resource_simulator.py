@@ -5,8 +5,8 @@ import os
 from pathlib import Path
 OCEAN_ROOT = next(p for p in Path(__file__).resolve().parents if (p / '.ocean-root').is_file())
 OCEAN_DATA = Path(os.environ.get('OCEAN_DATA_DIR', str(OCEAN_ROOT / 'data'))).expanduser().resolve()
-OCEAN_IMAGE_DIR = Path(os.environ.get('OCEAN_IMAGE_DIR', str(OCEAN_ROOT / 'data/图片文件'))).expanduser().resolve()
-OCEAN_NS3 = Path(os.environ.get('OCEAN_NS3_ROOT', str(OCEAN_ROOT / '原始实验留档/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42'))).expanduser().resolve()
+OCEAN_IMAGE_DIR = Path(os.environ.get('OCEAN_IMAGE_DIR', str(OCEAN_ROOT / 'data/images'))).expanduser().resolve()
+OCEAN_NS3 = Path(os.environ.get('OCEAN_NS3_ROOT', str(OCEAN_ROOT / 'raw_experiments/cache_exam/ns3-simulation-main/.tooling/ns-allinone-3.42/ns-3.42'))).expanduser().resolve()
 
 import hashlib
 import json
@@ -19,7 +19,7 @@ ROOT = OCEAN_ROOT
 NS = OCEAN_NS3
 OUT = HERE/'resource-experiment'
 OUT.mkdir(exist_ok=True)
-original = ROOT/'04_消融实验/system_20260928/system-ablation.cc'
+original = ROOT/'04_ablation_experiments/system_20260928/system-ablation.cc'
 source = OUT/'resource-simulator.cc'
 old = 'TimeValue(MilliSeconds(l.rtt/2))'
 new = 'TimeValue(Seconds(l.rtt/2000.0))'

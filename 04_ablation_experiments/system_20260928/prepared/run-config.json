@@ -1,0 +1,110 @@
+{
+  "duration_s": 3600.0,
+  "drain_s": 0.0,
+  "cache_bytes": 50000000,
+  "model": "/Users/yean/program/海洋监测/ocean/04_ablation_experiments/xgboost_features/model",
+  "model_sha256": "ac553ccdda63b4665f4ccf51a841febbbe07df8db2a96ceeb6cc6f6f0532dc7f",
+  "text_max_wait_s": [
+    120.0,
+    300.0,
+    1.0,
+    1800.0
+  ],
+  "record_period_s": [
+    12.0,
+    12.0,
+    0.02,
+    120.0
+  ],
+  "raw_rates_mbps": [
+    5.063777777777778e-05,
+    2.8622222222222223e-05,
+    0.051199728888888886,
+    6.826e-05,
+    1.6678450533333333,
+    0.41394152222222225
+  ],
+  "target_rates_mbps": [
+    5.0665e-05,
+    2.8665e-05,
+    0.0512,
+    6.94e-05,
+    1.667848,
+    0.413944
+  ],
+  "user_rate_table": [
+    {
+      "stream": "D1",
+      "record_bytes": 76,
+      "udp_packet_bytes": 76,
+      "record_period_s": 60,
+      "sensors": 5,
+      "target_mbps": 5.0665e-05
+    },
+    {
+      "stream": "D2",
+      "record_bytes": 43,
+      "udp_packet_bytes": 43,
+      "record_period_s": 12,
+      "sensors": 5,
+      "target_mbps": 2.8665e-05
+    },
+    {
+      "stream": "D3",
+      "record_bytes": 128,
+      "udp_packet_bytes": 128,
+      "record_period_s": 0.1,
+      "sensors": 5,
+      "target_mbps": 0.0512
+    },
+    {
+      "stream": "D4",
+      "record_bytes": 1041,
+      "udp_packet_bytes": 1041,
+      "record_period_s": 600,
+      "sensors": 5,
+      "target_mbps": 6.94e-05
+    },
+    {
+      "stream": "V1",
+      "record_bytes": 4354778,
+      "udp_packet_bytes": 1472,
+      "record_period_s": 1,
+      "sensors": 1,
+      "target_mbps": 1.667848
+    },
+    {
+      "stream": "I1",
+      "record_bytes": 258715,
+      "udp_packet_bytes": 1472,
+      "record_period_s": 5,
+      "sensors": 1,
+      "target_mbps": 0.413944
+    }
+  ],
+  "generated_raw_bytes": [
+    22787.0,
+    12880.0,
+    23039878.0,
+    30717.0,
+    750530274.0,
+    186273685.0
+  ],
+  "image_representative_bytes": 258715,
+  "image_period_s": 5.0,
+  "image_quality": 75,
+  "video_bytes_per_second": 208481,
+  "codec_timing": "per-distinct-content measured encode and decode, deterministic replay",
+  "feature_pacing": "per-file nominal fragment interval from actual generated stream byte rate",
+  "text_integrity": "D1/D3 typed columns; D2 byte exact; D4 ADCP numeric fields (stage-two scope)",
+  "variants": [
+    "FULL",
+    "WO_PROTOCOL",
+    "WO_COMPRESSION",
+    "WO_CACHE",
+    "BASELINE",
+    "ADD_PROTOCOL",
+    "ADD_COMPRESSION",
+    "ADD_CACHE"
+  ]
+}

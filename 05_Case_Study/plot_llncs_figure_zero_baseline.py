@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path.home() / '.codex/skills/nature-figure/scripts'))
 from audit_panel_alignment import require_matplotlib_panel_alignment
 
 HERE = Path(__file__).resolve().parent
-OUT = HERE / 'figures/版式图'
+OUT = HERE / 'figures/layout_figures'
 OUT.mkdir(exist_ok=True)
 source = json.loads((HERE / 'resource-experiment/summary.json').read_text())
 assert len(source) == 27

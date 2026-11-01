@@ -1,0 +1,10 @@
+source	output	width	height	video_pixel_format	image_format	image_color_space	image_bits_per_sample	frame_time_seconds	codec
+2019-05-30_18.50.28.mkv	2019-05-30_18.50.28.png	1920	1080	yuv420p	png	RGB	8	0.5	h264
+3f2b041a2f5cf63ddc2e449fa7e3fd80.mp4	3f2b041a2f5cf63ddc2e449fa7e3fd80.png	1280	720	yuv420p	png	RGB	8	0.5	h264
+4412e5bfafeaa07161d2082422e349e1.mp4	4412e5bfafeaa07161d2082422e349e1.png	320	240	yuv420p	png	RGB	8	0.5	h264
+48290d122823a5cf9af2a146ba3d238b.mp4	48290d122823a5cf9af2a146ba3d238b.png	640	368	yuv420p	png	RGB	8	0.5	h264
+4a3b00dd39998a85cb1db439bf0bbe93.mp4	4a3b00dd39998a85cb1db439bf0bbe93.png	640	368	yuv420p	png	RGB	8	0.5	h264
+5cf7af68d381d7cb80e5567444e894c2.mp4	5cf7af68d381d7cb80e5567444e894c2.png	320	240	yuv420p	png	RGB	8	0.5	h264
+5fdbdd4dd7b628c0986de9028e8be48a.mp4	5fdbdd4dd7b628c0986de9028e8be48a.png	1280	720	yuv420p	png	RGB	8	0.5	h264
+705ccbb00cfbaab61780706633e3c7ce.mp4	705ccbb00cfbaab61780706633e3c7ce.png	320	240	yuv420p	png	RGB	8	0.5	h264
+ba5cd3bd2090f260c1810d600604f038.mp4	ba5cd3bd2090f260c1810d600604f038.png	640	368	yuv420p	png	RGB	8	0.5	h264
