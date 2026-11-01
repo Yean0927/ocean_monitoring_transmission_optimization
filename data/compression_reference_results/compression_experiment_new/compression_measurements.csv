@@ -1,0 +1,2 @@
+dataset,source_files,kind,algorithm,input_object,preprocessing_scope,packet_size,cpu_limit,repeat,packet_count,status,skip_reason,original_size_bytes,compressed_size_bytes,compression_ratio,compression_time_ms,decompression_time_ms,compression_throughput_MBps,decompression_throughput_MBps,integrity,integrity_scope,valid_packets
+D3_wave_sensor,buoy_center_wave_sensor.txt,wave_sensor_tsv,gzip,raw_bytes,none_raw_packet_bytes,512,100,1,10,ok,,4398,2198,0.499772624,0.189999999,0.134800008,22.075050891,31.114683983,pass,byte_exact,10
