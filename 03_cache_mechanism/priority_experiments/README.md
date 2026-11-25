@@ -18,4 +18,4 @@ python 03_cache_mechanism/priority_experiments/code/cache_priority_simulation.py
 
 正式包级对照包含 No-Cache、FIFO、Priority-SP、Priority-Aging、Priority-MaxF、Priority-Utility、Priority-Utility-Ti。各策略在同一连续 0–60 min 链路上运行，不在 S1/S2/S3 边界重置缓存。早期 Python 模型包含 Priority-AoI，不能把它当作正式七策略矩阵。
 
-新的原始 CSV、分流统计和本次结果摘要全部写入 output-dir。原先刷新报告的逻辑以本目录实验报告为只读模板，写到输出目录，不改写已整理报告。图中的 S3 送达率与全程尚未丢失比例是不同指标，按各图原注解释。
+当前入口默认每秒生成 208,481 B 的 V1 视频数据，拆成最多 1472 B 的数据块，在该秒内按字节速率逐包产生。新运行的原始 CSV、分流统计和结果摘要写入 `--output-dir`。

@@ -1,0 +1,46 @@
+{
+  "verdict": "PASS",
+  "max_edge_delta_pt": 0,
+  "matches_fig6_fig7": true,
+  "figures": [
+    {
+      "figure": "fig4_text_compression_ratio_8x6",
+      "canvas_pt": [
+        576,
+        432
+      ],
+      "frame_pdf_pt_from_top_left": [
+        103.68000030517578,
+        25.920013427734375,
+        567.3599853515625,
+        362.8800048828125
+      ],
+      "axes_matplotlib_pt": [
+        103.67999999999999,
+        69.12000000000002,
+        567.3599999999999,
+        406.08
+      ]
+    },
+    {
+      "figure": "fig5_image_compression_ratio_8x6",
+      "canvas_pt": [
+        576,
+        432
+      ],
+      "frame_pdf_pt_from_top_left": [
+        103.68000030517578,
+        25.920013427734375,
+        567.3599853515625,
+        362.8800048828125
+      ],
+      "axes_matplotlib_pt": [
+        103.67999999999999,
+        69.12000000000002,
+        567.3599999999999,
+        406.08
+      ]
+    }
+  ],
+  "x_axis_title_baseline_delta_pt": 0.00311279296875
+}

@@ -1,0 +1,9 @@
+Method,Space_saving_percent,Compression_ratio
+PNG optimized,26.3,0.737
+Gzip on PNG,0.2,0.998
+WebP lossless,47.7,0.523
+JPEG q90,86.3,0.137
+JPEG q75,91.6,0.084
+JPEG q50,94.2,0.058
+WebP q80,94.6,0.054
+WebP q60,96.1,0.039

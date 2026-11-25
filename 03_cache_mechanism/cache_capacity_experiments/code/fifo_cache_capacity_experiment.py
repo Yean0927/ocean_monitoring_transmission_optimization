@@ -35,10 +35,8 @@ REPORT_MD = OUTPUT_DIR / "fifo-cache-capacity-scan.md"
 
 IMAGE_MEDIAN_BYTES = 258715
 IMAGE_CAPTURE_INTERVAL_SECONDS = 5.0
-VIDEO_MEDIAN_FILE_BYTES = 4354778
-VIDEO_MEDIAN_RATE_BYTES_PER_SECOND = 208481.0
-VIDEO_RECORD_PERIOD_SECONDS = VIDEO_MEDIAN_FILE_BYTES / VIDEO_MEDIAN_RATE_BYTES_PER_SECOND
-RECORD_SIZES = (76, 43, 128, 1041, VIDEO_MEDIAN_FILE_BYTES, IMAGE_MEDIAN_BYTES)
+VIDEO_MEDIAN_RATE_BYTES_PER_SECOND = 208481
+RECORD_SIZES = (76, 43, 128, 1041, VIDEO_MEDIAN_RATE_BYTES_PER_SECOND, IMAGE_MEDIAN_BYTES)
 PACKET_SIZES = (76, 43, 128, 1041, 1472, 1472)
 RATES_MBPS = (0.000050665, 0.000028665, 0.051200, 0.000069400,
               VIDEO_MEDIAN_RATE_BYTES_PER_SECOND * 8.0 / 1_000_000.0,
@@ -101,11 +99,11 @@ def write_report(rows: list[dict[str, str]], step_mb: float) -> None:
     lines = [
         "# FIFO 缓存容量统一粒度扫描",
         "",
-        "本实验复用 packet-level 缓存报告中的连续 0–60 min ns-3 模型、30 s 链路状态更新、随机种子 31、六条数据流生成速率和 1472 B transport chunk 设置，仅将策略固定为 FIFO，并把缓存容量按统一粒度递增。",
+        "本实验使用连续 0–60 min 的 ns-3 链路、30 s 链路状态更新和随机种子 31。各档均采用 FIFO，并按固定步长增加缓存容量。",
         "",
         "## 数据生成参数",
         "",
-        "本次 FIFO 缓存容量扫描使用六条数据流参数，数据流顺序统一为 `D1、D2、D3、D4、V1、I1`。其中 D1–D4 使用 packet-level 实验报告中提高 5 倍后的生成速率。V1 的生成速率取九个实际视频分别计算的‘文件大小÷时长’中位数，逻辑记录大小取九个完整视频文件大小的中位数；I1 沿用 packet-level 实验报告中的 5 s 图片生成周期。V1 和 I1 均在传输层切分为 1472 B chunk。表中的生成速率均指 payload 字节速率，不包含 UDP/IP 或链路协议首部。",
+        "V1 每秒生成 208,481 B 视频数据，拆成最多 1472 B 的数据块，在该秒内按码率逐包产生。I1 图片每 5 s 生成一张，数据块在周期内均匀到达。表中速率以数据字节计。",
         "",
         "| 数据流 | 逻辑记录大小(B) | transport payload(B) | 记录/transport chunk 生成频率 | 数据生成速率(Mbps) |",
         "| --- | ---: | ---: | ---: | ---: |",
@@ -113,10 +111,10 @@ def write_report(rows: list[dict[str, str]], step_mb: float) -> None:
         "| D2 普通气象数据 | 43 | 43 | 0.083333 Hz（12 s/次） | 0.000028665 |",
         "| D3 wave_sensor数据 | 128 | 128 | 50 Hz（0.02 s/次） | 0.051200 |",
         "| D4 ADCP 海流数据 | 1041 | 1041 | 0.008333 Hz（120 s/次） | 0.000069400 |",
-        f"| V1 海洋视频数据 | {VIDEO_MEDIAN_FILE_BYTES} | 1472 | 中位记录周期约 {VIDEO_RECORD_PERIOD_SECONDS:.2f} s；约 {VIDEO_MEDIAN_RATE_BYTES_PER_SECOND / 1472:.2f} Hz（chunk） | {RATES_MBPS[4]:.6f} |",
+        f"| V1 海洋视频数据 | {RECORD_SIZES[4]} | {PACKET_SIZES[4]} | 1 Hz（142 个 chunk 在 1 s 内分散生成） | {RATES_MBPS[4]:.6f} |",
         f"| I1 图片数据 | {IMAGE_MEDIAN_BYTES} | 1472 | 0.2 Hz（记录）；约 35.2 Hz（chunk） | {RATES_MBPS[-1]:.6f} |",
         "",
-        f"六条数据流的总 payload 生成速率为 **{total_rate_mbps:.9f} Mbps**，对应 60 min 理论产生量约为 **{theoretical_produced_mb:.9f} MB**；仿真输出的 `produced_mb = {float(sufficient['produced_mb']):.9f} MB`。V1 和 I1 的 chunks 在各自逻辑记录生成周期内均匀产生，最后一个 chunk 可小于 1472 B，但不改变对应数据流的总字节生成速率。",
+        f"六条数据流的总 payload 生成速率为 **{total_rate_mbps:.9f} Mbps**，对应 60 min 理论产生量约为 **{theoretical_produced_mb:.9f} MB**。仿真输出的 `produced_mb = {float(sufficient['produced_mb']):.9f} MB`。",
         "",
         f"- 扫描粒度：{step_mb:g} MB（十进制，1 MB = 1,000,000 B）",
         f"- 判定条件：全程 `cache_evicted_mb = 0` 且 `source_dropped_mb = 0`；链路丢包单独统计",
@@ -170,7 +168,7 @@ def main() -> None:
         raise FileNotFoundError(f"ns-3 binary not found: {NS3_BINARY}")
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    raw_dir = OUTPUT_DIR / f"raw-v1-{VIDEO_MEDIAN_FILE_BYTES}B-{VIDEO_MEDIAN_RATE_BYTES_PER_SECOND:.0f}Bps-i1-{IMAGE_MEDIAN_BYTES}B-{IMAGE_CAPTURE_INTERVAL_SECONDS:g}s"
+    raw_dir = OUTPUT_DIR / f"raw-v1-{RECORD_SIZES[4]}B-1s-paced-i1-{IMAGE_MEDIAN_BYTES}B-{IMAGE_CAPTURE_INTERVAL_SECONDS:g}s"
     raw_dir.mkdir(parents=True, exist_ok=True)
     rows: list[dict[str, str]] = []
     capacity = 0.0

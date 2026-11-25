@@ -27,7 +27,7 @@ from typing import Dict, Iterable, List, Sequence
 ROOT = Path(__file__).resolve().parent
 LINK_CSV = Path(os.environ.get("OCEAN_LINK_CSV", str(OCEAN_ROOT / "03_cache_mechanism/link_conditions/dynamic-link-fluctuation.csv"))).expanduser().resolve()
 RESULTS_DIR = OCEAN_ROOT / "runs" / "priority_experiments"
-REPORT_TEMPLATE = ROOT.parent / "experiment_report.md"
+REFERENCE_REPORT = ROOT.parent / "experiment_report.md"
 REPORT_PATH = RESULTS_DIR / "packet-level-cache-priority-experiment-report.md"
 SUMMARY_CSV = RESULTS_DIR / "packet_level_cache_priority_summary.csv"
 STREAM_CSV = RESULTS_DIR / "packet_level_cache_priority_by_stream.csv"
@@ -39,9 +39,8 @@ OUTPUT_DIR = RESULTS_DIR / "raw"
 LINK_UPDATE_SECONDS = 30.0
 IMAGE_MEDIAN_BYTES = 258715  # median PNG file size across the nine extracted images
 IMAGE_CAPTURE_INTERVAL_SECONDS = 5.0
-VIDEO_MEDIAN_FILE_BYTES = 4354778
-VIDEO_MEDIAN_RATE_BYTES_PER_SECOND = 208481.0
-RECORD_SIZES = (76, 43, 128, 1041, VIDEO_MEDIAN_FILE_BYTES, IMAGE_MEDIAN_BYTES)
+VIDEO_MEDIAN_RATE_BYTES_PER_SECOND = 208481
+RECORD_SIZES = (76, 43, 128, 1041, VIDEO_MEDIAN_RATE_BYTES_PER_SECOND, IMAGE_MEDIAN_BYTES)
 PACKET_SIZES = (76, 43, 128, 1041, 1472, 1472)
 RATES_MBPS = (0.000050665, 0.000028665, 0.051200, 0.000069400,
               VIDEO_MEDIAN_RATE_BYTES_PER_SECOND * 8.0 / 1_000_000.0,
@@ -113,6 +112,7 @@ def run_ns3(
     packet_sizes: Sequence[int],
     rates_mbps: Sequence[float],
     record_sizes: Sequence[int] = RECORD_SIZES,
+    seed: int = SEED,
 ) -> List[Dict[str, str]]:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     output = OUTPUT_DIR / ("FULL-%s.csv" % strategy.replace("-", "_"))
@@ -124,7 +124,7 @@ def run_ns3(
         "--strategy=%s" % strategy,
         "--startMin=0.0",
         "--endMin=60.0",
-        "--seed=%d" % SEED,
+        "--seed=%d" % seed,
         "--linkUpdateSeconds=%s" % link_update_seconds,
         "--recordSizes=%s" % ",".join(str(value) for value in record_sizes),
         "--packetSizes=%s" % ",".join(str(value) for value in packet_sizes),
@@ -353,7 +353,10 @@ def table(headers: Sequence[str], rows: Sequence[Sequence[str]]) -> str:
     return "\n".join(lines)
 
 
-def write_report(rows: Sequence[Dict[str, str]], samples: Sequence[LinkSample], rates_mbps: Sequence[float]) -> None:
+def write_report(
+    rows: Sequence[Dict[str, str]], samples: Sequence[LinkSample], rates_mbps: Sequence[float],
+    record_sizes: Sequence[int], packet_sizes: Sequence[int], link_update_seconds: float, seed: int,
+) -> None:
     actual_produced_mb = sum(float(row["produced_mb"]) for row in rows if row["strategy"] == "FIFO")
     theoretical_produced_mb = sum(rates_mbps) * 3600.0 / 8.0
     rate_validation = (
@@ -407,50 +410,56 @@ def write_report(rows: Sequence[Dict[str, str]], samples: Sequence[LinkSample], 
             strategy, *[pct4(stream["share_of_strategy_loss"]) for stream in stream_rows],
         ])
 
-    result_section = """## 5. 实验结果
+    reference_path = Path(os.path.relpath(REFERENCE_REPORT, REPORT_PATH.parent)).as_posix()
+    video_period = 8.0 * record_sizes[4] / (rates_mbps[4] * 1_000_000)
+    video_packet_size = packet_sizes[4]
+    result_section = """# 包级缓存策略实验
 
-本节结果来自本轮重新运行：每种策略连续运行 0–60 min 一次，共 7 次连续实验；仅在 `23.5 min`、`42 min` 和 `60 min` 三个边界记录 S1、S2、S3 区间统计。D1-D4 使用表 2.1 的生成速率；V1 按 4,354,778 B 的逻辑记录和 1.667848 Mbps 生成，记录周期约 20.89 s；I1 每 5 s 产生一张 258,715 B 图片，对应 0.413944 Mbps。V1 和 I1 均切分为最多 1472 B 的 UDP chunk，并在各自记录周期内均匀产生。链路状态按 30 s 更新，随机种子为 31。结果表共有 21 个“策略-状态区间”记录，不是 21 次独立运行；每次连续运行的全程字节对账误差均为 0。{rate_validation}
+V1 每 {video_period:g} s 生成 {video_bytes:,} B 视频数据，平均速率 {video_rate:.9g} Mbps。视频切成最多 {video_packet_size} B 的数据块，在各记录周期内按字节速率逐包产生。缓存策略及历史实验设置见[参考报告]({reference_path})。
 
-### 5.1 总体结果
+每种策略连续运行 0–60 min 一次，在 23.5、42 和 60 min 记录 S1、S2、S3 区间统计。链路状态按 {link_update_seconds:g} s 更新，随机种子为 {seed}。{rate_validation}
+
+{state_table}
+
+## 总体结果
 
 {result_table}
 
-### 5.2 丢失与待传量变化
+## 丢失与待传量变化
 
 {loss_table}
 
-### 5.3 S3 结束时的全程分流丢失率（0–60 min）
+## 全程分流丢失率（0–60 min）
 
 仿真在 S3 结束的 60 min 停止生成与发送，并额外等待 2 s，让已进入链路的 packet 完成到达或丢失统计。下表累计 0–60 min 产生的数据截至该时点已发生的全部丢失。每一列是该流的 `(缓存淘汰 + 源端未缓存丢弃 + 链路丢失) / 该流 0–60 min 产生量`。60 min 时的待传缓存不计入丢失。
 
 {full_loss_table}
 
-### 5.4 各流占全程已丢失数据的比例
+## 各流占全程已丢失数据的比例
 
-下表的分母是同一策略六类流对 0–60 min 产生的数据已确认的总丢失量，分子是该流的丢失量；每行六类数据之和约为 100%。这与 5.3 节以各流自身产生量为分母的丢失率是两个不同指标。两表的精确字节数和待传量见 `packet_level_cache_priority_60min_by_stream.csv`。
+下表用各流丢失量除以同一策略六类流的全程总丢失量。两表的精确字节数和待传量见 `packet_level_cache_priority_60min_by_stream.csv`。
 
 {loss_share_table}
 
-**统计边界。** 60 min 时仍留在缓存中的数据尚未丢失，也尚未送达；因此 5.3 和 5.4 节统计的是截至 S3 结束时已发生的丢失，而非所有生成记录的最终命运。No-Cache 在到达时只尝试立即发送，串行器忙则源端丢弃；当前 FIFO 发送队首、满缓存时丢弃队尾新到的 chunk（drop-tail）。
+No-Cache 在数据块到达时立即尝试发送，发送端忙则在源端丢弃。FIFO 从队首发送，缓存满时丢弃新到的数据块。
 
 """.format(
+        video_period=video_period,
+        video_bytes=record_sizes[4],
+        video_rate=rates_mbps[4],
+        video_packet_size=video_packet_size,
+        reference_path=reference_path,
+        link_update_seconds=link_update_seconds,
+        seed=seed,
         rate_validation=rate_validation,
+        state_table=table(["状态", "链路状态", "区间 (min)", "样本数", "平均容量 (Mbps)", "平均 RTT (ms)", "平均丢包率"], state_rows),
         result_table=table(["状态", "link_conditions", "机制", "缓存淘汰率", "源端未缓存丢弃率", "链路丢包率", "总丢失率", "送达率", "待传量变化比例", "峰值缓存(MB)"], result_rows),
         loss_table=table(["状态", "机制", "缓存淘汰(MB)", "源端未缓存丢弃(MB)", "链路丢失(MB)", "总丢失(MB)", "待传量变化(MB)"], loss_rows),
         full_loss_table=table(["机制", "D1", "D2", "D3", "D4", "V1", "I1", "总丢失率"], full_loss_rows),
         loss_share_table=table(["机制", "D1", "D2", "D3", "D4", "V1", "I1"], loss_share_rows),
     )
 
-    existing_report = REPORT_TEMPLATE.read_text(encoding="utf-8")
-    image_path = os.path.relpath(REPORT_TEMPLATE.parent / "images", REPORT_PATH.parent).replace(os.sep, "/")
-    existing_report = existing_report.replace("](images/", "](" + image_path + "/")
-    start_marker = "## 5. 实验结果"
-    end_marker = "## 6. 结果解释"
-    if start_marker not in existing_report or end_marker not in existing_report:
-        raise RuntimeError("report must contain sections 5 and 6 before refreshing results")
-    report = existing_report[:existing_report.index(start_marker)] + result_section + existing_report[existing_report.index(end_marker):]
-    REPORT_PATH.write_text(report, encoding="utf-8")
-    return
+    REPORT_PATH.write_text(result_section, encoding="utf-8")
 
 def parse_list(value: str, cast):
     return tuple(cast(item.strip()) for item in value.split(",") if item.strip())
@@ -461,15 +470,16 @@ def run(
     packet_sizes: Sequence[int] = PACKET_SIZES,
     rates_mbps: Sequence[float] = RATES_MBPS,
     record_sizes: Sequence[int] = RECORD_SIZES,
+    seed: int = SEED,
 ) -> List[Dict[str, str]]:
     if not NS3_BINARY.exists():
         raise FileNotFoundError("ns-3 binary not found: %s; build the scratch target first" % NS3_BINARY)
     samples = read_samples()
     rows: List[Dict[str, str]] = []
     for strategy in ALL_STRATEGIES:
-        rows.extend(run_ns3(strategy, link_update_seconds, packet_sizes, rates_mbps, record_sizes))
+        rows.extend(run_ns3(strategy, link_update_seconds, packet_sizes, rates_mbps, record_sizes, seed))
     write_csvs(rows)
-    write_report(rows, samples, rates_mbps)
+    write_report(rows, samples, rates_mbps, record_sizes, packet_sizes, link_update_seconds, seed)
     return rows
 
 
@@ -477,6 +487,7 @@ def main() -> None:
     global RESULTS_DIR, OUTPUT_DIR, REPORT_PATH, SUMMARY_CSV, STREAM_CSV, FULL_STREAM_CSV, LINK_CSV
     parser = argparse.ArgumentParser()
     parser.add_argument("--link-update-seconds", type=float, default=LINK_UPDATE_SECONDS)
+    parser.add_argument("--seed", type=int, default=SEED, help="ns-3 random seed")
     parser.add_argument("--record-sizes", default=",".join(str(value) for value in RECORD_SIZES))
     parser.add_argument("--packet-sizes", default=",".join(str(value) for value in PACKET_SIZES))
     parser.add_argument("--rates-mbps", default=",".join(str(value) for value in RATES_MBPS))
@@ -497,7 +508,9 @@ def main() -> None:
         parser.error("--record-sizes, --packet-sizes, and --rates-mbps each require six values in D1,D2,D3,D4,V1,I1 order")
     if args.link_update_seconds <= 0 or any(value <= 0 for value in record_sizes + packet_sizes + rates_mbps):
         parser.error("link update interval, record sizes, packet sizes, and rates must be positive")
-    rows = run(args.link_update_seconds, packet_sizes, rates_mbps, record_sizes)
+    if args.seed <= 0:
+        parser.error("--seed must be positive")
+    rows = run(args.link_update_seconds, packet_sizes, rates_mbps, record_sizes, args.seed)
     print("Wrote %s" % REPORT_PATH)
     print("Wrote %s" % SUMMARY_CSV)
     print("Wrote %s" % STREAM_CSV)

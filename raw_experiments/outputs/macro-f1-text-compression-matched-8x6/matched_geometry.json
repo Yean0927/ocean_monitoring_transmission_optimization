@@ -1,0 +1,35 @@
+{
+  "verdict": "PASS",
+  "frame_edge_delta_pt": 0,
+  "x_title_baseline_delta_pt": 0.14373779296875,
+  "figures": [
+    {
+      "figure": "macro_f1_six_methods_8x6",
+      "canvas_pt": [
+        576,
+        432
+      ],
+      "frame_pdf_pt_from_top_left": [
+        103.68000030517578,
+        25.920013427734375,
+        567.3599853515625,
+        362.8800048828125
+      ],
+      "x_title_baseline_pt": 419.8487548828125
+    },
+    {
+      "figure": "text_compression_ratio_8x6",
+      "canvas_pt": [
+        576,
+        432
+      ],
+      "frame_pdf_pt_from_top_left": [
+        103.68000030517578,
+        25.920013427734375,
+        567.3599853515625,
+        362.8800048828125
+      ],
+      "x_title_baseline_pt": 419.99249267578125
+    }
+  ]
+}

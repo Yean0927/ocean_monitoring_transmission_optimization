@@ -396,9 +396,7 @@ class CacheApplication : public Application
             return;
         }
 
-        // Video and image records are packetized at generation time. Their
-        // configured Mbps rate determines the record period, so 1472-byte
-        // chunks arrive evenly across that period (about 20.89 s for V1, 5 s for I1).
+        // Pace video and image chunks at their configured byte rates.
         uint32_t generatedBytes = m_recordBytes[stream];
         if (stream == VIDEO_STREAM_INDEX || stream == IMAGE_STREAM_INDEX)
         {
@@ -410,16 +408,23 @@ class CacheApplication : public Application
             m_generationRemainingBytes[stream] -= generatedBytes;
         }
 
+        const double bitsPerSecond = m_ratesMbps[stream] * 1000000.0;
+        Time nextDelay = Seconds(generatedBytes * 8.0 / bitsPerSecond);
+        if (stream == VIDEO_STREAM_INDEX)
+        {
+            const uint32_t emittedBytes = m_recordBytes[stream] - m_generationRemainingBytes[stream];
+            if (emittedBytes == generatedBytes)
+            {
+                m_videoRecordStart = Simulator::Now();
+            }
+            // Anchor each offset to the record start to avoid rounding drift.
+            nextDelay = m_videoRecordStart + Seconds(emittedBytes * 8.0 / bitsPerSecond) -
+                        Simulator::Now();
+        }
+        Simulator::Schedule(nextDelay, &CacheApplication::GeneratePacket, this, stream);
+
         uint64_t chunkId = m_nextChunkId++;
         (*m_metrics)[stream].produced += generatedBytes;
-
-        double generationInterval =
-            (static_cast<double>(generatedBytes) * 8.0) /
-            (m_ratesMbps[stream] * 1000000.0);
-        Simulator::Schedule(Seconds(generationInterval),
-                            &CacheApplication::GeneratePacket,
-                            this,
-                            stream);
 
         // A zero-capacity cache still attempts immediate transmission. Do not
         // enqueue and evict the packet before the sender gets a chance to use
@@ -554,8 +559,7 @@ class CacheApplication : public Application
             if (m_strategy == Strategy::UTILITY_TI)
             {
                 // T_i is the configured generation period of the original
-                // record, not the 1472-byte transport-chunk interval used by
-                // V1 and I1.
+                // record, which can contain multiple transport chunks.
                 delaySeconds =
                     (static_cast<double>(m_recordBytes[chunk.stream]) * 8.0) /
                     (m_ratesMbps[chunk.stream] * 1000000.0);
@@ -910,9 +914,10 @@ class CacheApplication : public Application
     std::deque<Chunk*> m_insertionQueue;
     std::deque<Chunk*> m_streamQueues[STREAM_COUNT];
     std::deque<Chunk*> m_priorityQueues[4];
-    std::vector<uint32_t> m_recordBytes = {76, 43, 128, 1041, 4354778, 258715};
+    std::vector<uint32_t> m_recordBytes = {76, 43, 128, 1041, 208481, 258715};
     std::vector<uint32_t> m_packetBytes = {76, 43, 128, 1041, 1472, 1472};
     std::vector<double> m_ratesMbps = {0.000050665, 0.000028665, 0.051200, 0.000069400, 1.667848, 0.413944};
+    Time m_videoRecordStart;
     std::vector<uint32_t> m_generationRemainingBytes = std::vector<uint32_t>(STREAMS.size(), 0);
     std::vector<double> m_metricsSnapshot = std::vector<double>(STREAMS.size(), 0.0);
     std::vector<Checkpoint> m_checkpoints;
@@ -1079,7 +1084,7 @@ int main(int argc, char* argv[])
     uint64_t seed = 31;
     double linkUpdateSeconds = DEFAULT_LINK_UPDATE_SECONDS;
     double cacheCapacityMb = DEFAULT_CACHE_CAPACITY_MB;
-    std::string recordSizes = "76,43,128,1041,4354778,258715";
+    std::string recordSizes = "76,43,128,1041,208481,258715";
     std::string packetSizes = "76,43,128,1041,1472,1472";
     std::string ratesMbps = "0.000050665,0.000028665,0.051200,0.000069400,1.667848,0.413944";
 
